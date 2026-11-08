@@ -147,7 +147,7 @@ import Testing
         #expect(list.currentRunner.id == saved.id && !list.currentRunner.isTemplate)
         model.registeredRunnersList.send(.selectionChanged([saved.id])); model.registeredRunnersList.send(.removeButtonTapped)
         #expect(model.registeredRunnersList.runners.isEmpty)
-        #expect(environment.dependencies.appStateClient.getAppState().runnerBundleSubject.value.runner.type == .catA)
+        #expect(environment.dependencies.appStateClient.getAppState().runnerBundleSubject.value.runner.type == .catB)
         model.send(.onDisappear); list.send(.onDisappear)
     }
     @Test func previewIPUsesLegacyDocumentationAddress() {

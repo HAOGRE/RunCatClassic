@@ -19,7 +19,7 @@ import SystemInfoKit
     public let selectAutomaticallySubject = CurrentValueSubject<Bool, Never>(false)
     public let runnerSpeedSubject = CurrentValueSubject<Float, Never>(1)
     public let runnerSectionsSubject = CurrentValueSubject<[RunnerSection], Never>(RunnerSection.builtIn())
-    public let runnerBundleSubject = CurrentValueSubject<RunnerBundle, Never>(.init(runner: Runner(.catA), frames: []))
+    public let runnerBundleSubject = CurrentValueSubject<RunnerBundle, Never>(.init(runner: Runner(.catB), frames: []))
     public init(name: String = "RunCat", version: String = "1.0.0", monitorInterval: Double = 5) {
         self.name = name; self.version = version; self.monitorInterval = monitorInterval
         systemInfoObserver = .init(monitorInterval: monitorInterval)

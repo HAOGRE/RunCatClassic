@@ -7,9 +7,9 @@ import ServiceManagement
     public let client: UserDefaultsClient
     public init(client: UserDefaultsClient = .init()) {
         self.client = client
-        client.register(["invertSpeed": false, "flipHorizontally": false, "useAccentColor": false,
+        client.register(["invertSpeed": false, "flipHorizontally": true, "useAccentColor": false,
                          "selectAutomatically": false, "stopRunner": false, "activateSystemInfoBar": false,
-                         "randomSelectionType": RandomSelectionType.allRunners.rawValue, "currentRunner": RunnerType.catA.id])
+                         "randomSelectionType": RandomSelectionType.allRunners.rawValue, "currentRunner": RunnerType.catB.id])
     }
     public var invertSpeed: Bool { get { client.bool("invertSpeed") } set { client.set(newValue, "invertSpeed") } }
     public var flipHorizontally: Bool { get { client.bool("flipHorizontally") } set { client.set(newValue, "flipHorizontally") } }
@@ -18,7 +18,7 @@ import ServiceManagement
     public var stopRunner: Bool { get { client.bool("stopRunner") } set { client.set(newValue, "stopRunner") } }
     public var activateSystemInfoBar: Bool { get { client.bool("activateSystemInfoBar") } set { client.set(newValue, "activateSystemInfoBar") } }
     public var randomSelectionType: RandomSelectionType { get { .init(rawValue: client.string("randomSelectionType") ?? "") ?? .allRunners } set { client.set(newValue.rawValue, "randomSelectionType") } }
-    public var currentRunner: String { get { client.string("currentRunner") ?? RunnerType.catA.id } set { client.set(newValue, "currentRunner") } }
+    public var currentRunner: String { get { client.string("currentRunner") ?? RunnerType.catB.id } set { client.set(newValue, "currentRunner") } }
     public var activationBundle: ActivationBundle { get { decode("activationBundle", default: .init()) } set { encode(newValue, key: "activationBundle") } }
     public var systemInfoBarBundle: SystemInfoBarBundle { get { decode("systemInfoBarBundle", default: .init()) } set { encode(newValue, key: "systemInfoBarBundle") } }
     private func decode<T: Decodable>(_ key: String, default value: T) -> T {

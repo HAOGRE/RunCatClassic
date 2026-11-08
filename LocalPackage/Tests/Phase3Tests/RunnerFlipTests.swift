@@ -68,17 +68,18 @@ import UserInterface
                               setSize: { _ in }, setFrames: { layer.setFrames($0, isTemplate: $0.first?.isTemplate ?? true) },
                               setColor: { layer.setColor($0) }, setSpeed: { layer.setSpeed($0) })))
         defer { menu.send(.onDisappear) }
+        let settings = GeneralSettings(dependencies)
+        settings.send(.flipHorizontallyToggleSwitched(false))
         let state = dependencies.appStateClient.getAppState()
         let originals = try state.runnerBundleSubject.value.frames.map { try pixels(cgImage($0.image)) }
-        let settings = GeneralSettings(dependencies)
         for enabled in [true, false, true, false] {
             settings.send(.flipHorizontallyToggleSwitched(enabled))
             #expect(settings.flipHorizontally == enabled)
-            #expect(menu.size == CGSize(width: 28, height: 18))
+            #expect(menu.size == CGSize(width: 31.5, height: 18))
             let animation = try #require(layer.activeLayer.animation(forKey: "running") as? CAKeyframeAnimation)
             let frames = try #require(animation.values as? [CGImage])
             #expect(frames.count == originals.count)
-            #expect(frames.allSatisfy { $0.width == 56 && $0.height == 36 })
+            #expect(frames.allSatisfy { $0.width == 63 && $0.height == 36 })
             if !enabled { #expect(try frames.map { try pixels($0) } == originals) }
         }
     }

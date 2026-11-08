@@ -45,7 +45,7 @@ import Testing
         let list = RegisteredRunnersList(environment.dependencies); list.send(.task)
         list.send(.selectionChanged([loaded[0].runner.id])); list.send(.removeButtonTapped)
         #expect(try repository.load().isEmpty && list.runners.isEmpty)
-        #expect(environment.dependencies.appStateClient.getAppState().runnerBundleSubject.value.runner.type == .catA)
+        #expect(environment.dependencies.appStateClient.getAppState().runnerBundleSubject.value.runner.type == .catB)
     }
     @Test func emptyNameAndZeroFramesAndImportAreAtomic() throws {
         let environment = TestEnvironment(); defer { environment.clean() }

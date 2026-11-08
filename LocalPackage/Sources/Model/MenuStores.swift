@@ -92,7 +92,7 @@ import SystemInfoKit
 @MainActor @Observable public final class RunnersList {
     public enum Action { case task, runnerButtonTapped(Runner), backButtonTapped, onDisappear }
     public private(set) var runnerSections: [RunnerSection] = []
-    public private(set) var currentRunner = Runner(.catA)
+    public private(set) var currentRunner = Runner(.catB)
     public private(set) var selectAutomatically = false
     private let dependencies: AppDependencies
     @ObservationIgnored private var subscription: AnyCancellable?

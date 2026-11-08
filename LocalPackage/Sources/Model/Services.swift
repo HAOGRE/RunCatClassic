@@ -59,11 +59,11 @@ import SystemInfoKit
             sections.append(.init(category: .selfMade, runners: custom.map { .init(runner: $0.runner, imageType: .selfMade) }))
             sections = sections.filter { !$0.runners.isEmpty }
             state.runnerSectionsSubject.send(sections)
-            let runner = sections.flatMap(\.runners).map(\.runner).first { $0.id == userDefaultsRepository.currentRunner } ?? Runner(.catA)
+            let runner = sections.flatMap(\.runners).map(\.runner).first { $0.id == userDefaultsRepository.currentRunner } ?? Runner(.catB)
             select(runner)
         } catch {
             state.errorSubject.send(.register(.failedToSave))
-            select(Runner(.catA))
+            select(Runner(.catB))
         }
         state.selectAutomaticallySubject.send(userDefaultsRepository.selectAutomatically)
         state.useAccentColorSubject.send(userDefaultsRepository.useAccentColor)

@@ -7,7 +7,7 @@ import Observation
 @MainActor @Observable public final class RunnersStore {
     public enum Action { case task, purchaseButtonTapped(String), restoreButtonTapped, reloadButtonTapped, onDisappear, dismissAlert }
     public private(set) var stockSections: [StockSection] = []
-    public private(set) var currentRunner = Runner(.catA)
+    public private(set) var currentRunner = Runner(.catB)
     public private(set) var isProcessing = false
     public private(set) var isPresentedAlert = false
     public private(set) var error: RunCatError?

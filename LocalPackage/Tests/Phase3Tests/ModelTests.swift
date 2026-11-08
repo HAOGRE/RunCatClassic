@@ -21,7 +21,7 @@ import UserInterface
         let state = dependencies.appStateClient.getAppState()
         service.chooseRandom = { $0.last }
         for _ in 0..<119 { service.consumeCPU(0.2) }
-        #expect(state.shuffleCount == 119 && state.runnerBundleSubject.value.runner.type == .catA)
+        #expect(state.shuffleCount == 119 && state.runnerBundleSubject.value.runner.type == .catB)
         service.consumeCPU(0.2)
         #expect(state.shuffleCount == 0 && state.runnerBundleSubject.value.runner.type == .entaku)
         dependencies.userDefaultsRepository.randomSelectionType = .onlyMonochromeRunners
@@ -102,7 +102,7 @@ import UserInterface
         var size = CGSize.zero, frameCount = 0, color: NSColor?, speed: Float = -1
         menu.send(.task(.init(getBundleImage: { RunCatResources.image(named: $0) }, setSize: { size = $0 },
                               setFrames: { frameCount = $0.count }, setColor: { color = $0 }, setSpeed: { speed = $0 })))
-        #expect(size == CGSize(width: 28,height:18) && frameCount == 5 && color != nil)
+        #expect(size == CGSize(width: 31.5, height: 18) && frameCount == 5 && color != nil)
         dependencies.runnerService.consumeCPU(0.5); #expect(speed == 10)
         dependencies.userDefaultsRepository.useAccentColor = true; dependencies.runnerService.updateSettings()
         #expect(menu.layerColor.useAccentColor)
@@ -120,7 +120,7 @@ import UserInterface
         store.send(.task)
         #expect(store.stockSections.count == 4)
         #expect(store.stockSections.flatMap(\.stocks).count == 57)
-        #expect(store.currentRunner.type == .catA)
+        #expect(store.currentRunner.type == .catB)
         environment.dependencies.runnerService.select(Runner(.sushi))
         #expect(store.currentRunner.type == .sushi)
         environment.dependencies.runnerService.setAutomatically(true)
