@@ -31,13 +31,33 @@ public struct SystemInfoStackView: View {
     let needsDummyIP: Bool
     public init(bundle: SystemInfoBundle, cpuValues: [Double], needsDummyIP: Bool = false) { self.bundle = bundle; self.cpuValues = cpuValues; self.needsDummyIP = needsDummyIP }
     public var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: 0) {
             SystemInfoView(info: bundle.cpuInfo ?? .zero, cpuValues: cpuValues)
-            if let info = bundle.memoryInfo { Divider(); SystemInfoView(info: info) }
-            if let info = bundle.storageInfo { Divider(); SystemInfoView(info: info) }
-            if let info = bundle.batteryInfo { Divider(); SystemInfoView(info: info, isInstalled: info.isInstalled) }
-            if let info = bundle.networkInfo { Divider(); SystemInfoView(info: info, needsDummyIP: needsDummyIP) }
-        }.frame(minHeight: 408, alignment: .top).padding(8)
+            if let info = bundle.memoryInfo {
+                Spacer(minLength: 4)
+                Divider()
+                Spacer(minLength: 4)
+                SystemInfoView(info: info)
+            }
+            if let info = bundle.storageInfo {
+                Spacer(minLength: 4)
+                Divider()
+                Spacer(minLength: 4)
+                SystemInfoView(info: info)
+            }
+            if let info = bundle.batteryInfo {
+                Spacer(minLength: 4)
+                Divider()
+                Spacer(minLength: 4)
+                SystemInfoView(info: info, isInstalled: info.isInstalled)
+            }
+            if let info = bundle.networkInfo {
+                Spacer(minLength: 4)
+                Divider()
+                Spacer(minLength: 4)
+                SystemInfoView(info: info, needsDummyIP: needsDummyIP)
+            }
+        }.frame(height: 408).padding(8)
     }
 }
 public struct SystemInfoView: View {
@@ -57,6 +77,7 @@ public struct SystemInfoView: View {
                     ForEach(Array(details.enumerated()), id: \.offset) { _, detail in Text(detail).font(.caption).padding(.leading, 12) }
                 }
                 if info.type == .cpu { LineGraph(values: cpuValues).padding(.leading, 12) }
+                if info.type == .memory { BarGraph(value: info.percentage.value).padding(.leading, 12) }
                 if info.type == .storage { BarGraph(value: info.percentage.value).padding(.leading, 12) }
             }
         }.padding(.leading, 8)
