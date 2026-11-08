@@ -25,8 +25,9 @@ public struct RunnersStoreView: View {
         }.frame(width: 450).frame(minHeight: 300, idealHeight: 350, maxHeight: 1000)
             .overlay { if store.isProcessing { Color(white: 0.1).opacity(0.4); ProgressView() } }
             .task { store.send(.task) }.onDisappear { store.send(.onDisappear) }
-            .alert(store.error?.localizedDescription ?? "", isPresented: Binding(get: { store.isPresentedAlert }, set: { if !$0 { store.send(.dismissAlert) } })) {
-                Button("OK") { store.send(.dismissAlert) }
+            .alert(isPresented: Binding(get: { store.isPresentedAlert }, set: { if !$0 { store.send(.dismissAlert) } }), error: store.error) { _ in
+            } message: { error in
+                Text(error.recoverySuggestion ?? error.failureReason ?? "")
             }
     }
     private func categoryKey(_ category: StockCategory) -> String {
@@ -46,24 +47,26 @@ public struct StockView: View {
     let language: String
     let action: () -> Void
     public init(item: StockWithRunnerType, language: String = "en", action: @escaping () -> Void) { self.item = item; self.language = language; self.action = action }
-    private var functional: Bool { item.runnerType.category == .functional }
     public var body: some View {
-        HStack(alignment: .center, spacing: 16) {
-            APNGView(name: item.stock.previewAssetName, isTemplate: item.runnerType.isTemplate).frame(width: 100, height: 36)
+        HStack(spacing: 16) {
+            APNGView(name: item.stock.previewAssetName, isTemplate: item.runnerType.isTemplate)
+                .frame(width: 100, height: 36)
             VStack(alignment: .leading) {
-                HStack(spacing: 8) {
-                    Text(item.stock.title(language: language)).font(.title3)
+                HStack(alignment: .center, spacing: 8) {
+                    Text(item.stock.title(language: language))
+                        .font(.title3)
                     Spacer()
-                    if !functional {
-                        Text(item.stock.purchased ? (language == "zh-Hans" ? "已购" : "Purchased") : item.stock.displayPrice(language: language))
-                            .font(.body).foregroundStyle(.secondary)
-                    }
-                    Button(functional ? (language == "zh-Hans" ? "已解锁" : "Unlocked") : (language == "zh-Hans" ? "选用" : "Try"), action: action)
-                        .disabled(functional).help(item.stock.purchased ? (language == "zh-Hans" ? "已购 · 免费解锁" : "Purchased · Free unlock") : localized("purchase", .runnersStore))
+                    Text(item.stock.displayPrice(language: language))
+                        .font(.body)
+                    Button(localized("purchase", .runnersStore), action: action)
+                        .disabled(item.stock.purchased)
                 }
-                Text(item.stock.description(language: language)).font(.caption).foregroundStyle(.secondary)
+                Text(item.stock.description(language: language))
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
-        }.modifier(StoreItemViewModifier())
+        }
+        .modifier(StoreItemViewModifier())
     }
 }
 public struct RestoreView: View {

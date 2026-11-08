@@ -66,7 +66,7 @@ public struct RunnerSection: Identifiable, Sendable {
     public static func builtIn(language: String? = nil) -> [RunnerSection] {
         [RunnerCategory.special, .default, .animal, .inanimate, .seasonal].map { category in
             .init(category: category, runners: category.runnerTypes.map { .init(runner: Runner($0, language: language), imageType: .preset) })
-        }
+        }.filter { !$0.runners.isEmpty }
     }
 }
 

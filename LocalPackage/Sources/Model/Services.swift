@@ -56,7 +56,8 @@ import SystemInfoKit
         do {
             let custom = try applicationSupportRepository.load()
             var sections = RunnerSection.builtIn()
-            if !custom.isEmpty { sections.append(.init(category: .selfMade, runners: custom.map { .init(runner: $0.runner, imageType: .selfMade) })) }
+            sections.append(.init(category: .selfMade, runners: custom.map { .init(runner: $0.runner, imageType: .selfMade) }))
+            sections = sections.filter { !$0.runners.isEmpty }
             state.runnerSectionsSubject.send(sections)
             let runner = sections.flatMap(\.runners).map(\.runner).first { $0.id == userDefaultsRepository.currentRunner } ?? Runner(.catA)
             select(runner)

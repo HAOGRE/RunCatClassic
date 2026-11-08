@@ -144,58 +144,178 @@ public struct HelpMenusView: View {
 
 // ScrollPhase here describes the old four edge states, not the macOS 15 gesture phase API.
 public enum RunnerScrollPhase: Equatable { case fit, start, middle, end }
-private struct ScrollMetrics: Equatable { var top: CGFloat = 0; var height: CGFloat = 0 }
-private struct ScrollMetricsKey: PreferenceKey {
-    static let defaultValue = ScrollMetrics()
-    static func reduce(value: inout ScrollMetrics, nextValue: () -> ScrollMetrics) { value = nextValue() }
+// The native scroll geometry API requires macOS 15; retain the macOS 14 deployment target.
+private struct RunnerScrollMetrics: Equatable {
+    var contentFrame: CGRect?
+    var viewportHeight: CGFloat?
+}
+private struct RunnerScrollMetricsKey: PreferenceKey {
+    static let defaultValue = RunnerScrollMetrics()
+    static func reduce(value: inout RunnerScrollMetrics, nextValue: () -> RunnerScrollMetrics) {
+        let next = nextValue()
+        value.contentFrame = next.contentFrame ?? value.contentFrame
+        value.viewportHeight = next.viewportHeight ?? value.viewportHeight
+    }
+}
+private struct RunnerScrollGeometryModifier: ViewModifier {
+    @Binding var scrollPhase: RunnerScrollPhase
+    @ViewBuilder func body(content: Content) -> some View {
+        if #available(macOS 15, *) {
+            content
+                .onScrollGeometryChange(for: RunnerScrollPhase.self) { geometry in
+                    let contentHeight = geometry.contentSize.height
+                    let bounds = geometry.bounds
+                    if bounds.height >= contentHeight {
+                        return .fit
+                    } else if bounds.minY.rounded() < 5 {
+                        return .start
+                    } else if contentHeight - 5 < bounds.maxY.rounded() {
+                        return .end
+                    } else {
+                        return .middle
+                    }
+                } action: { _, newValue in
+                    scrollPhase = newValue
+                }
+        } else {
+            content
+                .coordinateSpace(name: "runner-scroll")
+                .background {
+                    GeometryReader { geometry in
+                        Color.clear.preference(key: RunnerScrollMetricsKey.self,
+                                               value: .init(viewportHeight: geometry.size.height))
+                    }
+                }
+                .onPreferenceChange(RunnerScrollMetricsKey.self) { metrics in
+                    guard let frame = metrics.contentFrame, let height = metrics.viewportHeight else { return }
+                    scrollPhase = RunnersListView.phase(top: frame.minY, contentHeight: frame.height, viewportHeight: height)
+                }
+        }
+    }
 }
 public struct RunnersListView: View {
-    let store: RunnersList
-    @State private var phase = RunnerScrollPhase.start
+    @Bindable var store: RunnersList
+    @State private var scrollPhase: RunnerScrollPhase = .fit
     public init(store: RunnersList) { self.store = store }
     public static func phase(top: CGFloat, contentHeight: CGFloat, viewportHeight: CGFloat = 400) -> RunnerScrollPhase {
-        if contentHeight <= viewportHeight + 5 { return .fit }
-        if top >= -5 { return .start }
-        if top + contentHeight <= viewportHeight + 5 { return .end }
+        if viewportHeight >= contentHeight { return .fit }
+        if (-top).rounded() < 5 { return .start }
+        if contentHeight - 5 < (-top + viewportHeight).rounded() { return .end }
         return .middle
     }
     public var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 8) {
-                if store.selectAutomatically { Text(localized("selectAutomatically", .generalSettings)).font(.caption).foregroundStyle(.secondary).padding(8) }
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(alignment: .center, spacing: 8) {
                 ForEach(store.runnerSections) { section in
-                    DisclosureGroup {
-                        VStack(alignment: .leading, spacing: 8) {
-                            ForEach(section.runners) { item in
-                                Button { store.send(.runnerButtonTapped(item.runner)) } label: {
-                                    Label { Text(item.runner.name) } icon: { runnerImage(item.runner).resizable() }
-                                }.buttonStyle(RunnerButtonStyle(selected: store.currentRunner.id == item.id))
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text(categoryTitle(section.category))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        ForEach(section.runners) { item in
+                            Button {
+                                store.send(.runnerButtonTapped(item.runner))
+                            } label: {
+                                Label {
+                                    Text(item.runner.name.isEmpty ? "No Name" : item.runner.name)
+                                } icon: {
+                                    Group {
+                                        if let image = store.previewImage(for: item.runner) {
+                                            Image(nsImage: image)
+                                                .renderingMode(item.runner.isTemplate ? .template : .original)
+                                                .resizable()
+                                        } else {
+                                            Image(systemName: "questionmark")
+                                                .renderingMode(item.runner.isTemplate ? .template : .original)
+                                                .resizable()
+                                        }
+                                    }
+                                }
                             }
-                        }.padding(8)
-                    } label: { Text(categoryTitle(section.category)).font(.caption).foregroundStyle(.secondary) }
-                    Divider().padding(.leading, 16)
+                            .buttonStyle(RunnerButtonStyle(selected: item.runner.id == store.currentRunner.id))
+                            .accessibilityIdentifier(item.runner.id)
+                            .disabled(store.selectAutomatically)
+                            if item.id != section.runners.last?.id {
+                                Divider()
+                                    .padding(.leading, 16)
+                            }
+                        }
+                    }
+                    .padding(8)
+                    .modifier(MaterialCellViewModifier())
                 }
-            }.padding(8).background(GeometryReader { g in
-                Color.clear.preference(key: ScrollMetricsKey.self, value: .init(top: g.frame(in: .named("runners-scroll")).minY, height: g.size.height))
-            })
-        }.coordinateSpace(name: "runners-scroll").frame(height: 400)
-            .onPreferenceChange(ScrollMetricsKey.self) { phase = Self.phase(top: $0.top, contentHeight: $0.height) }
-            .mask(LinearGradient(stops: [
-                .init(color: phase == .start || phase == .fit ? .black : .clear, location: 0),
-                .init(color: .black, location: 0.1), .init(color: .black, location: 0.9),
-                .init(color: phase == .end || phase == .fit ? .black : .clear, location: 1)
-            ], startPoint: .top, endPoint: .bottom))
-            .overlay(alignment: .top) { if phase == .middle || phase == .end { Image(systemName: "chevron.up").allowsHitTesting(false) } }
-            .overlay(alignment: .bottom) { if phase == .middle || phase == .start { Image(systemName: "chevron.down").allowsHitTesting(false) } }
-            .modifier(MaterialCellViewModifier()).padding(8)
-            .task { store.send(.task) }.onDisappear { store.send(.onDisappear) }
-    }
-    private func runnerImage(_ runner: Runner) -> Image {
-        let image = store.previewImage(for: runner)
-        if let image { return Image(nsImage: image).renderingMode(runner.isTemplate ? .template : .original) }
-        return Image(systemName: "questionmark")
+            }
+            .padding(8)
+            .fixedSize()
+            .background {
+                if #unavailable(macOS 15) {
+                    GeometryReader { geometry in
+                        Color.clear.preference(key: RunnerScrollMetricsKey.self,
+                                               value: .init(contentFrame: geometry.frame(in: .named("runner-scroll"))))
+                    }
+                }
+            }
+        }
+        .scrollBounceBehavior(.basedOnSize, axes: .vertical)
+        .frame(height: 400)
+        .mask {
+            switch scrollPhase {
+            case .fit:
+                Color.black
+            case .start:
+                LinearGradient(
+                    stops: [
+                        .init(color: .black, location: 0),
+                        .init(color: .black, location: 0.9),
+                        .init(color: .clear, location: 1),
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            case .middle:
+                LinearGradient(
+                    stops: [
+                        .init(color: .clear, location: 0),
+                        .init(color: .black, location: 0.1),
+                        .init(color: .black, location: 0.9),
+                        .init(color: .clear, location: 1),
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            case .end:
+                LinearGradient(
+                    stops: [
+                        .init(color: .clear, location: 0),
+                        .init(color: .black, location: 0.1),
+                        .init(color: .black, location: 1),
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            }
+        }
+        .overlay {
+            VStack {
+                if scrollPhase == .middle || scrollPhase == .end {
+                    Image(systemName: "chevron.up")
+                }
+                Spacer()
+                if scrollPhase == .start || scrollPhase == .middle {
+                    Image(systemName: "chevron.down")
+                }
+            }
+            .padding(8)
+        }
+        .modifier(RunnerScrollGeometryModifier(scrollPhase: $scrollPhase))
+        .task {
+            store.send(.task)
+        }
+        .onDisappear {
+            store.send(.onDisappear)
+        }
     }
 }
+
 func categoryTitle(_ category: RunnerCategory) -> String {
     let suffix: String = switch category { case .default: "Default"; case .selfMade: "SelfMade"; case .special: "Special"; case .animal: "Animal"; case .inanimate: "Inanimate"; case .seasonal: "Seasonal"; case .functional: "Recommended" }
     return localized("category" + suffix)

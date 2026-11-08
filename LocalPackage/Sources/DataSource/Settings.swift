@@ -1,4 +1,5 @@
 import Foundation
+import RunCatLocalization
 import SystemInfoKit
 
 public enum RandomSelectionType: String, CaseIterable, Codable, Sendable {
@@ -62,20 +63,37 @@ public struct SystemInfoBarBundle: Codable, Equatable, Sendable {
 public enum RunCatError: Error, Equatable, LocalizedError, Sendable {
     case register(Register), purchase(Purchase), products(Products), restore(Restore)
     public enum Register: String, Error, Sendable { case conflictName, violatePrecondition, violateUpperLimit, failedToEncodeImages, failedToSave }
-    public enum Purchase: String, Error, Sendable { case failedToVerify, productNotFound, productUnavailable, purchaseNotAllowed, userCancelled, pending, unknownError }
+    public enum Purchase: String, Error, Sendable { case failedToVerify, productNotFound, productUnavailable, purchaseNotAllowed, userCancelled, pending, unknownError, failedToSync, noAvailableItems }
     public enum Products: String, Error, Sendable { case failedToLoad, failedToUpdate }
     public enum Restore: String, Error, Sendable { case failedToSync }
     public var errorDescription: String? {
         switch self {
-        case .register(.conflictName): "A runner with that name already exists."
-        case .register(.violatePrecondition): "Use PNG images 36 pixels high and 10–100 pixels wide."
-        case .register(.violateUpperLimit): "Use between 1 and 50 frames."
-        case .register(.failedToEncodeImages): "Unable to encode PNG images."
-        case .register(.failedToSave): "Unable to save the runner."
-        case .purchase(let error): "Purchase: \(error.rawValue)"
-        case .products(let error): "Products: \(error.rawValue)"
-        case .restore: "Unable to restore purchases."
+        case .register: localized("registerErrorTitle", .selfMadeRunners)
+        case .purchase, .restore: localized("purchaseErrorTitle", .runnersStore)
+        case .products: localized("noAvailableItems", .runnersStore)
         }
+    }
+    public var failureReason: String? {
+        switch self {
+        case .register(let reason): localized(reason.rawValue, .selfMadeRunners)
+        case .purchase(let reason): localized(reason.rawValue, .runnersStore)
+        case .restore(.failedToSync): localized("failedToSync", .runnersStore)
+        case .products: localized("noAvailableItems", .runnersStore)
+        }
+    }
+    public var recoverySuggestion: String? {
+        switch self {
+        case .register: failureReason
+        // UI localization getters at 0x100083e84 / 0x100084040:
+        // only these purchase failures supply an additional suggestion.
+        case .purchase(.productNotFound): localized("productNotFoundSuggestion", .runnersStore)
+        case .purchase(.purchaseNotAllowed): localized("purchaseNotAllowedSuggestion", .runnersStore)
+        case .purchase(.noAvailableItems), .products: localized("noAvailableItemsSuggestion", .runnersStore)
+        case .purchase, .restore: nil
+        }
+    }
+    private func localized(_ key: String, _ table: RunCatLocalization.Table) -> String {
+        RunCatLocalization.string(key, table: table)
     }
 }
 public enum LaunchAtLoginError: Error { case switchFailed }

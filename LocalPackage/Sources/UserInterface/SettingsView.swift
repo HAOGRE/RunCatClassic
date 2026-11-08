@@ -28,13 +28,11 @@ public struct GeneralSettingsView: View {
                 toggle("useAccentColor", store.useAccentColor, GeneralSettings.Action.useAccentColorToggleSwitched)
                 VStack(alignment: .leading, spacing: 8) {
                     toggle("selectAutomatically", store.selectAutomatically, GeneralSettings.Action.selectAutomaticallyToggleSwitched)
-                    if store.selectAutomatically {
-                        Form {
-                            Picker("", selection: Binding(get: { store.randomSelectionType }, set: { store.send(.randomSelectionTypePickerSelected($0)) })) {
-                                ForEach(RandomSelectionType.allCases, id: \.self) { Text(localized($0.rawValue, .generalSettings)).tag($0) }
-                            }.pickerStyle(.radioGroup).labelsHidden()
-                        }.formStyle(.columns)
-                    }
+                    Form {
+                        Picker("", selection: Binding(get: { store.randomSelectionType }, set: { store.send(.randomSelectionTypePickerSelected($0)) })) {
+                            ForEach(RandomSelectionType.allCases, id: \.self) { Text(localized($0.rawValue, .generalSettings)).tag($0) }
+                        }.pickerStyle(.radioGroup).labelsHidden()
+                    }.formStyle(.columns).disabled(!store.selectAutomatically)
                 }
                 toggle("stopRunner", store.stopRunner, GeneralSettings.Action.stopRunnerToggleSwitched)
             }

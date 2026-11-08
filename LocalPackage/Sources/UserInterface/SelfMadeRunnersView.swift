@@ -13,18 +13,19 @@ public struct SelfMadeRunnersView: View {
             Divider()
             RegistrationFormView(store: store.registrationForm)
         }.fixedSize().padding().task { store.send(.task) }.onDisappear { store.send(.onDisappear) }
-            .alert(localized("registerErrorTitle", .selfMadeRunners), isPresented: Binding(get: { store.isPresentedAlert }, set: { if !$0 { store.send(.dismissAlert) } })) {
-                Button("OK") { store.send(.dismissAlert) }
-            } message: { Text(store.error?.localizedDescription ?? "") }
+            .alert(isPresented: Binding(get: { store.isPresentedAlert }, set: { if !$0 { store.send(.dismissAlert) } }), error: store.error) { _ in
+            } message: { error in
+                Text(error.recoverySuggestion ?? error.failureReason ?? "")
+            }
     }
 }
 public struct RegisteredRunnersListView: View {
     @Bindable var store: RegisteredRunnersList
     public init(store: RegisteredRunnersList) { self.store = store }
     public var body: some View {
-        VStack(spacing: 8) {
+        VStack(alignment: .leading, spacing: 8) {
             Text(localized("registeredRunners", .selfMadeRunners))
-            VStack {
+            VStack(spacing: 0) {
                 List(selection: Binding(get: { store.selection }, set: { store.send(.selectionChanged($0)) })) {
                     ForEach(store.runners) { runner in Text(runner.name).tag(runner.id) }
                 }.listStyle(.plain)
@@ -42,7 +43,7 @@ public struct RegistrationFormView: View {
     @Bindable var store: RegistrationForm
     public init(store: RegistrationForm) { self.store = store }
     public var body: some View {
-        VStack {
+        VStack(alignment: .center) {
             Form {
                 TextField(localized("runnerName", .selfMadeRunners), text: $store.runnerName)
                 LabeledContent(localized("color", .selfMadeRunners)) { Toggle(localized("useOriginalColor", .selfMadeRunners), isOn: $store.useOriginalColor) }
@@ -100,14 +101,10 @@ public struct RunnerFramesCollectionView: View {
                     Color.clear.frame(width: 40, height: 40).contentShape(Rectangle())
                         .onTapGesture { store.send(.onTapBackground) }
                         .onDrop(of: [.text], delegate: FrameReorderDropDelegate(store: store, index: store.frames.count, dragging: $dragging))
+                        .dropDestination(for: URL.self) { urls, _ in importDroppedFiles(urls) }
                 }
             }.background(Color(nsColor: .controlBackgroundColor))
-                .dropDestination(for: URL.self) { urls, _ in
-                    guard urls.allSatisfy({ $0.pathExtension.lowercased() == "png" }) else { return false }
-                    let scopes = urls.map { ($0, $0.startAccessingSecurityScopedResource()) }
-                    defer { for (url, accessed) in scopes where accessed { url.stopAccessingSecurityScopedResource() } }
-                    store.send(.onDropDestination(urls)); return true
-                }
+                .dropDestination(for: URL.self) { urls, _ in importDroppedFiles(urls) }
             Divider()
             HStack(spacing: 0) {
                 Button { store.send(.plusButtonTapped) } label: { Label("Add PNG", systemImage: "plus") }
@@ -116,6 +113,13 @@ public struct RunnerFramesCollectionView: View {
                 Spacer()
             }.buttonStyle(SegmentedButtonStyle())
         }.frame(width: 256, height: 180).overlay(Rectangle().strokeBorder(Color(nsColor: .separatorColor), lineWidth: 1))
+    }
+    private func importDroppedFiles(_ urls: [URL]) -> Bool {
+        guard !urls.isEmpty, urls.allSatisfy({ $0.isFileURL && $0.pathExtension.lowercased() == "png" }) else { return false }
+        let scopes = urls.map { ($0, $0.startAccessingSecurityScopedResource()) }
+        defer { for (url, accessed) in scopes where accessed { url.stopAccessingSecurityScopedResource() } }
+        store.send(.onDropDestination(urls))
+        return true
     }
 }
 private struct FrameReorderDropDelegate: DropDelegate {
