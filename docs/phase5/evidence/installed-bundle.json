@@ -1,0 +1,17 @@
+{
+  "path": "/Applications/RunCat.app",
+  "bundleID": "org.runcat.community",
+  "version": "12.2.1",
+  "build": "2",
+  "LSUIElement": true,
+  "minimumMacOS": "14.0",
+  "architecture": "arm64",
+  "resourceBundles": [
+    "LocalPackage_DataSource.bundle",
+    "LocalPackage_RunCatLocalization.bundle",
+    "LocalPackage_SystemInfoKit.bundle",
+    "LocalPackage_UserInterface.bundle",
+    "OriginalAppIcon.bundle"
+  ],
+  "executableExists": true
+}

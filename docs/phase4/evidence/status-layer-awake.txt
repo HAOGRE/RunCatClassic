@@ -1,0 +1,4 @@
+button NUL size=(55.0, 22.0)
+frame=(5.0, 2.0, 45.0, 18.0) mask=false speed=4.7
+phase=144.7704054244998 animation=["running"] bg=true
+button "" size=(273.0, 22.0) runner=none

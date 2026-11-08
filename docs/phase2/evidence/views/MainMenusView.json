@@ -1,0 +1,3293 @@
+[
+  {
+    "address": "0x10008d080",
+    "size": 132,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_initStructMetadata"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d104",
+      "0x100147ca0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008d104",
+    "size": 84,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI16OpenWindowActionVMa",
+      "_$s7SwiftUI11EnvironmentV7ContentOMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100145c6c",
+      "0x1001459fc"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.OpenWindowAction",
+        "context": [
+          "10008d104:\tf4 4f be a9\tstp\tx20, x19, [sp, #-0x20]!",
+          "10008d108:\tfd 7b 01 a9\tstp\tx29, x30, [sp, #0x10]",
+          "10008d10c:\tfd 43 00 91\tadd\tx29, sp, #0x10",
+          "10008d110:\tf3 03 00 aa\tmov\tx19, x0",
+          "10008d114:\t08 09 00 d0\tadrp\tx8, 290 ; 0x1001af000",
+          "10008d118:\t00 fd 41 f9\tldr\tx0, [x8, #0x3f8]",
+          "10008d11c:\t60 00 00 b4\tcbz\tx0, 0x10008d128",
+          "10008d120:\t01 00 80 d2\tmov\tx1, #0x0",
+          "10008d124:\t0a 00 00 14\tb\t0x10008d14c",
+          "10008d128:\te0 1f 80 52\tmov\tw0, #0xff"
+        ],
+        "address": "0x10008d12c",
+        "instruction": "10008d12c:\td0 e2 02 94\tbl\t0x100145c6c ; symbol stub for: _$s7SwiftUI16OpenWindowActionVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Environment.Content",
+        "context": [
+          "10008d108:\tfd 7b 01 a9\tstp\tx29, x30, [sp, #0x10]",
+          "10008d10c:\tfd 43 00 91\tadd\tx29, sp, #0x10",
+          "10008d110:\tf3 03 00 aa\tmov\tx19, x0",
+          "10008d114:\t08 09 00 d0\tadrp\tx8, 290 ; 0x1001af000",
+          "10008d118:\t00 fd 41 f9\tldr\tx0, [x8, #0x3f8]",
+          "10008d11c:\t60 00 00 b4\tcbz\tx0, 0x10008d128",
+          "10008d120:\t01 00 80 d2\tmov\tx1, #0x0",
+          "10008d124:\t0a 00 00 14\tb\t0x10008d14c",
+          "10008d128:\te0 1f 80 52\tmov\tw0, #0xff",
+          "10008d12c:\td0 e2 02 94\tbl\t0x100145c6c ; symbol stub for: _$s7SwiftUI16OpenWindowActionVMa",
+          "10008d130:\te1 03 00 aa\tmov\tx1, x0",
+          "10008d134:\te0 03 13 aa\tmov\tx0, x19"
+        ],
+        "address": "0x10008d138",
+        "instruction": "10008d138:\t31 e2 02 94\tbl\t0x1001459fc ; symbol stub for: _$s7SwiftUI11EnvironmentV7ContentOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x10008d158",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008d168",
+    "size": 676,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScPMa",
+      "_$s7SwiftUI19HorizontalAlignmentV6centerACvgZ",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lF",
+      "_swift_release",
+      "_swift_allocObject",
+      "_$sScP13userInitiatedScPvgZ",
+      "_$s7SwiftUI13_TaskModifierVMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146d04",
+      "0x10008d048",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100145e34",
+      "0x100001fa0",
+      "0x10008d40c",
+      "0x100147bbc",
+      "0x100005dec",
+      "0x10008f868",
+      "0x100146200",
+      "0x100147ce8",
+      "0x1000097f0",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146cec",
+      "0x100001fa0",
+      "0x100145aec"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af430",
+        "address": "0x10008d210",
+        "length": 82,
+        "resolvedNotation": "⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3fCy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AEGAFtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 58,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 66,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          }
+        ],
+        "rawHex": "02d56e04007902cf70040079022164040079029b520400021e690400475f413366437902f26a040079022c6204007902766d04007902986a040002436d040047475f025b520400516f5f4145474146744747",
+        "instruction": "10008d210:\t64 d3 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af438",
+        "address": "0x10008d24c",
+        "length": 97,
+        "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3fCy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AEGAFtGG_⟦UserInterface.MediumButtonStyle⟧Qo_",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 72,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          },
+          {
+            "offset": 89,
+            "opcode": 2,
+            "target": "0x100190260",
+            "name": "UserInterface.MediumButtonStyle"
+          }
+        ],
+        "rawHex": "02d16a040079027b6e04007902757004007902c763040079024152040002c4680400475f413366437902986a04007902d261040079021c6d040079023e6a040002e96c040047475f0201520400516f5f41454741467447475f0290510400516f5f",
+        "instruction": "10008d24c:\t55 d3 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.HorizontalAlignment.center.getter : SwiftUI.HorizontalAlignment",
+        "context": [
+          "10008d254:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "10008d258:\ta8 03 17 f8\tstur\tx8, [x29, #-0x90]",
+          "10008d25c:\t08 21 40 f9\tldr\tx8, [x8, #0x40]",
+          "10008d260:\te9 03 08 aa\tmov\tx9, x8",
+          "10008d264:\t10 08 00 f0\tadrp\tx16, 259 ; 0x100190000",
+          "10008d268:\t10 0e 46 f9\tldr\tx16, [x16, #0xc18] ; literal pool symbol address: ___chkstk_darwin",
+          "10008d26c:\t00 02 3f d6\tblr\tx16",
+          "10008d270:\te9 03 00 91\tmov\tx9, sp",
+          "10008d274:\t08 3d 00 91\tadd\tx8, x8, #0xf",
+          "10008d278:\t08 ed 7c 92\tand\tx8, x8, #0xfffffffffffffff0",
+          "10008d27c:\t39 01 08 cb\tsub\tx25, x9, x8",
+          "10008d280:\t3f 03 00 91\tmov\tsp, x25"
+        ],
+        "address": "0x10008d284",
+        "instruction": "10008d284:\tec e2 02 94\tbl\t0x100145e34 ; symbol stub for: _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 8.0,
+        "register": "x8",
+        "bits": "0x4020000000000000",
+        "address": "0x10008d288",
+        "instruction": "10008d288:\t08 04 e8 d2\tmov\tx8, #0x4020000000000000"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af440",
+        "address": "0x10008d29c",
+        "length": 88,
+        "resolvedNotation": "⟦SwiftUI._VariadicView.Tree⟧y_⟦SwiftUI._VStackLayout⟧⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3gDy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AFGAGtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191318",
+            "name": "SwiftUI._VariadicView.Tree"
+          },
+          {
+            "offset": 7,
+            "opcode": 2,
+            "target": "0x100191310",
+            "name": "SwiftUI._VStackLayout"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 72,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          }
+        ],
+        "rawHex": "023f620400795f023062040002137004007902656304007902df5104000262680400475f413367447902366a04007902706104007902ba6c04007902dc69040002876c040047475f029f510400516f5f4146474147744747",
+        "instruction": "10008d29c:\t41 d3 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some",
+        "context": [
+          "10008d2d4:\t42 80 47 f9\tldr\tx2, [x2, #0xf00] ; literal pool symbol address: _$s7SwiftUI6VStackVyxGAA4ViewAAMc",
+          "10008d2d8:\te1 03 13 aa\tmov\tx1, x19",
+          "10008d2dc:\tc4 e2 fd 97\tbl\t0x100005dec",
+          "10008d2e0:\tf8 03 00 aa\tmov\tx24, x0",
+          "10008d2e4:\t61 09 00 94\tbl\t0x10008f868",
+          "10008d2e8:\te4 03 00 aa\tmov\tx4, x0",
+          "10008d2ec:\t62 08 00 b0\tadrp\tx2, 269 ; 0x10019a000",
+          "10008d2f0:\t42 20 03 91\tadd\tx2, x2, #0xc8",
+          "10008d2f4:\ta0 83 01 d1\tsub\tx0, x29, #0x60",
+          "10008d2f8:\te8 03 19 aa\tmov\tx8, x25",
+          "10008d2fc:\te1 03 15 aa\tmov\tx1, x21",
+          "10008d300:\te3 03 18 aa\tmov\tx3, x24"
+        ],
+        "address": "0x10008d304",
+        "instruction": "10008d304:\tbf e3 02 94\tbl\t0x100146200 ; symbol stub for: _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lF"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af468",
+        "address": "0x10008d36c",
+        "length": 106,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧yAAy⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3fAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AEGAFtGG_⟦UserInterface.MediumButtonStyle⟧Qo_⟦SwiftUI._TaskModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 44,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 75,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          },
+          {
+            "offset": 92,
+            "opcode": 2,
+            "target": "0x100190260",
+            "name": "UserInterface.MediumButtonStyle"
+          },
+          {
+            "offset": 100,
+            "opcode": 2,
+            "target": "0x100191308",
+            "name": "SwiftUI._TaskModifier"
+          }
+        ],
+        "rawHex": "029964040079028b6b04007902356f040079022f7104007941417902fe5204000281690400475f413366417902556b040079028f6204007902d96d04007902fb6a040002a66d040047475f02be520400516f5f41454741467447475f024d520400516f5f02ed62040047",
+        "instruction": "10008d36c:\t0d d3 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TaskModifier",
+        "context": [
+          "10008d350:\t01 00 15 8b\tadd\tx1, x0, x21",
+          "10008d354:\te0 03 1a aa\tmov\tx0, x26",
+          "10008d358:\t66 09 00 94\tbl\t0x10008f8f0",
+          "10008d35c:\te8 03 16 aa\tmov\tx8, x22",
+          "10008d360:\t63 e6 02 94\tbl\t0x100146cec ; symbol stub for: _$sScP13userInitiatedScPvgZ",
+          "10008d364:\t00 09 00 d0\tadrp\tx0, 290 ; 0x1001af000",
+          "10008d368:\t00 a0 11 91\tadd\tx0, x0, #0x468",
+          "10008d36c:\t0d d3 fd 97\tbl\t0x100001fa0",
+          "10008d370:\t08 24 80 b9\tldrsw\tx8, [x0, #0x24]",
+          "10008d374:\tba 03 59 f8\tldur\tx26, [x29, #-0x70]",
+          "10008d378:\t55 03 08 8b\tadd\tx21, x26, x8",
+          "10008d37c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x10008d380",
+        "instruction": "10008d380:\tdb e1 02 94\tbl\t0x100145aec ; symbol stub for: _$s7SwiftUI13_TaskModifierVMa"
+      }
+    ]
+  },
+  {
+    "address": "0x10008d40c",
+    "size": 3112,
+    "name": "",
+    "strings": [
+      "\"UserInterface/MainMenusView.swift\"",
+      "\"waveform.path.ecg\"",
+      "\"open_activity_monitor\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s21DeveloperToolsSupport13ImageResourceVMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_$s7SwiftUI5ImageVyAC21DeveloperToolsSupport0C8ResourceVcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_$s7SwiftUI12SettingsLinkV5labelACyxGxyXE_tcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lF",
+      "_swift_release",
+      "_swift_getOpaqueTypeConformance2",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_swift_allocObject",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_once"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x1001457f8",
+      "0x10008d048",
+      "0x100001fa0",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x1001463c8",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x10008c55c",
+      "0x100146290",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x1001463c8",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146290",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x10004dec4",
+      "0x10014641c",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146290",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x1001463c8",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146290",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x100001fa0",
+      "0x100005dec",
+      "0x100145aa4",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100005dec",
+      "0x10008fb94",
+      "0x1001461f4",
+      "0x100147ce8",
+      "0x100147bf8",
+      "0x100146290",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x1001463c8",
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146290",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x10008fc80",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x100001fa0",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x10008fc38",
+      "0x10008fc80",
+      "0x10008fc38",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x100147ce8",
+      "0x100147cdc"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af478",
+        "address": "0x10008d43c",
+        "length": 24,
+        "resolvedNotation": "⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 17,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "02396104007902836c04007902a569040002506c04004747",
+        "instruction": "10008d43c:\td9 d2 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af480",
+        "address": "0x10008d48c",
+        "length": 39,
+        "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 31,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          }
+        ],
+        "rawHex": "02df6904007902196104007902636c040079028569040002306c040047475f0248510400516f5f",
+        "instruction": "10008d48c:\tc5 d2 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af488",
+        "address": "0x10008d4dc",
+        "length": 51,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_⟦SwiftUI.AccessibilityAttachmentModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 37,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          },
+          {
+            "offset": 45,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "02cf6204007902b16904007902eb6004007902356c040079025769040002026c040047475f021a510400516f5f02aa67040047",
+        "instruction": "10008d4dc:\tb1 d2 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af490",
+        "address": "0x10008d5bc",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "029b620400790215510400029867040047",
+        "instruction": "10008d5bc:\t79 d2 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/MainMenusView.swift\"",
+        "address": "0x10008d77c",
+        "instruction": "10008d77c:\t00 40 1e 91\tadd\tx0, x0, #0x790 ; literal pool for: \"UserInterface/MainMenusView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "10008d7c0:\te1 03 18 aa\tmov\tx1, x24",
+          "10008d7c4:\tff d2 fd 97\tbl\t0x1000023c0",
+          "10008d7c8:\te0 03 13 aa\tmov\tx0, x19",
+          "10008d7cc:\t21 02 80 52\tmov\tw1, #0x11",
+          "10008d7d0:\t68 34 01 94\tbl\t0x1000da970",
+          "10008d7d4:\tf4 03 00 aa\tmov\tx20, x0",
+          "10008d7d8:\tfb 03 01 aa\tmov\tx27, x1",
+          "10008d7dc:\t00 2e 8c d2\tmov\tx0, #0x6170",
+          "10008d7e0:\te0 0e ae f2\tmovk\tx0, #0x7077, lsl #16",
+          "10008d7e4:\t40 2e cd f2\tmovk\tx0, #0x6972, lsl #32",
+          "10008d7e8:\tc0 8d ee f2\tmovk\tx0, #0x746e, lsl #48",
+          "10008d7ec:\t01 00 fd d2\tmov\tx1, #-0x1800000000000000"
+        ],
+        "argumentBits": [
+          "0x746e697270776170",
+          "0xe800000000000000"
+        ],
+        "systemName": "pawprint",
+        "address": "0x10008d7f0",
+        "instruction": "10008d7f0:\tf6 e2 02 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008d858:\ta0 83 15 f8\tstur\tx0, [x29, #-0xa8]",
+          "10008d85c:\t62 08 00 90\tadrp\tx2, 268 ; 0x100199000",
+          "10008d860:\t42 80 31 91\tadd\tx2, x2, #0xc60",
+          "10008d864:\te0 0d 8e d2\tmov\tx0, #0x706f",
+          "10008d868:\ta0 cc ad f2\tmovk\tx0, #0x6e65, lsl #16",
+          "10008d86c:\te0 4b ce f2\tmovk\tx0, #0x725f, lsl #32",
+          "10008d870:\ta0 ce ed f2\tmovk\tx0, #0x6e75, lsl #48",
+          "10008d874:\tc1 ad 8c d2\tmov\tx1, #0x656e",
+          "10008d878:\t41 6e ae f2\tmovk\tx1, #0x7372, lsl #16",
+          "10008d87c:\t01 80 fd f2\tmovk\tx1, #0xec00, lsl #48",
+          "10008d880:\tb4 03 02 d1\tsub\tx20, x29, #0x80",
+          "10008d884:\ta8 03 56 f8\tldur\tx8, [x29, #-0xa0]"
+        ],
+        "address": "0x10008d888",
+        "instruction": "10008d888:\t82 e2 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "10008d8bc:\tf4 03 00 aa\tmov\tx20, x0",
+          "10008d8c0:\te0 03 17 aa\tmov\tx0, x23",
+          "10008d8c4:\te1 03 18 aa\tmov\tx1, x24",
+          "10008d8c8:\tbe d2 fd 97\tbl\t0x1000023c0",
+          "10008d8cc:\te0 03 14 aa\tmov\tx0, x20",
+          "10008d8d0:\t81 02 80 52\tmov\tw1, #0x14",
+          "10008d8d4:\t27 34 01 94\tbl\t0x1000da970",
+          "10008d8d8:\tf4 03 00 aa\tmov\tx20, x0",
+          "10008d8dc:\tf6 03 01 aa\tmov\tx22, x1",
+          "10008d8e0:\t60 2c 8c 52\tmov\tw0, #0x6163",
+          "10008d8e4:\t40 8e ae 72\tmovk\tw0, #0x7472, lsl #16",
+          "10008d8e8:\t01 80 fc d2\tmov\tx1, #-0x1c00000000000000"
+        ],
+        "argumentBits": [
+          "0x74726163",
+          "0xe400000000000000"
+        ],
+        "systemName": "cart",
+        "address": "0x10008d8ec",
+        "instruction": "10008d8ec:\tb7 e2 02 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008d944:\tbb 03 1a f8\tstur\tx27, [x29, #-0x60]",
+          "10008d948:\te0 0d 8e d2\tmov\tx0, #0x706f",
+          "10008d94c:\ta0 cc ad f2\tmovk\tx0, #0x6e65, lsl #16",
+          "10008d950:\te0 6b ce f2\tmovk\tx0, #0x735f, lsl #32",
+          "10008d954:\t80 ee ed f2\tmovk\tx0, #0x6f74, lsl #48",
+          "10008d958:\tb4 03 02 d1\tsub\tx20, x29, #0x80",
+          "10008d95c:\ta8 83 56 f8\tldur\tx8, [x29, #-0x98]",
+          "10008d960:\t41 ae 8c d2\tmov\tx1, #0x6572",
+          "10008d964:\t01 40 fd f2\tmovk\tx1, #0xea00, lsl #48",
+          "10008d968:\t62 08 00 90\tadrp\tx2, 268 ; 0x100199000",
+          "10008d96c:\t42 80 31 91\tadd\tx2, x2, #0xc60",
+          "10008d970:\ta3 83 55 f8\tldur\tx3, [x29, #-0xa8]"
+        ],
+        "address": "0x10008d974",
+        "instruction": "10008d974:\t47 e2 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(DeveloperToolsSupport.ImageResource) -> SwiftUI.Image",
+        "context": [
+          "10008d9f8:\te0 03 15 aa\tmov\tx0, x21",
+          "10008d9fc:\t32 01 ff 97\tbl\t0x10004dec4",
+          "10008da00:\te1 03 00 aa\tmov\tx1, x0",
+          "10008da04:\ta8 83 01 d1\tsub\tx8, x29, #0x60",
+          "10008da08:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]",
+          "10008da0c:\t08 09 40 f9\tldr\tx8, [x8, #0x10]",
+          "10008da10:\ta9 a3 01 d1\tsub\tx9, x29, #0x68",
+          "10008da14:\t36 01 50 f8\tldur\tx22, [x9, #-0x100]",
+          "10008da18:\te0 03 16 aa\tmov\tx0, x22",
+          "10008da1c:\te2 03 15 aa\tmov\tx2, x21",
+          "10008da20:\t00 01 3f d6\tblr\tx8",
+          "10008da24:\te0 03 16 aa\tmov\tx0, x22"
+        ],
+        "address": "0x10008da28",
+        "instruction": "10008da28:\t7d e2 02 94\tbl\t0x10014641c ; symbol stub for: _$s7SwiftUI5ImageVyAC21DeveloperToolsSupport0C8ResourceVcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008da8c:\te0 0d 8e d2\tmov\tx0, #0x706f",
+          "10008da90:\ta0 cc ad f2\tmovk\tx0, #0x6e65, lsl #16",
+          "10008da94:\te0 6b ce f2\tmovk\tx0, #0x735f, lsl #32",
+          "10008da98:\ta0 8c ed f2\tmovk\tx0, #0x6c65, lsl #48",
+          "10008da9c:\tc1 ec 8b d2\tmov\tx1, #0x5f66",
+          "10008daa0:\ta1 2d ac f2\tmovk\tx1, #0x616d, lsl #16",
+          "10008daa4:\t81 ac cc f2\tmovk\tx1, #0x6564, lsl #32",
+          "10008daa8:\t01 c0 fd f2\tmovk\tx1, #0xee00, lsl #48",
+          "10008daac:\tb4 03 02 d1\tsub\tx20, x29, #0x80",
+          "10008dab0:\ta8 03 57 f8\tldur\tx8, [x29, #-0x90]",
+          "10008dab4:\tbc 83 55 f8\tldur\tx28, [x29, #-0xa8]",
+          "10008dab8:\te3 03 1c aa\tmov\tx3, x28"
+        ],
+        "address": "0x10008dabc",
+        "instruction": "10008dabc:\tf5 e1 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "string",
+        "value": "\"waveform.path.ecg\"",
+        "address": "0x10008db20",
+        "instruction": "10008db20:\t08 01 1f 91\tadd\tx8, x8, #0x7c0 ; literal pool for: \"waveform.path.ecg\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "10008db04:\t2f d2 fd 97\tbl\t0x1000023c0",
+          "10008db08:\te0 03 13 aa\tmov\tx0, x19",
+          "10008db0c:\t21 00 80 52\tmov\tw1, #0x1",
+          "10008db10:\t98 33 01 94\tbl\t0x1000da970",
+          "10008db14:\tf4 03 00 aa\tmov\tx20, x0",
+          "10008db18:\tf3 03 01 aa\tmov\tx19, x1",
+          "10008db1c:\t48 07 00 d0\tadrp\tx8, 234 ; 0x100177000",
+          "10008db20:\t08 01 1f 91\tadd\tx8, x8, #0x7c0 ; literal pool for: \"waveform.path.ecg\"",
+          "10008db24:\t08 81 00 d1\tsub\tx8, x8, #0x20",
+          "10008db28:\t01 01 41 b2\torr\tx1, x8, #0x8000000000000000",
+          "10008db2c:\t20 02 80 d2\tmov\tx0, #0x11",
+          "10008db30:\t00 00 fa f2\tmovk\tx0, #0xd000, lsl #48"
+        ],
+        "argumentBits": [
+          "0xd000000000000011",
+          "0x80000001001777a0"
+        ],
+        "systemName": "waveform.path.ecg",
+        "address": "0x10008db34",
+        "instruction": "10008db34:\t25 e2 02 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      },
+      {
+        "kind": "string",
+        "value": "\"open_activity_monitor\"",
+        "address": "0x10008db8c",
+        "instruction": "10008db8c:\t08 81 1f 91\tadd\tx8, x8, #0x7e0 ; literal pool for: \"open_activity_monitor\""
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008db88:\t48 07 00 d0\tadrp\tx8, 234 ; 0x100177000",
+          "10008db8c:\t08 81 1f 91\tadd\tx8, x8, #0x7e0 ; literal pool for: \"open_activity_monitor\"",
+          "10008db90:\t08 81 00 d1\tsub\tx8, x8, #0x20",
+          "10008db94:\t29 02 80 d2\tmov\tx9, #0x11",
+          "10008db98:\t09 00 fa f2\tmovk\tx9, #0xd000, lsl #48",
+          "10008db9c:\t20 01 7e b2\torr\tx0, x9, #0x4",
+          "10008dba0:\t01 01 41 b2\torr\tx1, x8, #0x8000000000000000",
+          "10008dba4:\tb4 03 02 d1\tsub\tx20, x29, #0x80",
+          "10008dba8:\ta8 83 53 f8\tldur\tx8, [x29, #-0xc8]",
+          "10008dbac:\t62 08 00 90\tadrp\tx2, 268 ; 0x100199000",
+          "10008dbb0:\t42 80 31 91\tadd\tx2, x2, #0xc60",
+          "10008dbb4:\te3 03 1c aa\tmov\tx3, x28"
+        ],
+        "address": "0x10008dbb8",
+        "instruction": "10008dbb8:\tb6 e1 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af4d8",
+        "address": "0x10008dc08",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "02016c040079022369040002ce6b040047",
+        "instruction": "10008dc08:\te6 d0 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.SettingsLink.init(label: () -> A) -> SwiftUI.SettingsLink<A>",
+        "context": [
+          "10008dc18:\t22 08 00 90\tadrp\tx2, 260 ; 0x100191000",
+          "10008dc1c:\t42 e8 46 f9\tldr\tx2, [x2, #0xdd0] ; literal pool symbol address: _$s7SwiftUI5LabelVyxq_GAA4ViewAAMc",
+          "10008dc20:\te1 03 14 aa\tmov\tx1, x20",
+          "10008dc24:\t72 e0 fd 97\tbl\t0x100005dec",
+          "10008dc28:\te3 03 00 aa\tmov\tx3, x0",
+          "10008dc2c:\t00 00 00 d0\tadrp\tx0, 2 ; 0x10008f000",
+          "10008dc30:\t00 a0 2c 91\tadd\tx0, x0, #0xb28",
+          "10008dc34:\ta8 43 01 d1\tsub\tx8, x29, #0x50",
+          "10008dc38:\t14 01 50 f8\tldur\tx20, [x8, #-0x100]",
+          "10008dc3c:\te8 03 14 aa\tmov\tx8, x20",
+          "10008dc40:\te1 03 13 aa\tmov\tx1, x19",
+          "10008dc44:\te2 03 19 aa\tmov\tx2, x25"
+        ],
+        "address": "0x10008dc48",
+        "instruction": "10008dc48:\t97 df 02 94\tbl\t0x100145aa4 ; symbol stub for: _$s7SwiftUI12SettingsLinkV5labelACyxGxyXE_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some",
+        "context": [
+          "10008dcb8:\t76 08 00 b0\tadrp\tx22, 269 ; 0x10019a000",
+          "10008dcbc:\td6 22 07 91\tadd\tx22, x22, #0x1c8",
+          "10008dcc0:\ta0 03 02 d1\tsub\tx0, x29, #0x80",
+          "10008dcc4:\ta8 03 01 d1\tsub\tx8, x29, #0x40",
+          "10008dcc8:\t1c 01 50 f8\tldur\tx28, [x8, #-0x100]",
+          "10008dccc:\te8 03 1c aa\tmov\tx8, x28",
+          "10008dcd0:\ta9 e3 00 d1\tsub\tx9, x29, #0x38",
+          "10008dcd4:\t3a 01 50 f8\tldur\tx26, [x9, #-0x100]",
+          "10008dcd8:\te1 03 1a aa\tmov\tx1, x26",
+          "10008dcdc:\te2 03 16 aa\tmov\tx2, x22",
+          "10008dce0:\te3 03 19 aa\tmov\tx3, x25",
+          "10008dce4:\te4 03 1b aa\tmov\tx4, x27"
+        ],
+        "address": "0x10008dce8",
+        "instruction": "10008dce8:\t43 e1 02 94\tbl\t0x1001461f4 ; symbol stub for: _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lF"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008dd34:\te0 6b ce f2\tmovk\tx0, #0x735f, lsl #32",
+          "10008dd38:\ta0 8c ee f2\tmovk\tx0, #0x7465, lsl #48",
+          "10008dd3c:\t81 2e 8d d2\tmov\tx1, #0x6974",
+          "10008dd40:\tc1 ed ac f2\tmovk\tx1, #0x676e, lsl #16",
+          "10008dd44:\t61 0e c0 f2\tmovk\tx1, #0x73, lsl #32",
+          "10008dd48:\t01 a0 fd f2\tmovk\tx1, #0xed00, lsl #48",
+          "10008dd4c:\tba 03 51 f8\tldur\tx26, [x29, #-0xf0]",
+          "10008dd50:\te8 03 1a aa\tmov\tx8, x26",
+          "10008dd54:\ta9 a3 00 d1\tsub\tx9, x29, #0x28",
+          "10008dd58:\t33 01 50 f8\tldur\tx19, [x9, #-0x100]",
+          "10008dd5c:\te2 03 13 aa\tmov\tx2, x19",
+          "10008dd60:\tf4 03 1c aa\tmov\tx20, x28"
+        ],
+        "address": "0x10008dd64",
+        "instruction": "10008dd64:\t4b e1 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "10008dda0:\te1 03 17 aa\tmov\tx1, x23",
+          "10008dda4:\t87 d1 fd 97\tbl\t0x1000023c0",
+          "10008dda8:\te0 03 13 aa\tmov\tx0, x19",
+          "10008ddac:\te1 01 80 52\tmov\tw1, #0xf",
+          "10008ddb0:\tf0 32 01 94\tbl\t0x1000da970",
+          "10008ddb4:\tf4 03 00 aa\tmov\tx20, x0",
+          "10008ddb8:\tf3 03 01 aa\tmov\tx19, x1",
+          "10008ddbc:\ta0 8c 8d d2\tmov\tx0, #0x6c65",
+          "10008ddc0:\t80 2d ad f2\tmovk\tx0, #0x696c, lsl #16",
+          "10008ddc4:\t00 6e ce f2\tmovk\tx0, #0x7370, lsl #32",
+          "10008ddc8:\t20 6d ee f2\tmovk\tx0, #0x7369, lsl #48",
+          "10008ddcc:\t01 00 fd d2\tmov\tx1, #-0x1800000000000000"
+        ],
+        "argumentBits": [
+          "0x73697370696c6c65",
+          "0xe800000000000000"
+        ],
+        "systemName": "ellipsis",
+        "address": "0x10008ddd0",
+        "instruction": "10008ddd0:\t7e e1 02 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "10008de28:\ta0 cc ad f2\tmovk\tx0, #0x6e65, lsl #16",
+          "10008de2c:\te0 ab cd f2\tmovk\tx0, #0x6d5f, lsl #32",
+          "10008de30:\te0 4d ee f2\tmovk\tx0, #0x726f, lsl #48",
+          "10008de34:\tb4 03 02 d1\tsub\tx20, x29, #0x80",
+          "10008de38:\ta8 83 00 d1\tsub\tx8, x29, #0x20",
+          "10008de3c:\t1c 01 50 f8\tldur\tx28, [x8, #-0x100]",
+          "10008de40:\te8 03 1c aa\tmov\tx8, x28",
+          "10008de44:\ta1 0c 80 d2\tmov\tx1, #0x65",
+          "10008de48:\t01 20 fd f2\tmovk\tx1, #0xe900, lsl #48",
+          "10008de4c:\t62 08 00 90\tadrp\tx2, 268 ; 0x100199000",
+          "10008de50:\t42 80 31 91\tadd\tx2, x2, #0xc60",
+          "10008de54:\ta3 83 55 f8\tldur\tx3, [x29, #-0xa8]"
+        ],
+        "address": "0x10008de58",
+        "instruction": "10008de58:\t0e e1 02 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af518",
+        "address": "0x10008def8",
+        "length": 68,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3dAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_ACGADt",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 46,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 54,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          }
+        ],
+        "rawHex": "02776204007902f15004000274670400475f413364417902486904007902826004007902cc6b04007902ee68040002996b040047475f02b1500400516f5f414347414474",
+        "instruction": "10008def8:\t2a d0 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10008e034",
+    "size": 152,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e0cc",
+    "size": 168,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d00",
+      "0x100085598",
+      "0x100147ce8",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e174",
+    "size": 128,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e1f4",
+    "size": 132,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e278",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e2c0",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e300",
+    "size": 196,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e3c4",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_allocObject",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e480",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e508",
+    "size": 140,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e594",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e5dc",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e61c",
+    "size": 60,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_task_dealloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e658",
+    "size": 196,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e71c",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_allocObject",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008f8a8",
+      "0x1001479e8",
+      "0x10008f8f0",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e7d8",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e860",
+    "size": 140,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e8ec",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e934",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008e974",
+    "size": 224,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI16OpenWindowActionVMa",
+      "_$s7SwiftUI16OpenWindowActionV14callAsFunction2id5valueySS_xtSeRzSERzSHRzlF"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100145c6c",
+      "0x10008d048",
+      "0x100085cd4",
+      "0x100145c60"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.OpenWindowAction",
+        "context": [
+          "10008e974:\tfa 67 bb a9\tstp\tx26, x25, [sp, #-0x50]!",
+          "10008e978:\tf8 5f 01 a9\tstp\tx24, x23, [sp, #0x10]",
+          "10008e97c:\tf6 57 02 a9\tstp\tx22, x21, [sp, #0x20]",
+          "10008e980:\tf4 4f 03 a9\tstp\tx20, x19, [sp, #0x30]",
+          "10008e984:\tfd 7b 04 a9\tstp\tx29, x30, [sp, #0x40]",
+          "10008e988:\tfd 03 01 91\tadd\tx29, sp, #0x40",
+          "10008e98c:\tff 43 00 d1\tsub\tsp, sp, #0x10",
+          "10008e990:\tf3 03 03 aa\tmov\tx19, x3",
+          "10008e994:\tf5 03 02 aa\tmov\tx21, x2",
+          "10008e998:\tf6 03 01 aa\tmov\tx22, x1",
+          "10008e99c:\tf7 03 00 aa\tmov\tx23, x0",
+          "10008e9a0:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x10008e9a4",
+        "instruction": "10008e9a4:\tb2 dc 02 94\tbl\t0x100145c6c ; symbol stub for: _$s7SwiftUI16OpenWindowActionVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.OpenWindowAction.callAsFunction<A where A: Swift.Decodable, A: Swift.Encodable, A: Swift.Hashable>(id: Swift.String, value: A) -> ()",
+        "context": [
+          "10008e9f4:\t23 08 00 90\tadrp\tx3, 260 ; 0x100192000",
+          "10008e9f8:\t63 b8 42 f9\tldr\tx3, [x3, #0x570] ; literal pool symbol address: _$sSiN",
+          "10008e9fc:\t24 08 00 90\tadrp\tx4, 260 ; 0x100192000",
+          "10008ea00:\t84 cc 42 f9\tldr\tx4, [x4, #0x598] ; literal pool symbol address: _$sSiSesWP",
+          "10008ea04:\t25 08 00 90\tadrp\tx5, 260 ; 0x100192000",
+          "10008ea08:\ta5 bc 42 f9\tldr\tx5, [x5, #0x578] ; literal pool symbol address: _$sSiSEsWP",
+          "10008ea0c:\t26 08 00 90\tadrp\tx6, 260 ; 0x100192000",
+          "10008ea10:\tc6 c0 42 f9\tldr\tx6, [x6, #0x580] ; literal pool symbol address: _$sSiSHsWP",
+          "10008ea14:\ta2 23 01 d1\tsub\tx2, x29, #0x48",
+          "10008ea18:\te0 03 17 aa\tmov\tx0, x23",
+          "10008ea1c:\te1 03 16 aa\tmov\tx1, x22",
+          "10008ea20:\tf4 03 19 aa\tmov\tx20, x25"
+        ],
+        "address": "0x10008ea24",
+        "instruction": "10008ea24:\t8f dc 02 94\tbl\t0x100145c60 ; symbol stub for: _$s7SwiftUI16OpenWindowActionV14callAsFunction2id5valueySS_xtSeRzSERzSHRzlF"
+      }
+    ]
+  },
+  {
+    "address": "0x10008ea54",
+    "size": 152,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008eaec",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008eb68",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ebe0",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ec58",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008eca0",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ecd8",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ed08",
+    "size": 268,
+    "name": "",
+    "strings": [
+      "\"UserInterface/MainMenusView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146428",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/MainMenusView.swift\"",
+        "address": "0x10008ed7c",
+        "instruction": "10008ed7c:\t00 40 1e 91\tadd\tx0, x0, #0x790 ; literal pool for: \"UserInterface/MainMenusView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>",
+        "context": [
+          "10008edc0:\t02 00 00 90\tadrp\tx2, 0 ; 0x10008e000",
+          "10008edc4:\t42 00 3d 91\tadd\tx2, x2, #0xf40",
+          "10008edc8:\t04 08 00 f0\tadrp\tx4, 259 ; 0x100191000",
+          "10008edcc:\t84 7c 45 f9\tldr\tx4, [x4, #0xaf8] ; literal pool symbol address: _$s7SwiftUI4TextVN",
+          "10008edd0:\t05 08 00 f0\tadrp\tx5, 259 ; 0x100191000",
+          "10008edd4:\ta5 d4 46 f9\tldr\tx5, [x5, #0xda8] ; literal pool symbol address: _$s7SwiftUI5ImageVN",
+          "10008edd8:\t06 08 00 f0\tadrp\tx6, 259 ; 0x100191000",
+          "10008eddc:\tc6 74 45 f9\tldr\tx6, [x6, #0xae8] ; literal pool symbol address: _$s7SwiftUI4TextVAA4ViewAAWP",
+          "10008ede0:\t07 08 00 f0\tadrp\tx7, 259 ; 0x100191000",
+          "10008ede4:\te7 cc 46 f9\tldr\tx7, [x7, #0xd98] ; literal pool symbol address: _$s7SwiftUI5ImageVAA4ViewAAWP",
+          "10008ede8:\te8 03 13 aa\tmov\tx8, x19",
+          "10008edec:\t03 00 80 d2\tmov\tx3, #0x0"
+        ],
+        "address": "0x10008edf0",
+        "instruction": "10008edf0:\t8e dd 02 94\tbl\t0x100146428 ; symbol stub for: _$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x10008ee14",
+    "size": 300,
+    "name": "",
+    "strings": [
+      "\"UserInterface/MainMenusView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI4TextVyACxcSyRzlufC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000da970",
+      "0x100085980",
+      "0x1001461b8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/MainMenusView.swift\"",
+        "address": "0x10008ee8c",
+        "instruction": "10008ee8c:\t00 40 1e 91\tadd\tx0, x0, #0x790 ; literal pool for: \"UserInterface/MainMenusView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Text.init<A where A: Swift.StringProtocol>(A) -> SwiftUI.Text",
+        "context": [
+          "10008eecc:\te0 03 16 aa\tmov\tx0, x22",
+          "10008eed0:\te1 03 15 aa\tmov\tx1, x21",
+          "10008eed4:\t3b cd fd 97\tbl\t0x1000023c0",
+          "10008eed8:\te0 03 17 aa\tmov\tx0, x23",
+          "10008eedc:\t61 02 80 52\tmov\tw1, #0x13",
+          "10008eee0:\ta4 2e 01 94\tbl\t0x1000da970",
+          "10008eee4:\te0 07 00 a9\tstp\tx0, x1, [sp]",
+          "10008eee8:\ta6 da ff 97\tbl\t0x100085980",
+          "10008eeec:\te2 03 00 aa\tmov\tx2, x0",
+          "10008eef0:\t21 08 00 90\tadrp\tx1, 260 ; 0x100192000",
+          "10008eef4:\t21 a8 41 f9\tldr\tx1, [x1, #0x350] ; literal pool symbol address: _$sSSN",
+          "10008eef8:\te0 03 00 91\tmov\tx0, sp"
+        ],
+        "address": "0x10008eefc",
+        "instruction": "10008eefc:\taf dc 02 94\tbl\t0x1001461b8 ; symbol stub for: _$s7SwiftUI4TextVyACxcSyRzlufC"
+      }
+    ]
+  },
+  {
+    "address": "0x10008ef40",
+    "size": 344,
+    "name": "",
+    "strings": [
+      "\"UserInterface/MainMenusView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5ImageV12ResizingModeOMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001463d4",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1001463c8",
+      "0x100146404",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.ResizingMode",
+        "context": [
+          "10008ef40:\tfa 67 bb a9\tstp\tx26, x25, [sp, #-0x50]!",
+          "10008ef44:\tf8 5f 01 a9\tstp\tx24, x23, [sp, #0x10]",
+          "10008ef48:\tf6 57 02 a9\tstp\tx22, x21, [sp, #0x20]",
+          "10008ef4c:\tf4 4f 03 a9\tstp\tx20, x19, [sp, #0x30]",
+          "10008ef50:\tfd 7b 04 a9\tstp\tx29, x30, [sp, #0x40]",
+          "10008ef54:\tfd 03 01 91\tadd\tx29, sp, #0x40",
+          "10008ef58:\tf3 03 08 aa\tmov\tx19, x8",
+          "10008ef5c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x10008ef60",
+        "instruction": "10008ef60:\t1d dd 02 94\tbl\t0x1001463d4 ; symbol stub for: _$s7SwiftUI5ImageV12ResizingModeOMa"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/MainMenusView.swift\"",
+        "address": "0x10008efec",
+        "instruction": "10008efec:\t00 40 1e 91\tadd\tx0, x0, #0x790 ; literal pool for: \"UserInterface/MainMenusView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "10008efe4:\t20 01 00 37\ttbnz\tw0, #0x0, 0x10008f008",
+          "10008efe8:\t40 07 00 b0\tadrp\tx0, 233 ; 0x100177000",
+          "10008efec:\t00 40 1e 91\tadd\tx0, x0, #0x790 ; literal pool for: \"UserInterface/MainMenusView.swift\"",
+          "10008eff0:\t21 04 80 52\tmov\tw1, #0x21",
+          "10008eff4:\t22 00 80 52\tmov\tw2, #0x1",
+          "10008eff8:\t83 05 80 52\tmov\tw3, #0x2c",
+          "10008effc:\te4 03 17 aa\tmov\tx4, x23",
+          "10008f000:\te5 03 18 aa\tmov\tx5, x24",
+          "10008f004:\t69 e3 02 94\tbl\t0x100147da8 ; symbol stub for: _swift_task_reportUnexpectedExecutor",
+          "10008f008:\te0 ac 8c 52\tmov\tw0, #0x6567",
+          "10008f00c:\t20 4c ae 72\tmovk\tw0, #0x7261, lsl #16",
+          "10008f010:\t01 80 fc d2\tmov\tx1, #-0x1c00000000000000"
+        ],
+        "argumentBits": [
+          "0x72616567",
+          "0xe400000000000000"
+        ],
+        "systemName": "gear",
+        "address": "0x10008f014",
+        "instruction": "10008f014:\ted dc 02 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image",
+        "context": [
+          "10008f020:\t08 a9 46 f9\tldr\tx8, [x8, #0xd50] ; literal pool symbol address: _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC",
+          "10008f024:\t01 01 40 b9\tldr\tw1, [x8]",
+          "10008f028:\t28 37 40 f9\tldr\tx8, [x25, #0x68]",
+          "10008f02c:\te0 03 16 aa\tmov\tx0, x22",
+          "10008f030:\te2 03 15 aa\tmov\tx2, x21",
+          "10008f034:\t00 01 3f d6\tblr\tx8",
+          "10008f038:\t00 e4 00 2f\tmovi\td0, #0000000000000000",
+          "10008f03c:\t01 e4 00 2f\tmovi\td1, #0000000000000000",
+          "10008f040:\t02 e4 00 2f\tmovi\td2, #0000000000000000",
+          "10008f044:\t03 e4 00 2f\tmovi\td3, #0000000000000000",
+          "10008f048:\te0 03 16 aa\tmov\tx0, x22",
+          "10008f04c:\te1 03 17 aa\tmov\tx1, x23"
+        ],
+        "address": "0x10008f050",
+        "instruction": "10008f050:\ted dc 02 94\tbl\t0x100146404 ; symbol stub for: _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF"
+      }
+    ]
+  },
+  {
+    "address": "0x10008f098",
+    "size": 152,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f130",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f1ac",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f224",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f29c",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f2e4",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f31c",
+    "size": 152,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f3b4",
+    "size": 168,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d00",
+      "0x100085598",
+      "0x100147ce8",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f45c",
+    "size": 128,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f4dc",
+    "size": 132,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f560",
+    "size": 152,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f5f8",
+    "size": 160,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sSS10describingSSx_tclufC",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100001fa0",
+      "0x1001469bc",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af470",
+        "address": "0x10008f63c",
+        "length": 6,
+        "resolvedNotation": "⟦UserInterface.MainMenusView⟧m",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 1,
+            "target": "0x100163928",
+            "name": "UserInterface.MainMenusView"
+          }
+        ],
+        "rawHex": "01f18701006d",
+        "instruction": "10008f63c:\t59 ca fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10008f698",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f720",
+    "size": 132,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f7a4",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f7ec",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f82c",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f85c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008f860",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008f864",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008f868",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f8a8",
+    "size": 68,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f8ec",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008f8f0",
+    "size": 68,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f934",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f998",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008f9fc",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fa60",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fac4",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fb28",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fb30",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fb94",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fbd4",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fc38",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af490",
+        "address": "0x10008fc54",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "029b620400790215510400029867040047",
+        "instruction": "10008fc54:\td3 c8 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10008fc80",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af488",
+        "address": "0x10008fc9c",
+        "length": 51,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_⟦SwiftUI.AccessibilityAttachmentModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 37,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          },
+          {
+            "offset": 45,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "02cf6204007902b16904007902eb6004007902356c040079025769040002026c040047475f021a510400516f5f02aa67040047",
+        "instruction": "10008fc9c:\tc1 c8 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10008fcc8",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fcd0",
+    "size": 208,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getEnumCaseMultiPayload",
+      "_$s7SwiftUI16OpenWindowActionVMa",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x1000023c0",
+      "0x100001fa0",
+      "0x100147b5c",
+      "0x100145c6c",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af028",
+        "address": "0x10008fd24",
+        "length": 13,
+        "resolvedNotation": "⟦SwiftUI.Environment.Content⟧y⟦SwiftUI.OpenWindowAction⟧_G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001911a8",
+            "name": "SwiftUI.Environment.Content"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001914b8",
+            "name": "SwiftUI.OpenWindowAction"
+          }
+        ],
+        "rawHex": "02816b040079028b6e04005f47",
+        "instruction": "10008fd24:\t9f c8 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.OpenWindowAction",
+        "context": [
+          "10008fd10:\t01 23 40 39\tldrb\tw1, [x24, #0x8]",
+          "10008fd14:\tab c9 fd 97\tbl\t0x1000023c0",
+          "10008fd18:\t79 16 80 b9\tldrsw\tx25, [x19, #0x14]",
+          "10008fd1c:\t00 09 00 90\tadrp\tx0, 288 ; 0x1001af000",
+          "10008fd20:\t00 a0 00 91\tadd\tx0, x0, #0x28",
+          "10008fd24:\t9f c8 fd 97\tbl\t0x100001fa0",
+          "10008fd28:\te1 03 00 aa\tmov\tx1, x0",
+          "10008fd2c:\t00 03 19 8b\tadd\tx0, x24, x25",
+          "10008fd30:\t8b df 02 94\tbl\t0x100147b5c ; symbol stub for: _swift_getEnumCaseMultiPayload",
+          "10008fd34:\t1f 04 00 71\tcmp\tw0, #0x1",
+          "10008fd38:\t21 01 00 54\tb.ne\t0x10008fd5c",
+          "10008fd3c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x10008fd40",
+        "instruction": "10008fd40:\tcb d7 02 94\tbl\t0x100145c6c ; symbol stub for: _$s7SwiftUI16OpenWindowActionVMa"
+      }
+    ]
+  },
+  {
+    "address": "0x10008fda0",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fda4",
+    "size": 88,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x10008d048",
+      "0x10008e974"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008fdfc",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fe00",
+    "size": 228,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2",
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100002418",
+      "0x100005dec",
+      "0x10008f868",
+      "0x100147bf8",
+      "0x100005860",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af468",
+        "address": "0x10008fe2c",
+        "length": 106,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧yAAy⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3fAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AEGAFtGG_⟦UserInterface.MediumButtonStyle⟧Qo_⟦SwiftUI._TaskModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 44,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 75,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          },
+          {
+            "offset": 92,
+            "opcode": 2,
+            "target": "0x100190260",
+            "name": "UserInterface.MediumButtonStyle"
+          },
+          {
+            "offset": 100,
+            "opcode": 2,
+            "target": "0x100191308",
+            "name": "SwiftUI._TaskModifier"
+          }
+        ],
+        "rawHex": "029964040079028b6b04007902356f040079022f7104007941417902fe5204000281690400475f413366417902556b040079028f6204007902d96d04007902fb6a040002a66d040047475f02be520400516f5f41454741467447475f024d520400516f5f02ed62040047",
+        "instruction": "10008fe2c:\t7b c9 fd 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af430",
+        "address": "0x10008fe40",
+        "length": 82,
+        "resolvedNotation": "⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧y⟦UserInterface.ResizableImageButton⟧⟦SwiftUI.AccessibilityAttachmentModifier⟧G_A3fCy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.SettingsLink⟧y⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GG_⟦UserInterface.PreActionButtonStyle⟧Qo_AEGAFtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100191b38",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191278",
+            "name": "SwiftUI.SettingsLink"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 58,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 66,
+            "opcode": 2,
+            "target": "0x1001902c0",
+            "name": "UserInterface.PreActionButtonStyle"
+          }
+        ],
+        "rawHex": "02d56e04007902cf70040079022164040079029b520400021e690400475f413366437902f26a040079022c6204007902766d04007902986a040002436d040047475f025b520400516f5f4145474146744747",
+        "instruction": "10008fe40:\t76 c9 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10008fee4",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fee8",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008feec",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fef0",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fef4",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fef8",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008fefc",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008ff00",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008ff04",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008ff08",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008ff0c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008ff10",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a48",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ff40",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRetain",
+      "_swift_retain",
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a60",
+      "0x100147d00",
+      "0x100147d00"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008ff9c",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090018",
+    "size": 20,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009002c",
+    "size": 84,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090080",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000900c8",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090110",
+    "size": 16,
+    "name": "UserInterface.ResizableImageButton.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090120",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

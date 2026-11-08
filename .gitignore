@@ -1,0 +1,10 @@
+.DS_Store
+# SwiftPM and Xcode build / per-user state
+.build/
+build/
+DerivedData/
+*.xcresult/
+*.xcarchive/
+*.xcuserstate
+xcuserdata/
+.swiftpm/

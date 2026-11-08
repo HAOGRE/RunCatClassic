@@ -1,0 +1,1535 @@
+[
+  {
+    "address": "0x1000c0c0c",
+    "size": 1164,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScPMa",
+      "_$s7SwiftUI17VerticalAlignmentV3topACvgZ",
+      "_$s7SwiftUI4EdgeO3SetV3allAEvgZ",
+      "_$s7SwiftUI11StateObjectV14projectedValueAA08ObservedD0V7WrapperVyx_Gvg",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI14ObservedObjectV7WrapperV13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig",
+      "_swift_release",
+      "_swift_release",
+      "_$s7SwiftUI11StateObjectV12wrappedValuexvg",
+      "_swift_release",
+      "_$s7SwiftUI4ViewPAAE5alert11isPresented5error7actions7messageQrAA7BindingVySbG_qd__Sgqd_0_qd__XEqd_1_qd__XEt10Foundation14LocalizedErrorRd__AaBRd_0_AaBRd_1_r1_lF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_allocObject",
+      "_$sScP13userInitiatedScPvgZ",
+      "_$s7SwiftUI13_TaskModifierVMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146d04",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100145dbc",
+      "0x100001fa0",
+      "0x1000c1098",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x10014608c",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100032f70",
+      "0x100005860",
+      "0x100145a14",
+      "0x100147bbc",
+      "0x100145b34",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100145a08",
+      "0x100033144",
+      "0x100147ce8",
+      "0x100095148",
+      "0x1000ab1a8",
+      "0x10014629c",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100005be8",
+      "0x1000097f0",
+      "0x1001479e8",
+      "0x100087c54",
+      "0x10008a2f4",
+      "0x100146cec",
+      "0x100001fa0",
+      "0x100145aec"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cb0",
+        "address": "0x1000c0c80",
+        "length": 31,
+        "resolvedNotation": "⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          }
+        ],
+        "rawHex": "024d0f04007902bf1104007902b9f303005f023b100400027ef30300744747",
+        "instruction": "1000c0c80:\tc8 04 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cb8",
+        "address": "0x1000c0cbc",
+        "length": 43,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 37,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          }
+        ],
+        "rawHex": "02fd0404007902270f0400790299110400790293f303005f02151004000258f3030074474702c005040047",
+        "instruction": "1000c0cbc:\tb9 04 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cc0",
+        "address": "0x1000c0cf8",
+        "length": 52,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G⟦SwiftUI._PaddingLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 40,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          },
+          {
+            "offset": 46,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          }
+        ],
+        "rawHex": "02d10404007941417902f80e040079026a110400790264f303005f02e60f04000229f30300744747029105040047021304040047",
+        "instruction": "1000c0cf8:\taa 04 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cc8",
+        "address": "0x1000c0d38",
+        "length": 101,
+        "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>⟧y⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G⟦SwiftUI._PaddingLayout⟧G_⟦DataSource.RunCatError⟧⟦SwiftUI.EmptyView⟧AnM⟦protocol descriptor for Foundation.LocalizedError⟧13UserInterfaceyHCg0_Qo_",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191c08",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 33,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 46,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          },
+          {
+            "offset": 52,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x100190038",
+            "name": "DataSource.RunCatError"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x100192088",
+            "name": "SwiftUI.EmptyView"
+          },
+          {
+            "offset": 72,
+            "opcode": 2,
+            "target": "0x1001907d8",
+            "name": "protocol descriptor for Foundation.LocalizedError"
+          }
+        ],
+        "rawHex": "02530c04007902950404007941417902bc0e040079022e110400790228f303005f02aa0f040002edf2030074474702550504004702d7030400475f0248f003000293100400416e4d02dbf70300313355736572496e7465726661636579484367305f516f5f",
+        "instruction": "1000c0d38:\t9a 04 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.VerticalAlignment.top.getter : SwiftUI.VerticalAlignment",
+        "context": [
+          "1000c0d40:\ta8 83 35 a9\tstp\tx8, x0, [x29, #-0xa8]",
+          "1000c0d44:\t08 21 40 f9\tldr\tx8, [x8, #0x40]",
+          "1000c0d48:\te9 03 08 aa\tmov\tx9, x8",
+          "1000c0d4c:\t90 06 00 90\tadrp\tx16, 208 ; 0x100190000",
+          "1000c0d50:\t10 0e 46 f9\tldr\tx16, [x16, #0xc18] ; literal pool symbol address: ___chkstk_darwin",
+          "1000c0d54:\t00 02 3f d6\tblr\tx16",
+          "1000c0d58:\te9 03 00 91\tmov\tx9, sp",
+          "1000c0d5c:\t08 3d 00 91\tadd\tx8, x8, #0xf",
+          "1000c0d60:\t08 ed 7c 92\tand\tx8, x8, #0xfffffffffffffff0",
+          "1000c0d64:\t28 01 08 cb\tsub\tx8, x9, x8",
+          "1000c0d68:\ta8 03 15 f8\tstur\tx8, [x29, #-0xb0]",
+          "1000c0d6c:\t1f 01 00 91\tmov\tsp, x8"
+        ],
+        "address": "0x1000c0d70",
+        "instruction": "1000c0d70:\t13 14 02 94\tbl\t0x100145dbc ; symbol stub for: _$s7SwiftUI17VerticalAlignmentV3topACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 16.0,
+        "register": "x8",
+        "bits": "0x4030000000000000",
+        "address": "0x1000c0d74",
+        "instruction": "1000c0d74:\t08 06 e8 d2\tmov\tx8, #0x4030000000000000"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cd0",
+        "address": "0x1000c0d88",
+        "length": 37,
+        "resolvedNotation": "⟦SwiftUI._VariadicView.Tree⟧y_⟦SwiftUI._HStackLayout⟧⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191318",
+            "name": "SwiftUI._VariadicView.Tree"
+          },
+          {
+            "offset": 7,
+            "opcode": 2,
+            "target": "0x1001912d8",
+            "name": "SwiftUI._HStackLayout"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          }
+        ],
+        "rawHex": "02fd020400795f02b602040002d11004007902cbf203005f024d0f04000290f20300744747",
+        "instruction": "1000c0d88:\t86 04 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Edge.Set.all.getter : SwiftUI.Edge.Set",
+        "context": [
+          "1000c0d94:\te0 03 17 aa\tmov\tx0, x23",
+          "1000c0d98:\tc0 00 00 94\tbl\t0x1000c1098",
+          "1000c0d9c:\te0 03 1a aa\tmov\tx0, x26",
+          "1000c0da0:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c0da4:\te2 03 14 aa\tmov\tx2, x20",
+          "1000c0da8:\te7 b6 fe 97\tbl\t0x10006e944",
+          "1000c0dac:\t08 27 80 b9\tldrsw\tx8, [x24, #0x24]",
+          "1000c0db0:\t29 20 80 52\tmov\tw9, #0x101",
+          "1000c0db4:\ta9 6a 28 78\tstrh\tw9, [x21, x8]",
+          "1000c0db8:\te0 03 1a aa\tmov\tx0, x26",
+          "1000c0dbc:\te1 03 14 aa\tmov\tx1, x20",
+          "1000c0dc0:\t8c 22 fd 97\tbl\t0x1000097f0"
+        ],
+        "address": "0x1000c0dc4",
+        "instruction": "1000c0dc4:\tb2 14 02 94\tbl\t0x10014608c ; symbol stub for: _$s7SwiftUI4EdgeO3SetV3allAEvgZ"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.StateObject.projectedValue.getter : SwiftUI.ObservedObject<A>.Wrapper",
+        "context": [
+          "1000c0e28:\t00 60 33 91\tadd\tx0, x0, #0xcd8",
+          "1000c0e2c:\te2 04 00 90\tadrp\tx2, 156 ; 0x10015c000",
+          "1000c0e30:\t42 80 29 91\tadd\tx2, x2, #0xa60",
+          "1000c0e34:\t8b 12 fd 97\tbl\t0x100005860",
+          "1000c0e38:\tf9 03 00 aa\tmov\tx25, x0",
+          "1000c0e3c:\te0 03 1c aa\tmov\tx0, x28",
+          "1000c0e40:\tbc 83 14 f8\tstur\tx28, [x29, #-0xb8]",
+          "1000c0e44:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c0e48:\te2 03 1a aa\tmov\tx2, x26",
+          "1000c0e4c:\tba 43 14 b8\tstur\tw26, [x29, #-0xbc]",
+          "1000c0e50:\te3 03 14 aa\tmov\tx3, x20",
+          "1000c0e54:\te4 03 19 aa\tmov\tx4, x25"
+        ],
+        "address": "0x1000c0e58",
+        "instruction": "1000c0e58:\tef 12 02 94\tbl\t0x100145a14 ; symbol stub for: _$s7SwiftUI11StateObjectV14projectedValueAA08ObservedD0V7WrapperVyx_Gvg"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.ObservedObject.Wrapper.subscript.getter : <A>(dynamicMember: Swift.ReferenceWritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>",
+        "context": [
+          "1000c0e4c:\tba 43 14 b8\tstur\tw26, [x29, #-0xbc]",
+          "1000c0e50:\te3 03 14 aa\tmov\tx3, x20",
+          "1000c0e54:\te4 03 19 aa\tmov\tx4, x25",
+          "1000c0e58:\tef 12 02 94\tbl\t0x100145a14 ; symbol stub for: _$s7SwiftUI11StateObjectV14projectedValueAA08ObservedD0V7WrapperVyx_Gvg",
+          "1000c0e5c:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000c0e60:\te0 04 00 90\tadrp\tx0, 156 ; 0x10015c000",
+          "1000c0e64:\t00 20 2c 91\tadd\tx0, x0, #0xb08",
+          "1000c0e68:\t55 1b 02 94\tbl\t0x100147bbc ; symbol stub for: _swift_getKeyPath",
+          "1000c0e6c:\tf6 03 00 aa\tmov\tx22, x0",
+          "1000c0e70:\ta8 a3 01 d1\tsub\tx8, x29, #0x68",
+          "1000c0e74:\te1 03 13 aa\tmov\tx1, x19",
+          "1000c0e78:\te2 03 19 aa\tmov\tx2, x25"
+        ],
+        "address": "0x1000c0e7c",
+        "instruction": "1000c0e7c:\t2e 13 02 94\tbl\t0x100145b34 ; symbol stub for: _$s7SwiftUI14ObservedObjectV7WrapperV13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.StateObject.wrappedValue.getter : A",
+        "context": [
+          "1000c0e7c:\t2e 13 02 94\tbl\t0x100145b34 ; symbol stub for: _$s7SwiftUI14ObservedObjectV7WrapperV13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig",
+          "1000c0e80:\te0 03 16 aa\tmov\tx0, x22",
+          "1000c0e84:\t99 1b 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000c0e88:\te0 03 13 aa\tmov\tx0, x19",
+          "1000c0e8c:\t97 1b 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000c0e90:\tb8 db 79 a9\tldp\tx24, x22, [x29, #-0x68]",
+          "1000c0e94:\tb3 83 5a 38\tldurb\tw19, [x29, #-0x58]",
+          "1000c0e98:\te0 03 1c aa\tmov\tx0, x28",
+          "1000c0e9c:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c0ea0:\te2 03 1a aa\tmov\tx2, x26",
+          "1000c0ea4:\te3 03 14 aa\tmov\tx3, x20",
+          "1000c0ea8:\te4 03 19 aa\tmov\tx4, x25"
+        ],
+        "address": "0x1000c0eac",
+        "instruction": "1000c0eac:\td7 12 02 94\tbl\t0x100145a08 ; symbol stub for: _$s7SwiftUI11StateObjectV12wrappedValuexvg"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some",
+        "context": [
+          "1000c0f34:\t84 30 10 91\tadd\tx4, x4, #0x40c",
+          "1000c0f38:\t06 00 00 b0\tadrp\tx6, 1 ; 0x1000c1000",
+          "1000c0f3c:\tc6 50 10 91\tadd\tx6, x6, #0x414",
+          "1000c0f40:\ta3 e3 01 d1\tsub\tx3, x29, #0x78",
+          "1000c0f44:\tba 03 55 f8\tldur\tx26, [x29, #-0xb0]",
+          "1000c0f48:\te8 03 1a aa\tmov\tx8, x26",
+          "1000c0f4c:\te0 03 18 aa\tmov\tx0, x24",
+          "1000c0f50:\te1 03 16 aa\tmov\tx1, x22",
+          "1000c0f54:\te2 03 13 aa\tmov\tx2, x19",
+          "1000c0f58:\t05 00 80 d2\tmov\tx5, #0x0",
+          "1000c0f5c:\t07 00 80 d2\tmov\tx7, #0x0",
+          "1000c0f60:\tf4 03 1b aa\tmov\tx20, x27"
+        ],
+        "address": "0x1000c0f64",
+        "instruction": "1000c0f64:\tce 14 02 94\tbl\t0x10014629c ; symbol stub for: _$s7SwiftUI4ViewPAAE5alert11isPresented5error7actions7messageQrAA7BindingVySbG_qd__Sgqd_0_qd__XEqd_1_qd__XEt10Foundation14LocalizedErrorRd__AaBRd_0_AaBRd_1_r1_lF"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0d08",
+        "address": "0x1000c0ffc",
+        "length": 110,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>⟧yAAyAAy⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G⟦SwiftUI._PaddingLayout⟧G_⟦DataSource.RunCatError⟧⟦SwiftUI.EmptyView⟧AnM⟦protocol descriptor for Foundation.LocalizedError⟧13UserInterfaceyHCg0_Qo_⟦SwiftUI._TaskModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191c08",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 30,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 36,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 49,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          },
+          {
+            "offset": 55,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x100190038",
+            "name": "DataSource.RunCatError"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100192088",
+            "name": "SwiftUI.EmptyView"
+          },
+          {
+            "offset": 75,
+            "opcode": 2,
+            "target": "0x1001907d8",
+            "name": "protocol descriptor for Foundation.LocalizedError"
+          },
+          {
+            "offset": 104,
+            "opcode": 2,
+            "target": "0x100191308",
+            "name": "SwiftUI._TaskModifier"
+          }
+        ],
+        "rawHex": "028d05040079023f0d04007941417941417902ab0f040079021d120400790217f403005f029910040002dcf3030074474702440604004702c6040400475f0237f103000282110400416e4d02caf80300313355736572496e7465726661636579484367305f516f5f02dd03040047",
+        "instruction": "1000c0ffc:\te9 03 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TaskModifier",
+        "context": [
+          "1000c0fe0:\ta2 43 54 b8\tldur\tw2, [x29, #-0xbc]",
+          "1000c0fe4:\tc4 24 ff 97\tbl\t0x10008a2f4",
+          "1000c0fe8:\tb8 83 56 f8\tldur\tx24, [x29, #-0x98]",
+          "1000c0fec:\te8 03 18 aa\tmov\tx8, x24",
+          "1000c0ff0:\t3f 17 02 94\tbl\t0x100146cec ; symbol stub for: _$sScP13userInitiatedScPvgZ",
+          "1000c0ff4:\t80 07 00 90\tadrp\tx0, 240 ; 0x1001b0000",
+          "1000c0ff8:\t00 20 34 91\tadd\tx0, x0, #0xd08",
+          "1000c0ffc:\te9 03 fd 97\tbl\t0x100001fa0",
+          "1000c1000:\t08 24 80 b9\tldrsw\tx8, [x0, #0x24]",
+          "1000c1004:\tb6 83 57 f8\tldur\tx22, [x29, #-0x88]",
+          "1000c1008:\td4 02 08 8b\tadd\tx20, x22, x8",
+          "1000c100c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000c1010",
+        "instruction": "1000c1010:\tb7 12 02 94\tbl\t0x100145aec ; symbol stub for: _$s7SwiftUI13_TaskModifierVMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c1098",
+    "size": 884,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SelfMadeRunnersView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI7DividerVMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI11StateObjectV12wrappedValuexvg",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC",
+      "_$s7SwiftUI7DividerVACycfC",
+      "_$s7SwiftUI11StateObjectV12wrappedValuexvg",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10014656c",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100032f70",
+      "0x100005860",
+      "0x100145a08",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147bbc",
+      "0x1000296bc",
+      "0x100146464",
+      "0x100146560",
+      "0x100145a08",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x10002b680",
+      "0x100146464",
+      "0x100001fa0",
+      "0x1000023b4",
+      "0x100147d00",
+      "0x100147d00",
+      "0x1000023b4",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Divider",
+        "context": [
+          "1000c1098:\tfc 6f ba a9\tstp\tx28, x27, [sp, #-0x60]!",
+          "1000c109c:\tfa 67 01 a9\tstp\tx26, x25, [sp, #0x10]",
+          "1000c10a0:\tf8 5f 02 a9\tstp\tx24, x23, [sp, #0x20]",
+          "1000c10a4:\tf6 57 03 a9\tstp\tx22, x21, [sp, #0x30]",
+          "1000c10a8:\tf4 4f 04 a9\tstp\tx20, x19, [sp, #0x40]",
+          "1000c10ac:\tfd 7b 05 a9\tstp\tx29, x30, [sp, #0x50]",
+          "1000c10b0:\tfd 43 01 91\tadd\tx29, sp, #0x50",
+          "1000c10b4:\tff 03 02 d1\tsub\tsp, sp, #0x80",
+          "1000c10b8:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000c10bc:\ta8 03 16 f8\tstur\tx8, [x29, #-0xa0]",
+          "1000c10c0:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000c10c4",
+        "instruction": "1000c10c4:\t2a 15 02 94\tbl\t0x10014656c ; symbol stub for: _$s7SwiftUI7DividerVMa"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SelfMadeRunnersView.swift\"",
+        "address": "0x1000c1178",
+        "instruction": "1000c1178:\t00 80 3a 91\tadd\tx0, x0, #0xea0 ; literal pool for: \"UserInterface/SelfMadeRunnersView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.StateObject.wrappedValue.getter : A",
+        "context": [
+          "1000c11ac:\t21 c0 3d 91\tadd\tx1, x1, #0xf70",
+          "1000c11b0:\t60 07 00 f0\tadrp\tx0, 239 ; 0x1001b0000",
+          "1000c11b4:\t00 60 33 91\tadd\tx0, x0, #0xcd8",
+          "1000c11b8:\tc2 04 00 f0\tadrp\tx2, 155 ; 0x10015c000",
+          "1000c11bc:\t42 80 29 91\tadd\tx2, x2, #0xa60",
+          "1000c11c0:\ta8 11 fd 97\tbl\t0x100005860",
+          "1000c11c4:\tf6 03 00 aa\tmov\tx22, x0",
+          "1000c11c8:\te0 03 14 aa\tmov\tx0, x20",
+          "1000c11cc:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c11d0:\te2 03 1b aa\tmov\tx2, x27",
+          "1000c11d4:\te3 03 1c aa\tmov\tx3, x28",
+          "1000c11d8:\te4 03 16 aa\tmov\tx4, x22"
+        ],
+        "address": "0x1000c11dc",
+        "instruction": "1000c11dc:\t0b 12 02 94\tbl\t0x100145a08 ; symbol stub for: _$s7SwiftUI11StateObjectV12wrappedValuexvg"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.State.init(wrappedValue: A) -> SwiftUI.State<A>",
+        "context": [
+          "1000c11f4:\tbd 1a 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000c11f8:\td3 04 00 f0\tadrp\tx19, 155 ; 0x10015c000",
+          "1000c11fc:\t73 e2 2c 91\tadd\tx19, x19, #0xb38",
+          "1000c1200:\te0 03 13 aa\tmov\tx0, x19",
+          "1000c1204:\t6e 1a 02 94\tbl\t0x100147bbc ; symbol stub for: _swift_getKeyPath",
+          "1000c1208:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000c120c:\tb9 83 19 f8\tstur\tx25, [x29, #-0x68]",
+          "1000c1210:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000c1214:\t2a a1 fd 97\tbl\t0x1000296bc",
+          "1000c1218:\te1 03 00 aa\tmov\tx1, x0",
+          "1000c121c:\ta8 83 01 d1\tsub\tx8, x29, #0x60",
+          "1000c1220:\ta0 a3 01 d1\tsub\tx0, x29, #0x68"
+        ],
+        "address": "0x1000c1224",
+        "instruction": "1000c1224:\t90 14 02 94\tbl\t0x100146464 ; symbol stub for: _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Divider.init() -> SwiftUI.Divider",
+        "context": [
+          "1000c1208:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000c120c:\tb9 83 19 f8\tstur\tx25, [x29, #-0x68]",
+          "1000c1210:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000c1214:\t2a a1 fd 97\tbl\t0x1000296bc",
+          "1000c1218:\te1 03 00 aa\tmov\tx1, x0",
+          "1000c121c:\ta8 83 01 d1\tsub\tx8, x29, #0x60",
+          "1000c1220:\ta0 a3 01 d1\tsub\tx0, x29, #0x68",
+          "1000c1224:\t90 14 02 94\tbl\t0x100146464 ; symbol stub for: _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC",
+          "1000c1228:\ta9 23 7a a9\tldp\tx9, x8, [x29, #-0x60]",
+          "1000c122c:\ta9 03 15 f8\tstur\tx9, [x29, #-0xb0]",
+          "1000c1230:\ta8 83 17 f8\tstur\tx8, [x29, #-0x88]",
+          "1000c1234:\te8 03 1a aa\tmov\tx8, x26"
+        ],
+        "address": "0x1000c1238",
+        "instruction": "1000c1238:\tca 14 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.StateObject.wrappedValue.getter : A",
+        "context": [
+          "1000c1220:\ta0 a3 01 d1\tsub\tx0, x29, #0x68",
+          "1000c1224:\t90 14 02 94\tbl\t0x100146464 ; symbol stub for: _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC",
+          "1000c1228:\ta9 23 7a a9\tldp\tx9, x8, [x29, #-0x60]",
+          "1000c122c:\ta9 03 15 f8\tstur\tx9, [x29, #-0xb0]",
+          "1000c1230:\ta8 83 17 f8\tstur\tx8, [x29, #-0x88]",
+          "1000c1234:\te8 03 1a aa\tmov\tx8, x26",
+          "1000c1238:\tca 14 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC",
+          "1000c123c:\te0 03 14 aa\tmov\tx0, x20",
+          "1000c1240:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c1244:\te2 03 1b aa\tmov\tx2, x27",
+          "1000c1248:\te3 03 1c aa\tmov\tx3, x28",
+          "1000c124c:\te4 03 16 aa\tmov\tx4, x22"
+        ],
+        "address": "0x1000c1250",
+        "instruction": "1000c1250:\tee 11 02 94\tbl\t0x100145a08 ; symbol stub for: _$s7SwiftUI11StateObjectV12wrappedValuexvg"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.State.init(wrappedValue: A) -> SwiftUI.State<A>",
+        "context": [
+          "1000c1270:\t53 1a 02 94\tbl\t0x100147bbc ; symbol stub for: _swift_getKeyPath",
+          "1000c1274:\ta0 83 14 f8\tstur\tx0, [x29, #-0xb8]",
+          "1000c1278:\tc0 04 00 f0\tadrp\tx0, 155 ; 0x10015c000",
+          "1000c127c:\t00 80 2d 91\tadd\tx0, x0, #0xb60",
+          "1000c1280:\t4f 1a 02 94\tbl\t0x100147bbc ; symbol stub for: _swift_getKeyPath",
+          "1000c1284:\ta0 03 14 f8\tstur\tx0, [x29, #-0xc0]",
+          "1000c1288:\tb5 83 19 f8\tstur\tx21, [x29, #-0x68]",
+          "1000c128c:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000c1290:\tfc a8 fd 97\tbl\t0x10002b680",
+          "1000c1294:\te1 03 00 aa\tmov\tx1, x0",
+          "1000c1298:\ta8 83 01 d1\tsub\tx8, x29, #0x60",
+          "1000c129c:\ta0 a3 01 d1\tsub\tx0, x29, #0x68"
+        ],
+        "address": "0x1000c12a0",
+        "instruction": "1000c12a0:\t71 14 02 94\tbl\t0x100146464 ; symbol stub for: _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0d18",
+        "address": "0x1000c12fc",
+        "length": 17,
+        "resolvedNotation": "⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧t",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          }
+        ],
+        "rawHex": "02aff203005f02310f04000274f2030074",
+        "instruction": "1000c12fc:\t29 03 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c140c",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1414",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c141c",
+    "size": 156,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SelfMadeRunnersView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SelfMadeRunnersView.swift\"",
+        "address": "0x1000c1488",
+        "instruction": "1000c1488:\t00 80 3a 91\tadd\tx0, x0, #0xea0 ; literal pool for: \"UserInterface/SelfMadeRunnersView.swift\""
+      }
+    ]
+  },
+  {
+    "address": "0x1000c14b8",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000343b4",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1574",
+    "size": 260,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI11StateObjectV12wrappedValuexvg",
+      "_$sSS10describingSSx_tclufC",
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100032f70",
+      "0x100005860",
+      "0x100145a08",
+      "0x100001fa0",
+      "0x1001469bc",
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.StateObject.wrappedValue.getter : A",
+        "context": [
+          "1000c15b4:\t81 fb ff b0\tadrp\tx1, -143 ; 0x100032000",
+          "1000c15b8:\t21 c0 3d 91\tadd\tx1, x1, #0xf70",
+          "1000c15bc:\t60 07 00 f0\tadrp\tx0, 239 ; 0x1001b0000",
+          "1000c15c0:\t00 60 33 91\tadd\tx0, x0, #0xcd8",
+          "1000c15c4:\tc2 04 00 f0\tadrp\tx2, 155 ; 0x10015c000",
+          "1000c15c8:\t42 80 29 91\tadd\tx2, x2, #0xa60",
+          "1000c15cc:\ta5 10 fd 97\tbl\t0x100005860",
+          "1000c15d0:\te4 03 00 aa\tmov\tx4, x0",
+          "1000c15d4:\te0 03 18 aa\tmov\tx0, x24",
+          "1000c15d8:\te1 03 19 aa\tmov\tx1, x25",
+          "1000c15dc:\te2 03 1a aa\tmov\tx2, x26",
+          "1000c15e0:\te3 03 1b aa\tmov\tx3, x27"
+        ],
+        "address": "0x1000c15e4",
+        "instruction": "1000c15e4:\t09 11 02 94\tbl\t0x100145a08 ; symbol stub for: _$s7SwiftUI11StateObjectV12wrappedValuexvg"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0d10",
+        "address": "0x1000c1604",
+        "length": 6,
+        "resolvedNotation": "⟦UserInterface.SelfMadeRunnersView⟧m",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 1,
+            "target": "0x100164220",
+            "name": "UserInterface.SelfMadeRunnersView"
+          }
+        ],
+        "rawHex": "01df3101006d",
+        "instruction": "1000c1604:\t67 02 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c1678",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c16ec",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1760",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c17a8",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x1000c1adc"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c17f4",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c0c0c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c182c",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1858",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x10008a2f4"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c18b4",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147ce8",
+      "0x10008a2f4",
+      "0x10008a334"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c192c",
+    "size": 88,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x10008a334"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1984",
+    "size": 16,
+    "name": "UserInterface.SelfMadeRunnersView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1994",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c19a4",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100032d88"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c19d0",
+    "size": 36,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100032f84"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c19f4",
+    "size": 36,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1a18",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cb0",
+        "address": "0x1000c1a38",
+        "length": 31,
+        "resolvedNotation": "⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          }
+        ],
+        "rawHex": "024d0f04007902bf1104007902b9f303005f023b100400027ef30300744747",
+        "instruction": "1000c1a38:\t78 02 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c1a60",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x10008a334"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1a90",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1adc",
+    "size": 60,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000343b4"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b18",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b1c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b20",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b24",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b28",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1b2c",
+    "size": 260,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2",
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100002418",
+      "0x100095148",
+      "0x1000ab1a8",
+      "0x100147bf8",
+      "0x100005860",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0d08",
+        "address": "0x1000c1b58",
+        "length": 110,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>⟧yAAyAAy⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G⟦SwiftUI._PaddingLayout⟧G_⟦DataSource.RunCatError⟧⟦SwiftUI.EmptyView⟧AnM⟦protocol descriptor for Foundation.LocalizedError⟧13UserInterfaceyHCg0_Qo_⟦SwiftUI._TaskModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191c08",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.alert<A, B, C where A1: Foundation.LocalizedError, B1: SwiftUI.View, C1: SwiftUI.View>(isPresented: SwiftUI.Binding<Swift.Bool>, error: A1?, actions: (A1) -> B1, message: (A1) -> C1) -> some>>"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 30,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 36,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 49,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          },
+          {
+            "offset": 55,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x100190038",
+            "name": "DataSource.RunCatError"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100192088",
+            "name": "SwiftUI.EmptyView"
+          },
+          {
+            "offset": 75,
+            "opcode": 2,
+            "target": "0x1001907d8",
+            "name": "protocol descriptor for Foundation.LocalizedError"
+          },
+          {
+            "offset": 104,
+            "opcode": 2,
+            "target": "0x100191308",
+            "name": "SwiftUI._TaskModifier"
+          }
+        ],
+        "rawHex": "028d05040079023f0d04007941417941417902ab0f040079021d120400790217f403005f029910040002dcf3030074474702440604004702c6040400475f0237f103000282110400416e4d02caf80300313355736572496e7465726661636579484367305f516f5f02dd03040047",
+        "instruction": "1000c1b58:\t30 02 fd 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0cc0",
+        "address": "0x1000c1b6c",
+        "length": 52,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.HStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.RegisteredRunnersListView⟧_⟦SwiftUI.Divider⟧⟦UserInterface.RegistrationFormView⟧tGG⟦SwiftUI._FixedSizeLayout⟧G⟦SwiftUI._PaddingLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191e80",
+            "name": "SwiftUI.HStack"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x1001902f8",
+            "name": "UserInterface.RegisteredRunnersListView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x1001902c8",
+            "name": "UserInterface.RegistrationFormView"
+          },
+          {
+            "offset": 40,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          },
+          {
+            "offset": 46,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          }
+        ],
+        "rawHex": "02d10404007941417902f80e040079026a110400790264f303005f02e60f04000229f30300744747029105040047021304040047",
+        "instruction": "1000c1b6c:\t2b 02 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c1c30",
+    "size": 16,
+    "name": "UserInterface.context2.TopLeadingContentViewModifier.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c1c40",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

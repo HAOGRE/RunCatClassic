@@ -1,0 +1,153 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "A11DA33B",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450118637",
+      "localizations" : [
+        {
+          "description" : "Runner: Flying Bird",
+          "displayName" : "Bird",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "bird.com.kyome",
+      "referenceName" : "Bird",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141442",
+      "localizations" : [
+        {
+          "description" : "Runner: Bonfire",
+          "displayName" : "Bonfire",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "bonfire.com.kyome",
+      "referenceName" : "Bonfire",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "1474061079",
+      "localizations" : [
+        {
+          "description" : "Special-colored runner: Golden Sparkling Cat",
+          "displayName" : "Golden Cat",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "cat.golden.com.kyome",
+      "referenceName" : "Golden Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1493109071",
+      "localizations" : [
+        {
+          "description" : "Runner for Jugoya; 15th night in the autumn.",
+          "displayName" : "Mochi",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "mochi.com.kyome",
+      "referenceName" : "Mochi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450148102",
+      "localizations" : [
+        {
+          "description" : "Unlock the registration function.",
+          "displayName" : "Self-Made Runner",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "made.self.com.kyome",
+      "referenceName" : "Self-Made Runner",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_disableDialogs" : true,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,2887 @@
+[
+  {
+    "index": 0,
+    "case": "catA",
+    "rawValue": "cat",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "cat",
+    "resources": [
+      "cat-page-0",
+      "cat-page-1",
+      "cat-page-2",
+      "cat-page-3",
+      "cat-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        56,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "α 猫"
+  },
+  {
+    "index": 1,
+    "case": "catB",
+    "rawValue": "b.cat",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "cat-b",
+    "resources": [
+      "cat-b-page-0",
+      "cat-b-page-1",
+      "cat-b-page-2",
+      "cat-b-page-3",
+      "cat-b-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        63,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "β 猫"
+  },
+  {
+    "index": 2,
+    "case": "catC",
+    "rawValue": "c.cat",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "cat-c",
+    "resources": [
+      "cat-c-page-0",
+      "cat-c-page-1",
+      "cat-c-page-2",
+      "cat-c-page-3",
+      "cat-c-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        84,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "γ 猫"
+  },
+  {
+    "index": 3,
+    "case": "catTail",
+    "rawValue": "tail.cat",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "cat-tail",
+    "resources": [
+      "cat-tail-page-0",
+      "cat-tail-page-1",
+      "cat-tail-page-2",
+      "cat-tail-page-3",
+      "cat-tail-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        112,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "猫尾"
+  },
+  {
+    "index": 4,
+    "case": "mockNyanCat",
+    "rawValue": "cat.nyan.mock",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "mock-nyan-cat",
+    "resources": [
+      "mock-nyan-cat-page-0",
+      "mock-nyan-cat-page-1",
+      "mock-nyan-cat-page-2",
+      "mock-nyan-cat-page-3",
+      "mock-nyan-cat-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        88,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "模仿彩虹猫"
+  },
+  {
+    "index": 5,
+    "case": "parrot",
+    "rawValue": "parrot",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "parrot",
+    "resources": [
+      "parrot-page-0",
+      "parrot-page-1",
+      "parrot-page-2",
+      "parrot-page-3",
+      "parrot-page-4",
+      "parrot-page-5",
+      "parrot-page-6",
+      "parrot-page-7",
+      "parrot-page-8",
+      "parrot-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        48,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "鹦鹉"
+  },
+  {
+    "index": 6,
+    "case": "human",
+    "rawValue": "human",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "human",
+    "resources": [
+      "human-page-0",
+      "human-page-1",
+      "human-page-2",
+      "human-page-3",
+      "human-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        40,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "人"
+  },
+  {
+    "index": 7,
+    "case": "pushUp",
+    "rawValue": "up.push",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "push-up",
+    "resources": [
+      "push-up-page-0",
+      "push-up-page-1",
+      "push-up-page-2",
+      "push-up-page-3",
+      "push-up-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        75,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "俯卧撑"
+  },
+  {
+    "index": 8,
+    "case": "sitUp",
+    "rawValue": "up.sit",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "sit-up",
+    "resources": [
+      "sit-up-page-0",
+      "sit-up-page-1",
+      "sit-up-page-2",
+      "sit-up-page-3",
+      "sit-up-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        55,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "仰卧起坐"
+  },
+  {
+    "index": 9,
+    "case": "rubberDuck",
+    "rawValue": "duck.rubber",
+    "frameOrderPayload": 0,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      3,
+      4,
+      3
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "rubber-duck",
+    "resources": [
+      "rubber-duck-page-0",
+      "rubber-duck-page-1",
+      "rubber-duck-page-2",
+      "rubber-duck-page-3",
+      "rubber-duck-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        46,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "橡皮鸭"
+  },
+  {
+    "index": 10,
+    "case": "city",
+    "rawValue": "city",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "city",
+    "resources": [
+      "city-page-0",
+      "city-page-1",
+      "city-page-2",
+      "city-page-3",
+      "city-page-4",
+      "city-page-5",
+      "city-page-6",
+      "city-page-7",
+      "city-page-8",
+      "city-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        125,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "城市"
+  },
+  {
+    "index": 11,
+    "case": "sausage",
+    "rawValue": "sausage",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "sausage",
+    "resources": [
+      "sausage-page-0",
+      "sausage-page-1",
+      "sausage-page-2",
+      "sausage-page-3",
+      "sausage-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        34,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "香肠"
+  },
+  {
+    "index": 12,
+    "case": "dots",
+    "rawValue": "dots",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "dots",
+    "resources": [
+      "dots-page-0",
+      "dots-page-1",
+      "dots-page-2",
+      "dots-page-3",
+      "dots-page-4",
+      "dots-page-5",
+      "dots-page-6",
+      "dots-page-7",
+      "dots-page-8",
+      "dots-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        76,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "点点"
+  },
+  {
+    "index": 13,
+    "case": "reactor",
+    "rawValue": "reactor",
+    "frameOrderPayload": 2,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "reactor",
+    "resources": [
+      "reactor-page-0",
+      "reactor-page-1",
+      "reactor-page-2",
+      "reactor-page-3",
+      "reactor-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "反应堆"
+  },
+  {
+    "index": 14,
+    "case": "slime",
+    "rawValue": "slime",
+    "frameOrderPayload": 2,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "slime",
+    "resources": [
+      "slime-page-0",
+      "slime-page-1",
+      "slime-page-2",
+      "slime-page-3",
+      "slime-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        61,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "史莱姆"
+  },
+  {
+    "index": 15,
+    "case": "fishman",
+    "rawValue": "fishman",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "fishman",
+    "resources": [
+      "fishman-page-0",
+      "fishman-page-1",
+      "fishman-page-2",
+      "fishman-page-3",
+      "fishman-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        61,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "鱼人"
+  },
+  {
+    "index": 16,
+    "case": "sheep",
+    "rawValue": "sheep",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "sheep",
+    "resources": [
+      "sheep-page-0",
+      "sheep-page-1",
+      "sheep-page-2",
+      "sheep-page-3",
+      "sheep-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        77,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "绵羊"
+  },
+  {
+    "index": 17,
+    "case": "rotatingSushi",
+    "rawValue": "sushi.rotating",
+    "frameOrderPayload": 6,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "rotating-sushi",
+    "resources": [
+      "rotating-sushi-page-0",
+      "rotating-sushi-page-1",
+      "rotating-sushi-page-2",
+      "rotating-sushi-page-3",
+      "rotating-sushi-page-4",
+      "rotating-sushi-page-5"
+    ],
+    "sourceDimensions": [
+      [
+        98,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "回转寿司"
+  },
+  {
+    "index": 18,
+    "case": "partyPeople",
+    "rawValue": "people.party",
+    "frameOrderPayload": 14,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "party-people",
+    "resources": [
+      "party-people-page-0",
+      "party-people-page-1",
+      "party-people-page-10",
+      "party-people-page-11",
+      "party-people-page-12",
+      "party-people-page-13",
+      "party-people-page-2",
+      "party-people-page-3",
+      "party-people-page-4",
+      "party-people-page-5",
+      "party-people-page-6",
+      "party-people-page-7",
+      "party-people-page-8",
+      "party-people-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        108,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "派对"
+  },
+  {
+    "index": 19,
+    "case": "dogeza",
+    "rawValue": "dogeza",
+    "frameOrderPayload": 4,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      7,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "dogeza",
+    "resources": [
+      "dogeza-page-0",
+      "dogeza-page-1",
+      "dogeza-page-2",
+      "dogeza-page-3",
+      "dogeza-page-4",
+      "dogeza-page-5",
+      "dogeza-page-6",
+      "dogeza-page-7"
+    ],
+    "sourceDimensions": [
+      [
+        43,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "土下座"
+  },
+  {
+    "index": 20,
+    "case": "triforce",
+    "rawValue": "triforce",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "isTemplate": true,
+    "category": "default",
+    "imageTag": "triforce",
+    "resources": [
+      "triforce-page-0",
+      "triforce-page-1",
+      "triforce-page-2",
+      "triforce-page-3",
+      "triforce-page-4",
+      "triforce-page-5",
+      "triforce-page-6",
+      "triforce-page-7",
+      "triforce-page-8"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "力量，智慧，勇气"
+  },
+  {
+    "index": 21,
+    "case": "cheetah",
+    "rawValue": "cheetah",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "cheetah",
+    "resources": [
+      "cheetah-page-0",
+      "cheetah-page-1",
+      "cheetah-page-2",
+      "cheetah-page-3",
+      "cheetah-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        82,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "猎豹"
+  },
+  {
+    "index": 22,
+    "case": "dog",
+    "rawValue": "dog",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "dog",
+    "resources": [
+      "dog-page-0",
+      "dog-page-1",
+      "dog-page-2",
+      "dog-page-3",
+      "dog-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        66,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "狗"
+  },
+  {
+    "index": 23,
+    "case": "puppy",
+    "rawValue": "puppy",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "puppy",
+    "resources": [
+      "puppy-page-0",
+      "puppy-page-1",
+      "puppy-page-2",
+      "puppy-page-3",
+      "puppy-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        61,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "小狗"
+  },
+  {
+    "index": 24,
+    "case": "rabbit",
+    "rawValue": "rabbit",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "rabbit",
+    "resources": [
+      "rabbit-page-0",
+      "rabbit-page-1",
+      "rabbit-page-2",
+      "rabbit-page-3",
+      "rabbit-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        43,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "小兔子"
+  },
+  {
+    "index": 25,
+    "case": "frog",
+    "rawValue": "frog",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "frog",
+    "resources": [
+      "frog-page-0",
+      "frog-page-1",
+      "frog-page-2",
+      "frog-page-3",
+      "frog-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        49,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "青蛙"
+  },
+  {
+    "index": 26,
+    "case": "bird",
+    "rawValue": "bird",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "bird",
+    "resources": [
+      "bird-page-0",
+      "bird-page-1",
+      "bird-page-2",
+      "bird-page-3",
+      "bird-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        32,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "小鸟"
+  },
+  {
+    "index": 27,
+    "case": "penguin",
+    "rawValue": "penguin",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "penguin",
+    "resources": [
+      "penguin-page-0",
+      "penguin-page-1",
+      "penguin-page-2",
+      "penguin-page-3",
+      "penguin-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        101,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "企鹅"
+  },
+  {
+    "index": 28,
+    "case": "dolphin",
+    "rawValue": "dolphin",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "dolphin",
+    "resources": [
+      "dolphin-page-0",
+      "dolphin-page-1",
+      "dolphin-page-2",
+      "dolphin-page-3",
+      "dolphin-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        68,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "海豚"
+  },
+  {
+    "index": 29,
+    "case": "dragon",
+    "rawValue": "dragon",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "dragon",
+    "resources": [
+      "dragon-page-0",
+      "dragon-page-1",
+      "dragon-page-2",
+      "dragon-page-3",
+      "dragon-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        195,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "龙"
+  },
+  {
+    "index": 30,
+    "case": "owl",
+    "rawValue": "owl",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "owl",
+    "resources": [
+      "owl-page-0",
+      "owl-page-1",
+      "owl-page-2",
+      "owl-page-3",
+      "owl-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        38,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "猫头鹰"
+  },
+  {
+    "index": 31,
+    "case": "dinosaur",
+    "rawValue": "dinosaur",
+    "frameOrderPayload": 7,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "dinosaur",
+    "resources": [
+      "dinosaur-page-0",
+      "dinosaur-page-1",
+      "dinosaur-page-2",
+      "dinosaur-page-3",
+      "dinosaur-page-4",
+      "dinosaur-page-5",
+      "dinosaur-page-6"
+    ],
+    "sourceDimensions": [
+      [
+        51,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "恐龙"
+  },
+  {
+    "index": 32,
+    "case": "terrier",
+    "rawValue": "terrier",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "terrier",
+    "resources": [
+      "terrier-page-0",
+      "terrier-page-1",
+      "terrier-page-2",
+      "terrier-page-3",
+      "terrier-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        60,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "梗犬"
+  },
+  {
+    "index": 33,
+    "case": "hedgehog",
+    "rawValue": "hedgehog",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "hedgehog",
+    "resources": [
+      "hedgehog-page-0",
+      "hedgehog-page-1",
+      "hedgehog-page-2",
+      "hedgehog-page-3",
+      "hedgehog-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        56,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "刺猬"
+  },
+  {
+    "index": 34,
+    "case": "horse",
+    "rawValue": "horse",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "horse",
+    "resources": [
+      "horse-page-0",
+      "horse-page-1",
+      "horse-page-2",
+      "horse-page-3",
+      "horse-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        69,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "马"
+  },
+  {
+    "index": 35,
+    "case": "penguin2",
+    "rawValue": "penguin2",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "penguin2",
+    "resources": [
+      "penguin2-page-0",
+      "penguin2-page-1",
+      "penguin2-page-2",
+      "penguin2-page-3",
+      "penguin2-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        34,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "企鹅 2"
+  },
+  {
+    "index": 36,
+    "case": "hamsterWheel",
+    "rawValue": "wheel.hamster",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "hamster-wheel",
+    "resources": [
+      "hamster-wheel-page-0",
+      "hamster-wheel-page-1",
+      "hamster-wheel-page-2",
+      "hamster-wheel-page-3",
+      "hamster-wheel-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "仓鼠跑轮"
+  },
+  {
+    "index": 37,
+    "case": "octopus",
+    "rawValue": "octopus",
+    "frameOrderPayload": 2,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "octopus",
+    "resources": [
+      "octopus-page-0",
+      "octopus-page-1",
+      "octopus-page-2",
+      "octopus-page-3",
+      "octopus-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        72,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "章鱼"
+  },
+  {
+    "index": 38,
+    "case": "chameleon",
+    "rawValue": "chameleon",
+    "frameOrderPayload": 3,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "chameleon",
+    "resources": [
+      "chameleon-page-0",
+      "chameleon-page-1",
+      "chameleon-page-2",
+      "chameleon-page-3",
+      "chameleon-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        98,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "变色龙"
+  },
+  {
+    "index": 39,
+    "case": "chicken",
+    "rawValue": "chicken",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "chicken",
+    "resources": [
+      "chicken-page-0",
+      "chicken-page-1",
+      "chicken-page-2",
+      "chicken-page-3",
+      "chicken-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        37,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "小鸡"
+  },
+  {
+    "index": 40,
+    "case": "mouse",
+    "rawValue": "mouse",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "mouse",
+    "resources": [
+      "mouse-page-0",
+      "mouse-page-1",
+      "mouse-page-2",
+      "mouse-page-3",
+      "mouse-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        73,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "老鼠"
+  },
+  {
+    "index": 41,
+    "case": "pig",
+    "rawValue": "pig",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "pig",
+    "resources": [
+      "pig-page-0",
+      "pig-page-1",
+      "pig-page-2",
+      "pig-page-3",
+      "pig-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        73,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "小猪"
+  },
+  {
+    "index": 42,
+    "case": "fox",
+    "rawValue": "fox",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "fox",
+    "resources": [
+      "fox-page-0",
+      "fox-page-1",
+      "fox-page-2",
+      "fox-page-3",
+      "fox-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        94,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "狐狸"
+  },
+  {
+    "index": 43,
+    "case": "whale",
+    "rawValue": "whale",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "whale",
+    "resources": [
+      "whale-page-0",
+      "whale-page-1",
+      "whale-page-2",
+      "whale-page-3",
+      "whale-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        79,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "鲸鱼"
+  },
+  {
+    "index": 44,
+    "case": "otter",
+    "rawValue": "otter",
+    "frameOrderPayload": 8,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "otter",
+    "resources": [
+      "otter-page-0",
+      "otter-page-1",
+      "otter-page-2",
+      "otter-page-3",
+      "otter-page-4",
+      "otter-page-5",
+      "otter-page-6",
+      "otter-page-7"
+    ],
+    "sourceDimensions": [
+      [
+        98,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "水獭"
+  },
+  {
+    "index": 45,
+    "case": "squirrel",
+    "rawValue": "squirrel",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "squirrel",
+    "resources": [
+      "squirrel-page-0",
+      "squirrel-page-1",
+      "squirrel-page-2",
+      "squirrel-page-3",
+      "squirrel-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        92,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "松鼠"
+  },
+  {
+    "index": 46,
+    "case": "butterfly",
+    "rawValue": "butterfly",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "butterfly",
+    "resources": [
+      "butterfly-page-0",
+      "butterfly-page-1",
+      "butterfly-page-2",
+      "butterfly-page-3",
+      "butterfly-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        50,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "蝴蝶"
+  },
+  {
+    "index": 47,
+    "case": "greyhound",
+    "rawValue": "greyhound",
+    "frameOrderPayload": 14,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "greyhound",
+    "resources": [
+      "greyhound-page-0",
+      "greyhound-page-1",
+      "greyhound-page-10",
+      "greyhound-page-11",
+      "greyhound-page-12",
+      "greyhound-page-13",
+      "greyhound-page-2",
+      "greyhound-page-3",
+      "greyhound-page-4",
+      "greyhound-page-5",
+      "greyhound-page-6",
+      "greyhound-page-7",
+      "greyhound-page-8",
+      "greyhound-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        74,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "灰狗"
+  },
+  {
+    "index": 48,
+    "case": "welshCorgi",
+    "rawValue": "corgi.welsh",
+    "frameOrderPayload": 7,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "isTemplate": true,
+    "category": "animal",
+    "imageTag": "welsh-corgi",
+    "resources": [
+      "welsh-corgi-page-0",
+      "welsh-corgi-page-1",
+      "welsh-corgi-page-2",
+      "welsh-corgi-page-3",
+      "welsh-corgi-page-4",
+      "welsh-corgi-page-5",
+      "welsh-corgi-page-6"
+    ],
+    "sourceDimensions": [
+      [
+        61,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "柯基"
+  },
+  {
+    "index": 49,
+    "case": "cogwheel",
+    "rawValue": "cogwheel",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "cogwheel",
+    "resources": [
+      "cogwheel-page-0",
+      "cogwheel-page-1",
+      "cogwheel-page-2",
+      "cogwheel-page-3",
+      "cogwheel-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        37,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "齿轮"
+  },
+  {
+    "index": 50,
+    "case": "bonfire",
+    "rawValue": "bonfire",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "bonfire",
+    "resources": [
+      "bonfire-page-0",
+      "bonfire-page-1",
+      "bonfire-page-2",
+      "bonfire-page-3",
+      "bonfire-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        28,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "篝火"
+  },
+  {
+    "index": 51,
+    "case": "drop",
+    "rawValue": "drop",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "drop",
+    "resources": [
+      "drop-page-0",
+      "drop-page-1",
+      "drop-page-2",
+      "drop-page-3",
+      "drop-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        43,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "水滴"
+  },
+  {
+    "index": 52,
+    "case": "rocket",
+    "rawValue": "rocket",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "rocket",
+    "resources": [
+      "rocket-page-0",
+      "rocket-page-1",
+      "rocket-page-2",
+      "rocket-page-3",
+      "rocket-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "火箭"
+  },
+  {
+    "index": 53,
+    "case": "pendulum",
+    "rawValue": "pendulum",
+    "frameOrderPayload": 0,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      3,
+      4,
+      3
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "pendulum",
+    "resources": [
+      "pendulum-page-0",
+      "pendulum-page-1",
+      "pendulum-page-2",
+      "pendulum-page-3",
+      "pendulum-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        24,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "钟摆"
+  },
+  {
+    "index": 54,
+    "case": "cradle",
+    "rawValue": "cradle",
+    "frameOrderPayload": 0,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      3,
+      4,
+      3
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "cradle",
+    "resources": [
+      "cradle-page-0",
+      "cradle-page-1",
+      "cradle-page-2",
+      "cradle-page-3",
+      "cradle-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        82,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "牛顿摆"
+  },
+  {
+    "index": 55,
+    "case": "sineCurve",
+    "rawValue": "curve.sine",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "sine-curve",
+    "resources": [
+      "sine-curve-page-0",
+      "sine-curve-page-1",
+      "sine-curve-page-2",
+      "sine-curve-page-3",
+      "sine-curve-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        100,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "正弦曲线"
+  },
+  {
+    "index": 56,
+    "case": "pulse",
+    "rawValue": "pulse",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "pulse",
+    "resources": [
+      "pulse-page-0",
+      "pulse-page-1",
+      "pulse-page-2",
+      "pulse-page-3",
+      "pulse-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        42,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "心跳"
+  },
+  {
+    "index": 57,
+    "case": "coffee",
+    "rawValue": "coffee",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "coffee",
+    "resources": [
+      "coffee-page-0",
+      "coffee-page-1",
+      "coffee-page-2",
+      "coffee-page-3",
+      "coffee-page-4",
+      "coffee-page-5",
+      "coffee-page-6",
+      "coffee-page-7",
+      "coffee-page-8",
+      "coffee-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        38,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "咖啡"
+  },
+  {
+    "index": 58,
+    "case": "steamLocomotive",
+    "rawValue": "locomotive.steam",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "steam-locomotive",
+    "resources": [
+      "steam-locomotive-page-0",
+      "steam-locomotive-page-1",
+      "steam-locomotive-page-2",
+      "steam-locomotive-page-3",
+      "steam-locomotive-page-4",
+      "steam-locomotive-page-5",
+      "steam-locomotive-page-6",
+      "steam-locomotive-page-7",
+      "steam-locomotive-page-8",
+      "steam-locomotive-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        153,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "蒸汽机车"
+  },
+  {
+    "index": 59,
+    "case": "tapiocaDrink",
+    "rawValue": "drink.tapioca",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "tapioca-drink",
+    "resources": [
+      "tapioca-drink-page-0",
+      "tapioca-drink-page-1",
+      "tapioca-drink-page-2",
+      "tapioca-drink-page-3",
+      "tapioca-drink-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        30,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "珍珠奶茶"
+  },
+  {
+    "index": 60,
+    "case": "frypan",
+    "rawValue": "frypan",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "frypan",
+    "resources": [
+      "frypan-page-0",
+      "frypan-page-1",
+      "frypan-page-2",
+      "frypan-page-3",
+      "frypan-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        55,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "平底锅"
+  },
+  {
+    "index": 61,
+    "case": "factory",
+    "rawValue": "factory",
+    "frameOrderPayload": 16,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "factory",
+    "resources": [
+      "factory-page-0",
+      "factory-page-1",
+      "factory-page-10",
+      "factory-page-11",
+      "factory-page-12",
+      "factory-page-13",
+      "factory-page-14",
+      "factory-page-15",
+      "factory-page-2",
+      "factory-page-3",
+      "factory-page-4",
+      "factory-page-5",
+      "factory-page-6",
+      "factory-page-7",
+      "factory-page-8",
+      "factory-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        136,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "工厂"
+  },
+  {
+    "index": 62,
+    "case": "engine",
+    "rawValue": "engine",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "engine",
+    "resources": [
+      "engine-page-0",
+      "engine-page-1",
+      "engine-page-2",
+      "engine-page-3",
+      "engine-page-4",
+      "engine-page-5",
+      "engine-page-6",
+      "engine-page-7",
+      "engine-page-8",
+      "engine-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        83,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "引擎"
+  },
+  {
+    "index": 63,
+    "case": "earth",
+    "rawValue": "earth",
+    "frameOrderPayload": 15,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "isTemplate": true,
+    "category": "inanimate",
+    "imageTag": "earth",
+    "resources": [
+      "earth-page-0",
+      "earth-page-1",
+      "earth-page-10",
+      "earth-page-11",
+      "earth-page-12",
+      "earth-page-13",
+      "earth-page-14",
+      "earth-page-2",
+      "earth-page-3",
+      "earth-page-4",
+      "earth-page-5",
+      "earth-page-6",
+      "earth-page-7",
+      "earth-page-8",
+      "earth-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "地球"
+  },
+  {
+    "index": 64,
+    "case": "reindeerSleigh",
+    "rawValue": "sleigh.reindeer",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "reindeer-sleigh",
+    "resources": [
+      "reindeer-sleigh-page-0",
+      "reindeer-sleigh-page-1",
+      "reindeer-sleigh-page-2",
+      "reindeer-sleigh-page-3",
+      "reindeer-sleigh-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        116,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "驯鹿与雪橇"
+  },
+  {
+    "index": 65,
+    "case": "snowman",
+    "rawValue": "snowman",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "snowman",
+    "resources": [
+      "snowman-page-0",
+      "snowman-page-1",
+      "snowman-page-2",
+      "snowman-page-3",
+      "snowman-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        51,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "雪人"
+  },
+  {
+    "index": 66,
+    "case": "windChime",
+    "rawValue": "chime.wind",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "wind-chime",
+    "resources": [
+      "wind-chime-page-0",
+      "wind-chime-page-1",
+      "wind-chime-page-2",
+      "wind-chime-page-3",
+      "wind-chime-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        25,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "风铃"
+  },
+  {
+    "index": 67,
+    "case": "sparkler",
+    "rawValue": "sparkler",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "sparkler",
+    "resources": [
+      "sparkler-page-0",
+      "sparkler-page-1",
+      "sparkler-page-2",
+      "sparkler-page-3",
+      "sparkler-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        43,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "烟花棒"
+  },
+  {
+    "index": 68,
+    "case": "jackOLantern",
+    "rawValue": "lantern.o.jack",
+    "frameOrderPayload": 2,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "jack-o-lantern",
+    "resources": [
+      "jack-o-lantern-page-0",
+      "jack-o-lantern-page-1",
+      "jack-o-lantern-page-2",
+      "jack-o-lantern-page-3",
+      "jack-o-lantern-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        41,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "南瓜灯"
+  },
+  {
+    "index": 69,
+    "case": "ghost",
+    "rawValue": "ghost",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "ghost",
+    "resources": [
+      "ghost-page-0",
+      "ghost-page-1",
+      "ghost-page-2",
+      "ghost-page-3",
+      "ghost-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        36,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "幽灵"
+  },
+  {
+    "index": 70,
+    "case": "mochi",
+    "rawValue": "mochi",
+    "frameOrderPayload": 1,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": true,
+    "category": "seasonal",
+    "imageTag": "mochi",
+    "resources": [
+      "mochi-page-0",
+      "mochi-page-1",
+      "mochi-page-2",
+      "mochi-page-3",
+      "mochi-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        62,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "年糕"
+  },
+  {
+    "index": 71,
+    "case": "goldenCat",
+    "rawValue": "cat.golden",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "golden-cat",
+    "resources": [
+      "golden-cat-page-0",
+      "golden-cat-page-1",
+      "golden-cat-page-2",
+      "golden-cat-page-3",
+      "golden-cat-page-4",
+      "golden-cat-page-5",
+      "golden-cat-page-6",
+      "golden-cat-page-7",
+      "golden-cat-page-8",
+      "golden-cat-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        90,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "金猫"
+  },
+  {
+    "index": 72,
+    "case": "metalClusterCat",
+    "rawValue": "cat.cluster.metal",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "metal-cluster-cat",
+    "resources": [
+      "metal-cluster-cat-page-0",
+      "metal-cluster-cat-page-1",
+      "metal-cluster-cat-page-2",
+      "metal-cluster-cat-page-3",
+      "metal-cluster-cat-page-4",
+      "metal-cluster-cat-page-5",
+      "metal-cluster-cat-page-6",
+      "metal-cluster-cat-page-7",
+      "metal-cluster-cat-page-8",
+      "metal-cluster-cat-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        298,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "金属团猫"
+  },
+  {
+    "index": 73,
+    "case": "flashCat",
+    "rawValue": "cat.flash",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "flash-cat",
+    "resources": [
+      "flash-cat-page-0",
+      "flash-cat-page-1",
+      "flash-cat-page-2",
+      "flash-cat-page-3",
+      "flash-cat-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        84,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "闪电猫"
+  },
+  {
+    "index": 74,
+    "case": "manekiNeko",
+    "rawValue": "neko.maneki",
+    "frameOrderPayload": 15,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "maneki-neko",
+    "resources": [
+      "maneki-neko-page-0",
+      "maneki-neko-page-1",
+      "maneki-neko-page-10",
+      "maneki-neko-page-11",
+      "maneki-neko-page-12",
+      "maneki-neko-page-13",
+      "maneki-neko-page-14",
+      "maneki-neko-page-2",
+      "maneki-neko-page-3",
+      "maneki-neko-page-4",
+      "maneki-neko-page-5",
+      "maneki-neko-page-6",
+      "maneki-neko-page-7",
+      "maneki-neko-page-8",
+      "maneki-neko-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        28,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "招财猫"
+  },
+  {
+    "index": 75,
+    "case": "sushi",
+    "rawValue": "sushi",
+    "frameOrderPayload": 16,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "sushi",
+    "resources": [
+      "sushi-page-0",
+      "sushi-page-1",
+      "sushi-page-10",
+      "sushi-page-11",
+      "sushi-page-12",
+      "sushi-page-13",
+      "sushi-page-14",
+      "sushi-page-15",
+      "sushi-page-2",
+      "sushi-page-3",
+      "sushi-page-4",
+      "sushi-page-5",
+      "sushi-page-6",
+      "sushi-page-7",
+      "sushi-page-8",
+      "sushi-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        116,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "寿司"
+  },
+  {
+    "index": 76,
+    "case": "uhooi",
+    "rawValue": "uhooi",
+    "frameOrderPayload": 10,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "uhooi",
+    "resources": [
+      "uhooi-page-0",
+      "uhooi-page-1",
+      "uhooi-page-2",
+      "uhooi-page-3",
+      "uhooi-page-4",
+      "uhooi-page-5",
+      "uhooi-page-6",
+      "uhooi-page-7",
+      "uhooi-page-8",
+      "uhooi-page-9"
+    ],
+    "sourceDimensions": [
+      [
+        45,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "Uhooi"
+  },
+  {
+    "index": 77,
+    "case": "entaku",
+    "rawValue": "entaku",
+    "frameOrderPayload": 6,
+    "frameOrderDiscriminator": 2,
+    "order": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "isTemplate": false,
+    "category": "special",
+    "imageTag": "entaku",
+    "resources": [
+      "entaku-page-0",
+      "entaku-page-1",
+      "entaku-page-2",
+      "entaku-page-3",
+      "entaku-page-4",
+      "entaku-page-5",
+      "entaku-page-6",
+      "entaku-page-7",
+      "entaku-page-8"
+    ],
+    "sourceDimensions": [
+      [
+        40,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "Entaku"
+  },
+  {
+    "index": 78,
+    "case": "allRunners",
+    "rawValue": "runners.all",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "functional",
+    "imageTag": "all-runners",
+    "resources": [
+      "all-runners-page-0",
+      "all-runners-page-1",
+      "all-runners-page-2",
+      "all-runners-page-3",
+      "all-runners-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        43,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "解锁所有跑者"
+  },
+  {
+    "index": 79,
+    "case": "selfMade",
+    "rawValue": "made.self",
+    "frameOrderPayload": 5,
+    "frameOrderDiscriminator": 0,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isTemplate": true,
+    "category": "functional",
+    "imageTag": "self-made",
+    "resources": [
+      "self-made-page-0",
+      "self-made-page-1",
+      "self-made-page-2",
+      "self-made-page-3",
+      "self-made-page-4"
+    ],
+    "sourceDimensions": [
+      [
+        38,
+        36
+      ]
+    ],
+    "frameOrderValid": true,
+    "zhName": "自制跑者"
+  }
+]

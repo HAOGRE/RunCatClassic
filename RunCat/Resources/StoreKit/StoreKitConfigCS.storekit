@@ -1,0 +1,958 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+
+    ]
+  },
+  "identifier" : "63E64D84",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450118637",
+      "localizations" : [
+        {
+          "description" : "跑者：飞鸟",
+          "displayName" : "小鸟",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "bird.com.kyome",
+      "referenceName" : "Bird",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450141442",
+      "localizations" : [
+        {
+          "description" : "跑者：闪烁的火焰篝火",
+          "displayName" : "篝火",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "bonfire.com.kyome",
+      "referenceName" : "Bonfire",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1571020012",
+      "localizations" : [
+        {
+          "description" : "跑者：翩翩蝴蝶",
+          "displayName" : "蝴蝶",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "butterfly.com.kyome",
+      "referenceName" : "Butterfly",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1470868641",
+      "localizations" : [
+        {
+          "description" : "跑者：伸出舌头的变色龙",
+          "displayName" : "变色龙",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "chameleon.com.kyome",
+      "referenceName" : "Chameleon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450117103",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的猎豹",
+          "displayName" : "猎豹",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cheetah.com.kyome",
+      "referenceName" : "Cheetah",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1471146657",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的小鸡",
+          "displayName" : "小鸡",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "chicken.com.kyome",
+      "referenceName" : "Chicken",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450182078",
+      "localizations" : [
+        {
+          "description" : "跑者：热气腾腾的咖啡",
+          "displayName" : "咖啡",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "coffee.com.kyome",
+      "referenceName" : "Coffee",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450145901",
+      "localizations" : [
+        {
+          "description" : "跑者：旋转的齿轮",
+          "displayName" : "齿轮",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cogwheel.com.kyome",
+      "referenceName" : "Cogwheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463332909",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的恐龙",
+          "displayName" : "恐龙",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "dinosaur.com.kyome",
+      "referenceName" : "Dinosaur",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450117553",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的狗",
+          "displayName" : "狗​",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "dog.com.kyome",
+      "referenceName" : "Dog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450140731",
+      "localizations" : [
+        {
+          "description" : "跑者：游泳海豚",
+          "displayName" : "海豚",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "dolphin.com.kyome",
+      "referenceName" : "Dolphin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450140942",
+      "localizations" : [
+        {
+          "description" : "跑者：飞龙",
+          "displayName" : "龙​",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "dragon.com.kyome",
+      "referenceName" : "Dragon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450141480",
+      "localizations" : [
+        {
+          "description" : "跑者：落下的水滴",
+          "displayName" : "水滴",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "drop.com.kyome",
+      "referenceName" : "Drop",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1510097392",
+      "localizations" : [
+        {
+          "description" : "跑者：旋转的地球",
+          "displayName" : "地球",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "earth.com.kyome",
+      "referenceName" : "Earth",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1509142649",
+      "localizations" : [
+        {
+          "description" : "跑者：引擎运转",
+          "displayName" : "引擎",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "engine.com.kyome",
+      "referenceName" : "Engine",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "6449150063",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：圆桌生物",
+          "displayName" : "Entaku",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "entaku.com.kyome",
+      "referenceName" : "Entaku",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1490440694",
+      "localizations" : [
+        {
+          "description" : "跑者：制造神秘物品的工厂",
+          "displayName" : "工厂",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "factory.com.kyome",
+      "referenceName" : "Factory",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "28.00",
+      "familyShareable" : false,
+      "internalID" : "1537844481",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：猫在红色闪电中奔跑",
+          "displayName" : "闪电猫",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cat.flash.com.kyome",
+      "referenceName" : "Flash Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1481712907",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的狐狸",
+          "displayName" : "狐狸",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "fox.com.kyome",
+      "referenceName" : "Fox",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450118350",
+      "localizations" : [
+        {
+          "description" : "跑者：跳青蛙",
+          "displayName" : "青蛙",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "frog.com.kyome",
+      "referenceName" : "Frog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1469811179",
+      "localizations" : [
+        {
+          "description" : "跑者：在平底锅中翻炒",
+          "displayName" : "平底锅",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "frypan.com.kyome",
+      "referenceName" : "Frypan",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1481713406",
+      "localizations" : [
+        {
+          "description" : "万圣节之夜的跑者",
+          "displayName" : "幽灵",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "ghost.com.kyome",
+      "referenceName" : "Ghost",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "58.00",
+      "familyShareable" : false,
+      "internalID" : "1474061079",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：金色闪闪发光的猫",
+          "displayName" : "金猫",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cat.golden.com.kyome",
+      "referenceName" : "Golden Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1604623470",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的灰狗",
+          "displayName" : "灰狗",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "greyhound.com.kyome",
+      "referenceName" : "Greyhound",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463333679",
+      "localizations" : [
+        {
+          "description" : "跑者：在转轮上奔跑的仓鼠",
+          "displayName" : "仓鼠跑轮",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "wheel.hamster.com.kyome",
+      "referenceName" : "Hamster Wheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463332935",
+      "localizations" : [
+        {
+          "description" : "跑者：行走的刺猬",
+          "displayName" : "刺猬",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "hedgehog.com.kyome",
+      "referenceName" : "Hedgehog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463333494",
+      "localizations" : [
+        {
+          "description" : "跑者：奔马",
+          "displayName" : "马​",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "horse.com.kyome",
+      "referenceName" : "Horse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1481713258",
+      "localizations" : [
+        {
+          "description" : "万圣节之夜的跑者",
+          "displayName" : "南瓜灯",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "lantern.o.jack.com.kyome",
+      "referenceName" : "Jack-o'-Lantern",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "28.00",
+      "familyShareable" : false,
+      "internalID" : "1604622844",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：金色招财猫",
+          "displayName" : "招财猫",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "neko.maneki.com.kyome",
+      "referenceName" : "Maneki Neko",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "28.00",
+      "familyShareable" : false,
+      "internalID" : "1500929637",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：金属猫群",
+          "displayName" : "金属团猫",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cat.cluster.metal.com.kyome",
+      "referenceName" : "Metal Cluster Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1493109071",
+      "localizations" : [
+        {
+          "description" : "十五夜跑者：兔子舂年糕",
+          "displayName" : "年糕",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "mochi.com.kyome",
+      "referenceName" : "Mochi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1471135195",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的老鼠",
+          "displayName" : "老鼠",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "mouse.com.kyome",
+      "referenceName" : "Mouse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450141844",
+      "localizations" : [
+        {
+          "description" : "跑者：摇动牛顿摆",
+          "displayName" : "牛顿摆",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "cradle.com.kyome",
+      "referenceName" : "Newton's Cradle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463333949",
+      "localizations" : [
+        {
+          "description" : "跑者：游泳章鱼",
+          "displayName" : "章鱼",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "octopus.com.kyome",
+      "referenceName" : "Octopus",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1506237862",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的水獭",
+          "displayName" : "水獭",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "otter.com.kyome",
+      "referenceName" : "Otter",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450182183",
+      "localizations" : [
+        {
+          "description" : "跑者：转颈猫头鹰",
+          "displayName" : "猫头鹰",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "owl.com.kyome",
+      "referenceName" : "Owl",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450141752",
+      "localizations" : [
+        {
+          "description" : "跑者：摆钟",
+          "displayName" : "钟摆",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "pendulum.com.kyome",
+      "referenceName" : "Pendulum",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450192713",
+      "localizations" : [
+        {
+          "description" : "跑者：企鹅在地板上滑行",
+          "displayName" : "企鹅",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "penguin.com.kyome",
+      "referenceName" : "Penguin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463333722",
+      "localizations" : [
+        {
+          "description" : "跑者：蹒跚企鹅",
+          "displayName" : "企鹅 2",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "penguin2.com.kyome",
+      "referenceName" : "Penguin 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1481712899",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的小猪",
+          "displayName" : "小猪",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "pig.com.kyome",
+      "referenceName" : "Pig",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450142387",
+      "localizations" : [
+        {
+          "description" : "跑者：像心跳一样的动画",
+          "displayName" : "心跳",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "pulse.com.kyome",
+      "referenceName" : "Pulse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450117857",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的小狗",
+          "displayName" : "小狗",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "puppy.com.kyome",
+      "referenceName" : "Puppy",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450118335",
+      "localizations" : [
+        {
+          "description" : "跑者：小兔子跳过",
+          "displayName" : "小兔子",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "rabbit.com.kyome",
+      "referenceName" : "Rabbit",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1446049798",
+      "localizations" : [
+        {
+          "description" : "圣诞节跑者",
+          "displayName" : "驯鹿与雪橇",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "sleigh.reindeer.com.kyome",
+      "referenceName" : "Reindeer & Sleigh",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450141713",
+      "localizations" : [
+        {
+          "description" : "跑者：飞行火箭",
+          "displayName" : "火箭",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "rocket.com.kyome",
+      "referenceName" : "Rocket",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450148102",
+      "localizations" : [
+        {
+          "description" : "解锁自制跑者注册功能。",
+          "displayName" : "自制跑者",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "made.self.com.kyome",
+      "referenceName" : "Self-Made Runner",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1450142263",
+      "localizations" : [
+        {
+          "description" : "跑者：正弦波动画",
+          "displayName" : "正弦曲线",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "curve.sine.com.kyome",
+      "referenceName" : "Sine Curve",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1446049614",
+      "localizations" : [
+        {
+          "description" : "圣诞节跑者",
+          "displayName" : "雪人",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "snowman.com.kyome",
+      "referenceName" : "Snowman",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1474060254",
+      "localizations" : [
+        {
+          "description" : "日本夏季跑者",
+          "displayName" : "烟花棒",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "sparkler.com.kyome",
+      "referenceName" : "Sparkler",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1524923118",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的松鼠",
+          "displayName" : "松鼠",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "squirrel.com.kyome",
+      "referenceName" : "Squirrel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463334404",
+      "localizations" : [
+        {
+          "description" : "跑者：运行中的蒸汽机车",
+          "displayName" : "蒸汽机车",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "locomotive.steam.com.kyome",
+      "referenceName" : "Steam Locomotive",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "28.00",
+      "familyShareable" : false,
+      "internalID" : "1580285046",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：金枪鱼、鲑鱼子和鸡蛋",
+          "displayName" : "寿司",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "sushi.com.kyome",
+      "referenceName" : "Sushi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1469810441",
+      "localizations" : [
+        {
+          "description" : "跑者：搅拌珍珠奶茶",
+          "displayName" : "珍珠奶茶",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "drink.tapioca.com.kyome",
+      "referenceName" : "Tapioca Drink",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1463333220",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的杰克罗素梗犬",
+          "displayName" : "梗犬",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "terrier.com.kyome",
+      "referenceName" : "Terrier",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "1629169515",
+      "localizations" : [
+        {
+          "description" : "特别配色版跑者：绿色可爱生物",
+          "displayName" : "Uhooi",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "uhooi.com.kyome",
+      "referenceName" : "Uhooi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "58.00",
+      "familyShareable" : false,
+      "internalID" : "1452120687",
+      "localizations" : [
+        {
+          "description" : "不包括特别配色版跑者。",
+          "displayName" : "解锁所有跑者",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "runners.all.com.kyome",
+      "referenceName" : "Unlock All Runners",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1604623532",
+      "localizations" : [
+        {
+          "description" : "跑者：奔跑的柯基",
+          "displayName" : "柯基",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "corgi.welsh.com.kyome",
+      "referenceName" : "Welsh Corgi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1485212275",
+      "localizations" : [
+        {
+          "description" : "跑者：吹潮的鲸鱼",
+          "displayName" : "鲸鱼",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "whale.com.kyome",
+      "referenceName" : "Whale",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.00",
+      "familyShareable" : false,
+      "internalID" : "1474059571",
+      "localizations" : [
+        {
+          "description" : "日本夏季跑者",
+          "displayName" : "风铃",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "productID" : "chime.wind.com.kyome",
+      "referenceName" : "Wind Chime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_Hans",
+    "_storefront" : "CHN",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

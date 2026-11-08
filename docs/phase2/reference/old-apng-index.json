@@ -1,0 +1,4246 @@
+[
+  {
+    "name": "all-runners",
+    "bytes": 6212,
+    "size": [
+      43,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bird",
+    "bytes": 5632,
+    "size": [
+      32,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          32,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          32,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          32,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          32,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          32,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bonfire",
+    "bytes": 7779,
+    "size": [
+      28,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "butterfly",
+    "bytes": 8058,
+    "size": [
+      50,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          50,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chameleon",
+    "bytes": 23211,
+    "size": [
+      98,
+      36
+    ],
+    "n_frames": 12,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cheetah",
+    "bytes": 11082,
+    "size": [
+      82,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chicken",
+    "bytes": 6964,
+    "size": [
+      37,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "coffee",
+    "bytes": 12519,
+    "size": [
+      38,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cogwheel",
+    "bytes": 12646,
+    "size": [
+      37,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          37,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cradle",
+    "bytes": 13596,
+    "size": [
+      82,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          82,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dinosaur",
+    "bytes": 6027,
+    "size": [
+      51,
+      36
+    ],
+    "n_frames": 7,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 90.0,
+        "size": [
+          51,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dog",
+    "bytes": 8772,
+    "size": [
+      66,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          66,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          66,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          66,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          66,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          66,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dolphin",
+    "bytes": 8321,
+    "size": [
+      68,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          68,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          68,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          68,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          68,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          68,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dragon",
+    "bytes": 14749,
+    "size": [
+      195,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          195,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          195,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          195,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          195,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          195,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "drop",
+    "bytes": 5010,
+    "size": [
+      43,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "earth",
+    "bytes": 25447,
+    "size": [
+      36,
+      36
+    ],
+    "n_frames": 15,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 14,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "engine",
+    "bytes": 15946,
+    "size": [
+      83,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          83,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "entaku",
+    "bytes": 34652,
+    "size": [
+      40,
+      36
+    ],
+    "n_frames": 14,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 100.0,
+        "size": [
+          40,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "factory",
+    "bytes": 20586,
+    "size": [
+      136,
+      36
+    ],
+    "n_frames": 16,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 14,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      },
+      {
+        "index": 15,
+        "duration_ms": 100.0,
+        "size": [
+          136,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flash-cat",
+    "bytes": 32354,
+    "size": [
+      84,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          84,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          84,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          84,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          84,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          84,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fox",
+    "bytes": 8945,
+    "size": [
+      94,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          94,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          94,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          94,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          94,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          94,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "frog",
+    "bytes": 6388,
+    "size": [
+      49,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          49,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          49,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          49,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          49,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          49,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "frypan",
+    "bytes": 3087,
+    "size": [
+      55,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          55,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          55,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          55,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          55,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          55,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ghost",
+    "bytes": 9858,
+    "size": [
+      36,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "golden-cat",
+    "bytes": 26526,
+    "size": [
+      90,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          90,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "greyhound",
+    "bytes": 14569,
+    "size": [
+      74,
+      36
+    ],
+    "n_frames": 14,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 79.0,
+        "size": [
+          74,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hamster-wheel",
+    "bytes": 10304,
+    "size": [
+      36,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hedgehog",
+    "bytes": 11321,
+    "size": [
+      56,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          56,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          56,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          56,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          56,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          56,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "horse",
+    "bytes": 9260,
+    "size": [
+      69,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          69,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          69,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          69,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          69,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          69,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "jack-o-lantern",
+    "bytes": 15527,
+    "size": [
+      41,
+      36
+    ],
+    "n_frames": 9,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          41,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "maneki-neko",
+    "bytes": 36489,
+    "size": [
+      28,
+      36
+    ],
+    "n_frames": 15,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      },
+      {
+        "index": 14,
+        "duration_ms": 100.0,
+        "size": [
+          28,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "metal-cluster-cat",
+    "bytes": 98858,
+    "size": [
+      298,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          298,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mochi",
+    "bytes": 15371,
+    "size": [
+      62,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          62,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mouse",
+    "bytes": 7015,
+    "size": [
+      73,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "octopus",
+    "bytes": 11272,
+    "size": [
+      72,
+      36
+    ],
+    "n_frames": 9,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          72,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "otter",
+    "bytes": 11981,
+    "size": [
+      98,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          98,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "owl",
+    "bytes": 7936,
+    "size": [
+      38,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pendulum",
+    "bytes": 10441,
+    "size": [
+      24,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          24,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "penguin",
+    "bytes": 11321,
+    "size": [
+      101,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          101,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          101,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          101,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          101,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          101,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "penguin2",
+    "bytes": 6645,
+    "size": [
+      34,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          34,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          34,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          34,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          34,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          34,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pig",
+    "bytes": 9605,
+    "size": [
+      73,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          73,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pulse",
+    "bytes": 8874,
+    "size": [
+      42,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          42,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "puppy",
+    "bytes": 5219,
+    "size": [
+      61,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rabbit",
+    "bytes": 6583,
+    "size": [
+      43,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reindeer-sleigh",
+    "bytes": 13085,
+    "size": [
+      116,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "restore",
+    "bytes": 5880,
+    "size": [
+      36,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rocket",
+    "bytes": 7389,
+    "size": [
+      36,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          36,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "self-made",
+    "bytes": 7483,
+    "size": [
+      38,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          38,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sine-curve",
+    "bytes": 8621,
+    "size": [
+      100,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          100,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          100,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          100,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          100,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          100,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "snowman",
+    "bytes": 10573,
+    "size": [
+      51,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          51,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          51,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sparkler",
+    "bytes": 8215,
+    "size": [
+      43,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          43,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "squirrel",
+    "bytes": 8363,
+    "size": [
+      92,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          92,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          92,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          92,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          92,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          92,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "steam-locomotive",
+    "bytes": 35325,
+    "size": [
+      153,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          153,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sushi",
+    "bytes": 52950,
+    "size": [
+      116,
+      36
+    ],
+    "n_frames": 16,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 10,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 11,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 12,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 13,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 14,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      },
+      {
+        "index": 15,
+        "duration_ms": 100.0,
+        "size": [
+          116,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tapioca-drink",
+    "bytes": 8113,
+    "size": [
+      30,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          30,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          30,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          30,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          30,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          30,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "terrier",
+    "bytes": 9157,
+    "size": [
+      60,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          60,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          60,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          60,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          60,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          60,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "uhooi",
+    "bytes": 23555,
+    "size": [
+      45,
+      36
+    ],
+    "n_frames": 10,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 8,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      },
+      {
+        "index": 9,
+        "duration_ms": 100.0,
+        "size": [
+          45,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "welsh-corgi",
+    "bytes": 6831,
+    "size": [
+      61,
+      36
+    ],
+    "n_frames": 7,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          61,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "whale",
+    "bytes": 11412,
+    "size": [
+      79,
+      36
+    ],
+    "n_frames": 5,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          79,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          79,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          79,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          79,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          79,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "name": "wind-chime",
+    "bytes": 8226,
+    "size": [
+      25,
+      36
+    ],
+    "n_frames": 8,
+    "default_image": false,
+    "loop": 0,
+    "frames": [
+      {
+        "index": 0,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 1,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 2,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 3,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 4,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 5,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 6,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      },
+      {
+        "index": 7,
+        "duration_ms": 100.0,
+        "size": [
+          25,
+          36
+        ]
+      }
+    ]
+  }
+]

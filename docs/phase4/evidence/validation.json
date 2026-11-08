@@ -1,0 +1,25 @@
+{
+  "Debug": {
+    "succeeded": true,
+    "errors": 0,
+    "warnings": [
+      "2026-11-08 11:35:11.106 appintentsmetadataprocessor[8141:5363759] warning: Metadata extraction skipped, no AppIntents.framework dependency found"
+    ],
+    "LSUIElement": true,
+    "bundleIdentifier": "org.runcat.community"
+  },
+  "Release": {
+    "succeeded": true,
+    "errors": 0,
+    "warnings": [
+      "2026-11-08 11:35:15.817 appintentsmetadataprocessor[8181:5364028] warning: Metadata extraction skipped, no AppIntents.framework dependency found"
+    ],
+    "LSUIElement": true,
+    "bundleIdentifier": "org.runcat.community"
+  },
+  "tests": {
+    "functions": 45,
+    "invocations": 144,
+    "passed": true
+  }
+}

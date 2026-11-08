@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-08",
+  "platform": "27.2",
+  "swiftTest": {
+    "configuration": "Debug",
+    "tests": 35,
+    "suites": 4,
+    "parameterizedInvocations": 133,
+    "passed": true
+  },
+  "swiftTestRelease": {
+    "tests": 35,
+    "suites": 4,
+    "parameterizedInvocations": 133,
+    "passed": true
+  },
+  "xcodebuild": {
+    "configuration": "Release",
+    "architecture": "arm64",
+    "passed": true
+  },
+  "catalog": {
+    "runnerCases": 80,
+    "builtInRunners": 78,
+    "monochromeRunners": 71,
+    "sourcePages": 524,
+    "products": 59,
+    "languages": [
+      "en",
+      "zh-Hans",
+      "ja",
+      "ko",
+      "fr"
+    ]
+  },
+  "sourceResourceValidation": {
+    "passed": true,
+    "checks": 3682,
+    "errors": [],
+    "counts": {
+      "pageFrames": 524,
+      "runnerGroups": 80,
+      "imageSets": 528,
+      "dataAssets": 60,
+      "animatedPNGs": 60,
+      "staticPreviewPNGs": 0,
+      "vectorRenditions": 15,
+      "vectorNames": 3,
+      "colors": 4,
+      "localization": 40,
+      "systemInfoLocalization": 5,
+      "infoPlistLocalization": 4
+    },
+    "directOriginalComparison": true
+  },
+  "compiledResourceValidation": {
+    "apng": 60,
+    "checks": 2255,
+    "errors": [],
+    "images": 528,
+    "passed": true
+  },
+  "batteryHardware": "Not installed on this host; nested macOS 27 and traditional laptop data verified with deterministic fixtures",
+  "storefrontVisualQA": "Opened native Runners Store; verified recommended, special-colored and seasonal product cards, APNG previews, prices, unlocked labels and Try buttons",
+  "sha256": {
+    "LocalPackage/Sources/DataSource/RunnerType.swift": "e486efa447b0529054964295c23dfc1dc979fbd0ad89b50769ca396b2631f213",
+    "LocalPackage/Sources/DataSource/Resources/RunnerCatalog.json": "b17599ef3bdf2f9c12a1ed096966d912c7ebcb1acaec98a3329b941dc42fc544",
+    "LocalPackage/Sources/DataSource/Resources/StockCatalog.json": "d197899468912fc3714d94988d478029cb4c4438cb448a62c42b2ec65e9cc391",
+    "build/Phase3/Build/Products/Release/RunCat.app/Contents/MacOS/RunCat": "78b2fcb82bb8f85528fde0ee3d8e03f5a9cc47dd9587b29a1e97f6e4f61ec288"
+  }
+}

@@ -1,0 +1,20 @@
+CPU: 28.7%
+	System: 10.3%
+	User: 18.4%
+	Idle: 71.3%
+Memory: 54.6%
+	Pressure: 12.3%
+	App Memory: 14.6 GB
+	Wired Memory:  2.6 GB
+	Compressed:  1.6 GB
+Storage: 28.2% used
+	280.3 GB / 994.7 GB
+Battery: Not Installed
+	Power Source: Battery
+	Condition:  0.0%
+	Cycle Count: 0
+	Temperature:  0.0℃
+Network: utun8
+	Local IP: 198.18.0.1
+	Upload:  0.0 kB/s
+	Download:  0.0 kB/s

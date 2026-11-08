@@ -1,0 +1,404 @@
+{
+  "recordedAtUTC": "2026-11-08T02:01:09.385687+00:00",
+  "researchRoot": "/Users/hmac/.gemini/antigravity-cli/brain/4621b695-caaa-4610-a976-f27a64747251/scratch/research",
+  "mainRepository": "/Volumes/UPS/Github/runcat-old",
+  "dmg": {
+    "path": "/Users/hmac/Downloads/RunCat_12.2.1__xclient.info/RunCat_12.2.1_.dmg",
+    "sha256": "b01f91c3d7dfd0b8a1fb41fcea90938c163f7a4dbe9db6e578c66f28529aadad"
+  },
+  "oldApp": {
+    "path": "/Users/hmac/.gemini/antigravity-cli/brain/4621b695-caaa-4610-a976-f27a64747251/scratch/research/RunCat.app",
+    "executableSHA256": "1e02aaa7c9efebcb3eeab326400f1cc555824c512650399bd2d2f4bac1c21422",
+    "files": [
+      {
+        "path": "Contents/Frameworks/macked.app.dylib",
+        "bytes": 7055056,
+        "sha256": "2e6a407e478d656594fda224deecf1c23b087f68877598e73c14209416c35d44"
+      },
+      {
+        "path": "Contents/Info.plist",
+        "bytes": 1737,
+        "sha256": "f5f48a04baf70c39413f9b2773059cd93bd3a8d9c95fb286373311667b5e020d"
+      },
+      {
+        "path": "Contents/MacOS/RunCat",
+        "bytes": 4401504,
+        "sha256": "1e02aaa7c9efebcb3eeab326400f1cc555824c512650399bd2d2f4bac1c21422"
+      },
+      {
+        "path": "Contents/PkgInfo",
+        "bytes": 8,
+        "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+      },
+      {
+        "path": "Contents/Resources/AppIcon.icns",
+        "bytes": 36143,
+        "sha256": "3faec725d7906d024dc935c519ec4ac2870931f35bdda65e9bff61d9ec0c6ccc"
+      },
+      {
+        "path": "Contents/Resources/Assets.car",
+        "bytes": 346184,
+        "sha256": "cef4ed74ca49edd46f3929ca22589f70e655744bf11a0627e1116a402ab541de"
+      },
+      {
+        "path": "Contents/Resources/LocalPackage_UserInterface.bundle/Contents/Info.plist",
+        "bytes": 1142,
+        "sha256": "48a7cdf87478affbe0e7749eeced109aba7d53b0a06f007b84b6efbf9d452ef2"
+      },
+      {
+        "path": "Contents/Resources/LocalPackage_UserInterface.bundle/Contents/Resources/Assets.car",
+        "bytes": 1821912,
+        "sha256": "52f4a9e4fd21db907c2a8ccde08ddb470b7ed15d7b826974322ab3d2a17a1f8c"
+      },
+      {
+        "path": "Contents/Resources/PrivacyInfo.xcprivacy",
+        "bytes": 598,
+        "sha256": "ce6b59aaac349ba21a30aa861f7fc91b9ba4d59e013f53238898df9585a2e326"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Info.plist",
+        "bytes": 1164,
+        "sha256": "20b269c5011cbf063b303153b9c293692ee885e519ce01e052e63e5946831203"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/Dashboard.strings",
+        "bytes": 2886,
+        "sha256": "0bc3052759f10a05bd9f867cd6fe86788de81db737a2f5b8d27dd8af466c1702"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/GeneralSettings.strings",
+        "bytes": 2348,
+        "sha256": "ce78db5ea8d1836f186b3de3074b803b00c7db25ba86b4d8934542f6326b360d"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/Others.strings",
+        "bytes": 2636,
+        "sha256": "36e22d4e93e296d2a73c376b26c92a0867e5332cdc97651c14c18d10d0fb53cc"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/RunnerName.strings",
+        "bytes": 7974,
+        "sha256": "f442daea9670aa10d81a172eae9892edc7905c6fd51e97af923bbe9d0e277d84"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/RunnersStore.strings",
+        "bytes": 3810,
+        "sha256": "48ea8e417004230555933e818dbad6665180943afffca46170401a0086544dca"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/SelfMadeRunners.strings",
+        "bytes": 2978,
+        "sha256": "a34bc737b74414ba1497ef7182da2d14e4ba9ceae174df3788a094795a31b8bf"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/SystemInfoBar.strings",
+        "bytes": 1632,
+        "sha256": "96b373a7a315a4e2183f30e01fe80cc8581e39bad59b9f52dc347a452ca89f69"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/en.lproj/SystemInfoSettings.strings",
+        "bytes": 2056,
+        "sha256": "c91492fa2320396e344753f1ce5fab0ee69ec1909da096fd24233dba0fad3d45"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/Dashboard.strings",
+        "bytes": 2986,
+        "sha256": "0de0d252d481efc23d1bf47b961a544528ac6d94db2cfea1933f131c5192f635"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/GeneralSettings.strings",
+        "bytes": 2554,
+        "sha256": "514eb697b9a8dae6599361ae4d2f8dda6d45f128d04f348df7354647a9122251"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/Others.strings",
+        "bytes": 2756,
+        "sha256": "0cacaba571b993f861c81411d9c0ce55d9ef1f6eab102ac1397f07e88344bc75"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/RunnerName.strings",
+        "bytes": 8232,
+        "sha256": "93b99822aa41b450dbdcaf8c39a2fed6c0f8e1895be8b6a310238f51a0c3f133"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/RunnersStore.strings",
+        "bytes": 4016,
+        "sha256": "6847a50913a39add7c7e3ddaab3beca009a6486b373a265a5658c6787b3569dd"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/SelfMadeRunners.strings",
+        "bytes": 3142,
+        "sha256": "98a742f7f2f8b4e072cdf49f37d9423f8954a61abe64924a765e007685119007"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/SystemInfoBar.strings",
+        "bytes": 1768,
+        "sha256": "a91c1611aa264e5022234b0ce67dff4164bfbe9cff429b22ff5f6643b59f7de7"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/fr.lproj/SystemInfoSettings.strings",
+        "bytes": 2232,
+        "sha256": "bb1e43249540dca809eba8d60a17d58469ffd2e51fdecedfaaf410fdcd496459"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/Dashboard.strings",
+        "bytes": 2572,
+        "sha256": "8f53b0023a87f98c069b8cbc0886e3576550099d938aaa3271ba664c3167558e"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/GeneralSettings.strings",
+        "bytes": 1942,
+        "sha256": "776c9e04d4d228d845c7c317aaffa792a552a8d1e402776f9c8f5093e16187f9"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/Others.strings",
+        "bytes": 2418,
+        "sha256": "e6d78a71fca57cb8d0bf94286b56b2ca50185a2ab078b7e5cdf1a74e7282c164"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/RunnerName.strings",
+        "bytes": 7372,
+        "sha256": "66c00866f5aec692fed8ab3b2562eb5d182b5da40a9424bf010ed8f93c40b5f4"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/RunnersStore.strings",
+        "bytes": 3180,
+        "sha256": "24e98a9f2634c1397d6755e7f672d854308cae71cd85db8a5926f8ea8e8cbdb2"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/SelfMadeRunners.strings",
+        "bytes": 2588,
+        "sha256": "0ccd8cf2c2188c1a5e5fa6bed166345b15b9b2b2a7d4b7cc5b3ec395ed024840"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/SystemInfoBar.strings",
+        "bytes": 1494,
+        "sha256": "25acde9acf73945b5730a1b780e96d2b6cdd089995b6a410609db1462e439378"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ja.lproj/SystemInfoSettings.strings",
+        "bytes": 1764,
+        "sha256": "9577ccc642672d00b4c491c01aa7796c11f005fd9ca1dcbabb8dd15336274965"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/Dashboard.strings",
+        "bytes": 2556,
+        "sha256": "3c122a05f26193e41203034ab2186750c0726eec8c7eebcc8034ad90078a1446"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/GeneralSettings.strings",
+        "bytes": 1938,
+        "sha256": "9f6f656b445606b0e4add5c3e34fc02f528431f9c2ecf610639b8c68d543518a"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/Others.strings",
+        "bytes": 2430,
+        "sha256": "70c7864210c6d85292b312f189c44538b008b8ff083e3f7c36946b9fe4a5d2f6"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/RunnerName.strings",
+        "bytes": 7182,
+        "sha256": "b3e118030ce120b55a5d764a7f50512d9002b1a4d0e0078bc71c3852eba5fab8"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/RunnersStore.strings",
+        "bytes": 3202,
+        "sha256": "8bcefc4f9156d94a64ab55da04dd69730b615bf3ba60cb26b71f4e290afd624b"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/SelfMadeRunners.strings",
+        "bytes": 2562,
+        "sha256": "ebf618afa67777804f44341c5613612a48b0c75cf524c31b124c3f3c9b0c3b75"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/SystemInfoBar.strings",
+        "bytes": 1488,
+        "sha256": "8ab8b1b075aa49cc4692c5a2532fbe132300900d6f935b22018073f8f96e8d5f"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/ko.lproj/SystemInfoSettings.strings",
+        "bytes": 1716,
+        "sha256": "5db54a9dd57f1563de5576b88ae22d82286a776e264be5856e0985de16d4ca79"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/Dashboard.strings",
+        "bytes": 2466,
+        "sha256": "c039c7d8e9b2176dfa7a2d11367f7d24bc47a3a6dffc95cd87bf6eeb73dcef39"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/GeneralSettings.strings",
+        "bytes": 1804,
+        "sha256": "25be48112c44afed3782ede05a0f993b34c581fbb6d2b6d13292859ac4cfacb7"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/Others.strings",
+        "bytes": 2290,
+        "sha256": "0cae6e6e318287fdf3ac3b24ae1dc417204d7ab9250bc820a88454a3cf5946f5"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/RunnerName.strings",
+        "bytes": 7106,
+        "sha256": "d3b3fda54755ae7982f9419eac0d9da27867d077614b94f777a216967a9d2b9e"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/RunnersStore.strings",
+        "bytes": 2932,
+        "sha256": "7e6298b5dcdb1bbfae335a438b003eca63d4d1e70d646fc37f8a078db402d548"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/SelfMadeRunners.strings",
+        "bytes": 2406,
+        "sha256": "d8af303f575546caaf3e29a5c845a32d861f81331017770ed50fb3ae3b088164"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/SystemInfoBar.strings",
+        "bytes": 1442,
+        "sha256": "f01a41dae4f24f87b7876cd02cf6b448cb88ca8c3be7f9e6f66be880f894d0c9"
+      },
+      {
+        "path": "Contents/Resources/RunCatLocalization_RunCatLocalization.bundle/Contents/Resources/zh-Hans.lproj/SystemInfoSettings.strings",
+        "bytes": 1638,
+        "sha256": "d2411533985c5740735117cf7fc34e6446c6b96a7a66a2516e64742fad967a16"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfig.storekit",
+        "bytes": 25086,
+        "sha256": "722ea82e101d1aea2b22c218ac7999289ee915f9d12b498289473a5ca3d6abfe"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfigCS.storekit",
+        "bytes": 24998,
+        "sha256": "240809cb73d90ffb7d46a825b7a226867f7ea5c3b6d5bc08a2b559b0bd24063f"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfigFR.storekit",
+        "bytes": 25165,
+        "sha256": "07374ac051f42c6ad38874a246e71ad9b5d4c0af89258ab74a384482c7bd040b"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfigJP.storekit",
+        "bytes": 26091,
+        "sha256": "dd97bc0897490c9f4fcc5e50c62193b365abde4acfebfe868c5599b409e3ee96"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfigKO.storekit",
+        "bytes": 25191,
+        "sha256": "18a37a2f3aad0bba04a096eaf0b7fc6e78173afe79d9b54d14c47ada34c995c2"
+      },
+      {
+        "path": "Contents/Resources/StoreKitConfigTest.storekit",
+        "bytes": 3496,
+        "sha256": "d549fcea2adcc05f18ef44be2dd2b4b17573fdc02519e210507b7e0f968a51ec"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Info.plist",
+        "bytes": 1144,
+        "sha256": "0ffb75497da017e891f91188c578050cba2ce53935d5d46802ae081df76f16e2"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/PrivacyInfo.xcprivacy",
+        "bytes": 595,
+        "sha256": "91ca30047dea35d269d3981f30215fbb883ce6cbe59e314a6c5c1479e2823c57"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/en.lproj/Localizable.strings",
+        "bytes": 3284,
+        "sha256": "a4ecb7d070cce823caf8184e650f848f99d71a72f12bdc61d08718c66b28b715"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/fr.lproj/Localizable.strings",
+        "bytes": 3454,
+        "sha256": "ba3b5e7ce17811c2f19129ed9a72164349cd9b7f2abae32574ca99a4a6d7b3da"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/ja.lproj/Localizable.strings",
+        "bytes": 3040,
+        "sha256": "18be5292fef3612805eabffb145b46ce6a4188c128509760dc2336c0d5182848"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/ko.lproj/Localizable.strings",
+        "bytes": 3058,
+        "sha256": "898de601043feeb3c3b22df1a24f1f25eba711324f35a5e4036b5dd4a9382b78"
+      },
+      {
+        "path": "Contents/Resources/SystemInfoKit_SystemInfoKit.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings",
+        "bytes": 2948,
+        "sha256": "24af0ec70226a47d90d865eda8a862318b28db639ddea5f8fe78461cd1308d88"
+      },
+      {
+        "path": "Contents/Resources/fr.lproj/InfoPlist.strings",
+        "bytes": 644,
+        "sha256": "21458f49483a8daa49480ed1b93070c5308f8c80b4a71283091295950bf66091"
+      },
+      {
+        "path": "Contents/Resources/ja.lproj/InfoPlist.strings",
+        "bytes": 644,
+        "sha256": "21458f49483a8daa49480ed1b93070c5308f8c80b4a71283091295950bf66091"
+      },
+      {
+        "path": "Contents/Resources/ko.lproj/InfoPlist.strings",
+        "bytes": 644,
+        "sha256": "21458f49483a8daa49480ed1b93070c5308f8c80b4a71283091295950bf66091"
+      },
+      {
+        "path": "Contents/Resources/zh-Hans.lproj/InfoPlist.strings",
+        "bytes": 644,
+        "sha256": "21458f49483a8daa49480ed1b93070c5308f8c80b4a71283091295950bf66091"
+      },
+      {
+        "path": "Contents/_CodeSignature/CodeResources",
+        "bytes": 30398,
+        "sha256": "f1fd9be5c1fc7bf7afa87b1167ed9eba4780e1601115198c2986b3808d98debe"
+      },
+      {
+        "path": "Contents/_MASReceipt/receipt",
+        "bytes": 20,
+        "sha256": "0a56cf191f910b3ca6652113a0181950654f9c7eb44b46819dbf7c92848a02bc"
+      }
+    ]
+  },
+  "sourceRepositories": {
+    "RunCatNeo": {
+      "head": "592cd606e735ce20da98d9ae62ecf1a2608635d7",
+      "remote": "https://github.com/runcat-dev/RunCatNeo",
+      "status": ""
+    },
+    "SystemInfoKit-7.2.2": {
+      "head": "56bfde260431e8c0270137f409f8e8c9de04bbec",
+      "remote": "https://github.com/Kyome22/SystemInfoKit.git",
+      "status": ""
+    },
+    "SystemInfoKit-5.4.1": {
+      "head": "581841677cd043b728d2f2a54dc581d96b6d6743",
+      "remote": "https://github.com/Kyome22/SystemInfoKit.git",
+      "status": ""
+    },
+    "SystemInfoKit-5.1.0": {
+      "head": "da7f64f5afc2e387f159287f0c927dbbf6066cab",
+      "remote": "https://github.com/Kyome22/SystemInfoKit.git",
+      "status": ""
+    }
+  },
+  "reports": [
+    {
+      "path": "README.md",
+      "bytes": 4859,
+      "sha256": "b38def600f74b86e8dca0c699081e469430d65c02203e0df6b4b4989e4cfdeeb"
+    },
+    {
+      "path": "reports/RunCat-12.2.1-vs-Neo-逆向调研报告.md",
+      "bytes": 66576,
+      "sha256": "7ad7b2b0110854bb431d7033734418943bb27fec568138aa783a15c57ef94da4"
+    },
+    {
+      "path": "reports/old-ui-and-types.md",
+      "bytes": 26045,
+      "sha256": "2b045005ee40c1002b41c41d509f81b607ef6664a2ce20d44f3b00ccfa7f13ab"
+    },
+    {
+      "path": "reports/runner-catalog.md",
+      "bytes": 8378,
+      "sha256": "6d5712da439c673bfcf6e6b9b55beff43daa84a5990431d09e81a5e2011bb3bd"
+    }
+  ]
+}

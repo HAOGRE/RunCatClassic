@@ -1,0 +1,349 @@
+{
+  "sampleExecutableSHA256": "1e02aaa7c9efebcb3eeab326400f1cc555824c512650399bd2d2f4bac1c21422",
+  "artifacts": [
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/BatteryInfo.swift",
+      "sha256": "1acf97cc3d7e384c80983c71e02d505584d0639b8e6f6c97495df2d6228d720c"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/CPUInfo.swift",
+      "sha256": "67292c7bf1d157f6ed466997731803f5374ef65db6e620adbf565c11343d259c"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/LICENSE",
+      "sha256": "636246baf84243eea653dbbb46ee5882a3c922bb23e13c4e2afc005fc538bd19"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/MemoryInfo.swift",
+      "sha256": "c5346687d53202792c9c4fb3ba8571685ae1917f743d74d231e235493a9ff5ea"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/NetworkInfo.swift",
+      "sha256": "390cd55dc70fd97beb06fa0bf8314bdeec4f2a1017b58627b7c397386f885544"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/PROVENANCE.md",
+      "sha256": "f2e5c63ee72fed7b28527b5f02bf4aa3825ad79fd816d13fd3c6bbf4e7b91c44"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/StorageInfo.swift",
+      "sha256": "f164b731b70b033d4d0f43aa02fd881389d8f37d5a1c675d311eb54705ce28c4"
+    },
+    {
+      "path": "evidence/SystemInfoKit-5.1-entity-reference/SystemInfo.swift",
+      "sha256": "5d43ace1ed895c78f309c3f0cc7b917ad0d26f9ae8971e840cea1e0d99a32bac"
+    },
+    {
+      "path": "evidence/dyld-fixups.txt",
+      "sha256": "2bf1b549207fd6566028a9809cb747b2b93d360a201c94aba4ef33491e7d3681"
+    },
+    {
+      "path": "evidence/dynamic-and-shared-evidence.asm",
+      "sha256": "84d7c3ae3c0fbcb36be7a7daa53525ec2ccacd5b8e8041c9908b3e9c95840140"
+    },
+    {
+      "path": "evidence/type-references.json",
+      "sha256": "cba53cec814edad84602d020be43e7b6daa7b2a08d4783ca2c32b0048f8dc0a7"
+    },
+    {
+      "path": "evidence/view-coverage.json",
+      "sha256": "a678c46eb1a46b0519e7dfbf1f34f7d9da86d7fab9c5361bd466d352832456b7"
+    },
+    {
+      "path": "evidence/view-functions.json",
+      "sha256": "77e753990b55e837639eb6b6489f1d78482ce021cefeb1c827dcd5eb383acf05"
+    },
+    {
+      "path": "evidence/view-layout-calls.txt",
+      "sha256": "d1ab3ef453c24a9e824577769175d3295528f0167207ab58f66b39d75e8c3cf5"
+    },
+    {
+      "path": "evidence/views/APNGView.asm",
+      "sha256": "845021799b93a8bfbcbddbc5ccd4bf7a1f72744b34c0c412f2259d16a5dfa92b"
+    },
+    {
+      "path": "evidence/views/APNGView.json",
+      "sha256": "43aae92b4f5e9f7b87de9ebe123d7d60426d98dbfa1c4de5d7d2391523337870"
+    },
+    {
+      "path": "evidence/views/BarGraph.asm",
+      "sha256": "e2d712edd59a8319d7b57f8439cb399ac3e644ff0e0caa969d431e85a4210d78"
+    },
+    {
+      "path": "evidence/views/BarGraph.json",
+      "sha256": "c41fde00c304ffc85904204a6f8f2a8f6908ae078e40b803aa0cb8ff56ab22d1"
+    },
+    {
+      "path": "evidence/views/BottomControlsView.asm",
+      "sha256": "9ed35c67fd948336cd49450d611f93cc1715c714a68ccb2b76502d1ca80cdc6b"
+    },
+    {
+      "path": "evidence/views/BottomControlsView.json",
+      "sha256": "06fb788387a09393a0e32350748a73424c961d5da4f27e7024e0348cc16d464e"
+    },
+    {
+      "path": "evidence/views/DashboardView.asm",
+      "sha256": "d46106281e49a05e9b85f4be85dd0caa10880778bb2437ee2f71586053702b68"
+    },
+    {
+      "path": "evidence/views/DashboardView.json",
+      "sha256": "140c56f68dec2c1ec428e3926832732332303827f8f89f20bda75bb8be4cc452"
+    },
+    {
+      "path": "evidence/views/GeneralSettingsView.asm",
+      "sha256": "711cf3554f6f5d333ed4f8053768b54d9a6dadedd765460b0024485e583c5d0b"
+    },
+    {
+      "path": "evidence/views/GeneralSettingsView.json",
+      "sha256": "f0bb93a54aeb88f9285718370e098c6215e5f33ffa40bd9bbc38a4379f9b71e5"
+    },
+    {
+      "path": "evidence/views/HelpMenusView.asm",
+      "sha256": "23b5795f73416bdbb75dccad6cd5c5416fd52af584d1ba0444d4cfd04bedce56"
+    },
+    {
+      "path": "evidence/views/HelpMenusView.json",
+      "sha256": "baa5e696dc384f662a15f19b251268faf20138f77c074ec4b967f858bbb8f482"
+    },
+    {
+      "path": "evidence/views/IndicatorTypePicker.asm",
+      "sha256": "3b6e5078c4d004a09138d7ce3c53c8a35a2a83683a930acc1af2b6e03c8c68e5"
+    },
+    {
+      "path": "evidence/views/IndicatorTypePicker.json",
+      "sha256": "49d18d4b3f2b98ef802ebb0160e16ccd2d508f67aa12cfd3439bfbda917785ee"
+    },
+    {
+      "path": "evidence/views/LineGraph.asm",
+      "sha256": "db5f5744c253a38f531612b84013ff814c9248c74f6eb2c29a6f101d32f0589e"
+    },
+    {
+      "path": "evidence/views/LineGraph.json",
+      "sha256": "77e77103fd9ac05c021a56cd7e82b312ab058eb33bccc6a4c79ec185992f85cf"
+    },
+    {
+      "path": "evidence/views/MainMenusView.asm",
+      "sha256": "4d4166c8ea9a8fbe3f85b2f2edbd937bc784fece6b27bddb7474616f05409b7c"
+    },
+    {
+      "path": "evidence/views/MainMenusView.json",
+      "sha256": "50c7cb1b6987320f11bd3fb5cbf4a1c717f131c7a0af143a899d40c45888d362"
+    },
+    {
+      "path": "evidence/views/MaterialCellViewModifier.asm",
+      "sha256": "d717dfe422b36c8af281de897c8cbe0abbd48760b407a82113c8dcc14d3fc4ba"
+    },
+    {
+      "path": "evidence/views/MaterialCellViewModifier.json",
+      "sha256": "9534b258dd7480c4a1b7908a5a8bde17668a546b6c249f00fb6c6901b3432d32"
+    },
+    {
+      "path": "evidence/views/MediumButtonStyle.asm",
+      "sha256": "4038c3ef3aa3f7f9c12e18d72697644f0a6ea7ae6b566d2a244c0ac4c97ebb6f"
+    },
+    {
+      "path": "evidence/views/MediumButtonStyle.json",
+      "sha256": "7e5548ff89a1e92a7f2cb87ddb5f7e659ec5fed88efb7ce4ed8f4e806fb59dcc"
+    },
+    {
+      "path": "evidence/views/MenuBarSample.asm",
+      "sha256": "e416cf9d68ddd21033ffd1efb89be4961f61f85ec94d9a8505ea4162301f5b3e"
+    },
+    {
+      "path": "evidence/views/MenuBarSample.json",
+      "sha256": "c8414b42e680d1a79fec77d8c6b30195927ffb41f0b8cd423f3e9a723ab651cd"
+    },
+    {
+      "path": "evidence/views/RegisteredRunnersListView.asm",
+      "sha256": "f1296736fed69ef434b200d39bd1acf2f4ad1d1f263be01a91eac4935f9eef24"
+    },
+    {
+      "path": "evidence/views/RegisteredRunnersListView.json",
+      "sha256": "9950eebec0c9dc600397e59aeb6c5f58d150c170b870cb3367657ba27cd8f68d"
+    },
+    {
+      "path": "evidence/views/RegistrationFormView.asm",
+      "sha256": "4f4d9654d8c522206ecd68f359821fd5d4d9cfbc4e245e48d336e5fe8eb0c5fe"
+    },
+    {
+      "path": "evidence/views/RegistrationFormView.json",
+      "sha256": "5c174b05c469f6b0e92247c4e295020d472bfd99b5709e970ed2b727f0bf74ca"
+    },
+    {
+      "path": "evidence/views/ResizableImageButton.asm",
+      "sha256": "371f33af6f15785d150fb1d89f7125c2f91ecdb7efad05906e8a6830787493fb"
+    },
+    {
+      "path": "evidence/views/ResizableImageButton.json",
+      "sha256": "da11d16ca2faabd8fcb988110daa816799606fc9abe0d3d0c7ca3692f292607e"
+    },
+    {
+      "path": "evidence/views/RestoreView.asm",
+      "sha256": "b86ce9e5769a6525176c96934f8f6d2f24479366e0473555aa0caad13549cd85"
+    },
+    {
+      "path": "evidence/views/RestoreView.json",
+      "sha256": "acd0eb6c5c79dbf392fde6c0d4ac3b2318a5dcf32f0de49efa4f64d2bcfc73c1"
+    },
+    {
+      "path": "evidence/views/RunnerButtonStyle.asm",
+      "sha256": "c0f9b7388f7d94e2981dbaa54f03a279c2ffbe4cef026484af4916da88fa7646"
+    },
+    {
+      "path": "evidence/views/RunnerButtonStyle.json",
+      "sha256": "86b0fcdcf7fcb1e8554c08687e57ecfa9c8f84c90bfd82dcc5747e09ffc617a6"
+    },
+    {
+      "path": "evidence/views/RunnerFrameCellView.asm",
+      "sha256": "af9f990f4baf823c5b376ce85a1dd12dd4c6bc103fb978b7e27de3bc8d0cec0d"
+    },
+    {
+      "path": "evidence/views/RunnerFrameCellView.json",
+      "sha256": "855a6be2b2a7ade8ae98a7f0fec2a88af8289b27d5b8e758bf4ded50ea86d930"
+    },
+    {
+      "path": "evidence/views/RunnerFramesCollectionView.asm",
+      "sha256": "b530cb5ed07027773e97eb4b4e4f7a2a7a6aeeaeda7a0c3e899a3951ff9ff188"
+    },
+    {
+      "path": "evidence/views/RunnerFramesCollectionView.json",
+      "sha256": "cda410391a9e3cd180b3afcef179a6c51f977cfb9365417c089757ed0eba72e6"
+    },
+    {
+      "path": "evidence/views/RunnerPreviewView.asm",
+      "sha256": "6436bfae36f590711babce9dd59f470f67f2b4c33c89d4536f43ef842df602a5"
+    },
+    {
+      "path": "evidence/views/RunnerPreviewView.json",
+      "sha256": "20c4115b137f0fa5271637c212e4fed9e283c436d887b75a669d17a568ad8305"
+    },
+    {
+      "path": "evidence/views/RunnersListView.asm",
+      "sha256": "5b5a6877bc35e51f4596c7760da6f21cb0278aee21a76b54e8e60b3e379d1f8d"
+    },
+    {
+      "path": "evidence/views/RunnersListView.json",
+      "sha256": "80d4bd805a740d3b1dca1bee8e840947166840cf5f4c721961676e10c0fd1416"
+    },
+    {
+      "path": "evidence/views/RunnersStoreView.asm",
+      "sha256": "7cae0113e8d65914945aaab8e884c890011e1ce232d71af4a9f31b847495e215"
+    },
+    {
+      "path": "evidence/views/RunnersStoreView.json",
+      "sha256": "b77ada4f0d3aaa3f326961d6c3a474404db33e6a4d1df396e96972beeb5872f2"
+    },
+    {
+      "path": "evidence/views/RunnersStoreWindowScene.asm",
+      "sha256": "1b7428d990ba8a7bcb6a6326d943349d5c78096d3a569463047febbaf2411d54"
+    },
+    {
+      "path": "evidence/views/RunnersStoreWindowScene.json",
+      "sha256": "239822f7329480c3419154afaccec02f65996d907151cfae7db8bb356819e49b"
+    },
+    {
+      "path": "evidence/views/SelfMadeRunnersView.asm",
+      "sha256": "67f28ab9106219d044dbff2836c38978108214fb690f8824e2ad25ed20976d80"
+    },
+    {
+      "path": "evidence/views/SelfMadeRunnersView.json",
+      "sha256": "aca8681b3dbde4ef167ece4eb118a48f78eb948c832d2906352b5868c2112b42"
+    },
+    {
+      "path": "evidence/views/SelfMadeRunnersWindowScene.asm",
+      "sha256": "8756f0c70e8d3020fe7d8f5c765844c69f5389c5e764a783714060513905010e"
+    },
+    {
+      "path": "evidence/views/SelfMadeRunnersWindowScene.json",
+      "sha256": "c10e30183d43790a4b3dec0241b2f363fca679c16cec96466e449530f87a6e58"
+    },
+    {
+      "path": "evidence/views/SettingsView.asm",
+      "sha256": "4205875ae47c4aecdb6276ce41f2d5595c1a78b38d703b9a6f1d7791c5ef60dd"
+    },
+    {
+      "path": "evidence/views/SettingsView.json",
+      "sha256": "980e163d613160f4141b36ef292d6d0ee51a74f3f91bec868134774eeaf5c302"
+    },
+    {
+      "path": "evidence/views/SmallButtonStyle.asm",
+      "sha256": "67650c2d7e5e2dd5b9a0f0c16ff603e8af1aaecbd1589cd01603a5a0b9b31a4d"
+    },
+    {
+      "path": "evidence/views/SmallButtonStyle.json",
+      "sha256": "39bfa67a94c61aba76ccb9a8c56d6c33fa365ac61b615845f33859a810ca5bdd"
+    },
+    {
+      "path": "evidence/views/StockView.asm",
+      "sha256": "de8e6107c4461ebf5587fc5d45882ea8e2241ff00e3009b937ccfbcd1bb6b6bd"
+    },
+    {
+      "path": "evidence/views/StockView.json",
+      "sha256": "54102670ef77379df08416d02f8baed4d74997ad9c994dbc5c98831c316be9df"
+    },
+    {
+      "path": "evidence/views/StoreUnavailableView.asm",
+      "sha256": "9d1f019cc7b1b9f30baf699e59383a850e2cb60c0bd61f6d3b759db145c90af2"
+    },
+    {
+      "path": "evidence/views/StoreUnavailableView.json",
+      "sha256": "8fb896d4cd52d01d5822a7994b244cd49c341dd2e1cbd6559a2904e2989fc125"
+    },
+    {
+      "path": "evidence/views/SubContextView.asm",
+      "sha256": "a7617669c5ba7bc47a73c033e01edeb20e629a1698042867645536b102e45917"
+    },
+    {
+      "path": "evidence/views/SubContextView.json",
+      "sha256": "a3c615ee1927a5f962a6e54bba1d645c206cd4f45d966347a6180217caa63ada"
+    },
+    {
+      "path": "evidence/views/SubMenusView.asm",
+      "sha256": "e083cdd8baaec8839ffda4bc5cde2b8d2423c00e68a99c7b4e596f3039298ba1"
+    },
+    {
+      "path": "evidence/views/SubMenusView.json",
+      "sha256": "9403d248ce329b7210737946db012b7d77a55dfce42c11c0db04022df401b2d7"
+    },
+    {
+      "path": "evidence/views/SystemInfoBarConfirmationDialog.asm",
+      "sha256": "737285b63d80ada673e29c9a548d748c1dbeb44e27649b8f8403a2b178930741"
+    },
+    {
+      "path": "evidence/views/SystemInfoBarConfirmationDialog.json",
+      "sha256": "a66864d2e15fc6443e0028301d34b7a414512fd936bc7798e533bf08948064ee"
+    },
+    {
+      "path": "evidence/views/SystemInfoBarSettingsView.asm",
+      "sha256": "bc9d36eb6e6f286c874dfc6c87c1ed6273a65af5d9d9d928d320a6d18a9339ef"
+    },
+    {
+      "path": "evidence/views/SystemInfoBarSettingsView.json",
+      "sha256": "bfc4f2b44555f094e5dca2b49e3c55f7580c5274a6186fb3cdb57b0ce3ab91de"
+    },
+    {
+      "path": "evidence/views/SystemInfoSettingsView.asm",
+      "sha256": "a3733ada7c5f8c9405fe4b1ae454b5bfff9834894bfcc40cacf4b5e0c2c85298"
+    },
+    {
+      "path": "evidence/views/SystemInfoSettingsView.json",
+      "sha256": "8a3f71194a946ce87bc9a73162d09b150cdd1d26bf9c3e71dcaecc24c84f9d80"
+    },
+    {
+      "path": "evidence/views/SystemInfoStackView.asm",
+      "sha256": "139b2c77015579e2137f293ab09a5a934f46beb40ba2226a2ff0bcfd0a8b08e9"
+    },
+    {
+      "path": "evidence/views/SystemInfoStackView.json",
+      "sha256": "60eeb701194f90fbc78e50ccd783a667fe06fc7bdf2655919807af14b9edc6f1"
+    },
+    {
+      "path": "evidence/views/SystemInfoView.asm",
+      "sha256": "eb878f5798660cf4d0009ce9ed2a606310da2304db44910d79298f86cbd38ad8"
+    },
+    {
+      "path": "evidence/views/SystemInfoView.json",
+      "sha256": "78ffc500f233f6ddb9c889824b2784fd8cd2dc4087501f992149b8914ad7b709"
+    }
+  ]
+}

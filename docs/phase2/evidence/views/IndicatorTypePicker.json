@@ -1,0 +1,1281 @@
+[
+  {
+    "address": "0x1000cf28c",
+    "size": 1620,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI20SegmentedPickerStyleVMa",
+      "_$s7SwiftUI7BindingVMa",
+      "_$sSaMa",
+      "_swift_getAssociatedTypeWitness",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_$sSqMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_swift_getWitnessTable",
+      "_swift_getAssociatedConformanceWitness",
+      "_$s7SwiftUI7ForEachVMa",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI6PickerVMa",
+      "_swift_getWitnessTable",
+      "_swift_getOpaqueTypeMetadata2",
+      "_swift_getOpaqueTypeConformance2",
+      "_swift_getOpaqueTypeMetadata2",
+      "_$s7SwiftUI7BindingV14projectedValueACyxGvg",
+      "_$s7SwiftUI20SegmentedPickerStyleVACycfC",
+      "_$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lF",
+      "_$s7SwiftUI4ViewPAAE12labelsHiddenQryF",
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100145f24",
+      "0x100146554",
+      "0x100146c74",
+      "0x100002418",
+      "0x100147b38",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100146e9c",
+      "0x100147c64",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100147c64",
+      "0x100147b2c",
+      "0x100146590",
+      "0x1000c6a4c",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x1001464d0",
+      "0x100147c64",
+      "0x100147c04",
+      "0x100147bf8",
+      "0x100147c04",
+      "0x10014653c",
+      "0x1000cf16c",
+      "0x100145f18",
+      "0x10014620c",
+      "0x100146230",
+      "0x100147bf8",
+      "0x10009a010",
+      "0x100098dd4"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.SegmentedPickerStyle",
+        "context": [
+          "1000cf294:\tf8 5f 02 a9\tstp\tx24, x23, [sp, #0x20]",
+          "1000cf298:\tf6 57 03 a9\tstp\tx22, x21, [sp, #0x30]",
+          "1000cf29c:\tf4 4f 04 a9\tstp\tx20, x19, [sp, #0x40]",
+          "1000cf2a0:\tfd 7b 05 a9\tstp\tx29, x30, [sp, #0x50]",
+          "1000cf2a4:\tfd 43 01 91\tadd\tx29, sp, #0x50",
+          "1000cf2a8:\tff 43 05 d1\tsub\tsp, sp, #0x150",
+          "1000cf2ac:\ta9 e3 00 d1\tsub\tx9, x29, #0x38",
+          "1000cf2b0:\t34 01 10 f8\tstur\tx20, [x9, #-0x100]",
+          "1000cf2b4:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000cf2b8:\ta9 83 00 d1\tsub\tx9, x29, #0x20",
+          "1000cf2bc:\t28 01 10 f8\tstur\tx8, [x9, #-0x100]",
+          "1000cf2c0:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000cf2c4",
+        "instruction": "1000cf2c4:\t18 db 01 94\tbl\t0x100145f24 ; symbol stub for: _$s7SwiftUI20SegmentedPickerStyleVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Binding",
+        "context": [
+          "1000cf300:\ta9 c3 00 d1\tsub\tx9, x29, #0x30",
+          "1000cf304:\t28 01 10 f8\tstur\tx8, [x9, #-0x100]",
+          "1000cf308:\t1f 01 00 91\tmov\tsp, x8",
+          "1000cf30c:\t68 62 00 91\tadd\tx8, x19, #0x18",
+          "1000cf310:\ta9 03 01 d1\tsub\tx9, x29, #0x40",
+          "1000cf314:\t28 01 10 f8\tstur\tx8, [x9, #-0x100]",
+          "1000cf318:\t7c 0a 40 f9\tldr\tx28, [x19, #0x10]",
+          "1000cf31c:\tf4 03 13 aa\tmov\tx20, x19",
+          "1000cf320:\ta8 63 01 d1\tsub\tx8, x29, #0x58",
+          "1000cf324:\t13 01 10 f8\tstur\tx19, [x8, #-0x100]",
+          "1000cf328:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000cf32c:\te1 03 1c aa\tmov\tx1, x28"
+        ],
+        "address": "0x1000cf330",
+        "instruction": "1000cf330:\t89 dc 01 94\tbl\t0x100146554 ; symbol stub for: _$s7SwiftUI7BindingVMa"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0f20",
+        "address": "0x1000cf384",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.Text⟧⟦SwiftUI._FixedSizeLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          }
+        ],
+        "rawHex": "02bbf40300790255fb03000298f5030047",
+        "instruction": "1000cf384:\t25 cc fc 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cf3a8:\t84 bc 40 f9\tldr\tx4, [x4, #0x178] ; literal pool symbol address: _$s2IDs12IdentifiablePTl",
+          "1000cf3ac:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf3b0:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cf3b4:\te2 03 1c aa\tmov\tx2, x28",
+          "1000cf3b8:\te3 03 14 aa\tmov\tx3, x20",
+          "1000cf3bc:\tdf e1 01 94\tbl\t0x100147b38 ; symbol stub for: _swift_getAssociatedTypeWitness",
+          "1000cf3c0:\tf7 03 00 aa\tmov\tx23, x0",
+          "1000cf3c4:\ta8 43 00 d1\tsub\tx8, x29, #0x10",
+          "1000cf3c8:\t00 01 d0 3c\tldur\tq0, [x8, #-0x100]",
+          "1000cf3cc:\t02 00 66 9e\tfmov\tx2, d0",
+          "1000cf3d0:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf3d4:\te1 03 1c aa\tmov\tx1, x28"
+        ],
+        "address": "0x1000cf3d8",
+        "instruction": "1000cf3d8:\t37 da 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cf3d0:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf3d4:\te1 03 1c aa\tmov\tx1, x28",
+          "1000cf3d8:\t37 da 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cf3dc:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000cf3e0:\t19 06 00 d0\tadrp\tx25, 194 ; 0x100191000",
+          "1000cf3e4:\t39 97 42 f9\tldr\tx25, [x25, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000cf3e8:\te0 03 19 aa\tmov\tx0, x25",
+          "1000cf3ec:\te1 03 18 aa\tmov\tx1, x24",
+          "1000cf3f0:\t1d e2 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf3f4:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf3f8:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf3fc:\te1 03 18 aa\tmov\tx1, x24"
+        ],
+        "address": "0x1000cf400",
+        "instruction": "1000cf400:\tdb da 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cf3e4:\t39 97 42 f9\tldr\tx25, [x25, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000cf3e8:\te0 03 19 aa\tmov\tx0, x25",
+          "1000cf3ec:\te1 03 18 aa\tmov\tx1, x24",
+          "1000cf3f0:\t1d e2 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf3f4:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf3f8:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf3fc:\te1 03 18 aa\tmov\tx1, x24",
+          "1000cf400:\tdb da 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cf404:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000cf408:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf40c:\te1 03 15 aa\tmov\tx1, x21",
+          "1000cf410:\te2 03 18 aa\tmov\tx2, x24"
+        ],
+        "address": "0x1000cf414",
+        "instruction": "1000cf414:\t04 da 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cf428:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000cf42c:\ta8 43 00 d1\tsub\tx8, x29, #0x10",
+          "1000cf430:\t00 01 d0 3c\tldur\tq0, [x8, #-0x100]",
+          "1000cf434:\ta0 03 1a fc\tstur\td0, [x29, #-0x60]",
+          "1000cf438:\t00 06 00 f0\tadrp\tx0, 195 ; 0x100192000",
+          "1000cf43c:\t00 0c 47 f9\tldr\tx0, [x0, #0xe18] ; literal pool symbol address: _$sxSgSHsSHRzlMc",
+          "1000cf440:\ta2 83 01 d1\tsub\tx2, x29, #0x60",
+          "1000cf444:\te1 03 1a aa\tmov\tx1, x26",
+          "1000cf448:\t07 e2 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf44c:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf450:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf454:\te1 03 1a aa\tmov\tx1, x26"
+        ],
+        "address": "0x1000cf458",
+        "instruction": "1000cf458:\t17 da 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cf448:\t07 e2 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf44c:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf450:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf454:\te1 03 1a aa\tmov\tx1, x26",
+          "1000cf458:\t17 da 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cf45c:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000cf460:\te0 03 19 aa\tmov\tx0, x25",
+          "1000cf464:\te1 03 1a aa\tmov\tx1, x26",
+          "1000cf468:\tff e1 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf46c:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf470:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf474:\te1 03 1a aa\tmov\tx1, x26"
+        ],
+        "address": "0x1000cf478",
+        "instruction": "1000cf478:\tbd da 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cf45c:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000cf460:\te0 03 19 aa\tmov\tx0, x25",
+          "1000cf464:\te1 03 1a aa\tmov\tx1, x26",
+          "1000cf468:\tff e1 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf46c:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf470:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf474:\te1 03 1a aa\tmov\tx1, x26",
+          "1000cf478:\tbd da 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cf47c:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000cf480:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf484:\te1 03 15 aa\tmov\tx1, x21",
+          "1000cf488:\te2 03 1a aa\tmov\tx2, x26"
+        ],
+        "address": "0x1000cf48c",
+        "instruction": "1000cf48c:\te6 d9 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ForEach",
+        "context": [
+          "1000cf4b0:\te0 03 16 aa\tmov\tx0, x22",
+          "1000cf4b4:\te1 03 1c aa\tmov\tx1, x28",
+          "1000cf4b8:\ta8 03 02 d1\tsub\tx8, x29, #0x80",
+          "1000cf4bc:\t1c 01 10 f8\tstur\tx28, [x8, #-0x100]",
+          "1000cf4c0:\te2 03 17 aa\tmov\tx2, x23",
+          "1000cf4c4:\te3 03 14 aa\tmov\tx3, x20",
+          "1000cf4c8:\t99 e1 01 94\tbl\t0x100147b2c ; symbol stub for: _swift_getAssociatedConformanceWitness",
+          "1000cf4cc:\tb3 df 34 a9\tstp\tx19, x23, [x29, #-0xb8]",
+          "1000cf4d0:\tb9 ef 35 a9\tstp\tx25, x27, [x29, #-0xa8]",
+          "1000cf4d4:\ta0 83 16 f8\tstur\tx0, [x29, #-0x98]",
+          "1000cf4d8:\ta1 e3 02 d1\tsub\tx1, x29, #0xb8",
+          "1000cf4dc:\te0 1f 80 52\tmov\tw0, #0xff"
+        ],
+        "address": "0x1000cf4e0",
+        "instruction": "1000cf4e0:\t2c dc 01 94\tbl\t0x100146590 ; symbol stub for: _$s7SwiftUI7ForEachVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Picker",
+        "context": [
+          "1000cf56c:\t08 06 00 f0\tadrp\tx8, 195 ; 0x100192000",
+          "1000cf570:\t08 49 40 f9\tldr\tx8, [x8, #0x90] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVN",
+          "1000cf574:\ta8 f3 34 a9\tstp\tx8, x28, [x29, #-0xb8]",
+          "1000cf578:\t08 06 00 f0\tadrp\tx8, 195 ; 0x100192000",
+          "1000cf57c:\t08 41 40 f9\tldr\tx8, [x8, #0x80] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVAA0D0AAWP",
+          "1000cf580:\tb6 a3 35 a9\tstp\tx22, x8, [x29, #-0xa8]",
+          "1000cf584:\ta8 43 00 d1\tsub\tx8, x29, #0x10",
+          "1000cf588:\t00 01 d0 3c\tldur\tq0, [x8, #-0x100]",
+          "1000cf58c:\ta0 83 16 fc\tstur\td0, [x29, #-0x98]",
+          "1000cf590:\ta0 03 17 f8\tstur\tx0, [x29, #-0x90]",
+          "1000cf594:\ta1 e3 02 d1\tsub\tx1, x29, #0xb8",
+          "1000cf598:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000cf59c",
+        "instruction": "1000cf59c:\tcd db 01 94\tbl\t0x1001464d0 ; symbol stub for: _$s7SwiftUI6PickerVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Binding.projectedValue.getter : SwiftUI.Binding<A>",
+        "context": [
+          "1000cf6f0:\t9f 03 00 91\tmov\tsp, x28",
+          "1000cf6f4:\ta8 63 01 d1\tsub\tx8, x29, #0x58",
+          "1000cf6f8:\t17 01 50 f8\tldur\tx23, [x8, #-0x100]",
+          "1000cf6fc:\te8 3e 80 b9\tldrsw\tx8, [x23, #0x3c]",
+          "1000cf700:\ta9 e3 00 d1\tsub\tx9, x29, #0x38",
+          "1000cf704:\t35 01 50 f8\tldur\tx21, [x9, #-0x100]",
+          "1000cf708:\tb4 02 08 8b\tadd\tx20, x21, x8",
+          "1000cf70c:\ta8 43 01 d1\tsub\tx8, x29, #0x50",
+          "1000cf710:\t16 01 50 f8\tldur\tx22, [x8, #-0x100]",
+          "1000cf714:\te8 03 16 aa\tmov\tx8, x22",
+          "1000cf718:\ta9 23 01 d1\tsub\tx9, x29, #0x48",
+          "1000cf71c:\t20 01 50 f8\tldur\tx0, [x9, #-0x100]"
+        ],
+        "address": "0x1000cf720",
+        "instruction": "1000cf720:\t87 db 01 94\tbl\t0x10014653c ; symbol stub for: _$s7SwiftUI7BindingV14projectedValueACyxGvg"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.SegmentedPickerStyle.init() -> SwiftUI.SegmentedPickerStyle",
+        "context": [
+          "1000cf78c:\te8 03 17 aa\tmov\tx8, x23",
+          "1000cf790:\te0 03 16 aa\tmov\tx0, x22",
+          "1000cf794:\t04 00 80 d2\tmov\tx4, #0x0",
+          "1000cf798:\t05 06 00 f0\tadrp\tx5, 195 ; 0x100192000",
+          "1000cf79c:\ta5 48 40 f9\tldr\tx5, [x5, #0x90] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVN",
+          "1000cf7a0:\ta9 a3 01 d1\tsub\tx9, x29, #0x68",
+          "1000cf7a4:\t27 01 50 f8\tldur\tx7, [x9, #-0x100]",
+          "1000cf7a8:\t71 fe ff 97\tbl\t0x1000cf16c",
+          "1000cf7ac:\tff 83 00 91\tadd\tsp, sp, #0x20",
+          "1000cf7b0:\ta8 c3 00 d1\tsub\tx8, x29, #0x30",
+          "1000cf7b4:\t15 01 50 f8\tldur\tx21, [x8, #-0x100]",
+          "1000cf7b8:\te8 03 15 aa\tmov\tx8, x21"
+        ],
+        "address": "0x1000cf7bc",
+        "instruction": "1000cf7bc:\td7 d9 01 94\tbl\t0x100145f18 ; symbol stub for: _$s7SwiftUI20SegmentedPickerStyleVACycfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.pickerStyle<A where A1: SwiftUI.PickerStyle>(A1) -> some",
+        "context": [
+          "1000cf7bc:\td7 d9 01 94\tbl\t0x100145f18 ; symbol stub for: _$s7SwiftUI20SegmentedPickerStyleVACycfC",
+          "1000cf7c0:\te8 03 19 aa\tmov\tx8, x25",
+          "1000cf7c4:\te0 03 15 aa\tmov\tx0, x21",
+          "1000cf7c8:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cf7cc:\ta9 63 00 d1\tsub\tx9, x29, #0x18",
+          "1000cf7d0:\t36 01 50 f8\tldur\tx22, [x9, #-0x100]",
+          "1000cf7d4:\te2 03 16 aa\tmov\tx2, x22",
+          "1000cf7d8:\ta9 83 02 d1\tsub\tx9, x29, #0xa0",
+          "1000cf7dc:\t23 01 50 f8\tldur\tx3, [x9, #-0x100]",
+          "1000cf7e0:\t04 06 00 d0\tadrp\tx4, 194 ; 0x100191000",
+          "1000cf7e4:\t84 ac 43 f9\tldr\tx4, [x4, #0x758] ; literal pool symbol address: _$s7SwiftUI20SegmentedPickerStyleVAA0dE0AAWP",
+          "1000cf7e8:\tf4 03 17 aa\tmov\tx20, x23"
+        ],
+        "address": "0x1000cf7ec",
+        "instruction": "1000cf7ec:\t88 da 01 94\tbl\t0x10014620c ; symbol stub for: _$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lF"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.labelsHidden() -> some",
+        "context": [
+          "1000cf808:\ta8 83 01 d1\tsub\tx8, x29, #0x60",
+          "1000cf80c:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]",
+          "1000cf810:\t08 05 40 f9\tldr\tx8, [x8, #0x8]",
+          "1000cf814:\te0 03 17 aa\tmov\tx0, x23",
+          "1000cf818:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cf81c:\t00 01 3f d6\tblr\tx8",
+          "1000cf820:\te8 03 18 aa\tmov\tx8, x24",
+          "1000cf824:\te0 03 1b aa\tmov\tx0, x27",
+          "1000cf828:\ta9 63 02 d1\tsub\tx9, x29, #0x98",
+          "1000cf82c:\t33 01 50 f8\tldur\tx19, [x9, #-0x100]",
+          "1000cf830:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cf834:\tf4 03 19 aa\tmov\tx20, x25"
+        ],
+        "address": "0x1000cf838",
+        "instruction": "1000cf838:\t7e da 01 94\tbl\t0x100146230 ; symbol stub for: _$s7SwiftUI4ViewPAAE12labelsHiddenQryF"
+      }
+    ]
+  },
+  {
+    "address": "0x1000cf8e0",
+    "size": 1172,
+    "name": "",
+    "strings": [
+      "\"UserInterface/IndicatorTypePicker.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sSaMa",
+      "_swift_getAssociatedTypeWitness",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_$sSqMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_swift_getWitnessTable",
+      "_swift_getAssociatedConformanceWitness",
+      "_$s7SwiftUI7ForEachVMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$ss12CaseIterableP8allCases03AllD0QzvgZTj",
+      "_swift_allocObject",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI7ForEachVAA7Element_2IDQZRs_AA4ViewR0_s12IdentifiableADRpzrlE_7contentACyxq_q0_Gx_q0_AIctcfC",
+      "_swift_getWitnessTable",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000cee3c",
+      "0x100146c74",
+      "0x100147b38",
+      "0x100002418",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100146e9c",
+      "0x100147c64",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100147c64",
+      "0x100147b2c",
+      "0x100146590",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100147070",
+      "0x1001479e8",
+      "0x1000c6a4c",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100146584",
+      "0x100147c64",
+      "0x10009a010",
+      "0x100098dd4",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0f20",
+        "address": "0x1000cf9b0",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.Text⟧⟦SwiftUI._FixedSizeLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          }
+        ],
+        "rawHex": "02bbf40300790255fb03000298f5030047",
+        "instruction": "1000cf9b0:\t9a ca fc 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cf994:\te1 03 15 aa\tmov\tx1, x21",
+          "1000cf998:\te2 03 1b aa\tmov\tx2, x27",
+          "1000cf99c:\te3 03 13 aa\tmov\tx3, x19",
+          "1000cf9a0:\t66 e0 01 94\tbl\t0x100147b38 ; symbol stub for: _swift_getAssociatedTypeWitness",
+          "1000cf9a4:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000cf9a8:\t00 07 00 b0\tadrp\tx0, 225 ; 0x1001b0000",
+          "1000cf9ac:\t00 80 3c 91\tadd\tx0, x0, #0xf20",
+          "1000cf9b0:\t9a ca fc 97\tbl\t0x100002418",
+          "1000cf9b4:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000cf9b8:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf9bc:\te1 03 1b aa\tmov\tx1, x27",
+          "1000cf9c0:\te2 03 19 aa\tmov\tx2, x25"
+        ],
+        "address": "0x1000cf9c4",
+        "instruction": "1000cf9c4:\tbc d8 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cf9bc:\te1 03 1b aa\tmov\tx1, x27",
+          "1000cf9c0:\te2 03 19 aa\tmov\tx2, x25",
+          "1000cf9c4:\tbc d8 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cf9c8:\tf6 03 00 aa\tmov\tx22, x0",
+          "1000cf9cc:\t17 06 00 d0\tadrp\tx23, 194 ; 0x100191000",
+          "1000cf9d0:\tf7 96 42 f9\tldr\tx23, [x23, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000cf9d4:\te0 03 17 aa\tmov\tx0, x23",
+          "1000cf9d8:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cf9dc:\ta2 e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf9e0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf9e4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf9e8:\te1 03 16 aa\tmov\tx1, x22"
+        ],
+        "address": "0x1000cf9ec",
+        "instruction": "1000cf9ec:\t60 d9 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cf9d4:\te0 03 17 aa\tmov\tx0, x23",
+          "1000cf9d8:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cf9dc:\ta2 e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cf9e0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf9e4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf9e8:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cf9ec:\t60 d9 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cf9f0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cf9f4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cf9f8:\te1 03 14 aa\tmov\tx1, x20",
+          "1000cf9fc:\ta8 83 00 d1\tsub\tx8, x29, #0x20",
+          "1000cfa00:\t02 01 10 f8\tstur\tx2, [x8, #-0x100]"
+        ],
+        "address": "0x1000cfa04",
+        "instruction": "1000cfa04:\t88 d8 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cfa14:\t22 dd 01 94\tbl\t0x100146e9c ; symbol stub for: _$sSqMa",
+          "1000cfa18:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000cfa1c:\tb9 83 11 f8\tstur\tx25, [x29, #-0xe8]",
+          "1000cfa20:\tb9 83 17 f8\tstur\tx25, [x29, #-0x88]",
+          "1000cfa24:\t00 06 00 f0\tadrp\tx0, 195 ; 0x100192000",
+          "1000cfa28:\t00 0c 47 f9\tldr\tx0, [x0, #0xe18] ; literal pool symbol address: _$sxSgSHsSHRzlMc",
+          "1000cfa2c:\ta2 23 02 d1\tsub\tx2, x29, #0x88",
+          "1000cfa30:\te1 03 14 aa\tmov\tx1, x20",
+          "1000cfa34:\t8c e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfa38:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfa3c:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfa40:\te1 03 14 aa\tmov\tx1, x20"
+        ],
+        "address": "0x1000cfa44",
+        "instruction": "1000cfa44:\t9c d8 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cfa34:\t8c e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfa38:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfa3c:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfa40:\te1 03 14 aa\tmov\tx1, x20",
+          "1000cfa44:\t9c d8 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cfa48:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000cfa4c:\te0 03 17 aa\tmov\tx0, x23",
+          "1000cfa50:\te1 03 14 aa\tmov\tx1, x20",
+          "1000cfa54:\t84 e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfa58:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfa5c:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfa60:\te1 03 14 aa\tmov\tx1, x20"
+        ],
+        "address": "0x1000cfa64",
+        "instruction": "1000cfa64:\t42 d9 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cfa54:\t84 e0 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfa58:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfa5c:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfa60:\te1 03 14 aa\tmov\tx1, x20",
+          "1000cfa64:\t42 d9 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cfa68:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfa6c:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfa70:\ta8 63 00 d1\tsub\tx8, x29, #0x18",
+          "1000cfa74:\t16 01 10 f8\tstur\tx22, [x8, #-0x100]",
+          "1000cfa78:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cfa7c:\ta8 03 01 d1\tsub\tx8, x29, #0x40",
+          "1000cfa80:\t02 01 10 f8\tstur\tx2, [x8, #-0x100]"
+        ],
+        "address": "0x1000cfa84",
+        "instruction": "1000cfa84:\t68 d8 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ForEach",
+        "context": [
+          "1000cfab8:\te3 03 13 aa\tmov\tx3, x19",
+          "1000cfabc:\t1c e0 01 94\tbl\t0x100147b2c ; symbol stub for: _swift_getAssociatedConformanceWitness",
+          "1000cfac0:\tbc 6b 33 a9\tstp\tx28, x26, [x29, #-0xd0]",
+          "1000cfac4:\tba 73 38 a9\tstp\tx26, x28, [x29, #-0x80]",
+          "1000cfac8:\ta8 a3 00 d1\tsub\tx8, x29, #0x28",
+          "1000cfacc:\t14 01 10 f8\tstur\tx20, [x8, #-0x100]",
+          "1000cfad0:\tb4 5b 39 a9\tstp\tx20, x22, [x29, #-0x70]",
+          "1000cfad4:\ta8 c3 00 d1\tsub\tx8, x29, #0x30",
+          "1000cfad8:\t16 01 10 f8\tstur\tx22, [x8, #-0x100]",
+          "1000cfadc:\ta0 03 1a f8\tstur\tx0, [x29, #-0x60]",
+          "1000cfae0:\ta1 03 02 d1\tsub\tx1, x29, #0x80",
+          "1000cfae4:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000cfae8",
+        "instruction": "1000cfae8:\taa da 01 94\tbl\t0x100146590 ; symbol stub for: _$s7SwiftUI7ForEachVMa"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/IndicatorTypePicker.swift\"",
+        "address": "0x1000cfb84",
+        "instruction": "1000cfb84:\t00 c0 01 91\tadd\tx0, x0, #0x70 ; literal pool for: \"UserInterface/IndicatorTypePicker.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.ForEach< where B == A.Element.ID, C: SwiftUI.View, A.Element: Swift.Identifiable>.init(_: A, content: (A.Element) -> C) -> SwiftUI.ForEach<A, B, C>",
+        "context": [
+          "1000cfca8:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000cfcac:\tfb 0f 1f f8\tstr\tx27, [sp, #-0x10]!",
+          "1000cfcb0:\t01 00 00 b0\tadrp\tx1, 1 ; 0x1000d0000",
+          "1000cfcb4:\t21 b0 07 91\tadd\tx1, x1, #0x1ec",
+          "1000cfcb8:\ta0 43 02 d1\tsub\tx0, x29, #0x90",
+          "1000cfcbc:\te8 03 1c aa\tmov\tx8, x28",
+          "1000cfcc0:\te2 03 14 aa\tmov\tx2, x20",
+          "1000cfcc4:\ta4 0f 73 a9\tldp\tx4, x3, [x29, #-0xd0]",
+          "1000cfcc8:\te5 03 15 aa\tmov\tx5, x21",
+          "1000cfccc:\ta9 c3 00 d1\tsub\tx9, x29, #0x30",
+          "1000cfcd0:\t26 01 50 f8\tldur\tx6, [x9, #-0x100]",
+          "1000cfcd4:\te7 03 13 aa\tmov\tx7, x19"
+        ],
+        "address": "0x1000cfcd8",
+        "instruction": "1000cfcd8:\t2b da 01 94\tbl\t0x100146584 ; symbol stub for: _$s7SwiftUI7ForEachVAA7Element_2IDQZRs_AA4ViewR0_s12IdentifiableADRpzrlE_7contentACyxq_q0_Gx_q0_AIctcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000cfd74",
+    "size": 796,
+    "name": "",
+    "strings": [
+      "\"UserInterface/IndicatorTypePicker.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_$sSqMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_bridgeObjectRelease",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100146e9c",
+      "0x100147c64",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000c6a4c",
+      "0x1000cee84",
+      "0x100147a48",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x10009a010",
+      "0x100098dd4",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0f20",
+        "address": "0x1000cfdb0",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.Text⟧⟦SwiftUI._FixedSizeLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          }
+        ],
+        "rawHex": "02bbf40300790255fb03000298f5030047",
+        "instruction": "1000cfdb0:\t9a c9 fc 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cfd94:\tf8 03 06 aa\tmov\tx24, x6",
+          "1000cfd98:\tf5 03 04 aa\tmov\tx21, x4",
+          "1000cfd9c:\tf6 03 02 aa\tmov\tx22, x2",
+          "1000cfda0:\tfb 03 01 aa\tmov\tx27, x1",
+          "1000cfda4:\ta0 23 35 a9\tstp\tx0, x8, [x29, #-0xb0]",
+          "1000cfda8:\t00 07 00 b0\tadrp\tx0, 225 ; 0x1001b0000",
+          "1000cfdac:\t00 80 3c 91\tadd\tx0, x0, #0xf20",
+          "1000cfdb0:\t9a c9 fc 97\tbl\t0x100002418",
+          "1000cfdb4:\tf7 03 00 aa\tmov\tx23, x0",
+          "1000cfdb8:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfdbc:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cfdc0:\te2 03 15 aa\tmov\tx2, x21"
+        ],
+        "address": "0x1000cfdc4",
+        "instruction": "1000cfdc4:\tbc d7 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cfdbc:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cfdc0:\te2 03 15 aa\tmov\tx2, x21",
+          "1000cfdc4:\tbc d7 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cfdc8:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000cfdcc:\t14 06 00 d0\tadrp\tx20, 194 ; 0x100191000",
+          "1000cfdd0:\t94 96 42 f9\tldr\tx20, [x20, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000cfdd4:\te0 03 14 aa\tmov\tx0, x20",
+          "1000cfdd8:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfddc:\ta2 df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfde0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfde4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfde8:\te1 03 13 aa\tmov\tx1, x19"
+        ],
+        "address": "0x1000cfdec",
+        "instruction": "1000cfdec:\t60 d8 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cfdd4:\te0 03 14 aa\tmov\tx0, x20",
+          "1000cfdd8:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfddc:\ta2 df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfde0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfde4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfde8:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfdec:\t60 d8 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cfdf0:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfdf4:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfdf8:\tb7 83 14 f8\tstur\tx23, [x29, #-0xb8]",
+          "1000cfdfc:\te1 03 17 aa\tmov\tx1, x23",
+          "1000cfe00:\ta2 83 13 f8\tstur\tx2, [x29, #-0xc8]"
+        ],
+        "address": "0x1000cfe04",
+        "instruction": "1000cfe04:\t88 d7 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000cfe10:\te1 03 16 aa\tmov\tx1, x22",
+          "1000cfe14:\t22 dc 01 94\tbl\t0x100146e9c ; symbol stub for: _$sSqMa",
+          "1000cfe18:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000cfe1c:\tb5 83 1a f8\tstur\tx21, [x29, #-0x58]",
+          "1000cfe20:\t00 06 00 f0\tadrp\tx0, 195 ; 0x100192000",
+          "1000cfe24:\t00 0c 47 f9\tldr\tx0, [x0, #0xe18] ; literal pool symbol address: _$sxSgSHsSHRzlMc",
+          "1000cfe28:\ta2 63 01 d1\tsub\tx2, x29, #0x58",
+          "1000cfe2c:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfe30:\t8d df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfe34:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfe38:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfe3c:\te1 03 13 aa\tmov\tx1, x19"
+        ],
+        "address": "0x1000cfe40",
+        "instruction": "1000cfe40:\t9d d7 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000cfe30:\t8d df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfe34:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfe38:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfe3c:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfe40:\t9d d7 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000cfe44:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000cfe48:\te0 03 14 aa\tmov\tx0, x20",
+          "1000cfe4c:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfe50:\t85 df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfe54:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfe58:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfe5c:\te1 03 13 aa\tmov\tx1, x19"
+        ],
+        "address": "0x1000cfe60",
+        "instruction": "1000cfe60:\t43 d8 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000cfe48:\te0 03 14 aa\tmov\tx0, x20",
+          "1000cfe4c:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfe50:\t85 df 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000cfe54:\te2 03 00 aa\tmov\tx2, x0",
+          "1000cfe58:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000cfe5c:\te1 03 13 aa\tmov\tx1, x19",
+          "1000cfe60:\t43 d8 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000cfe64:\tf9 03 00 aa\tmov\tx25, x0",
+          "1000cfe68:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000cfe6c:\tb7 03 14 f8\tstur\tx23, [x29, #-0xc0]",
+          "1000cfe70:\te1 03 17 aa\tmov\tx1, x23",
+          "1000cfe74:\te2 03 19 aa\tmov\tx2, x25"
+        ],
+        "address": "0x1000cfe78",
+        "instruction": "1000cfe78:\t6b d7 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/IndicatorTypePicker.swift\"",
+        "address": "0x1000cff0c",
+        "instruction": "1000cff0c:\t00 c0 01 91\tadd\tx0, x0, #0x70 ; literal pool for: \"UserInterface/IndicatorTypePicker.swift\""
+      }
+    ]
+  },
+  {
+    "address": "0x1000d0090",
+    "size": 124,
+    "name": "",
+    "strings": [
+      "\"UserInterface/IndicatorTypePicker.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/IndicatorTypePicker.swift\"",
+        "address": "0x1000d00dc",
+        "instruction": "1000d00dc:\t00 c0 01 91\tadd\tx0, x0, #0x70 ; literal pool for: \"UserInterface/IndicatorTypePicker.swift\""
+      }
+    ]
+  },
+  {
+    "address": "0x1000d010c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000d0110",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000d0120",
+    "size": 204,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_$s7SwiftUI7BindingVMa",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000cee3c",
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100146554",
+      "0x100147a9c"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Binding",
+        "context": [
+          "1000d0178:\t01 23 40 39\tldrb\tw1, [x24, #0x8]",
+          "1000d017c:\t91 c8 fc 97\tbl\t0x1000023c0",
+          "1000d0180:\t68 3e 80 b9\tldrsw\tx8, [x19, #0x3c]",
+          "1000d0184:\t18 03 08 8b\tadd\tx24, x24, x8",
+          "1000d0188:\t00 03 40 f9\tldr\tx0, [x24]",
+          "1000d018c:\td7 de 01 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000d0190:\t00 07 40 f9\tldr\tx0, [x24, #0x8]",
+          "1000d0194:\td5 de 01 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000d0198:\te0 03 c0 3d\tldr\tq0, [sp]",
+          "1000d019c:\t13 00 66 9e\tfmov\tx19, d0",
+          "1000d01a0:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000d01a4:\te1 03 13 aa\tmov\tx1, x19"
+        ],
+        "address": "0x1000d01a8",
+        "instruction": "1000d01a8:\teb d8 01 94\tbl\t0x100146554 ; symbol stub for: _$s7SwiftUI7BindingVMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000d01ec",
+    "size": 148,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000cee3c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000d0280",
+    "size": 700,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sSaMa",
+      "_swift_getAssociatedTypeWitness",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_$sSqMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI16TagValueTraitKeyVMa",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI21_TraitWritingModifierVMa",
+      "_$s7SwiftUI15ModifiedContentVMa",
+      "_swift_getWitnessTable",
+      "_swift_getAssociatedConformanceWitness",
+      "_$s7SwiftUI7ForEachVMa",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_swift_getWitnessTable",
+      "_$s7SwiftUI6PickerVMa",
+      "_$s7SwiftUI20SegmentedPickerStyleVMa",
+      "_swift_getWitnessTable",
+      "_swift_getOpaqueTypeMetadata2",
+      "_swift_getOpaqueTypeConformance2",
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146c74",
+      "0x100147b38",
+      "0x100002418",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100146e9c",
+      "0x100147c64",
+      "0x100145cb4",
+      "0x100147c64",
+      "0x100145f6c",
+      "0x100145c24",
+      "0x100147c64",
+      "0x100147b2c",
+      "0x100146590",
+      "0x1000c6a4c",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x100147c64",
+      "0x1001464d0",
+      "0x100145f24",
+      "0x100147c64",
+      "0x100147c04",
+      "0x100147bf8",
+      "0x100147bf8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0f20",
+        "address": "0x1000d02e4",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.Text⟧⟦SwiftUI._FixedSizeLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191538",
+            "name": "SwiftUI._FixedSizeLayout"
+          }
+        ],
+        "rawHex": "02bbf40300790255fb03000298f5030047",
+        "instruction": "1000d02e4:\t4d c8 fc 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000d02c8:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d02cc:\te1 03 15 aa\tmov\tx1, x21",
+          "1000d02d0:\te2 03 14 aa\tmov\tx2, x20",
+          "1000d02d4:\t19 de 01 94\tbl\t0x100147b38 ; symbol stub for: _swift_getAssociatedTypeWitness",
+          "1000d02d8:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000d02dc:\t00 07 00 90\tadrp\tx0, 224 ; 0x1001b0000",
+          "1000d02e0:\t00 80 3c 91\tadd\tx0, x0, #0xf20",
+          "1000d02e4:\t4d c8 fc 97\tbl\t0x100002418",
+          "1000d02e8:\tf9 03 00 aa\tmov\tx25, x0",
+          "1000d02ec:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d02f0:\te1 03 14 aa\tmov\tx1, x20",
+          "1000d02f4:\te2 03 13 aa\tmov\tx2, x19"
+        ],
+        "address": "0x1000d02f8",
+        "instruction": "1000d02f8:\t6f d6 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000d02f0:\te1 03 14 aa\tmov\tx1, x20",
+          "1000d02f4:\te2 03 13 aa\tmov\tx2, x19",
+          "1000d02f8:\t6f d6 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000d02fc:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000d0300:\t1b 06 00 b0\tadrp\tx27, 193 ; 0x100191000",
+          "1000d0304:\t7b 97 42 f9\tldr\tx27, [x27, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000d0308:\te0 03 1b aa\tmov\tx0, x27",
+          "1000d030c:\te1 03 1a aa\tmov\tx1, x26",
+          "1000d0310:\t55 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0314:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0318:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d031c:\te1 03 1a aa\tmov\tx1, x26"
+        ],
+        "address": "0x1000d0320",
+        "instruction": "1000d0320:\t13 d7 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000d0304:\t7b 97 42 f9\tldr\tx27, [x27, #0x528] ; literal pool symbol address: _$s7SwiftUI16TagValueTraitKeyVyxGAA05_VieweF0AAMc",
+          "1000d0308:\te0 03 1b aa\tmov\tx0, x27",
+          "1000d030c:\te1 03 1a aa\tmov\tx1, x26",
+          "1000d0310:\t55 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0314:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0318:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d031c:\te1 03 1a aa\tmov\tx1, x26",
+          "1000d0320:\t13 d7 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000d0324:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000d0328:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d032c:\te1 03 19 aa\tmov\tx1, x25",
+          "1000d0330:\te2 03 1a aa\tmov\tx2, x26"
+        ],
+        "address": "0x1000d0334",
+        "instruction": "1000d0334:\t3c d6 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.TagValueTraitKey",
+        "context": [
+          "1000d0340:\te1 03 14 aa\tmov\tx1, x20",
+          "1000d0344:\td6 da 01 94\tbl\t0x100146e9c ; symbol stub for: _$sSqMa",
+          "1000d0348:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000d034c:\tf3 2f 00 f9\tstr\tx19, [sp, #0x58]",
+          "1000d0350:\t00 06 00 d0\tadrp\tx0, 194 ; 0x100192000",
+          "1000d0354:\t00 0c 47 f9\tldr\tx0, [x0, #0xe18] ; literal pool symbol address: _$sxSgSHsSHRzlMc",
+          "1000d0358:\te2 63 01 91\tadd\tx2, sp, #0x58",
+          "1000d035c:\te1 03 1c aa\tmov\tx1, x28",
+          "1000d0360:\t41 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0364:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0368:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d036c:\te1 03 1c aa\tmov\tx1, x28"
+        ],
+        "address": "0x1000d0370",
+        "instruction": "1000d0370:\t51 d6 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI._TraitWritingModifier",
+        "context": [
+          "1000d0360:\t41 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0364:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0368:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d036c:\te1 03 1c aa\tmov\tx1, x28",
+          "1000d0370:\t51 d6 01 94\tbl\t0x100145cb4 ; symbol stub for: _$s7SwiftUI16TagValueTraitKeyVMa",
+          "1000d0374:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000d0378:\te0 03 1b aa\tmov\tx0, x27",
+          "1000d037c:\te1 03 1c aa\tmov\tx1, x28",
+          "1000d0380:\t39 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0384:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0388:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d038c:\te1 03 1c aa\tmov\tx1, x28"
+        ],
+        "address": "0x1000d0390",
+        "instruction": "1000d0390:\tf7 d6 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ModifiedContent",
+        "context": [
+          "1000d0374:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000d0378:\te0 03 1b aa\tmov\tx0, x27",
+          "1000d037c:\te1 03 1c aa\tmov\tx1, x28",
+          "1000d0380:\t39 de 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0384:\te2 03 00 aa\tmov\tx2, x0",
+          "1000d0388:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d038c:\te1 03 1c aa\tmov\tx1, x28",
+          "1000d0390:\tf7 d6 01 94\tbl\t0x100145f6c ; symbol stub for: _$s7SwiftUI21_TraitWritingModifierVMa",
+          "1000d0394:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000d0398:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d039c:\te1 03 19 aa\tmov\tx1, x25",
+          "1000d03a0:\te2 03 1c aa\tmov\tx2, x28"
+        ],
+        "address": "0x1000d03a4",
+        "instruction": "1000d03a4:\t20 d6 01 94\tbl\t0x100145c24 ; symbol stub for: _$s7SwiftUI15ModifiedContentVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.ForEach",
+        "context": [
+          "1000d03c4:\t84 e0 43 f9\tldr\tx4, [x4, #0x7c0] ; literal pool symbol address: _$ss12IdentifiableP2IDAB_SHTn",
+          "1000d03c8:\te0 03 15 aa\tmov\tx0, x21",
+          "1000d03cc:\te1 03 14 aa\tmov\tx1, x20",
+          "1000d03d0:\te2 03 18 aa\tmov\tx2, x24",
+          "1000d03d4:\t03 06 00 d0\tadrp\tx3, 194 ; 0x100192000",
+          "1000d03d8:\t63 e4 43 f9\tldr\tx3, [x3, #0x7c8] ; literal pool symbol address: _$ss12IdentifiableTL",
+          "1000d03dc:\td4 dd 01 94\tbl\t0x100147b2c ; symbol stub for: _swift_getAssociatedConformanceWitness",
+          "1000d03e0:\tf6 63 00 a9\tstp\tx22, x24, [sp]",
+          "1000d03e4:\tfb 5f 01 a9\tstp\tx27, x23, [sp, #0x10]",
+          "1000d03e8:\te0 13 00 f9\tstr\tx0, [sp, #0x20]",
+          "1000d03ec:\te1 03 00 91\tmov\tx1, sp",
+          "1000d03f0:\te0 1f 80 52\tmov\tw0, #0xff"
+        ],
+        "address": "0x1000d03f4",
+        "instruction": "1000d03f4:\t67 d8 01 94\tbl\t0x100146590 ; symbol stub for: _$s7SwiftUI7ForEachVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Picker",
+        "context": [
+          "1000d0464:\te2 c3 00 91\tadd\tx2, sp, #0x30",
+          "1000d0468:\te1 03 15 aa\tmov\tx1, x21",
+          "1000d046c:\tfe dd 01 94\tbl\t0x100147c64 ; symbol stub for: _swift_getWitnessTable",
+          "1000d0470:\t08 06 00 d0\tadrp\tx8, 194 ; 0x100192000",
+          "1000d0474:\t08 49 40 f9\tldr\tx8, [x8, #0x90] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVN",
+          "1000d0478:\te8 53 00 a9\tstp\tx8, x20, [sp]",
+          "1000d047c:\t08 06 00 d0\tadrp\tx8, 194 ; 0x100192000",
+          "1000d0480:\t08 41 40 f9\tldr\tx8, [x8, #0x80] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVAA0D0AAWP",
+          "1000d0484:\tf5 23 01 a9\tstp\tx21, x8, [sp, #0x10]",
+          "1000d0488:\tf3 03 02 a9\tstp\tx19, x0, [sp, #0x20]",
+          "1000d048c:\te1 03 00 91\tmov\tx1, sp",
+          "1000d0490:\te0 1f 80 52\tmov\tw0, #0xff"
+        ],
+        "address": "0x1000d0494",
+        "instruction": "1000d0494:\t0f d8 01 94\tbl\t0x1001464d0 ; symbol stub for: _$s7SwiftUI6PickerVMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.SegmentedPickerStyle",
+        "context": [
+          "1000d0470:\t08 06 00 d0\tadrp\tx8, 194 ; 0x100192000",
+          "1000d0474:\t08 49 40 f9\tldr\tx8, [x8, #0x90] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVN",
+          "1000d0478:\te8 53 00 a9\tstp\tx8, x20, [sp]",
+          "1000d047c:\t08 06 00 d0\tadrp\tx8, 194 ; 0x100192000",
+          "1000d0480:\t08 41 40 f9\tldr\tx8, [x8, #0x80] ; literal pool symbol address: _$s7SwiftUI9EmptyViewVAA0D0AAWP",
+          "1000d0484:\tf5 23 01 a9\tstp\tx21, x8, [sp, #0x10]",
+          "1000d0488:\tf3 03 02 a9\tstp\tx19, x0, [sp, #0x20]",
+          "1000d048c:\te1 03 00 91\tmov\tx1, sp",
+          "1000d0490:\te0 1f 80 52\tmov\tw0, #0xff",
+          "1000d0494:\t0f d8 01 94\tbl\t0x1001464d0 ; symbol stub for: _$s7SwiftUI6PickerVMa",
+          "1000d0498:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000d049c:\te0 1f 80 52\tmov\tw0, #0xff"
+        ],
+        "address": "0x1000d04a0",
+        "instruction": "1000d04a0:\ta1 d6 01 94\tbl\t0x100145f24 ; symbol stub for: _$s7SwiftUI20SegmentedPickerStyleVMa"
+      }
+    ]
+  }
+]

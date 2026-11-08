@@ -1,0 +1,1485 @@
+[
+  {
+    "address": "0x1000c8108",
+    "size": 356,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg",
+      "_$s7SwiftUI7TabViewV9selection7contentACyxq_GAA7BindingVyxGSg_q_yXEtcfC",
+      "_$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100146488",
+      "0x100001fa0",
+      "0x1000c8d60",
+      "0x100005dec",
+      "0x1001465b4",
+      "0x100005dec",
+      "0x100146290"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fa8",
+        "address": "0x1000c8138",
+        "length": 121,
+        "resolvedNotation": "⟦SwiftUI.TabView⟧y⟦DataSource.SettingsTabType⟧⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧yADy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧yABGGGAKyALyABSgGGG_ADyADy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_AIQo_ANGARGtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191fd0",
+            "name": "SwiftUI.TabView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 17,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 26,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 44,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 49,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 58,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 95,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 101,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          }
+        ],
+        "rawHex": "0215ff03007902c7df03000232000400790284f3030079414479028bfb03007902b5e103005f02e7fc0300790209fa030002b4fc030047516f5f02f3f60300790225f40300794142474747414b79414c79414253674747475f4144794144790246fb03007902c8e103005f4149516f5f414e47415247744747",
+        "instruction": "1000c8138:\t9a e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fb0",
+        "address": "0x1000c817c",
+        "length": 12,
+        "resolvedNotation": "⟦SwiftUI.State⟧y⟦DataSource.SettingsTabType⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191e30",
+            "name": "SwiftUI.State"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          }
+        ],
+        "rawHex": "020ffe0300790261e0030047",
+        "instruction": "1000c817c:\t89 e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.State.projectedValue.getter : SwiftUI.Binding<A>",
+        "context": [
+          "1000c8158:\te9 03 00 91\tmov\tx9, sp",
+          "1000c815c:\t08 3d 00 91\tadd\tx8, x8, #0xf",
+          "1000c8160:\t08 ed 7c 92\tand\tx8, x8, #0xfffffffffffffff0",
+          "1000c8164:\t36 01 08 cb\tsub\tx22, x9, x8",
+          "1000c8168:\tdf 02 00 91\tmov\tsp, x22",
+          "1000c816c:\t80 0a c0 3d\tldr\tq0, [x20, #0x20]",
+          "1000c8170:\ta0 03 99 3c\tstur\tq0, [x29, #-0x70]",
+          "1000c8174:\t40 07 00 90\tadrp\tx0, 232 ; 0x1001b0000",
+          "1000c8178:\t00 c0 3e 91\tadd\tx0, x0, #0xfb0",
+          "1000c817c:\t89 e7 fc 97\tbl\t0x100001fa0",
+          "1000c8180:\ta8 63 01 d1\tsub\tx8, x29, #0x58",
+          "1000c8184:\tb4 c3 01 d1\tsub\tx20, x29, #0x70"
+        ],
+        "address": "0x1000c8188",
+        "instruction": "1000c8188:\tc0 f8 01 94\tbl\t0x100146488 ; symbol stub for: _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fb8",
+        "address": "0x1000c81ac",
+        "length": 112,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.ModifiedContent⟧yABy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGGAIyAJyAKSgGGG_AByABy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_AGQo_AMGAQGtG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 33,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          },
+          {
+            "offset": 87,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 93,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          }
+        ],
+        "rawHex": "02c3ff0300790215f3030079414279021cfb0300790246e103005f0278fc030079029af903000245fc030047516f5f0284f603007902b6f30300790218df0300474747414979414a79414b53674747475f41427941427902d4fa0300790256e103005f4147516f5f414d474151477447",
+        "instruction": "1000c81ac:\t7d e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.TabView.init(selection: SwiftUI.Binding<A>?, content: () -> B) -> SwiftUI.TabView<A, B>",
+        "context": [
+          "1000c81cc:\te1 03 14 aa\tmov\tx1, x20",
+          "1000c81d0:\t07 f7 fc 97\tbl\t0x100005dec",
+          "1000c81d4:\te6 03 00 aa\tmov\tx6, x0",
+          "1000c81d8:\t01 00 00 90\tadrp\tx1, 0 ; 0x1000c8000",
+          "1000c81dc:\t21 60 35 91\tadd\tx1, x1, #0xd58",
+          "1000c81e0:\t83 06 00 90\tadrp\tx3, 208 ; 0x100198000",
+          "1000c81e4:\t63 60 09 91\tadd\tx3, x3, #0x258",
+          "1000c81e8:\ta0 63 01 d1\tsub\tx0, x29, #0x58",
+          "1000c81ec:\ta2 43 02 d1\tsub\tx2, x29, #0x90",
+          "1000c81f0:\te8 03 16 aa\tmov\tx8, x22",
+          "1000c81f4:\te4 03 18 aa\tmov\tx4, x24",
+          "1000c81f8:\te5 03 19 aa\tmov\tx5, x25"
+        ],
+        "address": "0x1000c81fc",
+        "instruction": "1000c81fc:\tee f8 01 94\tbl\t0x1001465b4 ; symbol stub for: _$s7SwiftUI7TabViewV9selection7contentACyxq_GAA7BindingVyxGSg_q_yXEtcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.accessibilityIdentifier(Swift.String) -> SwiftUI.ModifiedContent<A, SwiftUI.AccessibilityAttachmentModifier>",
+        "context": [
+          "1000c820c:\t42 ec 47 f9\tldr\tx2, [x2, #0xfd8] ; literal pool symbol address: _$s7SwiftUI7TabViewVyxq_GAA0D0AAMc",
+          "1000c8210:\te1 03 17 aa\tmov\tx1, x23",
+          "1000c8214:\tf6 f6 fc 97\tbl\t0x100005dec",
+          "1000c8218:\te3 03 00 aa\tmov\tx3, x0",
+          "1000c821c:\t60 ae 8c d2\tmov\tx0, #0x6573",
+          "1000c8220:\t80 8e ae f2\tmovk\tx0, #0x7474, lsl #16",
+          "1000c8224:\t20 cd cd f2\tmovk\tx0, #0x6e69, lsl #32",
+          "1000c8228:\te0 6c ee f2\tmovk\tx0, #0x7367, lsl #48",
+          "1000c822c:\te8 03 15 aa\tmov\tx8, x21",
+          "1000c8230:\t01 00 fd d2\tmov\tx1, #-0x1800000000000000",
+          "1000c8234:\te2 03 13 aa\tmov\tx2, x19",
+          "1000c8238:\tf4 03 16 aa\tmov\tx20, x22"
+        ],
+        "address": "0x1000c823c",
+        "instruction": "1000c823c:\t15 f8 01 94\tbl\t0x100146290 ; symbol stub for: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c826c",
+    "size": 1656,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SettingsView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_allocObject",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_allocObject",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lF",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1001479e8",
+      "0x100147bbc",
+      "0x10008a5f4",
+      "0x100087c54",
+      "0x1000045a4",
+      "0x100001fa0",
+      "0x1000c8de0",
+      "0x100005dec",
+      "0x1001462e4",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x1001479e8",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x10008a5f4",
+      "0x100087c54",
+      "0x1000045a4",
+      "0x1000c8e94",
+      "0x1001462e4",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fd8",
+        "address": "0x1000c829c",
+        "length": 58,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 44,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          }
+        ],
+        "rawHex": "02a9f203007902b3fa0300790235e103005f020ffc0300790231f9030002dcfb030047516f5f021bf6030079024df303007902afde0300474747",
+        "instruction": "1000c829c:\t41 e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fe0",
+        "address": "0x1000c82dc",
+        "length": 32,
+        "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "027dfa03007902ffe003005f02d9fb03007902fbf8030002a6fb030047516f5f",
+        "instruction": "1000c82dc:\t31 e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0fe8",
+        "address": "0x1000c8324",
+        "length": 74,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGGAHyAIyAJSgGGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          }
+        ],
+        "rawHex": "024bf20300794141790252fa03007902d4e003005f02aefb03007902d0f80300027bfb030047516f5f02baf503007902ecf2030079024ede0300474747414879414979414a5367474747",
+        "instruction": "1000c8324:\t1f e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0ff0",
+        "address": "0x1000c8388",
+        "length": 58,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 44,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          }
+        ],
+        "rawHex": "02fff10300790209fa0300790233e003005f0265fb0300790287f803000232fb030047516f5f0271f503007902a3f20300790205de0300474747",
+        "instruction": "1000c8388:\t06 e7 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0ff8",
+        "address": "0x1000c83c8",
+        "length": 32,
+        "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "02d3f903007902fddf03005f022ffb0300790251f8030002fcfa030047516f5f",
+        "instruction": "1000c83c8:\tf6 e6 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b1000",
+        "address": "0x1000c8410",
+        "length": 74,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGGAHyAIyAJSgGGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          }
+        ],
+        "rawHex": "02a1f103007941417902a8f903007902d2df03005f0204fb0300790226f8030002d1fa030047516f5f0210f50300790242f203007902a4dd0300474747414879414979414a5367474747",
+        "instruction": "1000c8410:\te4 e6 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SettingsView.swift\"",
+        "address": "0x1000c84d4",
+        "instruction": "1000c84d4:\t00 40 3f 91\tadd\tx0, x0, #0xfd0 ; literal pool for: \"UserInterface/SettingsView.swift\""
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af4d8",
+        "address": "0x1000c85b0",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "02016c040079022369040002ce6b040047",
+        "instruction": "1000c85b0:\t7c e6 fc 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some",
+        "context": [
+          "1000c85dc:\t04 f6 fc 97\tbl\t0x100005dec",
+          "1000c85e0:\te5 03 00 aa\tmov\tx5, x0",
+          "1000c85e4:\t00 00 00 90\tadrp\tx0, 0 ; 0x1000c8000",
+          "1000c85e8:\t00 d0 36 91\tadd\tx0, x0, #0xdb4",
+          "1000c85ec:\t82 06 00 f0\tadrp\tx2, 211 ; 0x10019b000",
+          "1000c85f0:\t42 20 31 91\tadd\tx2, x2, #0xc48",
+          "1000c85f4:\tb4 23 03 d1\tsub\tx20, x29, #0xc8",
+          "1000c85f8:\te8 03 18 aa\tmov\tx8, x24",
+          "1000c85fc:\te1 03 15 aa\tmov\tx1, x21",
+          "1000c8600:\te3 03 1a aa\tmov\tx3, x26",
+          "1000c8604:\te4 03 17 aa\tmov\tx4, x23",
+          "1000c8608:\tfa 03 05 aa\tmov\tx26, x5"
+        ],
+        "address": "0x1000c860c",
+        "instruction": "1000c860c:\t36 f7 01 94\tbl\t0x1001462e4 ; symbol stub for: _$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lF"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some",
+        "context": [
+          "1000c8750:\t00 00 00 90\tadrp\tx0, 0 ; 0x1000c8000",
+          "1000c8754:\t00 a0 39 91\tadd\tx0, x0, #0xe68",
+          "1000c8758:\ta2 06 00 90\tadrp\tx2, 212 ; 0x10019c000",
+          "1000c875c:\t42 e0 16 91\tadd\tx2, x2, #0x5b8",
+          "1000c8760:\tb4 23 03 d1\tsub\tx20, x29, #0xc8",
+          "1000c8764:\ta8 23 00 d1\tsub\tx8, x29, #0x8",
+          "1000c8768:\t1b 01 50 f8\tldur\tx27, [x8, #-0x100]",
+          "1000c876c:\te8 03 1b aa\tmov\tx8, x27",
+          "1000c8770:\te1 03 17 aa\tmov\tx1, x23",
+          "1000c8774:\ta9 43 01 d1\tsub\tx9, x29, #0x50",
+          "1000c8778:\t23 01 50 f8\tldur\tx3, [x9, #-0x100]",
+          "1000c877c:\te5 03 1a aa\tmov\tx5, x26"
+        ],
+        "address": "0x1000c8780",
+        "instruction": "1000c8780:\td9 f6 01 94\tbl\t0x1001462e4 ; symbol stub for: _$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lF"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b1018",
+        "address": "0x1000c8870",
+        "length": 105,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧y⟦DataSource.SettingsTabType⟧GGGAHyAIyAJSgGGG_AAyAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_AFQo_ALGAPGt",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          },
+          {
+            "offset": 81,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 87,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          }
+        ],
+        "rawHex": "0255f1030079414179025cf90300790286df03005f02b8fa03007902daf703000285fa030047516f5f02c4f403007902f6f10300790258dd0300474747414879414979414a53674747475f4141794141790214f90300790296df03005f4146516f5f414c4741504774",
+        "instruction": "1000c8870:\tcc e5 fc 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c88e4",
+    "size": 132,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_allocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100085598",
+      "0x100035250",
+      "0x1001479e8",
+      "0x100036394"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8968",
+    "size": 20,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c897c",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_allocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100085598",
+      "0x1000389a4",
+      "0x1001479e8",
+      "0x10003943c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c89e0",
+    "size": 280,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SettingsView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146428",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SettingsView.swift\"",
+        "address": "0x1000c8a64",
+        "instruction": "1000c8a64:\t00 40 3f 91\tadd\tx0, x0, #0xfd0 ; literal pool for: \"UserInterface/SettingsView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>",
+        "context": [
+          "1000c8aa0:\t44 06 00 b0\tadrp\tx4, 201 ; 0x100191000",
+          "1000c8aa4:\t84 7c 45 f9\tldr\tx4, [x4, #0xaf8] ; literal pool symbol address: _$s7SwiftUI4TextVN",
+          "1000c8aa8:\t45 06 00 b0\tadrp\tx5, 201 ; 0x100191000",
+          "1000c8aac:\ta5 d4 46 f9\tldr\tx5, [x5, #0xda8] ; literal pool symbol address: _$s7SwiftUI5ImageVN",
+          "1000c8ab0:\t46 06 00 b0\tadrp\tx6, 201 ; 0x100191000",
+          "1000c8ab4:\tc6 74 45 f9\tldr\tx6, [x6, #0xae8] ; literal pool symbol address: _$s7SwiftUI4TextVAA4ViewAAWP",
+          "1000c8ab8:\t47 06 00 b0\tadrp\tx7, 201 ; 0x100191000",
+          "1000c8abc:\te7 cc 46 f9\tldr\tx7, [x7, #0xd98] ; literal pool symbol address: _$s7SwiftUI5ImageVAA4ViewAAWP",
+          "1000c8ac0:\te8 03 16 aa\tmov\tx8, x22",
+          "1000c8ac4:\te0 03 15 aa\tmov\tx0, x21",
+          "1000c8ac8:\te2 03 13 aa\tmov\tx2, x19",
+          "1000c8acc:\t03 00 80 d2\tmov\tx3, #0x0"
+        ],
+        "address": "0x1000c8ad0",
+        "instruction": "1000c8ad0:\t56 f6 01 94\tbl\t0x100146428 ; symbol stub for: _$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c8af8",
+    "size": 324,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SettingsView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI4TextVyACxcSyRzlufC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100085980",
+      "0x1001461b8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SettingsView.swift\"",
+        "address": "0x1000c8b7c",
+        "instruction": "1000c8b7c:\t00 40 3f 91\tadd\tx0, x0, #0xfd0 ; literal pool for: \"UserInterface/SettingsView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Text.init<A where A: Swift.StringProtocol>(A) -> SwiftUI.Text",
+        "context": [
+          "1000c8bc4:\tff e5 fc 97\tbl\t0x1000023c0",
+          "1000c8bc8:\t41 06 00 d0\tadrp\tx1, 202 ; 0x100192000",
+          "1000c8bcc:\t21 20 47 f9\tldr\tx1, [x1, #0xe40] ; literal pool symbol address: __swiftEmptyArrayStorage",
+          "1000c8bd0:\te0 03 18 aa\tmov\tx0, x24",
+          "1000c8bd4:\te2 03 15 aa\tmov\tx2, x21",
+          "1000c8bd8:\t9d 4a 00 94\tbl\t0x1000db64c",
+          "1000c8bdc:\te0 07 00 a9\tstp\tx0, x1, [sp]",
+          "1000c8be0:\t68 f3 fe 97\tbl\t0x100085980",
+          "1000c8be4:\te2 03 00 aa\tmov\tx2, x0",
+          "1000c8be8:\t41 06 00 d0\tadrp\tx1, 202 ; 0x100192000",
+          "1000c8bec:\t21 a8 41 f9\tldr\tx1, [x1, #0x350] ; literal pool symbol address: _$sSSN",
+          "1000c8bf0:\te0 03 00 91\tmov\tx0, sp"
+        ],
+        "address": "0x1000c8bf4",
+        "instruction": "1000c8bf4:\t71 f5 01 94\tbl\t0x1001461b8 ; symbol stub for: _$s7SwiftUI4TextVyACxcSyRzlufC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c8c3c",
+    "size": 20,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8c50",
+    "size": 208,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SettingsView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5ImageV10systemNameACSS_tcfC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1001463c8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SettingsView.swift\"",
+        "address": "0x1000c8cd0",
+        "instruction": "1000c8cd0:\t00 40 3f 91\tadd\tx0, x0, #0xfd0 ; literal pool for: \"UserInterface/SettingsView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image",
+        "context": [
+          "1000c8cc4:\t36 fc 01 94\tbl\t0x100147d9c ; symbol stub for: _swift_task_isCurrentExecutor",
+          "1000c8cc8:\t20 01 00 37\ttbnz\tw0, #0x0, 0x1000c8cec",
+          "1000c8ccc:\t60 05 00 f0\tadrp\tx0, 175 ; 0x100177000",
+          "1000c8cd0:\t00 40 3f 91\tadd\tx0, x0, #0xfd0 ; literal pool for: \"UserInterface/SettingsView.swift\"",
+          "1000c8cd4:\t01 04 80 52\tmov\tw1, #0x20",
+          "1000c8cd8:\t22 00 80 52\tmov\tw2, #0x1",
+          "1000c8cdc:\te3 03 17 aa\tmov\tx3, x23",
+          "1000c8ce0:\te4 03 18 aa\tmov\tx4, x24",
+          "1000c8ce4:\te5 03 19 aa\tmov\tx5, x25",
+          "1000c8ce8:\t30 fc 01 94\tbl\t0x100147da8 ; symbol stub for: _swift_task_reportUnexpectedExecutor",
+          "1000c8cec:\te0 03 16 aa\tmov\tx0, x22",
+          "1000c8cf0:\te1 03 15 aa\tmov\tx1, x21"
+        ],
+        "argumentBits": [
+          null,
+          null
+        ],
+        "address": "0x1000c8cf4",
+        "instruction": "1000c8cf4:\tb5 f5 01 94\tbl\t0x1001463c8 ; symbol stub for: _$s7SwiftUI5ImageV10systemNameACSS_tcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c8d20",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c8108"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8d58",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8d60",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8da0",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8da4",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8dac",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8db0",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8db4",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c89e0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8de0",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e20",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e58",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e60",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e64",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e68",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c89e0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8e94",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8ed4",
+    "size": 32,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c8af8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8ef4",
+    "size": 32,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x1000c8af8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000c8f14",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8f18",
+    "size": 160,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100005dec",
+      "0x100005860",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b1038",
+        "address": "0x1000c8f40",
+        "length": 130,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.TabView⟧y⟦DataSource.SettingsTabType⟧⟦SwiftUI.TupleView⟧yAAyAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.GeneralSettingsView⟧_⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧GQo_⟦SwiftUI._TraitWritingModifier⟧y⟦SwiftUI.TagValueTraitKey⟧yACGGGAKyALyACSgGGG_AAyAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>⟧y⟦UserInterface.SystemInfoSettingsView⟧_AIQo_ANGARGtGG⟦SwiftUI.AccessibilityAttachmentModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191fd0",
+            "name": "SwiftUI.TabView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190088",
+            "name": "DataSource.SettingsTabType"
+          },
+          {
+            "offset": 17,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100190290",
+            "name": "UserInterface.GeneralSettingsView"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 52,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 61,
+            "opcode": 2,
+            "target": "0x1001917e8",
+            "name": "SwiftUI._TraitWritingModifier"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100191520",
+            "name": "SwiftUI.TagValueTraitKey"
+          },
+          {
+            "offset": 98,
+            "opcode": 2,
+            "target": "0x100191c60",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem<A where A1: SwiftUI.View>(() -> A1) -> some>>"
+          },
+          {
+            "offset": 104,
+            "opcode": 2,
+            "target": "0x1001902e8",
+            "name": "UserInterface.SystemInfoSettingsView"
+          },
+          {
+            "offset": 124,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "0219f40300790293ff0300790245e0030002b000040079414179414179020cfc0300790236e203005f0268fd030079028afa03000235fd030047516f5f0274f703007902a6f40300794143474747414b79414c79414353674747475f41417941417902c7fb0300790249e203005f4149516f5f414e4741524774474702a5f8030047",
+        "instruction": "1000c8f40:\t36 e5 fc 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000c8fb8",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8fbc",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8fc0",
+    "size": 16,
+    "name": "UserInterface.SystemInfoBarConfirmationDialog.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000c8fd0",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

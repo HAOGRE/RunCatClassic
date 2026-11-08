@@ -1,0 +1,1812 @@
+[
+  {
+    "address": "0x1000b7b18",
+    "size": 412,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI19HorizontalAlignmentV6centerACvgZ",
+      "_$s7SwiftUI5ColorV06accentC0ACvgZ",
+      "_$s7SwiftUI5ColorV5clearACvgZ",
+      "_swift_release",
+      "_$s7SwiftUI4EdgeO3SetV3allAEvgZ",
+      "_$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC"
+    ],
+    "floatConsts": [
+      "1000b7c24:\t00 10 6e 1e\tfmov\td0, #1.00000000",
+      "1000b7c48:\t00 10 62 1e\tfmov\td0, #4.00000000"
+    ],
+    "calls": [
+      "0x100145e34",
+      "0x1000b7cb4",
+      "0x1000b808c",
+      "0x1000b80e8",
+      "0x1000b7a34",
+      "0x100146308",
+      "0x100146344",
+      "0x1000aff60",
+      "0x100147ce8",
+      "0x1000b8144",
+      "0x10014608c",
+      "0x1001459b4"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.HorizontalAlignment.center.getter : SwiftUI.HorizontalAlignment",
+        "context": [
+          "1000b7b18:\tfc 6f bc a9\tstp\tx28, x27, [sp, #-0x40]!",
+          "1000b7b1c:\tf6 57 01 a9\tstp\tx22, x21, [sp, #0x10]",
+          "1000b7b20:\tf4 4f 02 a9\tstp\tx20, x19, [sp, #0x20]",
+          "1000b7b24:\tfd 7b 03 a9\tstp\tx29, x30, [sp, #0x30]",
+          "1000b7b28:\tfd c3 00 91\tadd\tx29, sp, #0x30",
+          "1000b7b2c:\tff c3 0a d1\tsub\tsp, sp, #0x2b0",
+          "1000b7b30:\tf3 03 08 aa\tmov\tx19, x8",
+          "1000b7b34:\tf6 43 03 91\tadd\tx22, sp, #0xd0"
+        ],
+        "address": "0x1000b7b38",
+        "instruction": "1000b7b38:\tbf 38 02 94\tbl\t0x100145e34 ; symbol stub for: _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 4.0,
+        "register": "x8",
+        "bits": "0x4010000000000000",
+        "address": "0x1000b7be4",
+        "instruction": "1000b7be4:\t08 02 e8 d2\tmov\tx8, #0x4010000000000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Color.accentColor.getter : SwiftUI.Color",
+        "context": [
+          "1000b7be0:\tc2 12 8a 3c\tstur\tq2, [x22, #0xa1]",
+          "1000b7be4:\t08 02 e8 d2\tmov\tx8, #0x4010000000000000",
+          "1000b7be8:\tf5 23 15 a9\tstp\tx21, x8, [sp, #0x150]",
+          "1000b7bec:\te8 03 45 39\tldrb\tw8, [sp, #0x140]",
+          "1000b7bf0:\te8 83 05 39\tstrb\tw8, [sp, #0x160]",
+          "1000b7bf4:\tc1 12 8b 3c\tstur\tq1, [x22, #0xb1]",
+          "1000b7bf8:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000b7bfc:\t8e ff ff 97\tbl\t0x1000b7a34",
+          "1000b7c00:\t08 1c 80 b9\tldrsw\tx8, [x0, #0x1c]",
+          "1000b7c04:\t88 6a 68 38\tldrb\tw8, [x20, x8]",
+          "1000b7c08:\t1f 05 00 71\tcmp\tw8, #0x1",
+          "1000b7c0c:\t61 00 00 54\tb.ne\t0x1000b7c18"
+        ],
+        "address": "0x1000b7c10",
+        "instruction": "1000b7c10:\tbe 39 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Color.clear.getter : SwiftUI.Color",
+        "context": [
+          "1000b7be8:\tf5 23 15 a9\tstp\tx21, x8, [sp, #0x150]",
+          "1000b7bec:\te8 03 45 39\tldrb\tw8, [sp, #0x140]",
+          "1000b7bf0:\te8 83 05 39\tstrb\tw8, [sp, #0x160]",
+          "1000b7bf4:\tc1 12 8b 3c\tstur\tq1, [x22, #0xb1]",
+          "1000b7bf8:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000b7bfc:\t8e ff ff 97\tbl\t0x1000b7a34",
+          "1000b7c00:\t08 1c 80 b9\tldrsw\tx8, [x0, #0x1c]",
+          "1000b7c04:\t88 6a 68 38\tldrb\tw8, [x20, x8]",
+          "1000b7c08:\t1f 05 00 71\tcmp\tw8, #0x1",
+          "1000b7c0c:\t61 00 00 54\tb.ne\t0x1000b7c18",
+          "1000b7c10:\tbe 39 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ",
+          "1000b7c14:\t02 00 00 14\tb\t0x1000b7c1c"
+        ],
+        "address": "0x1000b7c18",
+        "instruction": "1000b7c18:\tcb 39 02 94\tbl\t0x100146344 ; symbol stub for: _$s7SwiftUI5ColorV5clearACvgZ"
+      },
+      {
+        "kind": "floatImmediate",
+        "value": 1.0,
+        "address": "0x1000b7c24",
+        "instruction": "1000b7c24:\t00 10 6e 1e\tfmov\td0, #1.00000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Edge.Set.all.getter : SwiftUI.Edge.Set",
+        "context": [
+          "1000b7c10:\tbe 39 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ",
+          "1000b7c14:\t02 00 00 14\tb\t0x1000b7c1c",
+          "1000b7c18:\tcb 39 02 94\tbl\t0x100146344 ; symbol stub for: _$s7SwiftUI5ColorV5clearACvgZ",
+          "1000b7c1c:\tf5 03 00 aa\tmov\tx21, x0",
+          "1000b7c20:\te8 03 00 91\tmov\tx8, sp",
+          "1000b7c24:\t00 10 6e 1e\tfmov\td0, #1.00000000",
+          "1000b7c28:\tf4 43 05 91\tadd\tx20, sp, #0x150",
+          "1000b7c2c:\tcd e0 ff 97\tbl\t0x1000aff60",
+          "1000b7c30:\te0 03 15 aa\tmov\tx0, x21",
+          "1000b7c34:\t2d 40 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000b7c38:\te0 43 05 91\tadd\tx0, sp, #0x150",
+          "1000b7c3c:\t42 01 00 94\tbl\t0x1000b8144"
+        ],
+        "address": "0x1000b7c40",
+        "instruction": "1000b7c40:\t13 39 02 94\tbl\t0x10014608c ; symbol stub for: _$s7SwiftUI4EdgeO3SetV3allAEvgZ"
+      },
+      {
+        "kind": "floatImmediate",
+        "value": 4.0,
+        "address": "0x1000b7c48",
+        "instruction": "1000b7c48:\t00 10 62 1e\tfmov\td0, #4.00000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.EdgeInsets.init(_all: CoreGraphics.CGFloat) -> SwiftUI.EdgeInsets",
+        "context": [
+          "1000b7c1c:\tf5 03 00 aa\tmov\tx21, x0",
+          "1000b7c20:\te8 03 00 91\tmov\tx8, sp",
+          "1000b7c24:\t00 10 6e 1e\tfmov\td0, #1.00000000",
+          "1000b7c28:\tf4 43 05 91\tadd\tx20, sp, #0x150",
+          "1000b7c2c:\tcd e0 ff 97\tbl\t0x1000aff60",
+          "1000b7c30:\te0 03 15 aa\tmov\tx0, x21",
+          "1000b7c34:\t2d 40 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000b7c38:\te0 43 05 91\tadd\tx0, sp, #0x150",
+          "1000b7c3c:\t42 01 00 94\tbl\t0x1000b8144",
+          "1000b7c40:\t13 39 02 94\tbl\t0x10014608c ; symbol stub for: _$s7SwiftUI4EdgeO3SetV3allAEvgZ",
+          "1000b7c44:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000b7c48:\t00 10 62 1e\tfmov\td0, #4.00000000"
+        ],
+        "address": "0x1000b7c4c",
+        "instruction": "1000b7c4c:\t5a 37 02 94\tbl\t0x1001459b4 ; symbol stub for: _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b7cb4",
+    "size": 980,
+    "name": "",
+    "strings": [
+      "\"UserInterface/RunnerFrameCellView.swift\""
+    ],
+    "selectors": [
+      "initWithCGImage:size:"
+    ],
+    "stubs": [
+      "_$s7SwiftUI5ImageV12ResizingModeOMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_objc_retain",
+      "_CGImageGetWidth",
+      "_CGImageGetHeight",
+      "_objc_allocWithZone",
+      "_objc_release",
+      "_$s7SwiftUI5ImageV02nsC0ACSo7NSImageC_tcfC",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_$s7SwiftUI5ImageV13renderingModeyA2C017TemplateRenderingE0OSgF",
+      "_swift_release",
+      "_$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF",
+      "_swift_release",
+      "_$s7SwiftUI9AlignmentV6centerACvgZ",
+      "_$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC",
+      "_$sSzsE11descriptionSSvg",
+      "_$s7SwiftUI4FontV7captionACvgZ",
+      "_$s7SwiftUI4TextV4fontyAcA4FontVSgF",
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001463d4",
+      "0x100001fa0",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x1000b7a34",
+      "0x1000721dc",
+      "0x100147910",
+      "0x100147634",
+      "0x100147628",
+      "0x1001478d4",
+      "0x1001478e0",
+      "0x100147904",
+      "0x1001463bc",
+      "0x1001463ec",
+      "0x1001463e0",
+      "0x100147ce8",
+      "0x1000b81a0",
+      "0x100146404",
+      "0x100147ce8",
+      "0x100146644",
+      "0x100145ad4",
+      "0x1000b81e0",
+      "0x100146f44",
+      "0x1001460e0",
+      "0x1001461ac",
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100087c54",
+      "0x100094458",
+      "0x100147a60",
+      "0x1000943b8",
+      "0x100147a48",
+      "0x1000105d4",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.ResizingMode",
+        "context": [
+          "1000b7cb8:\tfc 6f 01 a9\tstp\tx28, x27, [sp, #0x10]",
+          "1000b7cbc:\tfa 67 02 a9\tstp\tx26, x25, [sp, #0x20]",
+          "1000b7cc0:\tf8 5f 03 a9\tstp\tx24, x23, [sp, #0x30]",
+          "1000b7cc4:\tf6 57 04 a9\tstp\tx22, x21, [sp, #0x40]",
+          "1000b7cc8:\tf4 4f 05 a9\tstp\tx20, x19, [sp, #0x50]",
+          "1000b7ccc:\tfd 7b 06 a9\tstp\tx29, x30, [sp, #0x60]",
+          "1000b7cd0:\tfd 83 01 91\tadd\tx29, sp, #0x60",
+          "1000b7cd4:\tff 83 04 d1\tsub\tsp, sp, #0x120",
+          "1000b7cd8:\tf3 03 00 91\tmov\tx19, sp",
+          "1000b7cdc:\tf8 03 00 aa\tmov\tx24, x0",
+          "1000b7ce0:\tf5 03 08 aa\tmov\tx21, x8",
+          "1000b7ce4:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b7ce8",
+        "instruction": "1000b7ce8:\tbb 39 02 94\tbl\t0x1001463d4 ; symbol stub for: _$s7SwiftUI5ImageV12ResizingModeOMa"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af718",
+        "address": "0x1000b7d24",
+        "length": 7,
+        "resolvedNotation": "⟦SwiftUI.Image.TemplateRenderingMode⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191d80",
+            "name": "SwiftUI.Image.TemplateRenderingMode"
+          }
+        ],
+        "rawHex": "02f55904005367",
+        "instruction": "1000b7d24:\t9f 28 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/RunnerFrameCellView.swift\"",
+        "address": "0x1000b7d94",
+        "instruction": "1000b7d94:\t00 80 37 91\tadd\tx0, x0, #0xde0 ; literal pool for: \"UserInterface/RunnerFrameCellView.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image",
+        "context": [
+          "1000b7df8:\t00 c5 46 f9\tldr\tx0, [x8, #0xd88] ; Objc class ref: _OBJC_CLASS_$_NSImage",
+          "1000b7dfc:\tb6 3e 02 94\tbl\t0x1001478d4 ; symbol stub for: _objc_allocWithZone",
+          "1000b7e00:\t68 07 00 f0\tadrp\tx8, 239 ; 0x1001a6000",
+          "1000b7e04:\t01 f1 45 f9\tldr\tx1, [x8, #0xbe0] ; Objc selector ref: initWithCGImage:size:",
+          "1000b7e08:\te2 03 1b aa\tmov\tx2, x27",
+          "1000b7e0c:\t00 41 60 1e\tfmov\td0, d8",
+          "1000b7e10:\t21 41 60 1e\tfmov\td1, d9",
+          "1000b7e14:\tb3 3e 02 94\tbl\t0x1001478e0 ; Objc message: +[NSImage initWithCGImage:size:]",
+          "1000b7e18:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000b7e1c:\te0 03 1b aa\tmov\tx0, x27",
+          "1000b7e20:\tb9 3e 02 94\tbl\t0x100147904 ; symbol stub for: _objc_release",
+          "1000b7e24:\te0 03 1c aa\tmov\tx0, x28"
+        ],
+        "address": "0x1000b7e28",
+        "instruction": "1000b7e28:\t65 39 02 94\tbl\t0x1001463bc ; symbol stub for: _$s7SwiftUI5ImageV02nsC0ACSo7NSImageC_tcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b7e08:\te2 03 1b aa\tmov\tx2, x27",
+          "1000b7e0c:\t00 41 60 1e\tfmov\td0, d8",
+          "1000b7e10:\t21 41 60 1e\tfmov\td1, d9",
+          "1000b7e14:\tb3 3e 02 94\tbl\t0x1001478e0 ; Objc message: +[NSImage initWithCGImage:size:]",
+          "1000b7e18:\tfc 03 00 aa\tmov\tx28, x0",
+          "1000b7e1c:\te0 03 1b aa\tmov\tx0, x27",
+          "1000b7e20:\tb9 3e 02 94\tbl\t0x100147904 ; symbol stub for: _objc_release",
+          "1000b7e24:\te0 03 1c aa\tmov\tx0, x28",
+          "1000b7e28:\t65 39 02 94\tbl\t0x1001463bc ; symbol stub for: _$s7SwiftUI5ImageV02nsC0ACSo7NSImageC_tcfC",
+          "1000b7e2c:\tfb 03 00 aa\tmov\tx27, x0",
+          "1000b7e30:\t9c 1a 80 b9\tldrsw\tx28, [x20, #0x18]",
+          "1000b7e34:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b7e38",
+        "instruction": "1000b7e38:\t6d 39 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.renderingMode(SwiftUI.Image.TemplateRenderingMode?) -> SwiftUI.Image",
+        "context": [
+          "1000b7e4c:\te0 03 1a aa\tmov\tx0, x26",
+          "1000b7e50:\te2 03 14 aa\tmov\tx2, x20",
+          "1000b7e54:\t00 01 3f d6\tblr\tx8",
+          "1000b7e58:\te8 1e 40 f9\tldr\tx8, [x23, #0x38]",
+          "1000b7e5c:\t3c 00 80 52\tmov\tw28, #0x1",
+          "1000b7e60:\te0 03 1a aa\tmov\tx0, x26",
+          "1000b7e64:\t01 00 80 52\tmov\tw1, #0x0",
+          "1000b7e68:\t22 00 80 52\tmov\tw2, #0x1",
+          "1000b7e6c:\te3 03 14 aa\tmov\tx3, x20",
+          "1000b7e70:\t00 01 3f d6\tblr\tx8",
+          "1000b7e74:\te0 03 1a aa\tmov\tx0, x26",
+          "1000b7e78:\te1 03 1b aa\tmov\tx1, x27"
+        ],
+        "address": "0x1000b7e7c",
+        "instruction": "1000b7e7c:\t59 39 02 94\tbl\t0x1001463e0 ; symbol stub for: _$s7SwiftUI5ImageV13renderingModeyA2C017TemplateRenderingE0OSgF"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image",
+        "context": [
+          "1000b7e9c:\t01 01 40 b9\tldr\tw1, [x8]",
+          "1000b7ea0:\tc8 36 40 f9\tldr\tx8, [x22, #0x68]",
+          "1000b7ea4:\te0 03 19 aa\tmov\tx0, x25",
+          "1000b7ea8:\t77 06 40 f9\tldr\tx23, [x19, #0x8]",
+          "1000b7eac:\te2 03 17 aa\tmov\tx2, x23",
+          "1000b7eb0:\t00 01 3f d6\tblr\tx8",
+          "1000b7eb4:\t00 e4 00 2f\tmovi\td0, #0000000000000000",
+          "1000b7eb8:\t01 e4 00 2f\tmovi\td1, #0000000000000000",
+          "1000b7ebc:\t02 e4 00 2f\tmovi\td2, #0000000000000000",
+          "1000b7ec0:\t03 e4 00 2f\tmovi\td3, #0000000000000000",
+          "1000b7ec4:\te0 03 19 aa\tmov\tx0, x25",
+          "1000b7ec8:\te1 03 14 aa\tmov\tx1, x20"
+        ],
+        "address": "0x1000b7ecc",
+        "instruction": "1000b7ecc:\t4e 39 02 94\tbl\t0x100146404 ; symbol stub for: _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Alignment.center.getter : SwiftUI.Alignment",
+        "context": [
+          "1000b7ebc:\t02 e4 00 2f\tmovi\td2, #0000000000000000",
+          "1000b7ec0:\t03 e4 00 2f\tmovi\td3, #0000000000000000",
+          "1000b7ec4:\te0 03 19 aa\tmov\tx0, x25",
+          "1000b7ec8:\te1 03 14 aa\tmov\tx1, x20",
+          "1000b7ecc:\t4e 39 02 94\tbl\t0x100146404 ; symbol stub for: _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF",
+          "1000b7ed0:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000b7ed4:\te0 03 14 aa\tmov\tx0, x20",
+          "1000b7ed8:\t84 3f 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "1000b7edc:\tc8 06 40 f9\tldr\tx8, [x22, #0x8]",
+          "1000b7ee0:\te0 03 19 aa\tmov\tx0, x25",
+          "1000b7ee4:\te1 03 17 aa\tmov\tx1, x23",
+          "1000b7ee8:\t00 01 3f d6\tblr\tx8"
+        ],
+        "address": "0x1000b7eec",
+        "instruction": "1000b7eec:\td6 39 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 40.0,
+        "register": "x0",
+        "bits": "0x4044000000000000",
+        "address": "0x1000b7efc",
+        "instruction": "1000b7efc:\t80 08 e8 d2\tmov\tx0, #0x4044000000000000"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 40.0,
+        "register": "x2",
+        "bits": "0x4044000000000000",
+        "address": "0x1000b7f04",
+        "instruction": "1000b7f04:\t82 08 e8 d2\tmov\tx2, #0x4044000000000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout",
+        "context": [
+          "1000b7edc:\tc8 06 40 f9\tldr\tx8, [x22, #0x8]",
+          "1000b7ee0:\te0 03 19 aa\tmov\tx0, x25",
+          "1000b7ee4:\te1 03 17 aa\tmov\tx1, x23",
+          "1000b7ee8:\t00 01 3f d6\tblr\tx8",
+          "1000b7eec:\td6 39 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ",
+          "1000b7ef0:\te4 03 00 aa\tmov\tx4, x0",
+          "1000b7ef4:\te5 03 01 aa\tmov\tx5, x1",
+          "1000b7ef8:\ta8 63 02 d1\tsub\tx8, x29, #0x98",
+          "1000b7efc:\t80 08 e8 d2\tmov\tx0, #0x4044000000000000",
+          "1000b7f00:\t01 00 80 52\tmov\tw1, #0x0",
+          "1000b7f04:\t82 08 e8 d2\tmov\tx2, #0x4044000000000000",
+          "1000b7f08:\t03 00 80 52\tmov\tw3, #0x0"
+        ],
+        "address": "0x1000b7f0c",
+        "instruction": "1000b7f0c:\tf2 36 02 94\tbl\t0x100145ad4 ; symbol stub for: _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Font.caption.getter : SwiftUI.Font",
+        "context": [
+          "1000b7f24:\ta0 83 d8 3c\tldur\tq0, [x29, #-0x78]",
+          "1000b7f28:\t60 82 84 3c\tstur\tq0, [x19, #0x48]",
+          "1000b7f2c:\t08 03 40 f9\tldr\tx8, [x24]",
+          "1000b7f30:\t68 52 00 f9\tstr\tx8, [x19, #0xa0]",
+          "1000b7f34:\tab 00 00 94\tbl\t0x1000b81e0",
+          "1000b7f38:\te1 03 00 aa\tmov\tx1, x0",
+          "1000b7f3c:\tc0 06 00 f0\tadrp\tx0, 219 ; 0x100192000",
+          "1000b7f40:\t00 b8 42 f9\tldr\tx0, [x0, #0x570] ; literal pool symbol address: _$sSiN",
+          "1000b7f44:\t74 82 02 91\tadd\tx20, x19, #0xa0",
+          "1000b7f48:\tff 3b 02 94\tbl\t0x100146f44 ; symbol stub for: _$sSzsE11descriptionSSvg",
+          "1000b7f4c:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000b7f50:\tf9 03 01 aa\tmov\tx25, x1"
+        ],
+        "address": "0x1000b7f54",
+        "instruction": "1000b7f54:\t63 38 02 94\tbl\t0x1001460e0 ; symbol stub for: _$s7SwiftUI4FontV7captionACvgZ"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text",
+        "context": [
+          "1000b7f40:\t00 b8 42 f9\tldr\tx0, [x0, #0x570] ; literal pool symbol address: _$sSiN",
+          "1000b7f44:\t74 82 02 91\tadd\tx20, x19, #0xa0",
+          "1000b7f48:\tff 3b 02 94\tbl\t0x100146f44 ; symbol stub for: _$sSzsE11descriptionSSvg",
+          "1000b7f4c:\tf4 03 00 aa\tmov\tx20, x0",
+          "1000b7f50:\tf9 03 01 aa\tmov\tx25, x1",
+          "1000b7f54:\t63 38 02 94\tbl\t0x1001460e0 ; symbol stub for: _$s7SwiftUI4FontV7captionACvgZ",
+          "1000b7f58:\tfb 03 00 aa\tmov\tx27, x0",
+          "1000b7f5c:\tc4 06 00 f0\tadrp\tx4, 219 ; 0x100192000",
+          "1000b7f60:\t84 20 47 f9\tldr\tx4, [x4, #0xe40] ; literal pool symbol address: __swiftEmptyArrayStorage",
+          "1000b7f64:\te1 03 14 aa\tmov\tx1, x20",
+          "1000b7f68:\te2 03 19 aa\tmov\tx2, x25",
+          "1000b7f6c:\t03 00 80 52\tmov\tw3, #0x0"
+        ],
+        "address": "0x1000b7f70",
+        "instruction": "1000b7f70:\t8f 38 02 94\tbl\t0x1001461ac ; symbol stub for: _$s7SwiftUI4TextV4fontyAcA4FontVSgF"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b8088",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000b808c",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100094458",
+      "0x100147a60"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000b80e8",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x1000943b8",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000b8144",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x1000943b8",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000b81a0",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af718",
+        "address": "0x1000b81b8",
+        "length": 7,
+        "resolvedNotation": "⟦SwiftUI.Image.TemplateRenderingMode⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191d80",
+            "name": "SwiftUI.Image.TemplateRenderingMode"
+          }
+        ],
+        "rawHex": "02f55904005367",
+        "instruction": "1000b81b8:\t7a 27 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b81e0",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000b8220",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000b8224",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x1000b82ac",
+      "0x100005dec",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b07f0",
+        "address": "0x1000b824c",
+        "length": 107,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAy⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧yAAyAAy⟦SwiftUI.Image⟧⟦SwiftUI._AspectRatioLayout⟧G⟦SwiftUI._FrameLayout⟧G_⟦SwiftUI.Text⟧tGG⟦SwiftUI._OverlayModifier⟧y⟦SwiftUI._ShapeView⟧y⟦SwiftUI._StrokedShape⟧y⟦SwiftUI.Rectangle._Inset⟧G⟦SwiftUI.Color⟧GGG⟦SwiftUI._PaddingLayout⟧G⟦SwiftUI._ContentShapeModifier⟧y⟦SwiftUI.Rectangle⟧GG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 30,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100191678",
+            "name": "SwiftUI._AspectRatioLayout"
+          },
+          {
+            "offset": 41,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 48,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x100191558",
+            "name": "SwiftUI._OverlayModifier"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x100191158",
+            "name": "SwiftUI._ShapeView"
+          },
+          {
+            "offset": 68,
+            "opcode": 2,
+            "target": "0x1001912f0",
+            "name": "SwiftUI._StrokedShape"
+          },
+          {
+            "offset": 74,
+            "opcode": 2,
+            "target": "0x1001920c0",
+            "name": "SwiftUI.Rectangle._Inset"
+          },
+          {
+            "offset": 80,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          },
+          {
+            "offset": 88,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 94,
+            "opcode": 2,
+            "target": "0x1001917d0",
+            "name": "SwiftUI._ContentShapeModifier"
+          },
+          {
+            "offset": 100,
+            "opcode": 2,
+            "target": "0x1001920d0",
+            "name": "SwiftUI.Rectangle"
+          }
+        ],
+        "rawHex": "02531404007941417941417902ef1e04007902e92004007941417941417902851d0400025816040047028a120400475f02c31a0400744747022315040079021d1104007902af1204007902792004004702bb1c0400474747026b13040047027517040079026f2004004747",
+        "instruction": "1000b824c:\t73 28 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b82ac",
+    "size": 112,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x1000b831c",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0800",
+        "address": "0x1000b82d4",
+        "length": 91,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧yAAyAAy⟦SwiftUI.Image⟧⟦SwiftUI._AspectRatioLayout⟧G⟦SwiftUI._FrameLayout⟧G_⟦SwiftUI.Text⟧tGG⟦SwiftUI._OverlayModifier⟧y⟦SwiftUI._ShapeView⟧y⟦SwiftUI._StrokedShape⟧y⟦SwiftUI.Rectangle._Inset⟧G⟦SwiftUI.Color⟧GGG⟦SwiftUI._PaddingLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191678",
+            "name": "SwiftUI._AspectRatioLayout"
+          },
+          {
+            "offset": 38,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 45,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191558",
+            "name": "SwiftUI._OverlayModifier"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x100191158",
+            "name": "SwiftUI._ShapeView"
+          },
+          {
+            "offset": 65,
+            "opcode": 2,
+            "target": "0x1001912f0",
+            "name": "SwiftUI._StrokedShape"
+          },
+          {
+            "offset": 71,
+            "opcode": 2,
+            "target": "0x1001920c0",
+            "name": "SwiftUI.Rectangle._Inset"
+          },
+          {
+            "offset": 77,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          },
+          {
+            "offset": 85,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          }
+        ],
+        "rawHex": "02e71304007941417902861e040079028020040079414179414179021c1d040002ef150400470221120400475f025a1a040074474702ba1404007902b41004007902461204007902102004004702521c0400474747020213040047",
+        "instruction": "1000b82d4:\t51 28 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b831c",
+    "size": 160,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100005dec",
+      "0x100005dec",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0810",
+        "address": "0x1000b8344",
+        "length": 82,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧yAAyAAy⟦SwiftUI.Image⟧⟦SwiftUI._AspectRatioLayout⟧G⟦SwiftUI._FrameLayout⟧G_⟦SwiftUI.Text⟧tGG⟦SwiftUI._OverlayModifier⟧y⟦SwiftUI._ShapeView⟧y⟦SwiftUI._StrokedShape⟧y⟦SwiftUI.Rectangle._Inset⟧G⟦SwiftUI.Color⟧GGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191678",
+            "name": "SwiftUI._AspectRatioLayout"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 42,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100191558",
+            "name": "SwiftUI._OverlayModifier"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x100191158",
+            "name": "SwiftUI._ShapeView"
+          },
+          {
+            "offset": 62,
+            "opcode": 2,
+            "target": "0x1001912f0",
+            "name": "SwiftUI._StrokedShape"
+          },
+          {
+            "offset": 68,
+            "opcode": 2,
+            "target": "0x1001920c0",
+            "name": "SwiftUI.Rectangle._Inset"
+          },
+          {
+            "offset": 74,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          }
+        ],
+        "rawHex": "028b13040079022d1e04007902272004007941417941417902c31c040002961504004702c8110400475f02011a0400744747026114040079025b1004007902ed1104007902b71f04004702f91b0400474747",
+        "instruction": "1000b8344:\t35 28 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b83bc",
+    "size": 560,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_bridgeObjectRetain",
+      "_swift_retain",
+      "_swift_retain",
+      "_memcpy",
+      "_swift_retain",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_retain",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147a60",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100147d00",
+      "0x1001455c4",
+      "0x100147910",
+      "0x1001463ec",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147a60"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b8440",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b8440:\td8 26 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b8480",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b8480:\tc8 26 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b84d4:\t08 17 80 b9\tldrsw\tx8, [x24, #0x14]",
+          "1000b84d8:\te0 6a 68 f8\tldr\tx0, [x23, x8]",
+          "1000b84dc:\tc0 6a 28 f8\tstr\tx0, [x22, x8]",
+          "1000b84e0:\t37 1f 40 f9\tldr\tx23, [x25, #0x38]",
+          "1000b84e4:\t0b 3d 02 94\tbl\t0x100147910 ; symbol stub for: _objc_retain",
+          "1000b84e8:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b84ec:\t01 00 80 52\tmov\tw1, #0x0",
+          "1000b84f0:\t22 00 80 52\tmov\tw2, #0x1",
+          "1000b84f4:\te3 03 18 aa\tmov\tx3, x24",
+          "1000b84f8:\te0 02 3f d6\tblr\tx23",
+          "1000b84fc:\tb6 1a 80 b9\tldrsw\tx22, [x21, #0x18]",
+          "1000b8500:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b8504",
+        "instruction": "1000b8504:\tba 37 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b85ec",
+    "size": 324,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_release",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x1001455c4",
+      "0x100147904",
+      "0x1001463ec",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b863c",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b863c:\t59 26 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b8670:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000b8674:\td4 33 02 94\tbl\t0x1001455c4 ; symbol stub for: _$s10Foundation4UUIDVMa",
+          "1000b8678:\te1 03 00 aa\tmov\tx1, x0",
+          "1000b867c:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b8680:\t08 05 40 f9\tldr\tx8, [x8, #0x8]",
+          "1000b8684:\te0 03 15 aa\tmov\tx0, x21",
+          "1000b8688:\t00 01 3f d6\tblr\tx8",
+          "1000b868c:\tc8 16 80 b9\tldrsw\tx8, [x22, #0x14]",
+          "1000b8690:\ta0 6a 68 f8\tldr\tx0, [x21, x8]",
+          "1000b8694:\t9c 3c 02 94\tbl\t0x100147904 ; symbol stub for: _objc_release",
+          "1000b8698:\t95 1a 80 b9\tldrsw\tx21, [x20, #0x18]",
+          "1000b869c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b86a0",
+        "instruction": "1000b86a0:\t53 37 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b8730",
+    "size": 524,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_bridgeObjectRetain",
+      "_swift_retain",
+      "_swift_retain",
+      "_memcpy",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_retain",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_retain",
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147a60",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x1001455c4",
+      "0x100147910",
+      "0x1001463ec",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147d00",
+      "0x100147a60"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b87a8",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b87a8:\tfe 25 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b87e8",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b87e8:\tee 25 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b8824:\t08 17 80 b9\tldrsw\tx8, [x24, #0x14]",
+          "1000b8828:\te0 6a 68 f8\tldr\tx0, [x23, x8]",
+          "1000b882c:\tc0 6a 28 f8\tstr\tx0, [x22, x8]",
+          "1000b8830:\t37 1f 40 f9\tldr\tx23, [x25, #0x38]",
+          "1000b8834:\t37 3c 02 94\tbl\t0x100147910 ; symbol stub for: _objc_retain",
+          "1000b8838:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b883c:\t01 00 80 52\tmov\tw1, #0x0",
+          "1000b8840:\t22 00 80 52\tmov\tw2, #0x1",
+          "1000b8844:\te3 03 18 aa\tmov\tx3, x24",
+          "1000b8848:\te0 02 3f d6\tblr\tx23",
+          "1000b884c:\tb6 1a 80 b9\tldrsw\tx22, [x21, #0x18]",
+          "1000b8850:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b8854",
+        "instruction": "1000b8854:\te6 36 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b893c",
+    "size": 764,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_retain",
+      "_memcpy",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_retain",
+      "_objc_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x1001455c4",
+      "0x100147910",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x1001463ec",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147a60",
+      "0x100147a48",
+      "0x1001455c4",
+      "0x100147910",
+      "0x100147904"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b89f0",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b89f0:\t6c 25 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b8aa8",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b8aa8:\t3e 25 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b8a98:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b8a9c:\t1b 5a fd 97\tbl\t0x10000f308",
+          "1000b8aa0:\tc0 07 00 90\tadrp\tx0, 248 ; 0x1001b0000",
+          "1000b8aa4:\t00 e0 1c 91\tadd\tx0, x0, #0x738",
+          "1000b8aa8:\t3e 25 fd 97\tbl\t0x100001fa0",
+          "1000b8aac:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b8ab0:\t02 21 40 f9\tldr\tx2, [x8, #0x40]",
+          "1000b8ab4:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b8ab8:\te1 03 17 aa\tmov\tx1, x23",
+          "1000b8abc:\t7d 3b 02 94\tbl\t0x1001478b0 ; symbol stub for: _memcpy",
+          "1000b8ac0:\tb6 1a 80 b9\tldrsw\tx22, [x21, #0x18]",
+          "1000b8ac4:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b8ac8",
+        "instruction": "1000b8ac8:\t49 36 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b8c38",
+    "size": 376,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_memcpy",
+      "_$s10Foundation4UUIDVMa",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x1001455c4",
+      "0x1001463ec"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b8c88",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b8c88:\tc6 24 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b8cc8",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b8cc8:\tb6 24 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b8d00:\t00 01 3f d6\tblr\tx8",
+          "1000b8d04:\t08 17 80 b9\tldrsw\tx8, [x24, #0x14]",
+          "1000b8d08:\te9 6a 68 f8\tldr\tx9, [x23, x8]",
+          "1000b8d0c:\tc9 6a 28 f8\tstr\tx9, [x22, x8]",
+          "1000b8d10:\t28 1f 40 f9\tldr\tx8, [x25, #0x38]",
+          "1000b8d14:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b8d18:\t01 00 80 52\tmov\tw1, #0x0",
+          "1000b8d1c:\t22 00 80 52\tmov\tw2, #0x1",
+          "1000b8d20:\te3 03 18 aa\tmov\tx3, x24",
+          "1000b8d24:\t00 01 3f d6\tblr\tx8",
+          "1000b8d28:\tb6 1a 80 b9\tldrsw\tx22, [x21, #0x18]",
+          "1000b8d2c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b8d30",
+        "instruction": "1000b8d30:\taf 35 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b8db0",
+    "size": 632,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release",
+      "_$s10Foundation4UUIDVMa",
+      "_memcpy",
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_release",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation4UUIDVMa",
+      "_objc_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100001fa0",
+      "0x1000721dc",
+      "0x1001455c4",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x1001463ec",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100147a48",
+      "0x1001455c4",
+      "0x100147904"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b8e3c",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b8e3c:\t59 24 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b8ef0",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b8ef0:\t2c 24 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b8ee0:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b8ee4:\t09 59 fd 97\tbl\t0x10000f308",
+          "1000b8ee8:\tc0 07 00 90\tadrp\tx0, 248 ; 0x1001b0000",
+          "1000b8eec:\t00 e0 1c 91\tadd\tx0, x0, #0x738",
+          "1000b8ef0:\t2c 24 fd 97\tbl\t0x100001fa0",
+          "1000b8ef4:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b8ef8:\t02 21 40 f9\tldr\tx2, [x8, #0x40]",
+          "1000b8efc:\te0 03 16 aa\tmov\tx0, x22",
+          "1000b8f00:\te1 03 17 aa\tmov\tx1, x23",
+          "1000b8f04:\t6b 3a 02 94\tbl\t0x1001478b0 ; symbol stub for: _memcpy",
+          "1000b8f08:\tb6 1a 80 b9\tldrsw\tx22, [x21, #0x18]",
+          "1000b8f0c:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b8f10",
+        "instruction": "1000b8f10:\t37 35 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b9028",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getEnumTagSinglePayloadGeneric"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000b9034",
+    "size": 164,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x1001463ec"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b9088",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b9088:\tc6 23 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b907c:\tf3 03 01 aa\tmov\tx19, x1",
+          "1000b9080:\ta0 07 00 f0\tadrp\tx0, 247 ; 0x1001b0000",
+          "1000b9084:\t00 40 1b 91\tadd\tx0, x0, #0x6d0",
+          "1000b9088:\tc6 23 fd 97\tbl\t0x100001fa0",
+          "1000b908c:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b9090:\t09 55 40 b9\tldr\tw9, [x8, #0x54]",
+          "1000b9094:\t3f 01 13 6b\tcmp\tw9, w19",
+          "1000b9098:\t81 00 00 54\tb.ne\t0x1000b90a8",
+          "1000b909c:\te2 03 00 aa\tmov\tx2, x0",
+          "1000b90a0:\ta9 16 80 b9\tldrsw\tx9, [x21, #0x14]",
+          "1000b90a4:\t06 00 00 14\tb\t0x1000b90bc",
+          "1000b90a8:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b90ac",
+        "instruction": "1000b90ac:\td0 34 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b90d8",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_storeEnumTagSinglePayloadGeneric"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000b90e4",
+    "size": 160,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x1001463ec"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b06d0",
+        "address": "0x1000b9130",
+        "length": 14,
+        "resolvedNotation": "⟦SwiftUI.Binding⟧y⟦DataSource.RunnerFrame⟧SgG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f68",
+            "name": "SwiftUI.Binding"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "02af1f0400790281000400536747",
+        "instruction": "1000b9130:\t9c 23 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b9124:\tf6 03 02 aa\tmov\tx22, x2",
+          "1000b9128:\ta0 07 00 f0\tadrp\tx0, 247 ; 0x1001b0000",
+          "1000b912c:\t00 40 1b 91\tadd\tx0, x0, #0x6d0",
+          "1000b9130:\t9c 23 fd 97\tbl\t0x100001fa0",
+          "1000b9134:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b9138:\t09 55 40 b9\tldr\tw9, [x8, #0x54]",
+          "1000b913c:\t3f 01 16 6b\tcmp\tw9, w22",
+          "1000b9140:\t81 00 00 54\tb.ne\t0x1000b9150",
+          "1000b9144:\te3 03 00 aa\tmov\tx3, x0",
+          "1000b9148:\ta9 16 80 b9\tldrsw\tx9, [x21, #0x14]",
+          "1000b914c:\t06 00 00 14\tb\t0x1000b9164",
+          "1000b9150:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000b9154",
+        "instruction": "1000b9154:\ta6 34 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b9184",
+    "size": 20,
+    "name": "UserInterface.RunnerFramesCollectionView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000b9198",
+    "size": 180,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5ImageV21TemplateRenderingModeOMa",
+      "_swift_initStructMetadata"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000b924c",
+      "0x1001463ec",
+      "0x100147ca0"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.TemplateRenderingMode",
+        "context": [
+          "1000b91a8:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000b91ac:\t08 05 00 f0\tadrp\tx8, 163 ; 0x10015c000",
+          "1000b91b0:\t08 81 20 91\tadd\tx8, x8, #0x820",
+          "1000b91b4:\te8 03 00 f9\tstr\tx8, [sp]",
+          "1000b91b8:\te0 27 80 52\tmov\tw0, #0x13f",
+          "1000b91bc:\t24 00 00 94\tbl\t0x1000b924c",
+          "1000b91c0:\t3f fc 00 f1\tcmp\tx1, #0x3f",
+          "1000b91c4:\ta8 03 00 54\tb.hi\t0x1000b9238",
+          "1000b91c8:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000b91cc:\t08 01 01 91\tadd\tx8, x8, #0x40",
+          "1000b91d0:\te8 07 00 f9\tstr\tx8, [sp, #0x8]",
+          "1000b91d4:\te0 27 80 52\tmov\tw0, #0x13f"
+        ],
+        "address": "0x1000b91d8",
+        "instruction": "1000b91d8:\t85 34 02 94\tbl\t0x1001463ec ; symbol stub for: _$s7SwiftUI5ImageV21TemplateRenderingModeOMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b924c",
+    "size": 88,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI7BindingVMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100146554"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001b0738",
+        "address": "0x1000b9278",
+        "length": 7,
+        "resolvedNotation": "⟦DataSource.RunnerFrame⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190040",
+            "name": "DataSource.RunnerFrame"
+          }
+        ],
+        "rawHex": "026d0004005367",
+        "instruction": "1000b9278:\t68 24 fd 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Binding",
+        "context": [
+          "1000b9254:\tfd 43 00 91\tadd\tx29, sp, #0x10",
+          "1000b9258:\tf3 03 00 aa\tmov\tx19, x0",
+          "1000b925c:\ta8 07 00 f0\tadrp\tx8, 247 ; 0x1001b0000",
+          "1000b9260:\t00 49 44 f9\tldr\tx0, [x8, #0x890]",
+          "1000b9264:\t60 00 00 b4\tcbz\tx0, 0x1000b9270",
+          "1000b9268:\t01 00 80 d2\tmov\tx1, #0x0",
+          "1000b926c:\t0b 00 00 14\tb\t0x1000b9298",
+          "1000b9270:\ta0 07 00 f0\tadrp\tx0, 247 ; 0x1001b0000",
+          "1000b9274:\t00 e0 1c 91\tadd\tx0, x0, #0x738",
+          "1000b9278:\t68 24 fd 97\tbl\t0x100002418",
+          "1000b927c:\te1 03 00 aa\tmov\tx1, x0",
+          "1000b9280:\te0 03 13 aa\tmov\tx0, x19"
+        ],
+        "address": "0x1000b9284",
+        "instruction": "1000b9284:\tb4 34 02 94\tbl\t0x100146554 ; symbol stub for: _$s7SwiftUI7BindingVMa"
+      }
+    ]
+  },
+  {
+    "address": "0x1000b92a4",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

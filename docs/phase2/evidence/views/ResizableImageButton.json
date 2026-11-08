@@ -1,0 +1,616 @@
+[
+  {
+    "address": "0x100090130",
+    "size": 384,
+    "name": "",
+    "strings": [
+      "\"UserInterface/ResizableImageButton.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$sScPMa",
+      "_swift_retain",
+      "_$sScM6sharedScMvgZ",
+      "_swift_allocObject",
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146d04",
+      "0x10001ce54",
+      "0x100087c54",
+      "0x100147d00",
+      "0x100146cc8",
+      "0x1001479e8",
+      "0x100087cd0",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af0e8",
+        "address": "0x100090158",
+        "length": 5,
+        "resolvedNotation": "ScPSg",
+        "descriptors": [],
+        "rawHex": "5363505367",
+        "instruction": "100090158:\t92 c7 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/ResizableImageButton.swift\"",
+        "address": "0x1000901cc",
+        "instruction": "1000901cc:\t00 00 20 91\tadd\tx0, x0, #0x800 ; literal pool for: \"UserInterface/ResizableImageButton.swift\""
+      }
+    ]
+  },
+  {
+    "address": "0x1000902b0",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090324",
+    "size": 104,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100083c94",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009038c",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000903bc",
+    "size": 268,
+    "name": "",
+    "strings": [
+      "\"UserInterface/ResizableImageButton.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146428",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/ResizableImageButton.swift\"",
+        "address": "0x100090414",
+        "instruction": "100090414:\t00 00 20 91\tadd\tx0, x0, #0x800 ; literal pool for: \"UserInterface/ResizableImageButton.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>",
+        "context": [
+          "100090474:\t00 f0 1f 91\tadd\tx0, x0, #0x7fc",
+          "100090478:\t02 00 00 90\tadrp\tx2, 0 ; 0x100090000",
+          "10009047c:\t42 10 20 91\tadd\tx2, x2, #0x804",
+          "100090480:\t04 08 00 b0\tadrp\tx4, 257 ; 0x100191000",
+          "100090484:\t84 7c 45 f9\tldr\tx4, [x4, #0xaf8] ; literal pool symbol address: _$s7SwiftUI4TextVN",
+          "100090488:\t05 08 00 b0\tadrp\tx5, 257 ; 0x100191000",
+          "10009048c:\ta5 d4 46 f9\tldr\tx5, [x5, #0xda8] ; literal pool symbol address: _$s7SwiftUI5ImageVN",
+          "100090490:\t06 08 00 b0\tadrp\tx6, 257 ; 0x100191000",
+          "100090494:\tc6 74 45 f9\tldr\tx6, [x6, #0xae8] ; literal pool symbol address: _$s7SwiftUI4TextVAA4ViewAAWP",
+          "100090498:\t07 08 00 b0\tadrp\tx7, 257 ; 0x100191000",
+          "10009049c:\te7 cc 46 f9\tldr\tx7, [x7, #0xd98] ; literal pool symbol address: _$s7SwiftUI5ImageVAA4ViewAAWP",
+          "1000904a0:\te8 03 13 aa\tmov\tx8, x19"
+        ],
+        "address": "0x1000904a4",
+        "instruction": "1000904a4:\te1 d7 02 94\tbl\t0x100146428 ; symbol stub for: _$s7SwiftUI5LabelV5title4iconACyxq_GxyXE_q_yXEtcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000904c8",
+    "size": 228,
+    "name": "",
+    "strings": [
+      "\"UserInterface/ResizableImageButton.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_bridgeObjectRetain",
+      "_$s7SwiftUI4TextVyACxcSyRzlufC",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100085980",
+      "0x100147a60",
+      "0x1001461b8",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "string",
+        "value": "\"UserInterface/ResizableImageButton.swift\"",
+        "address": "0x100090524",
+        "instruction": "100090524:\t00 00 20 91\tadd\tx0, x0, #0x800 ; literal pool for: \"UserInterface/ResizableImageButton.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Text.init<A where A: Swift.StringProtocol>(A) -> SwiftUI.Text",
+        "context": [
+          "100090538:\te5 03 17 aa\tmov\tx5, x23",
+          "10009053c:\t1b de 02 94\tbl\t0x100147da8 ; symbol stub for: _swift_task_reportUnexpectedExecutor",
+          "100090540:\ta8 56 40 a9\tldp\tx8, x21, [x21]",
+          "100090544:\te8 57 00 a9\tstp\tx8, x21, [sp]",
+          "100090548:\t0e d5 ff 97\tbl\t0x100085980",
+          "10009054c:\tf6 03 00 aa\tmov\tx22, x0",
+          "100090550:\te0 03 15 aa\tmov\tx0, x21",
+          "100090554:\t43 dd 02 94\tbl\t0x100147a60 ; symbol stub for: _swift_bridgeObjectRetain",
+          "100090558:\t01 08 00 d0\tadrp\tx1, 258 ; 0x100192000",
+          "10009055c:\t21 a8 41 f9\tldr\tx1, [x1, #0x350] ; literal pool symbol address: _$sSSN",
+          "100090560:\te0 03 00 91\tmov\tx0, sp",
+          "100090564:\te2 03 16 aa\tmov\tx2, x22"
+        ],
+        "address": "0x100090568",
+        "instruction": "100090568:\t14 d7 02 94\tbl\t0x1001461b8 ; symbol stub for: _$s7SwiftUI4TextVyACxcSyRzlufC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000905ac",
+    "size": 296,
+    "name": "",
+    "strings": [
+      "\"UserInterface/ResizableImageButton.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI5ImageV12ResizingModeOMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001463d4",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146404",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Image.ResizingMode",
+        "context": [
+          "1000905ac:\tfa 67 bb a9\tstp\tx26, x25, [sp, #-0x50]!",
+          "1000905b0:\tf8 5f 01 a9\tstp\tx24, x23, [sp, #0x10]",
+          "1000905b4:\tf6 57 02 a9\tstp\tx22, x21, [sp, #0x20]",
+          "1000905b8:\tf4 4f 03 a9\tstp\tx20, x19, [sp, #0x30]",
+          "1000905bc:\tfd 7b 04 a9\tstp\tx29, x30, [sp, #0x40]",
+          "1000905c0:\tfd 03 01 91\tadd\tx29, sp, #0x40",
+          "1000905c4:\tf7 03 00 aa\tmov\tx23, x0",
+          "1000905c8:\tf3 03 08 aa\tmov\tx19, x8",
+          "1000905cc:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000905d0",
+        "instruction": "1000905d0:\t81 d7 02 94\tbl\t0x1001463d4 ; symbol stub for: _$s7SwiftUI5ImageV12ResizingModeOMa"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/ResizableImageButton.swift\"",
+        "address": "0x100090640",
+        "instruction": "100090640:\t00 00 20 91\tadd\tx0, x0, #0x800 ; literal pool for: \"UserInterface/ResizableImageButton.swift\""
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image",
+        "context": [
+          "100090664:\t08 a9 46 f9\tldr\tx8, [x8, #0xd50] ; literal pool symbol address: _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC",
+          "100090668:\t01 01 40 b9\tldr\tw1, [x8]",
+          "10009066c:\t48 37 40 f9\tldr\tx8, [x26, #0x68]",
+          "100090670:\te0 03 16 aa\tmov\tx0, x22",
+          "100090674:\te2 03 15 aa\tmov\tx2, x21",
+          "100090678:\t00 01 3f d6\tblr\tx8",
+          "10009067c:\t00 e4 00 2f\tmovi\td0, #0000000000000000",
+          "100090680:\t01 e4 00 2f\tmovi\td1, #0000000000000000",
+          "100090684:\t02 e4 00 2f\tmovi\td2, #0000000000000000",
+          "100090688:\t03 e4 00 2f\tmovi\td3, #0000000000000000",
+          "10009068c:\te0 03 16 aa\tmov\tx0, x22",
+          "100090690:\te1 03 17 aa\tmov\tx1, x23"
+        ],
+        "address": "0x100090694",
+        "instruction": "100090694:\t5c d7 02 94\tbl\t0x100146404 ; symbol stub for: _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF"
+      }
+    ]
+  },
+  {
+    "address": "0x1000906d4",
+    "size": 228,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_allocObject",
+      "_swift_retain",
+      "_$s7SwiftUI6ButtonV6action5labelACyxGyyc_xyXEtcfC"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001479e8",
+      "0x10001ce54",
+      "0x100087c54",
+      "0x100147d00",
+      "0x100001fa0",
+      "0x100005dec",
+      "0x1001464ac"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af4d8",
+        "address": "0x10009075c",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.Label⟧y⟦SwiftUI.Text⟧⟦SwiftUI.Image⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191dc8",
+            "name": "SwiftUI.Label"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191af0",
+            "name": "SwiftUI.Text"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100191da0",
+            "name": "SwiftUI.Image"
+          }
+        ],
+        "rawHex": "02016c040079022369040002ce6b040047",
+        "instruction": "10009075c:\t11 c6 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Button.init(action: () -> (), label: () -> A) -> SwiftUI.Button<A>",
+        "context": [
+          "100090770:\t42 e8 46 f9\tldr\tx2, [x2, #0xdd0] ; literal pool symbol address: _$s7SwiftUI5LabelVyxq_GAA4ViewAAMc",
+          "100090774:\te1 03 14 aa\tmov\tx1, x20",
+          "100090778:\t9d d5 fd 97\tbl\t0x100005dec",
+          "10009077c:\te5 03 00 aa\tmov\tx5, x0",
+          "100090780:\t00 00 00 90\tadrp\tx0, 0 ; 0x100090000",
+          "100090784:\t00 b0 1f 91\tadd\tx0, x0, #0x7ec",
+          "100090788:\t02 00 00 90\tadrp\tx2, 0 ; 0x100090000",
+          "10009078c:\t42 d0 1f 91\tadd\tx2, x2, #0x7f4",
+          "100090790:\te3 03 00 91\tmov\tx3, sp",
+          "100090794:\te8 03 13 aa\tmov\tx8, x19",
+          "100090798:\te1 03 16 aa\tmov\tx1, x22",
+          "10009079c:\te4 03 15 aa\tmov\tx4, x21"
+        ],
+        "address": "0x1000907a0",
+        "instruction": "1000907a0:\t43 d7 02 94\tbl\t0x1001464ac ; symbol stub for: _$s7SwiftUI6ButtonV6action5labelACyxGyyc_xyXEtcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000907b8",
+    "size": 52,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000907ec",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000907f4",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000907fc",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090804",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009080c",
+    "size": 60,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_unknownObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_release",
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147dcc",
+      "0x100147a48",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090848",
+    "size": 104,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000908b0",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100005dec"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000908dc",
+    "size": 52,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090910",
+    "size": 100,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023b4",
+      "0x100147d00",
+      "0x100147d00"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090974",
+    "size": 140,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release",
+      "_swift_retain",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023b4",
+      "0x1000023c0",
+      "0x100147d00",
+      "0x100147ce8",
+      "0x100147d00",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090a00",
+    "size": 96,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x100090a60",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090aa8",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090af0",
+    "size": 16,
+    "name": "UserInterface.RunnersListView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x100090b00",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

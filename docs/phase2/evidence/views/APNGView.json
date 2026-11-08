@@ -1,0 +1,361 @@
+[
+  {
+    "address": "0x1000a6b34",
+    "size": 496,
+    "name": "",
+    "strings": [],
+    "selectors": [
+      "initWithName:bundle:",
+      "data",
+      "initWithData:",
+      "setTemplate:",
+      "size",
+      "setSize:",
+      "setTemplate:"
+    ],
+    "stubs": [
+      "_objc_allocWithZone",
+      "_objc_retain",
+      "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+      "_swift_bridgeObjectRelease",
+      "_objc_release",
+      "_objc_release",
+      "_objc_retainAutoreleasedReturnValue",
+      "_$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+      "_objc_release",
+      "_objc_allocWithZone",
+      "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+      "_objc_release",
+      "_objc_release",
+      "_swift_once"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001478d4",
+      "0x100147910",
+      "0x100146914",
+      "0x100147a48",
+      "0x1001478e0",
+      "0x100147904",
+      "0x100147904",
+      "0x1001478e0",
+      "0x10014791c",
+      "0x100145564",
+      "0x100147904",
+      "0x1001478d4",
+      "0x100145558",
+      "0x1001478e0",
+      "0x100147904",
+      "0x100007504",
+      "0x100147904",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x100147cdc"
+    ],
+    "events": [
+      {
+        "kind": "doubleBits",
+        "value": 100.0,
+        "register": "x8",
+        "bits": "0x4059000000000000",
+        "address": "0x1000a6c80",
+        "instruction": "1000a6c80:\t28 0b e8 d2\tmov\tx8, #0x4059000000000000"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a6d24",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_objc_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147910"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6d50",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_objc_release"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6d58",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_objc_retain",
+      "_objc_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147910",
+      "0x100147904"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6d90",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6d9c",
+    "size": 48,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_objc_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147904"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6dcc",
+    "size": 92,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6e28",
+    "size": 80,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6e78",
+    "size": 16,
+    "name": "UserInterface.APNGView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6e88",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6e94",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6e98",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6ed8",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6f18",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a6f1c",
+    "size": 44,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6f48",
+    "size": 84,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023b4",
+      "0x100147d00"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a6f9c",
+    "size": 108,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023b4",
+      "0x1000023c0",
+      "0x100147d00",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a7008",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a7014",
+    "size": 80,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a7064",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a70ac",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a70ec",
+    "size": 16,
+    "name": "UserInterface.RestoreView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a70fc",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

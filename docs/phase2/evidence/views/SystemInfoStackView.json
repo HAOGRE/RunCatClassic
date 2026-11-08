@@ -1,0 +1,4339 @@
+[
+  {
+    "address": "0x10009aec4",
+    "size": 3036,
+    "name": "",
+    "strings": [],
+    "selectors": [
+      "init",
+      "setAlignment:",
+      "setLineSpacing:",
+      "secondaryLabelColor",
+      "labelColor",
+      "secondaryLabelColor"
+    ],
+    "stubs": [
+      "_$s21DeveloperToolsSupport13ColorResourceVMa",
+      "_$s10Foundation16AttributedStringV20AttributeMergePolicyOMa",
+      "_$s10Foundation18AttributeContainerVMa",
+      "_$s10Foundation16AttributedStringVMa",
+      "_$s10Foundation16AttributedStringVACycfC",
+      "_objc_allocWithZone",
+      "_$s10Foundation18AttributeContainerVACycfC",
+      "_$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_objc_opt_self",
+      "_objc_retainAutoreleasedReturnValue",
+      "_$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis",
+      "_swift_initStackObject",
+      "_objc_retain",
+      "_objc_retain",
+      "_swift_setDeallocating",
+      "_$s10Foundation18AttributeContainerVyACSDySo21NSAttributedStringKeyaypGcfC",
+      "_$s10Foundation16AttributedStringV15mergeAttributes_0D6PolicyyAA18AttributeContainerV_AC0g5MergeF0OtF",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_$s10Foundation16AttributedStringV13stringLiteralACSS_tcfC",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_swift_allocObject",
+      "_$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation18AttributeContainerVACycfC",
+      "_$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_objc_retainAutoreleasedReturnValue",
+      "_$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis",
+      "_swift_initStackObject",
+      "_objc_retain",
+      "_objc_retain",
+      "_swift_setDeallocating",
+      "_$s10Foundation18AttributeContainerVyACSDySo21NSAttributedStringKeyaypGcfC",
+      "_$s10Foundation16AttributedStringV15mergeAttributes_0D6PolicyyAA18AttributeContainerV_AC0g5MergeF0OtF",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_$s10Foundation16AttributedStringV13stringLiteralACSS_tcfC",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_$s10Foundation18AttributeContainerVACycfC",
+      "_$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_objc_retainAutoreleasedReturnValue",
+      "_$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis",
+      "_swift_initStackObject",
+      "_objc_retain",
+      "_objc_retain",
+      "_swift_setDeallocating",
+      "_$s10Foundation18AttributeContainerVyACSDySo21NSAttributedStringKeyaypGcfC",
+      "_$s10Foundation16AttributedStringV15mergeAttributes_0D6PolicyyAA18AttributeContainerV_AC0g5MergeF0OtF",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_$s10Foundation16AttributedStringV13stringLiteralACSS_tcfC",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_swift_bridgeObjectRetain",
+      "_$s10Foundation18AttributeContainerVACycfC",
+      "_$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC",
+      "_swift_getKeyPath",
+      "_swift_getKeyPath",
+      "_$sSo7NSColorC6AppKitE8resourceAB21DeveloperToolsSupport13ColorResourceV_tcfC",
+      "_$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis",
+      "_swift_initStackObject",
+      "_objc_retain",
+      "_objc_retain",
+      "_objc_retain",
+      "_swift_initStackObject",
+      "_swift_bridgeObjectRetain",
+      "_swift_setDeallocating",
+      "_swift_setDeallocating",
+      "_swift_arrayDestroy",
+      "_$s10Foundation18AttributeContainerVyACSDySo21NSAttributedStringKeyaypGcfC",
+      "_$s10Foundation16AttributedStringV15mergeAttributes_0D6PolicyyAA18AttributeContainerV_AC0g5MergeF0OtF",
+      "_$s10Foundation16AttributedStringV6appendyyxAA0bC8ProtocolRzlF",
+      "_objc_release",
+      "_swift_once"
+    ],
+    "floatConsts": [
+      "10009b080:\t00 10 60 1e\tfmov\td0, #2.00000000"
+    ],
+    "calls": [
+      "0x1001457e0",
+      "0x10014539c",
+      "0x1001453e4",
+      "0x1001453c0",
+      "0x1001453b4",
+      "0x1001478d4",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1001478e0",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x1001453d8",
+      "0x1001453cc",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x1001478f8",
+      "0x1001478e0",
+      "0x10014791c",
+      "0x10009ccb8",
+      "0x100145378",
+      "0x100001fa0",
+      "0x100147c88",
+      "0x10009cd90",
+      "0x100147910",
+      "0x100147910",
+      "0x10009c6c8",
+      "0x100147d18",
+      "0x1000097f0",
+      "0x1001453f0",
+      "0x100145390",
+      "0x100005860",
+      "0x1001453a8",
+      "0x100145384",
+      "0x1001453a8",
+      "0x100001fa0",
+      "0x1001479e8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100001fa0",
+      "0x100005dec",
+      "0x100146890",
+      "0x100147a48",
+      "0x1001453d8",
+      "0x1001453cc",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x1001478e0",
+      "0x10014791c",
+      "0x100145378",
+      "0x100147c88",
+      "0x100147910",
+      "0x100147910",
+      "0x10009c6c8",
+      "0x100147d18",
+      "0x1000097f0",
+      "0x1001453f0",
+      "0x100145390",
+      "0x1001453a8",
+      "0x100145384",
+      "0x1001453a8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x1001453d8",
+      "0x1001453cc",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x1001478e0",
+      "0x10014791c",
+      "0x100145378",
+      "0x100147c88",
+      "0x100147910",
+      "0x100147910",
+      "0x10009c6c8",
+      "0x100147d18",
+      "0x1000097f0",
+      "0x1001453f0",
+      "0x100145390",
+      "0x1001453a8",
+      "0x100145384",
+      "0x1001453a8",
+      "0x10006ec64",
+      "0x100147a60",
+      "0x1001453d8",
+      "0x1001453cc",
+      "0x100147bbc",
+      "0x100147bbc",
+      "0x10009cd90",
+      "0x10004dec4",
+      "0x100146e54",
+      "0x100145378",
+      "0x100147c88",
+      "0x1000023b4",
+      "0x100147910",
+      "0x100147910",
+      "0x100147910",
+      "0x100085780",
+      "0x1000023c0",
+      "0x100147c88",
+      "0x100147a60",
+      "0x1000db64c",
+      "0x100147d18",
+      "0x100009dec",
+      "0x10009c6c8",
+      "0x100147d18",
+      "0x100001fa0",
+      "0x100147a0c",
+      "0x1001453f0",
+      "0x100145390",
+      "0x1001453a8",
+      "0x100147904",
+      "0x100147cdc"
+    ],
+    "events": [
+      {
+        "kind": "floatImmediate",
+        "value": 2.0,
+        "address": "0x10009b080",
+        "instruction": "10009b080:\t00 10 60 1e\tfmov\td0, #2.00000000"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afbf0",
+        "address": "0x10009b168",
+        "length": 16,
+        "resolvedNotation": "⟦Swift._ContiguousArrayStorage⟧y⟦__C.Key⟧_yptG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192a50",
+            "name": "Swift._ContiguousArrayStorage"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100193578",
+            "name": "__C.Key"
+          }
+        ],
+        "rawHex": "02835704007902a56204005f79707447",
+        "instruction": "10009b168:\t8e 9b fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aef68",
+        "address": "0x10009b2f0",
+        "length": 9,
+        "resolvedNotation": "⟦Swift._ContiguousArrayStorage⟧ySSG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192a50",
+            "name": "Swift._ContiguousArrayStorage"
+          }
+        ],
+        "rawHex": "028985040079535347",
+        "instruction": "10009b2f0:\t2c 9b fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc10",
+        "address": "0x10009b41c",
+        "length": 6,
+        "resolvedNotation": "SaySSG",
+        "descriptors": [],
+        "rawHex": "536179535347",
+        "instruction": "10009b41c:\te1 9a fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "(extension in AppKit):__C.NSColor.init(resource: DeveloperToolsSupport.ColorResource) -> __C.NSColor",
+        "context": [
+          "10009b84c:\t41 09 00 d0\tadrp\tx1, 298 ; 0x1001c5000",
+          "10009b850:\t21 20 1e 91\tadd\tx1, x1, #0x788",
+          "10009b854:\t7a 16 40 f9\tldr\tx26, [x19, #0x28]",
+          "10009b858:\te0 03 1a aa\tmov\tx0, x26",
+          "10009b85c:\t9a c9 fe 97\tbl\t0x10004dec4",
+          "10009b860:\te1 03 00 aa\tmov\tx1, x0",
+          "10009b864:\t7c a2 41 a9\tldp\tx28, x8, [x19, #0x18]",
+          "10009b868:\t08 09 40 f9\tldr\tx8, [x8, #0x10]",
+          "10009b86c:\te0 03 1c aa\tmov\tx0, x28",
+          "10009b870:\te2 03 1a aa\tmov\tx2, x26",
+          "10009b874:\t00 01 3f d6\tblr\tx8",
+          "10009b878:\te0 03 1c aa\tmov\tx0, x28"
+        ],
+        "address": "0x10009b87c",
+        "instruction": "10009b87c:\t76 ad 02 94\tbl\t0x100146e54 ; symbol stub for: _$sSo7NSColorC6AppKitE8resourceAB21DeveloperToolsSupport13ColorResourceV_tcfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc00",
+        "address": "0x10009b9a8",
+        "length": 9,
+        "resolvedNotation": "⟦__C.Key⟧_ypt",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100193578",
+            "name": "__C.Key"
+          }
+        ],
+        "rawHex": "02996204005f797074",
+        "instruction": "10009b9a8:\t7e 99 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009baa0",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10001ce7c",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bb5c",
+    "size": 180,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_release",
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100085598",
+      "0x100147ce8",
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bc10",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bc84",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bcf8",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bd40",
+    "size": 68,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x10001d45c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bd84",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10001ce7c",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009be40",
+    "size": 156,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10009c7c4",
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bedc",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10001ce7c",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009bf98",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c014",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10001ce7c",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c0d0",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c14c",
+    "size": 188,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10001ce7c",
+      "0x100147d78",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c208",
+    "size": 184,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sSS10describingSSx_tclufC",
+      "_swift_storeEnumTagMultiPayload",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x1001469bc",
+      "0x100147d48",
+      "0x100146cc8",
+      "0x100146c98"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb88",
+        "address": "0x10009c250",
+        "length": 6,
+        "resolvedNotation": "⟦UserInterface.SubMenusView⟧m",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 1,
+            "target": "0x100163cd8",
+            "name": "UserInterface.SubMenusView"
+          }
+        ],
+        "rawHex": "01476a01006d",
+        "instruction": "10009c250:\t54 97 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009c2c0",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c334",
+    "size": 116,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_release",
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90",
+      "0x100147ce8",
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c3a8",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_dealloc",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d90"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c3f0",
+    "size": 68,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_task_switch"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8",
+      "0x10001d45c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c434",
+    "size": 88,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sSQ2eeoiySbx_xtFZTj"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x1001468a8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc30",
+        "address": "0x10009c458",
+        "length": 17,
+        "resolvedNotation": "⟦Swift.KeyPath⟧y⟦(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes⟧⟦(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes.ForegroundColorAttribute⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192db0",
+            "name": "Swift.KeyPath"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190df8",
+            "name": "(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100190de0",
+            "name": "(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes.ForegroundColorAttribute"
+          }
+        ],
+        "rawHex": "02af5a04007902f13a040002d43a040047",
+        "instruction": "10009c458:\td2 96 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009c48c",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x10009a1c8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c4c4",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009c4c8",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c514",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c560",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c5ac",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c5f8",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c644",
+    "size": 56,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release",
+      "_swift_release",
+      "_swift_deallocObject"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023c0",
+      "0x100147ce8",
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c67c",
+    "size": 76,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_task_alloc"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d78"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009c6c8",
+    "size": 252,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100147238",
+      "0x10006e944",
+      "0x10001c7b8",
+      "0x10000f980"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc28",
+        "address": "0x10009c6f8",
+        "length": 14,
+        "resolvedNotation": "⟦Swift._DictionaryStorage⟧y⟦__C.Key⟧ypG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192990",
+            "name": "Swift._DictionaryStorage"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100193578",
+            "name": "__C.Key"
+          }
+        ],
+        "rawHex": "029f560400790281620400797047",
+        "instruction": "10009c6f8:\t2a 96 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009c7c4",
+    "size": 1156,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_initStackObject",
+      "_swift_bridgeObjectRetain",
+      "_swift_setDeallocating",
+      "_swift_allocObject",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_$sSS6appendyySSF",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x100001fa0",
+      "0x100147c88",
+      "0x10001bcb4",
+      "0x100147a60",
+      "0x10009cc48",
+      "0x1000db64c",
+      "0x100147d18",
+      "0x100009dec",
+      "0x1001479e8",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x10001bcb4",
+      "0x10006df94",
+      "0x10009cc48",
+      "0x1000db64c",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a48",
+      "0x1000023b4",
+      "0x100085780",
+      "0x1000023c0",
+      "0x1000db64c",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100146a64",
+      "0x100147a48",
+      "0x100147a48"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aef68",
+        "address": "0x10009c81c",
+        "length": 9,
+        "resolvedNotation": "⟦Swift._ContiguousArrayStorage⟧ySSG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192a50",
+            "name": "Swift._ContiguousArrayStorage"
+          }
+        ],
+        "rawHex": "028985040079535347",
+        "instruction": "10009c81c:\te1 95 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009cc48",
+    "size": 84,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009cc9c",
+    "size": 24,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s10Foundation15AttributeScopesO6AppKitE0dE10AttributesV15foregroundColorAF010ForegroundhB0Ovg"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10014536c"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009ccb4",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009ccb8",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009ccf8",
+    "size": 36,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s10Foundation22AttributeDynamicLookupO6AppKitE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0eF10AttributesVxG_tcAA016AttributedStringI0Rzluig"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10009ccb8",
+      "0x100145480"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009cd1c",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cd28",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cd30",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cd3c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cd40",
+    "size": 68,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$sSH9hashValueSivgTj"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100146824"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc30",
+        "address": "0x10009cd60",
+        "length": 17,
+        "resolvedNotation": "⟦Swift.KeyPath⟧y⟦(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes⟧⟦(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes.ForegroundColorAttribute⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100192db0",
+            "name": "Swift.KeyPath"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190df8",
+            "name": "(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x100190de0",
+            "name": "(extension in AppKit):Foundation.AttributeScopes.AppKitAttributes.ForegroundColorAttribute"
+          }
+        ],
+        "rawHex": "02af5a04007902f13a040002d43a040047",
+        "instruction": "10009cd60:\t90 94 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009cd84",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cd90",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_objc_opt_self",
+      "_swift_getObjCClassMetadata"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1001478f8",
+      "0x100147be0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009cdd0",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009cdd4",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10009ce5c",
+      "0x100005860",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb80",
+        "address": "0x10009cdfc",
+        "length": 85,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAyAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.ResizableImageButton⟧_A3dAyAD⟦SwiftUI.AccessibilityAttachmentModifier⟧GtGG_⟦UserInterface.SmallButtonStyle⟧Qo_⟦SwiftUI._PaddingLayout⟧G⟦UserInterface.context2.MaterialCellViewModifier⟧GAKG⟦SwiftUI._TaskModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 33,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 46,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x100190258",
+            "name": "UserInterface.SmallButtonStyle"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 70,
+            "opcode": 2,
+            "target": "0x100193508",
+            "name": "UserInterface.context2.MaterialCellViewModifier"
+          },
+          {
+            "offset": 79,
+            "opcode": 2,
+            "target": "0x100191308",
+            "name": "SwiftUI._TaskModifier"
+          }
+        ],
+        "rawHex": "027543040079414179414179414179025e4a04007902084e04007902025004007902d43104005f41336441794144024f480400477447475f0245310400516f5f02a54204004702e763040047414b4702de41040047",
+        "instruction": "10009cdfc:\t87 95 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10009ce5c",
+    "size": 112,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10009cecc",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb58",
+        "address": "0x10009ce84",
+        "length": 76,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.ResizableImageButton⟧_A3dAyAD⟦SwiftUI.AccessibilityAttachmentModifier⟧GtGG_⟦UserInterface.SmallButtonStyle⟧Qo_⟦SwiftUI._PaddingLayout⟧G⟦UserInterface.context2.MaterialCellViewModifier⟧GAKG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 30,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 43,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100190258",
+            "name": "UserInterface.SmallButtonStyle"
+          },
+          {
+            "offset": 61,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 67,
+            "opcode": 2,
+            "target": "0x100193508",
+            "name": "UserInterface.context2.MaterialCellViewModifier"
+          }
+        ],
+        "rawHex": "023b4204007941417941417902274904007902d14c04007902cb4e040079029d3004005f413364417941440218470400477447475f020e300400516f5f026e4104004702b062040047414b47",
+        "instruction": "10009ce84:\t65 95 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10009cecc",
+    "size": 112,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10009cf3c",
+      "0x10008c92c",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb50",
+        "address": "0x10009cef4",
+        "length": 70,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.ResizableImageButton⟧_A3dAyAD⟦SwiftUI.AccessibilityAttachmentModifier⟧GtGG_⟦UserInterface.SmallButtonStyle⟧Qo_⟦SwiftUI._PaddingLayout⟧G⟦UserInterface.context2.MaterialCellViewModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 27,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 40,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100190258",
+            "name": "UserInterface.SmallButtonStyle"
+          },
+          {
+            "offset": 58,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 64,
+            "opcode": 2,
+            "target": "0x100193508",
+            "name": "UserInterface.context2.MaterialCellViewModifier"
+          }
+        ],
+        "rawHex": "028342040079414179027249040079021c4d04007902164f04007902e83004005f413364417941440263470400477447475f0259300400516f5f02b94104004702fb62040047",
+        "instruction": "10009cef4:\t49 95 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10009cf3c",
+    "size": 204,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2",
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100002418",
+      "0x100005dec",
+      "0x10008c59c",
+      "0x100147bf8",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb48",
+        "address": "0x10009cf68",
+        "length": 61,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.ResizableImageButton⟧_A3dAyAD⟦SwiftUI.AccessibilityAttachmentModifier⟧GtGG_⟦UserInterface.SmallButtonStyle⟧Qo_⟦SwiftUI._PaddingLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191b48",
+            "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some>>"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 37,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100190258",
+            "name": "UserInterface.SmallButtonStyle"
+          },
+          {
+            "offset": 55,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          }
+        ],
+        "rawHex": "02c14204007902b349040079025d4d04007902574f04007902293104005f4133644179414402a4470400477447475f029a300400516f5f02fa41040047",
+        "instruction": "10009cf68:\t2c 95 fd 97\tbl\t0x100002418"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afb38",
+        "address": "0x10009cf7c",
+        "length": 38,
+        "resolvedNotation": "⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.ResizableImageButton⟧_A3C⟦SwiftUI.ModifiedContent⟧yAC⟦SwiftUI.AccessibilityAttachmentModifier⟧GtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001902d0",
+            "name": "UserInterface.ResizableImageButton"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191958",
+            "name": "SwiftUI.AccessibilityAttachmentModifier"
+          }
+        ],
+        "rawHex": "02c74d04007902c14f04007902933104005f413343020a430400794143020a48040047744747",
+        "instruction": "10009cf7c:\t27 95 fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10009d008",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d00c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d010",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d014",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d018",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d01c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10009d020",
+    "size": 2168,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_memcpy",
+      "_swift_retain",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100147d00",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10005428c",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10004e6ac",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005c0cc",
+      "0x100147a60",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x100052bd4",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x10009d088",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "10009d088:\tc6 93 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x10009d208",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "10009d208:\t66 93 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x10009d3d0",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "10009d3d0:\tf4 92 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x10009d574",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009d574:\t8b 92 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x10009d6f0",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009d6f0:\t2c 92 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009d898",
+    "size": 1120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005428c",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10004e6ac",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x10005c0cc",
+      "0x100052bd4",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10009dcf8",
+    "size": 2108,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10005428c",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10004e6ac",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005c0cc",
+      "0x100147a60",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x100052bd4",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x10009dd54",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "10009dd54:\t93 90 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x10009deb8",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "10009deb8:\t3a 90 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x10009e078",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "10009e078:\tca 8f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x10009e21c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009e21c:\t61 8f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x10009e38c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009e38c:\t05 8f fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009e534",
+    "size": 4480,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRetain",
+      "_memcpy",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005428c",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10004e6ac",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005c0cc",
+      "0x100147a60",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100052bd4",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x100147a60",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10000f308",
+      "0x10005c0cc",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x100147a60",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a60",
+      "0x100147a48"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x10009e6e0",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "10009e6e0:\t30 8e fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x10009e930",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "10009e930:\t9c 8d fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x10009eb4c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "10009eb4c:\t15 8d fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x10009ed04",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009ed04:\ta7 8c fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x10009ef0c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009ef0c:\t25 8c fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009f6b4",
+    "size": 1856,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x10005428c",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x10004e6ac",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005c0cc",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x100052bd4",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x10009f710",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "10009f710:\t24 8a fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x10009f864",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "10009f864:\tcf 89 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x10009f9f4",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "10009f9f4:\t6b 89 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x10009fb50",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009fb50:\t14 89 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x10009fcb4",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "10009fcb4:\tbb 88 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x10009fdf4",
+    "size": 3660,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_memcpy",
+      "_$s10Foundation6LocaleVMa",
+      "_memcpy",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_getEnumCaseMultiPayload",
+      "_swift_storeEnumTagMultiPayload",
+      "_$s10Foundation6LocaleVMa",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x1000500bc",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100055cf0",
+      "0x1000512b0",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10005428c",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x10004e6ac",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005c0cc",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100052bd4",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x10005b2f4",
+      "0x10000f308",
+      "0x100001fa0",
+      "0x1001478b0",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x10000f308",
+      "0x10005c0cc",
+      "0x100147b5c",
+      "0x100147d48",
+      "0x10005c928",
+      "0x1001455f4",
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48",
+      "0x100147a48",
+      "0x10005b2f4",
+      "0x100147a48"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x10009ff6c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "10009ff6c:\t0d 88 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x1000a0130",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "1000a0130:\t9c 87 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x1000a02b8",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "1000a02b8:\t3a 87 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x1000a0448",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "1000a0448:\td6 86 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x1000a05b4",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "1000a05b4:\t7b 86 fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a0c40",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getEnumTagSinglePayloadGeneric"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a0c4c",
+    "size": 124,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100055cf0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a0cc8",
+    "size": 12,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_storeEnumTagSinglePayloadGeneric"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a0cd4",
+    "size": 120,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [
+      "0x100055cf0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a0d4c",
+    "size": 56,
+    "name": "UserInterface.SystemInfoStackView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getSingletonMetadata"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c10"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a0d84",
+    "size": 128,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_initStructMetadata"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100055cf0",
+      "0x100147ca0"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a0e04",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a0e14",
+    "size": 584,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ",
+      "_$s7SwiftUI9AlignmentV3topACvgZ",
+      "_$s7SwiftUI16_FlexFrameLayoutV8minWidth05idealG003maxG00F6Height0hJ00iJ09alignmentAC12CoreGraphics7CGFloatVSg_A5nA9AlignmentVtcfC",
+      "_$s7SwiftUI4EdgeO3SetV3allAEvgZ",
+      "_$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC"
+    ],
+    "floatConsts": [
+      "1000a0fcc:\t00 10 64 1e\tfmov\td0, #8.00000000"
+    ],
+    "calls": [
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100145e40",
+      "0x100001fa0",
+      "0x1000a105c",
+      "0x100146638",
+      "0x100145cc0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x10014608c",
+      "0x1001459b4",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x10006e944",
+      "0x1000097f0"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd10",
+        "address": "0x1000a0e50",
+        "length": 41,
+        "resolvedNotation": "⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ABy⟦SwiftUI.Divider⟧_ACtGSgA3GtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          }
+        ],
+        "rawHex": "02614b040079025b4d040079029d2e040053675f41427902d24b04005f414374475367413347744747",
+        "instruction": "1000a0e50:\t54 84 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd18",
+        "address": "0x1000a0e8c",
+        "length": 53,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ACy⟦SwiftUI.Divider⟧_ADtGSgA3HtGG⟦SwiftUI._FlexFrameLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 47,
+            "opcode": 2,
+            "target": "0x100191550",
+            "name": "SwiftUI._FlexFrameLayout"
+          }
+        ],
+        "rawHex": "028f4004007902314b040079022b4d040079026d2e040053675f41437902a24b04005f414474475367413348744747026041040047",
+        "instruction": "1000a0e8c:\t45 84 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd20",
+        "address": "0x1000a0ecc",
+        "length": 62,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ACy⟦SwiftUI.Divider⟧_ADtGSgA3HtGG⟦SwiftUI._FlexFrameLayout⟧G⟦SwiftUI._PaddingLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 21,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 50,
+            "opcode": 2,
+            "target": "0x100191550",
+            "name": "SwiftUI._FlexFrameLayout"
+          },
+          {
+            "offset": 56,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          }
+        ],
+        "rawHex": "02594004007941417902f84a04007902f24c04007902342e040053675f41437902694b04005f41447447536741334874474702274104004702913f040047",
+        "instruction": "1000a0ecc:\t35 84 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.HorizontalAlignment.leading.getter : SwiftUI.HorizontalAlignment",
+        "context": [
+          "1000a0ed0:\tfa 03 00 aa\tmov\tx26, x0",
+          "1000a0ed4:\t08 80 5f f8\tldur\tx8, [x0, #-0x8]",
+          "1000a0ed8:\t08 21 40 f9\tldr\tx8, [x8, #0x40]",
+          "1000a0edc:\te9 03 08 aa\tmov\tx9, x8",
+          "1000a0ee0:\t90 07 00 90\tadrp\tx16, 240 ; 0x100190000",
+          "1000a0ee4:\t10 0e 46 f9\tldr\tx16, [x16, #0xc18] ; literal pool symbol address: ___chkstk_darwin",
+          "1000a0ee8:\t00 02 3f d6\tblr\tx16",
+          "1000a0eec:\te9 03 00 91\tmov\tx9, sp",
+          "1000a0ef0:\t08 3d 00 91\tadd\tx8, x8, #0xf",
+          "1000a0ef4:\t08 ed 7c 92\tand\tx8, x8, #0xfffffffffffffff0",
+          "1000a0ef8:\t38 01 08 cb\tsub\tx24, x9, x8",
+          "1000a0efc:\t1f 03 00 91\tmov\tsp, x24"
+        ],
+        "address": "0x1000a0f00",
+        "instruction": "1000a0f00:\td0 93 02 94\tbl\t0x100145e40 ; symbol stub for: _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 8.0,
+        "register": "x8",
+        "bits": "0x4020000000000000",
+        "address": "0x1000a0f04",
+        "instruction": "1000a0f04:\t08 04 e8 d2\tmov\tx8, #0x4020000000000000"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd28",
+        "address": "0x1000a0f18",
+        "length": 47,
+        "resolvedNotation": "⟦SwiftUI._VariadicView.Tree⟧y_⟦SwiftUI._VStackLayout⟧⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ACy⟦SwiftUI.Divider⟧_ADtGSgA3HtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191318",
+            "name": "SwiftUI._VariadicView.Tree"
+          },
+          {
+            "offset": 7,
+            "opcode": 2,
+            "target": "0x100191310",
+            "name": "SwiftUI._VStackLayout"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          }
+        ],
+        "rawHex": "02e13e0400795f02d23e040002b54c04007902f72d040053675f414379022c4b04005f414474475367413348744747",
+        "instruction": "1000a0f18:\t22 84 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Alignment.top.getter : SwiftUI.Alignment",
+        "context": [
+          "1000a0efc:\t1f 03 00 91\tmov\tsp, x24",
+          "1000a0f00:\td0 93 02 94\tbl\t0x100145e40 ; symbol stub for: _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ",
+          "1000a0f04:\t08 04 e8 d2\tmov\tx8, #0x4020000000000000",
+          "1000a0f08:\t20 23 00 a9\tstp\tx0, x8, [x25]",
+          "1000a0f0c:\t3f 43 00 39\tstrb\twzr, [x25, #0x10]",
+          "1000a0f10:\t60 08 00 f0\tadrp\tx0, 271 ; 0x1001af000",
+          "1000a0f14:\t00 a0 34 91\tadd\tx0, x0, #0xd28",
+          "1000a0f18:\t22 84 fd 97\tbl\t0x100001fa0",
+          "1000a0f1c:\t08 2c 80 b9\tldrsw\tx8, [x0, #0x2c]",
+          "1000a0f20:\t28 03 08 8b\tadd\tx8, x25, x8",
+          "1000a0f24:\te0 03 1c aa\tmov\tx0, x28",
+          "1000a0f28:\t4d 00 00 94\tbl\t0x1000a105c"
+        ],
+        "address": "0x1000a0f2c",
+        "instruction": "1000a0f2c:\tc3 95 02 94\tbl\t0x100146638 ; symbol stub for: _$s7SwiftUI9AlignmentV3topACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 408.0,
+        "register": "x6",
+        "bits": "0x4079800000000000",
+        "address": "0x1000a0f70",
+        "instruction": "1000a0f70:\t26 0f e8 f2\tmovk\tx6, #0x4079, lsl #48"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI._FlexFrameLayout.init(minWidth: CoreGraphics.CGFloat?, idealWidth: CoreGraphics.CGFloat?, maxWidth: CoreGraphics.CGFloat?, minHeight: CoreGraphics.CGFloat?, idealHeight: CoreGraphics.CGFloat?, maxHeight: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FlexFrameLayout",
+        "context": [
+          "1000a0f48:\ta8 83 03 d1\tsub\tx8, x29, #0xe0",
+          "1000a0f4c:\te9 23 00 39\tstrb\tw9, [sp, #0x8]",
+          "1000a0f50:\tff 03 00 f9\tstr\txzr, [sp]",
+          "1000a0f54:\t00 00 80 d2\tmov\tx0, #0x0",
+          "1000a0f58:\t21 00 80 52\tmov\tw1, #0x1",
+          "1000a0f5c:\t02 00 80 d2\tmov\tx2, #0x0",
+          "1000a0f60:\t23 00 80 52\tmov\tw3, #0x1",
+          "1000a0f64:\t04 00 80 d2\tmov\tx4, #0x0",
+          "1000a0f68:\t25 00 80 52\tmov\tw5, #0x1",
+          "1000a0f6c:\t06 00 d0 d2\tmov\tx6, #0x800000000000",
+          "1000a0f70:\t26 0f e8 f2\tmovk\tx6, #0x4079, lsl #48",
+          "1000a0f74:\t07 00 80 52\tmov\tw7, #0x0"
+        ],
+        "address": "0x1000a0f78",
+        "instruction": "1000a0f78:\t52 93 02 94\tbl\t0x100145cc0 ; symbol stub for: _$s7SwiftUI16_FlexFrameLayoutV8minWidth05idealG003maxG00F6Height0hJ00iJ09alignmentAC12CoreGraphics7CGFloatVSg_A5nA9AlignmentVtcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Edge.Set.all.getter : SwiftUI.Edge.Set",
+        "context": [
+          "1000a0f94:\te8 02 08 8b\tadd\tx8, x23, x8",
+          "1000a0f98:\ta0 07 7b ad\tldp\tq0, q1, [x29, #-0xa0]",
+          "1000a0f9c:\t00 05 02 ad\tstp\tq0, q1, [x8, #0x40]",
+          "1000a0fa0:\ta0 03 d8 3c\tldur\tq0, [x29, #-0x80]",
+          "1000a0fa4:\t00 19 80 3d\tstr\tq0, [x8, #0x60]",
+          "1000a0fa8:\ta0 07 79 ad\tldp\tq0, q1, [x29, #-0xe0]",
+          "1000a0fac:\t00 05 00 ad\tstp\tq0, q1, [x8]",
+          "1000a0fb0:\ta1 03 7a ad\tldp\tq1, q0, [x29, #-0xc0]",
+          "1000a0fb4:\t01 01 01 ad\tstp\tq1, q0, [x8, #0x20]",
+          "1000a0fb8:\te0 03 19 aa\tmov\tx0, x25",
+          "1000a0fbc:\te1 03 16 aa\tmov\tx1, x22",
+          "1000a0fc0:\t0c a2 fd 97\tbl\t0x1000097f0"
+        ],
+        "address": "0x1000a0fc4",
+        "instruction": "1000a0fc4:\t32 94 02 94\tbl\t0x10014608c ; symbol stub for: _$s7SwiftUI4EdgeO3SetV3allAEvgZ"
+      },
+      {
+        "kind": "floatImmediate",
+        "value": 8.0,
+        "address": "0x1000a0fcc",
+        "instruction": "1000a0fcc:\t00 10 64 1e\tfmov\td0, #8.00000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.EdgeInsets.init(_all: CoreGraphics.CGFloat) -> SwiftUI.EdgeInsets",
+        "context": [
+          "1000a0fa0:\ta0 03 d8 3c\tldur\tq0, [x29, #-0x80]",
+          "1000a0fa4:\t00 19 80 3d\tstr\tq0, [x8, #0x60]",
+          "1000a0fa8:\ta0 07 79 ad\tldp\tq0, q1, [x29, #-0xe0]",
+          "1000a0fac:\t00 05 00 ad\tstp\tq0, q1, [x8]",
+          "1000a0fb0:\ta1 03 7a ad\tldp\tq1, q0, [x29, #-0xc0]",
+          "1000a0fb4:\t01 01 01 ad\tstp\tq1, q0, [x8, #0x20]",
+          "1000a0fb8:\te0 03 19 aa\tmov\tx0, x25",
+          "1000a0fbc:\te1 03 16 aa\tmov\tx1, x22",
+          "1000a0fc0:\t0c a2 fd 97\tbl\t0x1000097f0",
+          "1000a0fc4:\t32 94 02 94\tbl\t0x10014608c ; symbol stub for: _$s7SwiftUI4EdgeO3SetV3allAEvgZ",
+          "1000a0fc8:\tf6 03 00 aa\tmov\tx22, x0",
+          "1000a0fcc:\t00 10 64 1e\tfmov\td0, #8.00000000"
+        ],
+        "address": "0x1000a0fd0",
+        "instruction": "1000a0fd0:\t79 92 02 94\tbl\t0x1001459b4 ; symbol stub for: _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a105c",
+    "size": 5004,
+    "name": "",
+    "strings": [
+      "\"UserInterface/SystemInfoStackView.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI7DividerVMa",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_swift_bridgeObjectRetain",
+      "_swift_dynamicCast",
+      "_$s7SwiftUI7DividerVACycfC",
+      "_swift_dynamicCast",
+      "_$s7SwiftUI7DividerVACycfC",
+      "_swift_dynamicCast",
+      "_$s7SwiftUI7DividerVACycfC",
+      "_swift_dynamicCast",
+      "_$s7SwiftUI7DividerVACycfC",
+      "_swift_dynamicCast",
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100001fa0",
+      "0x100052bd4",
+      "0x10004e6ac",
+      "0x100001fa0",
+      "0x10005428c",
+      "0x10014656c",
+      "0x100001fa0",
+      "0x1000512b0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x100001fa0",
+      "0x1000500bc",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100005860",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100024580",
+      "0x100005860",
+      "0x100069230",
+      "0x10000f2c4",
+      "0x1000a0d4c",
+      "0x100005c64",
+      "0x10004a750",
+      "0x100147a60",
+      "0x100001fa0",
+      "0x100147acc",
+      "0x10000f308",
+      "0x1000097f0",
+      "0x10000f308",
+      "0x100055cf0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100001fa0",
+      "0x100024580",
+      "0x100146560",
+      "0x100005860",
+      "0x100069230",
+      "0x10000f2c4",
+      "0x100005c64",
+      "0x10004a750",
+      "0x100001fa0",
+      "0x100147acc",
+      "0x10000f308",
+      "0x1000097f0",
+      "0x1000a23ec",
+      "0x100001fa0",
+      "0x1000a23ec",
+      "0x1000a2428",
+      "0x10000f308",
+      "0x1000a2428",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100001fa0",
+      "0x100024580",
+      "0x100146560",
+      "0x100005860",
+      "0x100069230",
+      "0x10000f2c4",
+      "0x100005c64",
+      "0x10004a750",
+      "0x100001fa0",
+      "0x100147acc",
+      "0x10000f308",
+      "0x1000097f0",
+      "0x1000a23ec",
+      "0x100001fa0",
+      "0x1000a23ec",
+      "0x1000a2428",
+      "0x10000f308",
+      "0x1000a2428",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100001fa0",
+      "0x100024580",
+      "0x100146560",
+      "0x100005860",
+      "0x100069230",
+      "0x10000f2c4",
+      "0x100005c64",
+      "0x10004a750",
+      "0x100001fa0",
+      "0x100147acc",
+      "0x10000f308",
+      "0x1000097f0",
+      "0x1000a23ec",
+      "0x100001fa0",
+      "0x1000a23ec",
+      "0x1000a2428",
+      "0x10000f308",
+      "0x1000a2428",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x100001fa0",
+      "0x100024580",
+      "0x100146560",
+      "0x100005860",
+      "0x100069230",
+      "0x10000f2c4",
+      "0x1000a0d4c",
+      "0x100005c64",
+      "0x10004a750",
+      "0x100001fa0",
+      "0x100147acc",
+      "0x10000f308",
+      "0x1000097f0",
+      "0x1000a23ec",
+      "0x100001fa0",
+      "0x1000a23ec",
+      "0x1000a2428",
+      "0x10000f308",
+      "0x1000a2428",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x100001fa0",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x10006e944",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x1000097f0",
+      "0x100147ce8"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc70",
+        "address": "0x1000a1094",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.NetworkInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190168",
+            "name": "SystemInfoKit.NetworkInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "1000a1094:\tc3 83 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc60",
+        "address": "0x1000a116c",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.StorageInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190170",
+            "name": "SystemInfoKit.StorageInfo"
+          }
+        ],
+        "rawHex": "024d2e04005367",
+        "instruction": "1000a116c:\t8d 83 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "type metadata accessor for SwiftUI.Divider",
+        "context": [
+          "1000a11c4:\te9 03 08 aa\tmov\tx9, x8",
+          "1000a11c8:\t70 07 00 f0\tadrp\tx16, 239 ; 0x100190000",
+          "1000a11cc:\t10 0e 46 f9\tldr\tx16, [x16, #0xc18] ; literal pool symbol address: ___chkstk_darwin",
+          "1000a11d0:\t00 02 3f d6\tblr\tx16",
+          "1000a11d4:\te9 03 00 91\tmov\tx9, sp",
+          "1000a11d8:\t08 3d 00 91\tadd\tx8, x8, #0xf",
+          "1000a11dc:\t08 ed 7c 92\tand\tx8, x8, #0xfffffffffffffff0",
+          "1000a11e0:\t28 01 08 cb\tsub\tx8, x9, x8",
+          "1000a11e4:\ta9 23 04 d1\tsub\tx9, x29, #0x108",
+          "1000a11e8:\t28 01 10 f8\tstur\tx8, [x9, #-0x100]",
+          "1000a11ec:\t1f 01 00 91\tmov\tsp, x8",
+          "1000a11f0:\t00 00 80 d2\tmov\tx0, #0x0"
+        ],
+        "address": "0x1000a11f4",
+        "instruction": "1000a11f4:\tde 94 02 94\tbl\t0x10014656c ; symbol stub for: _$s7SwiftUI7DividerVMa"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc58",
+        "address": "0x1000a12d4",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.MemoryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190158",
+            "name": "SystemInfoKit.MemoryInfo"
+          }
+        ],
+        "rawHex": "023d2e04005367",
+        "instruction": "1000a12d4:\t33 83 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd30",
+        "address": "0x1000a1358",
+        "length": 21,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tGSg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "02914c04007902134b04005f02cd2d040074475367",
+        "instruction": "1000a1358:\t12 83 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afc68",
+        "address": "0x1000a1494",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.BatteryInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190160",
+            "name": "SystemInfoKit.BatteryInfo"
+          }
+        ],
+        "rawHex": "02352e04005367",
+        "instruction": "1000a1494:\tc3 82 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001aefd8",
+        "address": "0x1000a1580",
+        "length": 7,
+        "resolvedNotation": "⟦SystemInfoKit.CPUInfo⟧Sg",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001901d8",
+            "name": "SystemInfoKit.CPUInfo"
+          }
+        ],
+        "rawHex": "024b5c04005367",
+        "instruction": "1000a1580:\t88 82 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/SystemInfoStackView.swift\"",
+        "address": "0x1000a1648",
+        "instruction": "1000a1648:\t00 c0 27 91\tadd\tx0, x0, #0x9f0 ; literal pool for: \"UserInterface/SystemInfoStackView.swift\""
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd58",
+        "address": "0x1000a177c",
+        "length": 7,
+        "resolvedNotation": "⟦?descriptor:0x10016293c⟧_p",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190178",
+            "name": "?descriptor:0x10016293c"
+          }
+        ],
+        "rawHex": "02bf2c04005f70",
+        "instruction": "1000a177c:\t09 82 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a18ac",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a18ac:\tbd 81 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Divider.init() -> SwiftUI.Divider",
+        "context": [
+          "1000a18e4:\tf5 03 17 aa\tmov\tx21, x23",
+          "1000a18e8:\tf7 03 13 aa\tmov\tx23, x19",
+          "1000a18ec:\t93 fd ff 90\tadrp\tx19, -80 ; 0x100051000",
+          "1000a18f0:\t73 c2 0a 91\tadd\tx19, x19, #0x2b0",
+          "1000a18f4:\te0 03 18 aa\tmov\tx0, x24",
+          "1000a18f8:\ta8 c3 04 d1\tsub\tx8, x29, #0x130",
+          "1000a18fc:\t14 01 50 f8\tldur\tx20, [x8, #-0x100]",
+          "1000a1900:\te1 03 14 aa\tmov\tx1, x20",
+          "1000a1904:\te2 03 13 aa\tmov\tx2, x19",
+          "1000a1908:\t1e 0b fe 97\tbl\t0x100024580",
+          "1000a190c:\ta8 a3 04 d1\tsub\tx8, x29, #0x128",
+          "1000a1910:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]"
+        ],
+        "address": "0x1000a1914",
+        "instruction": "1000a1914:\t13 93 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd58",
+        "address": "0x1000a197c",
+        "length": 7,
+        "resolvedNotation": "⟦?descriptor:0x10016293c⟧_p",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190178",
+            "name": "?descriptor:0x10016293c"
+          }
+        ],
+        "rawHex": "02bf2c04005f70",
+        "instruction": "1000a197c:\t89 81 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd60",
+        "address": "0x1000a1a60",
+        "length": 12,
+        "resolvedNotation": "⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧t",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "02bf4a04005f02792d040074",
+        "instruction": "1000a1a60:\t50 81 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a1abc",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a1abc:\t39 81 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a1b4c",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a1b4c:\t15 81 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Divider.init() -> SwiftUI.Divider",
+        "context": [
+          "1000a1b70:\t7c 00 00 14\tb\t0x1000a1d60",
+          "1000a1b74:\te0 03 13 aa\tmov\tx0, x19",
+          "1000a1b78:\t93 fd ff f0\tadrp\tx19, -77 ; 0x100054000",
+          "1000a1b7c:\t73 32 0a 91\tadd\tx19, x19, #0x28c",
+          "1000a1b80:\tfb 03 15 aa\tmov\tx27, x21",
+          "1000a1b84:\ta8 23 04 d1\tsub\tx8, x29, #0x108",
+          "1000a1b88:\t15 01 50 f8\tldur\tx21, [x8, #-0x100]",
+          "1000a1b8c:\te1 03 15 aa\tmov\tx1, x21",
+          "1000a1b90:\te2 03 13 aa\tmov\tx2, x19",
+          "1000a1b94:\t7b 0a fe 97\tbl\t0x100024580",
+          "1000a1b98:\ta8 43 04 d1\tsub\tx8, x29, #0x110",
+          "1000a1b9c:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]"
+        ],
+        "address": "0x1000a1ba0",
+        "instruction": "1000a1ba0:\t70 92 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd58",
+        "address": "0x1000a1c08",
+        "length": 7,
+        "resolvedNotation": "⟦?descriptor:0x10016293c⟧_p",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190178",
+            "name": "?descriptor:0x10016293c"
+          }
+        ],
+        "rawHex": "02bf2c04005f70",
+        "instruction": "1000a1c08:\te6 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd60",
+        "address": "0x1000a1cdc",
+        "length": 12,
+        "resolvedNotation": "⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧t",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "02bf4a04005f02792d040074",
+        "instruction": "1000a1cdc:\tb1 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a1d38",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a1d38:\t9a 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a1dac",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a1dac:\t7d 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Divider.init() -> SwiftUI.Divider",
+        "context": [
+          "1000a1dc4:\t21 00 80 52\tmov\tw1, #0x1",
+          "1000a1dc8:\t77 00 00 14\tb\t0x1000a1fa4",
+          "1000a1dcc:\t73 fd ff b0\tadrp\tx19, -83 ; 0x10004e000",
+          "1000a1dd0:\t73 b2 1a 91\tadd\tx19, x19, #0x6ac",
+          "1000a1dd4:\te0 03 1b aa\tmov\tx0, x27",
+          "1000a1dd8:\ta8 e3 03 d1\tsub\tx8, x29, #0xf8",
+          "1000a1ddc:\t15 01 50 f8\tldur\tx21, [x8, #-0x100]",
+          "1000a1de0:\te1 03 15 aa\tmov\tx1, x21",
+          "1000a1de4:\te2 03 13 aa\tmov\tx2, x19",
+          "1000a1de8:\te6 09 fe 97\tbl\t0x100024580",
+          "1000a1dec:\ta8 03 04 d1\tsub\tx8, x29, #0x100",
+          "1000a1df0:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]"
+        ],
+        "address": "0x1000a1df4",
+        "instruction": "1000a1df4:\tdb 91 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd58",
+        "address": "0x1000a1e5c",
+        "length": 7,
+        "resolvedNotation": "⟦?descriptor:0x10016293c⟧_p",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190178",
+            "name": "?descriptor:0x10016293c"
+          }
+        ],
+        "rawHex": "02bf2c04005f70",
+        "instruction": "1000a1e5c:\t51 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd60",
+        "address": "0x1000a1f30",
+        "length": 12,
+        "resolvedNotation": "⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧t",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "02bf4a04005f02792d040074",
+        "instruction": "1000a1f30:\t1c 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a1f8c",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a1f8c:\t05 80 fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a2014",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a2014:\te3 7f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI.Divider.init() -> SwiftUI.Divider",
+        "context": [
+          "1000a2030:\t21 00 80 52\tmov\tw1, #0x1",
+          "1000a2034:\t7b 00 00 14\tb\t0x1000a2220",
+          "1000a2038:\t93 fd ff 90\tadrp\tx19, -80 ; 0x100052000",
+          "1000a203c:\t73 52 2f 91\tadd\tx19, x19, #0xbd4",
+          "1000a2040:\te0 03 14 aa\tmov\tx0, x20",
+          "1000a2044:\ta8 63 02 d1\tsub\tx8, x29, #0x98",
+          "1000a2048:\t14 01 50 f8\tldur\tx20, [x8, #-0x100]",
+          "1000a204c:\te1 03 14 aa\tmov\tx1, x20",
+          "1000a2050:\te2 03 13 aa\tmov\tx2, x19",
+          "1000a2054:\t4b 09 fe 97\tbl\t0x100024580",
+          "1000a2058:\ta8 e3 02 d1\tsub\tx8, x29, #0xb8",
+          "1000a205c:\t08 01 50 f8\tldur\tx8, [x8, #-0x100]"
+        ],
+        "address": "0x1000a2060",
+        "instruction": "1000a2060:\t40 91 02 94\tbl\t0x100146560 ; symbol stub for: _$s7SwiftUI7DividerVACycfC"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd58",
+        "address": "0x1000a20d8",
+        "length": 7,
+        "resolvedNotation": "⟦?descriptor:0x10016293c⟧_p",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190178",
+            "name": "?descriptor:0x10016293c"
+          }
+        ],
+        "rawHex": "02bf2c04005f70",
+        "instruction": "1000a20d8:\tb2 7f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd60",
+        "address": "0x1000a21ac",
+        "length": 12,
+        "resolvedNotation": "⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧t",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "02bf4a04005f02792d040074",
+        "instruction": "1000a21ac:\t7d 7f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd38",
+        "address": "0x1000a2208",
+        "length": 19,
+        "resolvedNotation": "⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_⟦UserInterface.SystemInfoView⟧tG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          }
+        ],
+        "rawHex": "027b4c04007902fd4a04005f02b72d04007447",
+        "instruction": "1000a2208:\t66 7f fd 97\tbl\t0x100001fa0"
+      },
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd48",
+        "address": "0x1000a22e0",
+        "length": 30,
+        "resolvedNotation": "⟦UserInterface.SystemInfoView⟧Sg_⟦SwiftUI.TupleView⟧y⟦SwiftUI.Divider⟧_AAtGSgA3Ft",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 8,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 14,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          }
+        ],
+        "rawHex": "02a72d040053675f02574c04007902d94a04005f41417447536741334674",
+        "instruction": "1000a22e0:\t30 7f fd 97\tbl\t0x100001fa0"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a23e8",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a23ec",
+    "size": 60,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a2428",
+    "size": 52,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a245c",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a2460",
+    "size": 144,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100095148",
+      "0x10008c92c",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd90",
+        "address": "0x1000a2488",
+        "length": 71,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAy⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ACy⟦SwiftUI.Divider⟧_ADtGSgA3HtGG⟦SwiftUI._FlexFrameLayout⟧G⟦SwiftUI._PaddingLayout⟧G⟦UserInterface.context2.MaterialCellViewModifier⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 18,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 24,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 35,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          },
+          {
+            "offset": 53,
+            "opcode": 2,
+            "target": "0x100191550",
+            "name": "SwiftUI._FlexFrameLayout"
+          },
+          {
+            "offset": 59,
+            "opcode": 2,
+            "target": "0x1001913c0",
+            "name": "SwiftUI._PaddingLayout"
+          },
+          {
+            "offset": 65,
+            "opcode": 2,
+            "target": "0x100193508",
+            "name": "UserInterface.context2.MaterialCellViewModifier"
+          }
+        ],
+        "rawHex": "020141040079414179414179029d4b04007902974d04007902d92e040053675f414379020e4c04005f41447447536741334874474702cc41040047023640040047027861040047",
+        "instruction": "1000a2488:\te4 7f fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a24f0",
+    "size": 36,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a2514",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001afd10",
+        "address": "0x1000a2534",
+        "length": 41,
+        "resolvedNotation": "⟦SwiftUI.VStack⟧y⟦SwiftUI.TupleView⟧y⟦UserInterface.SystemInfoView⟧Sg_ABy⟦SwiftUI.Divider⟧_ACtGSgA3GtGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191ef8",
+            "name": "SwiftUI.VStack"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920f8",
+            "name": "SwiftUI.TupleView"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x100190240",
+            "name": "UserInterface.SystemInfoView"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191f80",
+            "name": "SwiftUI.Divider"
+          }
+        ],
+        "rawHex": "02614b040079025b4d040079029d2e040053675f41427902d24b04005f414374475367413347744747",
+        "instruction": "1000a2534:\tb9 7f fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x1000a255c",
+    "size": 36,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100005ccc"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a2580",
+    "size": 80,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRetain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147a60"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a25d0",
+    "size": 88,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRetain",
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x10004c144",
+      "0x100147a60",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a2628",
+    "size": 28,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a2644",
+    "size": 80,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_bridgeObjectRelease"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100005ccc",
+      "0x100147a48"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x1000a2694",
+    "size": 72,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a26dc",
+    "size": 80,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a272c",
+    "size": 16,
+    "name": "UserInterface.SystemInfoView.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x1000a273c",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

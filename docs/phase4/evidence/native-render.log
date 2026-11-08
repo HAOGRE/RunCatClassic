@@ -1,0 +1,13 @@
+Building for debugging...
+[Computing dependencies]
+[1 / 1]
+[1 / 18] LocalPackage_UserInterface
+Build complete! (0.84 sec)
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite Phase4UITests started.
+◇ Test nativeViewsHaveFiniteIntrinsicLayouts() started.
+✔ Test nativeViewsHaveFiniteIntrinsicLayouts() passed after 0.406 seconds.
+✔ Suite Phase4UITests passed after 0.406 seconds.
+✔ Test run with 1 test in 1 suite passed after 0.407 seconds.

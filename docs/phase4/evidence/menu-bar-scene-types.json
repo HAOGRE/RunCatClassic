@@ -1,0 +1,130 @@
+{
+  "0x1001aefa8": {
+    "address": "0x10014a522",
+    "length": 17,
+    "resolvedNotation": "⟦SwiftUI.MenuBarExtra⟧y⟦UserInterface.RunnerMenuBar⟧⟦UserInterface.DashboardView⟧G",
+    "descriptors": [
+      {
+        "offset": 0,
+        "opcode": 2,
+        "target": "0x100191248",
+        "name": "SwiftUI.MenuBarExtra"
+      },
+      {
+        "offset": 6,
+        "opcode": 2,
+        "target": "0x100190228",
+        "name": "UserInterface.RunnerMenuBar"
+      },
+      {
+        "offset": 11,
+        "opcode": 2,
+        "target": "0x100190208",
+        "name": "UserInterface.DashboardView"
+      }
+    ],
+    "rawHex": "02256d04007902ff5c040002da5c040047"
+  },
+  "0x1001aefb0": {
+    "address": "0x10014a534",
+    "length": 32,
+    "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some>>⟧y⟦SwiftUI.MenuBarExtra⟧y⟦UserInterface.RunnerMenuBar⟧⟦UserInterface.DashboardView⟧G_⟦SwiftUI.WindowMenuBarExtraStyle⟧Qo_",
+    "descriptors": [
+      {
+        "offset": 0,
+        "opcode": 2,
+        "target": "0x100191de8",
+        "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some>>"
+      },
+      {
+        "offset": 6,
+        "opcode": 2,
+        "target": "0x100191248",
+        "name": "SwiftUI.MenuBarExtra"
+      },
+      {
+        "offset": 12,
+        "opcode": 2,
+        "target": "0x100190228",
+        "name": "UserInterface.RunnerMenuBar"
+      },
+      {
+        "offset": 17,
+        "opcode": 2,
+        "target": "0x100190208",
+        "name": "UserInterface.DashboardView"
+      },
+      {
+        "offset": 24,
+        "opcode": 2,
+        "target": "0x1001918b0",
+        "name": "SwiftUI.WindowMenuBarExtraStyle"
+      }
+    ],
+    "rawHex": "02b378040079020d6d04007902e75c040002c25c0400475f0263730400516f5f"
+  },
+  "0x1001af080": {
+    "address": "0x10014a6dc",
+    "length": 17,
+    "resolvedNotation": "⟦SwiftUI.MenuBarExtra⟧y⟦UserInterface.SystemInfoMenuBar⟧⟦UserInterface.SystemInfoBarSettingsView⟧G",
+    "descriptors": [
+      {
+        "offset": 0,
+        "opcode": 2,
+        "target": "0x100191248",
+        "name": "SwiftUI.MenuBarExtra"
+      },
+      {
+        "offset": 6,
+        "opcode": 2,
+        "target": "0x100190278",
+        "name": "UserInterface.SystemInfoMenuBar"
+      },
+      {
+        "offset": 11,
+        "opcode": 2,
+        "target": "0x100190300",
+        "name": "UserInterface.SystemInfoBarSettingsView"
+      }
+    ],
+    "rawHex": "026b6b04007902955b040002185c040047"
+  },
+  "0x1001af088": {
+    "address": "0x10014a6ee",
+    "length": 32,
+    "resolvedNotation": "⟦opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some>>⟧y⟦SwiftUI.MenuBarExtra⟧y⟦UserInterface.SystemInfoMenuBar⟧⟦UserInterface.SystemInfoBarSettingsView⟧G_⟦SwiftUI.WindowMenuBarExtraStyle⟧Qo_",
+    "descriptors": [
+      {
+        "offset": 0,
+        "opcode": 2,
+        "target": "0x100191de8",
+        "name": "opaque type descriptor for <<opaque return type of (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some>>"
+      },
+      {
+        "offset": 6,
+        "opcode": 2,
+        "target": "0x100191248",
+        "name": "SwiftUI.MenuBarExtra"
+      },
+      {
+        "offset": 12,
+        "opcode": 2,
+        "target": "0x100190278",
+        "name": "UserInterface.SystemInfoMenuBar"
+      },
+      {
+        "offset": 17,
+        "opcode": 2,
+        "target": "0x100190300",
+        "name": "UserInterface.SystemInfoBarSettingsView"
+      },
+      {
+        "offset": 24,
+        "opcode": 2,
+        "target": "0x1001918b0",
+        "name": "SwiftUI.WindowMenuBarExtraStyle"
+      }
+    ],
+    "rawHex": "02f97604007902536b040079027d5b040002005c0400475f02a9710400516f5f"
+  }
+}

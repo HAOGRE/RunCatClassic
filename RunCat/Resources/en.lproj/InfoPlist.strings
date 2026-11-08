@@ -1,0 +1,3 @@
+/* Supplemental: old app has no en.lproj/InfoPlist.strings. */
+"CFBundleName" = "RunCat";
+"NSHumanReadableCopyright" = "© 2018-2025 Takuto Nakamura";

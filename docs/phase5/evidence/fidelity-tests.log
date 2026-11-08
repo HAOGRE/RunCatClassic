@@ -1,0 +1,19 @@
+Building for debugging...
+[Computing dependencies]
+[1 / 3]
+[3 / 7] RunCatTests-product
+Build complete! (0.94 sec)
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FinalFidelityTests started.
+◇ Test absentBatteryRendersSummaryWithoutFourDetailRows() started.
+✔ Test absentBatteryRendersSummaryWithoutFourDetailRows() passed after 0.055 seconds.
+◇ Test tunnelNameUsesLocalizedUnknown() started.
+✔ Test tunnelNameUsesLocalizedUnknown() passed after 0.005 seconds.
+◇ Test tunnelSelectionPrefersActiveWiFiThenHardwareThenPrimary() started.
+✔ Test tunnelSelectionPrefersActiveWiFiThenHardwareThenPrimary() passed after 0.001 seconds.
+◇ Test issueReportUsesLocalizedTemplateAndEnvironment() started.
+✔ Test issueReportUsesLocalizedTemplateAndEnvironment() passed after 0.001 seconds.
+✔ Suite FinalFidelityTests passed after 0.062 seconds.
+✔ Test run with 4 tests in 1 suite passed after 0.062 seconds.

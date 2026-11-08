@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-08",
+  "configurationResults": {
+    "debug": {
+      "testFunctions": 49,
+      "parameterizedFunctions": 6,
+      "parameterizedCases": 105,
+      "totalInvocations": 148,
+      "passed": true
+    },
+    "release": {
+      "testFunctions": 49,
+      "parameterizedFunctions": 6,
+      "parameterizedCases": 105,
+      "totalInvocations": 148,
+      "passed": true
+    }
+  },
+  "sourceResources": {
+    "passed": true,
+    "checks": 3035,
+    "errors": [],
+    "counts": {
+      "pageFrames": 524,
+      "runnerGroups": 80,
+      "imageSets": 528,
+      "dataAssets": 60,
+      "animatedPNGs": 60,
+      "staticPreviewPNGs": 0,
+      "vectorRenditions": 15,
+      "vectorNames": 3,
+      "colors": 4,
+      "localization": 40,
+      "systemInfoLocalization": 5,
+      "infoPlistLocalization": 4
+    },
+    "directOriginalComparison": false
+  },
+  "builtResources": {
+    "apng": 60,
+    "checks": 1199,
+    "errors": [],
+    "images": 528,
+    "passed": true
+  },
+  "screenshots": {
+    "docs/phase4/screenshots/dashboard.png": {
+      "sha256": "17a1919a585ddb209564029d21d27287f1afd389d3da42f9b9da72a80739da02",
+      "bytes": 37603
+    },
+    "docs/phase4/evidence/Phase 4 UI Review-live.png": {
+      "sha256": "79b7e0512baf6921ab6bfa2d245bae96c03e1688fd3d2ce672f434da668d6bf4",
+      "bytes": 56505
+    }
+  },
+  "installed": {
+    "path": "/Applications/RunCat.app",
+    "bundleID": "org.runcat.community",
+    "version": "12.2.1",
+    "build": "2",
+    "LSUIElement": true,
+    "minimumMacOS": "14.0",
+    "architecture": "arm64",
+    "resourceBundles": [
+      "LocalPackage_DataSource.bundle",
+      "LocalPackage_RunCatLocalization.bundle",
+      "LocalPackage_SystemInfoKit.bundle",
+      "LocalPackage_UserInterface.bundle",
+      "OriginalAppIcon.bundle"
+    ],
+    "executableExists": true,
+    "codeSignatureVerified": true,
+    "process": "12797 /Applications/RunCat.app/Contents/MacOS/RunCat",
+    "executableSHA256": "21c2704e6925a19f894e197607cf0016269c9c6d6fa7ebf2762a2e5188d8d43b"
+  }
+}

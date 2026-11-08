@@ -1,0 +1,243 @@
+Building for debugging...
+[Computing dependencies]
+[2 / 15] Model
+[4 / 17] Model
+[13 / 19] Phase3Tests-product
+[15 / 21] Phase3Tests-product
+[18 / 22] Phase3Tests-product
+[20 / 25] Phase3Tests-product
+[22 / 25] Phase3Tests-product
+Build complete! (3.47 sec)
+Test Suite 'All tests' started at 2026-11-08 11:34:41.823.
+Test Suite 'All tests' passed at 2026-11-08 11:34:41.824.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite PersistenceTests started.
+◇ Suite Phase4UITests started.
+◇ Suite ModelTests started.
+◇ Suite SystemInfoTests started.
+◇ Test reorderRemoveAndPreviewIntervals() started.
+◇ Test acceptsBoundaryWidths(_:) started.
+◇ Suite CatalogTests started.
+◇ Test animationModesGeometryAndColor() started.
+◇ Test rejectsNonPNGAndCorruption() started.
+◇ Test launchAtLoginSuccessAndFailure() started.
+◇ Test dashboardNavigationHistoryAndCancellation() started.
+◇ Test selfMadeParentRoutesErrorsAndImporter() started.
+◇ Test failedManifestWriteLeavesNoRegisteredRunner() started.
+◇ Test rejectsInvalidPixelDimensions(_:) started.
+◇ Test emptyNameAndZeroFramesAndImportAreAtomic() started.
+◇ Test oldBarSettingsDecodeWithoutNewNetworkField() started.
+◇ Test delegateBootstrapsOnceAndSleepWakeNotifications() started.
+◇ Test fiftyFramesRoundTripConflictAndDelete() started.
+◇ Test runnersStoreUnlockedTryRestoreAndError() started.
+◇ Test runnerMenuBridgeColorSpeedAndCanvas() started.
+◇ Test generalSettingsStopConfirmationAndSpeedUpdates() started.
+◇ Test systemSettingsConfirmationActivationAndAllIndicators() started.
+◇ Test cpuSpeedFormula(_:) started.
+◇ Test settingsPersistAndMalformedDataFallsBack() started.
+◇ Test tenMinutesUsesMonitorInterval() started.
+◇ Test case passing 1 argument width → 100 to acceptsBoundaryWidths(_:) started.
+◇ Test case passing 1 argument width → 10 to acceptsBoundaryWidths(_:) started.
+◇ Test shuffleAfterExactly120SamplesAndMonochromeFiltering() started.
+◇ Test productMetadataFailureAndStatusAppearance() started.
+◇ Test absentAndInvalidBattery() started.
+◇ Test exactTickAndMemoryFormula() started.
+◇ Test menuClientsRouteUserActions() started.
+◇ Test nestedMacOS27Battery() started.
+◇ Test liveFiveMetricsOnHostAndActivation() started.
+◇ Test traditionalSiliconAndIntelBattery() started.
+◇ Test case passing 1 argument dimensions → (9, 36) to rejectsInvalidPixelDimensions(_:) started.
+◇ Test batterySymbols(_:) started.
+◇ Test case passing 1 argument dimensions → (20, 35) to rejectsInvalidPixelDimensions(_:) started.
+◇ Test case passing 1 argument dimensions → (20, 37) to rejectsInvalidPixelDimensions(_:) started.
+◇ Test networkCounterDifferencesRolloverAndInterfaceChanges() started.
+◇ Test percentageAndDecimalByteFormatting() started.
+◇ Test allFrameOrderVariants() started.
+◇ Test case passing 1 argument sample → (0.0, 1.0, 10.0) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument dimensions → (101, 36) to rejectsInvalidPixelDimensions(_:) started.
+◇ Test allStockMetadataAndAPNGPreviews() started.
+◇ Test cardinalityAndRandomPrefixes() started.
+◇ Test wholeCanvasFlipAndNormalize() started.
+◇ Test runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument sample → (0.25, 5.0, 8.0) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument sample → (0.5, 10.0, 5.5) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument sample → (0.05, 1.0, 10.0) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument sample → (1.0, 20.0, 0.5) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument sample → (0.999, 19.98, 0.51) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument sample → (0.1, 2.0, 9.5) to cpuSpeedFormula(_:) started.
+◇ Test case passing 1 argument percent → 19.9 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 94.9 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 45.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 44.9 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 100.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 20.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 70.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 69.9 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 0.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument percent → 95.0 to batterySymbols(_:) started.
+◇ Test case passing 1 argument type → .catB to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .mockNyanCat to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .parrot to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sitUp to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .catC to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .city to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sausage to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .catTail to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dots to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .human to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .pushUp to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .slime to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .rubberDuck to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .fishman to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .catA to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .reactor to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .partyPeople to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dogeza to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .triforce to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .puppy to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .rotatingSushi to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .frog to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .cheetah to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dolphin to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .bird to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dinosaur to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sheep to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .rabbit to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .owl to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dog to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .horse to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .octopus to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .chameleon to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .penguin2 to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .terrier to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .mouse to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .chicken to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .pig to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .fox to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .whale to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .hedgehog to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .otter to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .butterfly to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .penguin to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .welshCorgi to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .bonfire to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .squirrel to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .hamsterWheel to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .drop to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .cradle to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .steamLocomotive to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .tapiocaDrink to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .rocket to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .frypan to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .factory to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .engine to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .dragon to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .earth to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .greyhound to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .reindeerSleigh to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .pendulum to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .coffee to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .windChime to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .ghost to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sparkler to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .pulse to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .goldenCat to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .cogwheel to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .manekiNeko to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sushi to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .flashCat to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .entaku to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .mochi to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .jackOLantern to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .selfMade to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .allRunners to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .uhooi to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .sineCurve to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .snowman to runnerMatchesLegacyAndCompiledResources(_:) started.
+◇ Test case passing 1 argument type → .metalClusterCat to runnerMatchesLegacyAndCompiledResources(_:) started.
+✔ Test productMetadataFailureAndStatusAppearance() passed after 0.091 seconds.
+✔ Test reorderRemoveAndPreviewIntervals() passed after 0.327 seconds.
+✔ Test rejectsNonPNGAndCorruption() passed after 0.332 seconds.
+✔ Test animationModesGeometryAndColor() passed after 0.332 seconds.
+✔ Test acceptsBoundaryWidths(_:) with 2 test cases passed after 0.332 seconds.
+✔ Test emptyNameAndZeroFramesAndImportAreAtomic() passed after 0.332 seconds.
+◇ Test changingSpeedPreservesPhaseAndFreezes(template:) started.
+✔ Test selfMadeParentRoutesErrorsAndImporter() passed after 0.332 seconds.
+✔ Test dashboardNavigationHistoryAndCancellation() passed after 0.332 seconds.
+◇ Test case passing 1 argument template → true to changingSpeedPreservesPhaseAndFreezes(template:) started.
+✔ Test oldBarSettingsDecodeWithoutNewNetworkField() passed after 0.336 seconds.
+✔ Test fiftyFramesRoundTripConflictAndDelete() passed after 0.542 seconds.
+✔ Test runnersStoreUnlockedTryRestoreAndError() passed after 0.542 seconds.
+✔ Test runnerMenuBridgeColorSpeedAndCanvas() passed after 0.542 seconds.
+✔ Test failedManifestWriteLeavesNoRegisteredRunner() passed after 0.542 seconds.
+✔ Test rejectsInvalidPixelDimensions(_:) with 4 test cases passed after 0.542 seconds.
+✔ Test systemSettingsConfirmationActivationAndAllIndicators() passed after 0.542 seconds.
+✔ Test generalSettingsStopConfirmationAndSpeedUpdates() passed after 0.542 seconds.
+✔ Test settingsPersistAndMalformedDataFallsBack() passed after 0.542 seconds.
+✔ Test tenMinutesUsesMonitorInterval() passed after 0.542 seconds.
+✔ Test menuClientsRouteUserActions() passed after 0.542 seconds.
+✔ Test launchAtLoginSuccessAndFailure() passed after 0.543 seconds.
+✔ Test traditionalSiliconAndIntelBattery() passed after 0.542 seconds.
+✔ Test networkCounterDifferencesRolloverAndInterfaceChanges() passed after 0.542 seconds.
+✔ Test percentageAndDecimalByteFormatting() passed after 0.542 seconds.
+✔ Test exactTickAndMemoryFormula() passed after 0.542 seconds.
+✔ Test allFrameOrderVariants() passed after 0.542 seconds.
+✔ Test allStockMetadataAndAPNGPreviews() passed after 0.542 seconds.
+✔ Test batterySymbols(_:) with 10 test cases passed after 0.542 seconds.
+✔ Test cardinalityAndRandomPrefixes() passed after 0.542 seconds.
+✔ Test absentAndInvalidBattery() passed after 0.542 seconds.
+✔ Test wholeCanvasFlipAndNormalize() passed after 0.542 seconds.
+✔ Test nestedMacOS27Battery() passed after 0.542 seconds.
+✔ Test cpuSpeedFormula(_:) with 7 test cases passed after 0.543 seconds.
+✔ Test shuffleAfterExactly120SamplesAndMonochromeFiltering() passed after 0.542 seconds.
+✔ Suite PersistenceTests passed after 0.543 seconds.
+✔ Test runnerMatchesLegacyAndCompiledResources(_:) with 80 test cases passed after 0.542 seconds.
+✔ Suite CatalogTests passed after 0.543 seconds.
+LIVE_SYSTEM_INFO
+CPU: 23.2%
+	System:  6.0%
+	User: 17.2%
+	Idle: 76.8%
+Memory: 56.6%
+	Pressure: 13.6%
+	App Memory: 14.8 GB
+	Wired Memory:  2.8 GB
+	Compressed:  1.9 GB
+Storage: 28.3% used
+	281.4 GB / 994.7 GB
+Battery: Not Installed
+	Power Source: Battery
+	Condition:  0.0%
+	Cycle Count: 0
+	Temperature:  0.0℃
+Network: utun8
+	Local IP: 198.18.0.1
+	Upload:  0.0 kB/s
+	Download:  0.0 kB/s
+✔ Test liveFiveMetricsOnHostAndActivation() passed after 0.637 seconds.
+✔ Suite SystemInfoTests passed after 0.638 seconds.
+◇ Test case passing 1 argument template → false to changingSpeedPreservesPhaseAndFreezes(template:) started.
+✔ Test delegateBootstrapsOnceAndSleepWakeNotifications() passed after 0.662 seconds.
+✔ Suite ModelTests passed after 0.662 seconds.
+✔ Test changingSpeedPreservesPhaseAndFreezes(template:) with 2 test cases passed after 0.330 seconds.
+◇ Test sleepRestoresRunningPhaseAndWakeSpeed() started.
+✔ Test sleepRestoresRunningPhaseAndWakeSpeed() passed after 0.023 seconds.
+◇ Test indicatorGeometryAndAllModes() started.
+✔ Test indicatorGeometryAndAllModes() passed after 0.001 seconds.
+◇ Test windowRoutingAndSettingsLifecycle() started.
+✔ Test windowRoutingAndSettingsLifecycle() passed after 0.003 seconds.
+◇ Test disablingMonitorImmediatelyUpdatesBothSurfaces() started.
+✔ Test disablingMonitorImmediatelyUpdatesBothSurfaces() passed after 0.003 seconds.
+◇ Test selfMadeImportReorderRegisterSelectAndDelete() started.
+✔ Test selfMadeImportReorderRegisterSelectAndDelete() passed after 0.013 seconds.
+◇ Test previewIPUsesLegacyDocumentationAddress() started.
+✔ Test previewIPUsesLegacyDocumentationAddress() passed after 0.001 seconds.
+◇ Test scrollingAndClosedGraphPaths() started.
+✔ Test scrollingAndClosedGraphPaths() passed after 0.001 seconds.
+◇ Test nativeViewsHaveFiniteIntrinsicLayouts() started.
+✔ Test nativeViewsHaveFiniteIntrinsicLayouts() passed after 0.333 seconds.
+✔ Suite Phase4UITests passed after 1.042 seconds.
+✔ Test run with 45 tests in 5 suites passed after 1.042 seconds.

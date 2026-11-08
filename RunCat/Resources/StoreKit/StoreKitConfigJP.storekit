@@ -1,0 +1,958 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+
+    ]
+  },
+  "identifier" : "D71B1FD5",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450118637",
+      "localizations" : [
+        {
+          "description" : "ランナー：空飛ぶトリ",
+          "displayName" : "トリ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "bird.com.kyome",
+      "referenceName" : "Bird",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450141442",
+      "localizations" : [
+        {
+          "description" : "ランナー：揺らめく炎の焚き火",
+          "displayName" : "焚き火",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "bonfire.com.kyome",
+      "referenceName" : "Bonfire",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1571020012",
+      "localizations" : [
+        {
+          "description" : "ランナー：羽ばたく蝶々",
+          "displayName" : "蝶々",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "butterfly.com.kyome",
+      "referenceName" : "Butterfly",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1470868641",
+      "localizations" : [
+        {
+          "description" : "ランナー：舌を伸ばすカメレオン",
+          "displayName" : "カメレオン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "chameleon.com.kyome",
+      "referenceName" : "Chameleon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450117103",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るチーター",
+          "displayName" : "チーター",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cheetah.com.kyome",
+      "referenceName" : "Cheetah",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1471146657",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るニワトリさん",
+          "displayName" : "ニワトリ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "chicken.com.kyome",
+      "referenceName" : "Chicken",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450182078",
+      "localizations" : [
+        {
+          "description" : "ランナー：湯気立つコーヒー",
+          "displayName" : "コーヒー",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "coffee.com.kyome",
+      "referenceName" : "Coffee",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450145901",
+      "localizations" : [
+        {
+          "description" : "ランナー：回転する歯車",
+          "displayName" : "歯車",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cogwheel.com.kyome",
+      "referenceName" : "Cogwheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463332909",
+      "localizations" : [
+        {
+          "description" : "ランナー：走る恐竜",
+          "displayName" : "恐竜",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "dinosaur.com.kyome",
+      "referenceName" : "Dinosaur",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450117553",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るイヌ",
+          "displayName" : "イヌ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "dog.com.kyome",
+      "referenceName" : "Dog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450140731",
+      "localizations" : [
+        {
+          "description" : "ランナー：泳ぐイルカ",
+          "displayName" : "イルカ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "dolphin.com.kyome",
+      "referenceName" : "Dolphin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450140942",
+      "localizations" : [
+        {
+          "description" : "ランナー：空飛ぶドラゴン",
+          "displayName" : "ドラゴン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "dragon.com.kyome",
+      "referenceName" : "Dragon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450141480",
+      "localizations" : [
+        {
+          "description" : "ランナー：落ちる水滴",
+          "displayName" : "水滴",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "drop.com.kyome",
+      "referenceName" : "Drop",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1510097392",
+      "localizations" : [
+        {
+          "description" : "ランナー：自転する地球",
+          "displayName" : "地球",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "earth.com.kyome",
+      "referenceName" : "Earth",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1509142649",
+      "localizations" : [
+        {
+          "description" : "ランナー：エンジン作動中",
+          "displayName" : "エンジン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "engine.com.kyome",
+      "referenceName" : "Engine",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "6449150063",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：ひとみしりで めいさいがらの えんたく。さっかーが すき。",
+          "displayName" : "えんたく",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "entaku.com.kyome",
+      "referenceName" : "Entaku",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1490440694",
+      "localizations" : [
+        {
+          "description" : "ランナー：謎の物体を作る工場",
+          "displayName" : "工場",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "factory.com.kyome",
+      "referenceName" : "Factory",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "600",
+      "familyShareable" : false,
+      "internalID" : "1537844481",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：赤い稲妻を纏って走るネコ",
+          "displayName" : "赤い閃光猫",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cat.flash.com.kyome",
+      "referenceName" : "Flash Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1481712907",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るキツネ",
+          "displayName" : "キツネ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "fox.com.kyome",
+      "referenceName" : "Fox",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450118350",
+      "localizations" : [
+        {
+          "description" : "ランナー：跳ぶカエル",
+          "displayName" : "カエル",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "frog.com.kyome",
+      "referenceName" : "Frog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1469811179",
+      "localizations" : [
+        {
+          "description" : "ランナー：フライパンで炒め物",
+          "displayName" : "フライパン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "frypan.com.kyome",
+      "referenceName" : "Frypan",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1481713406",
+      "localizations" : [
+        {
+          "description" : "ハロウィンの夜のランナー：浮遊する幽霊",
+          "displayName" : "幽霊",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ghost.com.kyome",
+      "referenceName" : "Ghost",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1300",
+      "familyShareable" : false,
+      "internalID" : "1474061079",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：黄金に煌めくネコ",
+          "displayName" : "黄金のネコ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cat.golden.com.kyome",
+      "referenceName" : "Golden Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1604623470",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るグレイハウンド",
+          "displayName" : "グレイハウンド",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "greyhound.com.kyome",
+      "referenceName" : "Greyhound",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463333679",
+      "localizations" : [
+        {
+          "description" : "ランナー：回し車で走るハムスター",
+          "displayName" : "ハムスターと回し車",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "wheel.hamster.com.kyome",
+      "referenceName" : "Hamster Wheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463332935",
+      "localizations" : [
+        {
+          "description" : "ランナー：歩くハリネズミ",
+          "displayName" : "ハリネズミ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "hedgehog.com.kyome",
+      "referenceName" : "Hedgehog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463333494",
+      "localizations" : [
+        {
+          "description" : "ランナー：駆ける馬",
+          "displayName" : "早馬",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "horse.com.kyome",
+      "referenceName" : "Horse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1481713258",
+      "localizations" : [
+        {
+          "description" : "ハロウィンの夜のランナー：現れては消えるカボチャ",
+          "displayName" : "ジャック・オー・ランタン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "lantern.o.jack.com.kyome",
+      "referenceName" : "Jack-o'-Lantern",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "600",
+      "familyShareable" : false,
+      "internalID" : "1604622844",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：金色に輝く招き猫",
+          "displayName" : "招き猫",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "neko.maneki.com.kyome",
+      "referenceName" : "Maneki Neko",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "600",
+      "familyShareable" : false,
+      "internalID" : "1500929637",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：白銀のネコの群れ",
+          "displayName" : "メタルクラスタキャット",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cat.cluster.metal.com.kyome",
+      "referenceName" : "Metal Cluster Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1493109071",
+      "localizations" : [
+        {
+          "description" : "十五夜のランナー：餅つきをするうさぎたち",
+          "displayName" : "おもち",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "mochi.com.kyome",
+      "referenceName" : "Mochi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1471135195",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るネズミ",
+          "displayName" : "ネズミ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "mouse.com.kyome",
+      "referenceName" : "Mouse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450141844",
+      "localizations" : [
+        {
+          "description" : "ランナー：揺れるニュートンのゆりかご",
+          "displayName" : "ニュートンのゆりかご",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "cradle.com.kyome",
+      "referenceName" : "Newton's Cradle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463333949",
+      "localizations" : [
+        {
+          "description" : "ランナー：泳ぐタコさん",
+          "displayName" : "タコ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "octopus.com.kyome",
+      "referenceName" : "Octopus",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1506237862",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るカワウソ",
+          "displayName" : "カワウソ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "otter.com.kyome",
+      "referenceName" : "Otter",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450182183",
+      "localizations" : [
+        {
+          "description" : "ランナー：首を回すフクロウ",
+          "displayName" : "フクロウ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "owl.com.kyome",
+      "referenceName" : "Owl",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450141752",
+      "localizations" : [
+        {
+          "description" : "ランナー：振り子時計",
+          "displayName" : "振り子",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "pendulum.com.kyome",
+      "referenceName" : "Pendulum",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450192713",
+      "localizations" : [
+        {
+          "description" : "ランナー：床を滑るペンギン",
+          "displayName" : "ペンギン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "penguin.com.kyome",
+      "referenceName" : "Penguin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463333722",
+      "localizations" : [
+        {
+          "description" : "ランナー：よちよち歩くペンギン",
+          "displayName" : "ペンギン２",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "penguin2.com.kyome",
+      "referenceName" : "Penguin 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1481712899",
+      "localizations" : [
+        {
+          "description" : "ランナー：駆けるブタ",
+          "displayName" : "ブタ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "pig.com.kyome",
+      "referenceName" : "Pig",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450142387",
+      "localizations" : [
+        {
+          "description" : "ランナー：心拍のようなアニメーション",
+          "displayName" : "パルス",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "pulse.com.kyome",
+      "referenceName" : "Pulse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450117857",
+      "localizations" : [
+        {
+          "description" : "ランナー：走る子犬",
+          "displayName" : "子犬",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "puppy.com.kyome",
+      "referenceName" : "Puppy",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450118335",
+      "localizations" : [
+        {
+          "description" : "ランナー：跳ぶウサギ",
+          "displayName" : "ウサギ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "rabbit.com.kyome",
+      "referenceName" : "Rabbit",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1446049798",
+      "localizations" : [
+        {
+          "description" : "クリスマスのランナー：ソリを牽くトナカイ",
+          "displayName" : "トナカイとソリ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "sleigh.reindeer.com.kyome",
+      "referenceName" : "Reindeer & Sleigh",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450141713",
+      "localizations" : [
+        {
+          "description" : "ランナー：飛行ロケット",
+          "displayName" : "ロケット",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "rocket.com.kyome",
+      "referenceName" : "Rocket",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450148102",
+      "localizations" : [
+        {
+          "description" : "自作ランナー登録機能のロックを解除します。",
+          "displayName" : "自作ランナー登録機能",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "made.self.com.kyome",
+      "referenceName" : "Self-Made Runner",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1450142263",
+      "localizations" : [
+        {
+          "description" : "ランナー：サイン波のアニメーション",
+          "displayName" : "サイン波",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "curve.sine.com.kyome",
+      "referenceName" : "Sine Curve",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1446049614",
+      "localizations" : [
+        {
+          "description" : "クリスマスのランナー：降雪の中の雪だるま",
+          "displayName" : "雪だるま",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "snowman.com.kyome",
+      "referenceName" : "Snowman",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1474060254",
+      "localizations" : [
+        {
+          "description" : "日本の夏のランナー：パチパチ弾ける線香花火",
+          "displayName" : "線香花火",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "sparkler.com.kyome",
+      "referenceName" : "Sparkler",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1524923118",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るリス",
+          "displayName" : "リス",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "squirrel.com.kyome",
+      "referenceName" : "Squirrel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463334404",
+      "localizations" : [
+        {
+          "description" : "ランナー：走る蒸気機関車",
+          "displayName" : "蒸気機関車",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "locomotive.steam.com.kyome",
+      "referenceName" : "Steam Locomotive",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "600",
+      "familyShareable" : false,
+      "internalID" : "1580285046",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー：マグロ・イクラ・玉子のお寿司",
+          "displayName" : "お寿司",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "sushi.com.kyome",
+      "referenceName" : "Sushi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1469810441",
+      "localizations" : [
+        {
+          "description" : "ランナー：タピオカドリンクかき混ぜ中",
+          "displayName" : "タピオカ ドリンク",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "drink.tapioca.com.kyome",
+      "referenceName" : "Tapioca Drink",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1463333220",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るジャックラッセルテリア",
+          "displayName" : "テリア犬",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "terrier.com.kyome",
+      "referenceName" : "Terrier",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "1629169515",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー： ゆかいな みどりの せいぶつ。わるそうに みえるが むがい。",
+          "displayName" : "ウホーイ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "uhooi.com.kyome",
+      "referenceName" : "Uhooi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1300",
+      "familyShareable" : false,
+      "internalID" : "1452120687",
+      "localizations" : [
+        {
+          "description" : "特別カラー版ランナー以外の全ての有料ランナーを利用可能にします。",
+          "displayName" : "全ランナー開放",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "runners.all.com.kyome",
+      "referenceName" : "Unlock All Runners",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1604623532",
+      "localizations" : [
+        {
+          "description" : "ランナー：走るウェルシュ・コーギー",
+          "displayName" : "ウェルシュ・コーギー",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "corgi.welsh.com.kyome",
+      "referenceName" : "Welsh Corgi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1485212275",
+      "localizations" : [
+        {
+          "description" : "ランナー：潮を吹くクジラ",
+          "displayName" : "クジラ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "whale.com.kyome",
+      "referenceName" : "Whale",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "1474059571",
+      "localizations" : [
+        {
+          "description" : "日本の夏のランナー：そよぐ風鈴",
+          "displayName" : "風鈴",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "chime.wind.com.kyome",
+      "referenceName" : "Wind Chime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ja",
+    "_storefront" : "JPN",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

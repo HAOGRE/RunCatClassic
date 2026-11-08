@@ -1,0 +1,634 @@
+[
+  {
+    "address": "0x10008ae68",
+    "size": 632,
+    "name": "",
+    "strings": [
+      "\"UserInterface/BarGraph.swift\""
+    ],
+    "selectors": [],
+    "stubs": [
+      "_$s7SwiftUI9AlignmentV6centerACvgZ",
+      "_$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC",
+      "_$s7SwiftUI5ColorV5clearACvgZ",
+      "_$s7SwiftUI5ColorV06accentC0ACvgZ",
+      "_swift_release",
+      "_swift_release",
+      "_$s7SwiftUI9AlignmentV7leadingACvgZ",
+      "_$sScMMa",
+      "_$sScM6sharedScMvgZ",
+      "_$sScA15unownedExecutorScevgTj",
+      "_swift_task_isCurrentExecutor",
+      "_swift_task_reportUnexpectedExecutor",
+      "_$s7SwiftUI9AlignmentV6centerACvgZ",
+      "_$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC",
+      "_$s7SwiftUI5ColorV06accentC0ACvgZ",
+      "_swift_release"
+    ],
+    "floatConsts": [
+      "10008af00:\t00 10 6c 1e\tfmov\td0, #0.50000000"
+    ],
+    "calls": [
+      "0x100146644",
+      "0x100145ad4",
+      "0x100146344",
+      "0x100146308",
+      "0x1000afdf0",
+      "0x100147ce8",
+      "0x100147ce8",
+      "0x100146650",
+      "0x100146cd4",
+      "0x100146cc8",
+      "0x100083c94",
+      "0x100146c98",
+      "0x100147d9c",
+      "0x100147da8",
+      "0x100146644",
+      "0x100145ad4",
+      "0x100146308",
+      "0x100147ce8",
+      "0x10008b0e8",
+      "0x10008b110"
+    ],
+    "events": [
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Alignment.center.getter : SwiftUI.Alignment",
+        "context": [
+          "10008ae68:\te9 23 b9 6d\tstp\td9, d8, [sp, #-0x70]!",
+          "10008ae6c:\tfc 6f 01 a9\tstp\tx28, x27, [sp, #0x10]",
+          "10008ae70:\tfa 67 02 a9\tstp\tx26, x25, [sp, #0x20]",
+          "10008ae74:\tf8 5f 03 a9\tstp\tx24, x23, [sp, #0x30]",
+          "10008ae78:\tf6 57 04 a9\tstp\tx22, x21, [sp, #0x40]",
+          "10008ae7c:\tf4 4f 05 a9\tstp\tx20, x19, [sp, #0x50]",
+          "10008ae80:\tfd 7b 06 a9\tstp\tx29, x30, [sp, #0x60]",
+          "10008ae84:\tfd 83 01 91\tadd\tx29, sp, #0x60",
+          "10008ae88:\tff c3 0a d1\tsub\tsp, sp, #0x2b0",
+          "10008ae8c:\t08 40 60 1e\tfmov\td8, d0",
+          "10008ae90:\tf3 03 08 aa\tmov\tx19, x8",
+          "10008ae94:\tba e3 03 d1\tsub\tx26, x29, #0xf8"
+        ],
+        "address": "0x10008ae98",
+        "instruction": "10008ae98:\teb ed 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 120.0,
+        "register": "x0",
+        "bits": "0x405e000000000000",
+        "address": "0x10008aea8",
+        "instruction": "10008aea8:\tc0 0b e8 d2\tmov\tx0, #0x405e000000000000"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 8.0,
+        "register": "x2",
+        "bits": "0x4020000000000000",
+        "address": "0x10008aeb0",
+        "instruction": "10008aeb0:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout",
+        "context": [
+          "10008ae88:\tff c3 0a d1\tsub\tsp, sp, #0x2b0",
+          "10008ae8c:\t08 40 60 1e\tfmov\td8, d0",
+          "10008ae90:\tf3 03 08 aa\tmov\tx19, x8",
+          "10008ae94:\tba e3 03 d1\tsub\tx26, x29, #0xf8",
+          "10008ae98:\teb ed 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ",
+          "10008ae9c:\te4 03 00 aa\tmov\tx4, x0",
+          "10008aea0:\te5 03 01 aa\tmov\tx5, x1",
+          "10008aea4:\te8 03 06 91\tadd\tx8, sp, #0x180",
+          "10008aea8:\tc0 0b e8 d2\tmov\tx0, #0x405e000000000000",
+          "10008aeac:\t01 00 80 52\tmov\tw1, #0x0",
+          "10008aeb0:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000",
+          "10008aeb4:\t03 00 80 52\tmov\tw3, #0x0"
+        ],
+        "address": "0x10008aeb8",
+        "instruction": "10008aeb8:\t07 eb 02 94\tbl\t0x100145ad4 ; symbol stub for: _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Color.clear.getter : SwiftUI.Color",
+        "context": [
+          "10008aea0:\te5 03 01 aa\tmov\tx5, x1",
+          "10008aea4:\te8 03 06 91\tadd\tx8, sp, #0x180",
+          "10008aea8:\tc0 0b e8 d2\tmov\tx0, #0x405e000000000000",
+          "10008aeac:\t01 00 80 52\tmov\tw1, #0x0",
+          "10008aeb0:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000",
+          "10008aeb4:\t03 00 80 52\tmov\tw3, #0x0",
+          "10008aeb8:\t07 eb 02 94\tbl\t0x100145ad4 ; symbol stub for: _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC",
+          "10008aebc:\tf4 c3 40 f9\tldr\tx20, [sp, #0x180]",
+          "10008aec0:\tf6 23 46 39\tldrb\tw22, [sp, #0x188]",
+          "10008aec4:\tf7 cb 40 f9\tldr\tx23, [sp, #0x190]",
+          "10008aec8:\tf8 63 46 39\tldrb\tw24, [sp, #0x198]",
+          "10008aecc:\tf9 6f 5a a9\tldp\tx25, x27, [sp, #0x1a0]"
+        ],
+        "address": "0x10008aed0",
+        "instruction": "10008aed0:\t1d ed 02 94\tbl\t0x100146344 ; symbol stub for: _$s7SwiftUI5ColorV5clearACvgZ"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Color.accentColor.getter : SwiftUI.Color",
+        "context": [
+          "10008aec4:\tf7 cb 40 f9\tldr\tx23, [sp, #0x190]",
+          "10008aec8:\tf8 63 46 39\tldrb\tw24, [sp, #0x198]",
+          "10008aecc:\tf9 6f 5a a9\tldp\tx25, x27, [sp, #0x1a0]",
+          "10008aed0:\t1d ed 02 94\tbl\t0x100146344 ; symbol stub for: _$s7SwiftUI5ColorV5clearACvgZ",
+          "10008aed4:\tf5 03 00 aa\tmov\tx21, x0",
+          "10008aed8:\tf4 f3 00 f9\tstr\tx20, [sp, #0x1e0]",
+          "10008aedc:\tf6 a3 07 39\tstrb\tw22, [sp, #0x1e8]",
+          "10008aee0:\tf7 fb 00 f9\tstr\tx23, [sp, #0x1f0]",
+          "10008aee4:\tf8 e3 07 39\tstrb\tw24, [sp, #0x1f8]",
+          "10008aee8:\tf9 03 01 f9\tstr\tx25, [sp, #0x200]",
+          "10008aeec:\tfb 07 01 f9\tstr\tx27, [sp, #0x208]",
+          "10008aef0:\te0 0b 01 f9\tstr\tx0, [sp, #0x210]"
+        ],
+        "address": "0x10008aef4",
+        "instruction": "10008aef4:\t05 ed 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ"
+      },
+      {
+        "kind": "floatImmediate",
+        "value": 0.5,
+        "address": "0x10008af00",
+        "instruction": "10008af00:\t00 10 6c 1e\tfmov\td0, #0.50000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Alignment.leading.getter : SwiftUI.Alignment",
+        "context": [
+          "10008aeec:\tfb 07 01 f9\tstr\tx27, [sp, #0x208]",
+          "10008aef0:\te0 0b 01 f9\tstr\tx0, [sp, #0x210]",
+          "10008aef4:\t05 ed 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ",
+          "10008aef8:\tf6 03 00 aa\tmov\tx22, x0",
+          "10008aefc:\ta8 e3 03 d1\tsub\tx8, x29, #0xf8",
+          "10008af00:\t00 10 6c 1e\tfmov\td0, #0.50000000",
+          "10008af04:\tf4 83 07 91\tadd\tx20, sp, #0x1e0",
+          "10008af08:\tba 93 00 94\tbl\t0x1000afdf0",
+          "10008af0c:\te0 03 15 aa\tmov\tx0, x21",
+          "10008af10:\t76 f3 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release",
+          "10008af14:\te0 03 16 aa\tmov\tx0, x22",
+          "10008af18:\t74 f3 02 94\tbl\t0x100147ce8 ; symbol stub for: _swift_release"
+        ],
+        "address": "0x10008af1c",
+        "instruction": "10008af1c:\tcd ed 02 94\tbl\t0x100146650 ; symbol stub for: _$s7SwiftUI9AlignmentV7leadingACvgZ"
+      },
+      {
+        "kind": "string",
+        "value": "\"UserInterface/BarGraph.swift\"",
+        "address": "0x10008af60",
+        "instruction": "10008af60:\t00 00 1c 91\tadd\tx0, x0, #0x700 ; literal pool for: \"UserInterface/BarGraph.swift\""
+      },
+      {
+        "kind": "doubleBits",
+        "value": 100.0,
+        "register": "x8",
+        "bits": "0x4059000000000000",
+        "address": "0x10008af7c",
+        "instruction": "10008af7c:\t28 0b e8 d2\tmov\tx8, #0x4059000000000000"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 120.0,
+        "register": "x8",
+        "bits": "0x405e000000000000",
+        "address": "0x10008af88",
+        "instruction": "10008af88:\tc8 0b e8 d2\tmov\tx8, #0x405e000000000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Alignment.center.getter : SwiftUI.Alignment",
+        "context": [
+          "10008af6c:\t63 01 80 52\tmov\tw3, #0xb",
+          "10008af70:\te4 03 17 aa\tmov\tx4, x23",
+          "10008af74:\te5 03 18 aa\tmov\tx5, x24",
+          "10008af78:\t8c f3 02 94\tbl\t0x100147da8 ; symbol stub for: _swift_task_reportUnexpectedExecutor",
+          "10008af7c:\t28 0b e8 d2\tmov\tx8, #0x4059000000000000",
+          "10008af80:\t00 01 67 9e\tfmov\td0, x8",
+          "10008af84:\t01 79 60 1e\tfminnm\td1, d8, d0",
+          "10008af88:\tc8 0b e8 d2\tmov\tx8, #0x405e000000000000",
+          "10008af8c:\t02 01 67 9e\tfmov\td2, x8",
+          "10008af90:\t21 08 62 1e\tfmul\td1, d1, d2",
+          "10008af94:\t20 18 60 1e\tfdiv\td0, d1, d0",
+          "10008af98:\t17 00 66 9e\tfmov\tx23, d0"
+        ],
+        "address": "0x10008af9c",
+        "instruction": "10008af9c:\taa ed 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ"
+      },
+      {
+        "kind": "doubleBits",
+        "value": 8.0,
+        "register": "x2",
+        "bits": "0x4020000000000000",
+        "address": "0x10008afb4",
+        "instruction": "10008afb4:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000"
+      },
+      {
+        "kind": "call",
+        "symbol": "SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout",
+        "context": [
+          "10008af8c:\t02 01 67 9e\tfmov\td2, x8",
+          "10008af90:\t21 08 62 1e\tfmul\td1, d1, d2",
+          "10008af94:\t20 18 60 1e\tfdiv\td0, d1, d0",
+          "10008af98:\t17 00 66 9e\tfmov\tx23, d0",
+          "10008af9c:\taa ed 02 94\tbl\t0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ",
+          "10008afa0:\te4 03 00 aa\tmov\tx4, x0",
+          "10008afa4:\te5 03 01 aa\tmov\tx5, x1",
+          "10008afa8:\te8 c3 06 91\tadd\tx8, sp, #0x1b0",
+          "10008afac:\te0 03 17 aa\tmov\tx0, x23",
+          "10008afb0:\t01 00 80 52\tmov\tw1, #0x0",
+          "10008afb4:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000",
+          "10008afb8:\t03 00 80 52\tmov\tw3, #0x0"
+        ],
+        "address": "0x10008afbc",
+        "instruction": "10008afbc:\tc6 ea 02 94\tbl\t0x100145ad4 ; symbol stub for: _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC"
+      },
+      {
+        "kind": "call",
+        "symbol": "static SwiftUI.Color.accentColor.getter : SwiftUI.Color",
+        "context": [
+          "10008afa4:\te5 03 01 aa\tmov\tx5, x1",
+          "10008afa8:\te8 c3 06 91\tadd\tx8, sp, #0x1b0",
+          "10008afac:\te0 03 17 aa\tmov\tx0, x23",
+          "10008afb0:\t01 00 80 52\tmov\tw1, #0x0",
+          "10008afb4:\t02 04 e8 d2\tmov\tx2, #0x4020000000000000",
+          "10008afb8:\t03 00 80 52\tmov\tw3, #0x0",
+          "10008afbc:\tc6 ea 02 94\tbl\t0x100145ad4 ; symbol stub for: _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC",
+          "10008afc0:\tf8 db 40 f9\tldr\tx24, [sp, #0x1b0]",
+          "10008afc4:\tfb e3 46 39\tldrb\tw27, [sp, #0x1b8]",
+          "10008afc8:\tfc e3 40 f9\tldr\tx28, [sp, #0x1c0]",
+          "10008afcc:\tf9 23 47 39\tldrb\tw25, [sp, #0x1c8]",
+          "10008afd0:\tf5 5b 5d a9\tldp\tx21, x22, [sp, #0x1d0]"
+        ],
+        "address": "0x10008afd4",
+        "instruction": "10008afd4:\tcd ec 02 94\tbl\t0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ"
+      }
+    ]
+  },
+  {
+    "address": "0x10008b0e0",
+    "size": 8,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008b0e8",
+    "size": 40,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_retain"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147d00"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008b110",
+    "size": 40,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_release"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147ce8"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008b138",
+    "size": 4,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008b13c",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10008b1c4",
+      "0x100005dec",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af240",
+        "address": "0x10008b164",
+        "length": 75,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAyAAy⟦SwiftUI.Rectangle⟧⟦SwiftUI._FrameLayout⟧G⟦SwiftUI._ForegroundStyleModifier⟧y⟦SwiftUI.Color⟧GG⟦SwiftUI._OverlayModifier⟧y⟦SwiftUI._ShapeView⟧y⟦SwiftUI._StrokedShape⟧y⟦SwiftUI.Rectangle._Inset⟧GAFGGGAIyAHGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 15,
+            "opcode": 2,
+            "target": "0x1001920d0",
+            "name": "SwiftUI.Rectangle"
+          },
+          {
+            "offset": 20,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 26,
+            "opcode": 2,
+            "target": "0x100191900",
+            "name": "SwiftUI._ForegroundStyleModifier"
+          },
+          {
+            "offset": 32,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          },
+          {
+            "offset": 39,
+            "opcode": 2,
+            "target": "0x100191558",
+            "name": "SwiftUI._OverlayModifier"
+          },
+          {
+            "offset": 45,
+            "opcode": 2,
+            "target": "0x100191158",
+            "name": "SwiftUI._ShapeView"
+          },
+          {
+            "offset": 51,
+            "opcode": 2,
+            "target": "0x1001912f0",
+            "name": "SwiftUI._StrokedShape"
+          },
+          {
+            "offset": 57,
+            "opcode": 2,
+            "target": "0x1001920c0",
+            "name": "SwiftUI.Rectangle._Inset"
+          }
+        ],
+        "rawHex": "02eb67040079414179414179414179025c74040002376604004702816c0400790283700400474702cc6804007902c664040079025866040079022274040047414647474741497941484747",
+        "instruction": "10008b164:\tad dc fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10008b1c4",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10008b24c",
+      "0x100005dec",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af250",
+        "address": "0x10008b1ec",
+        "length": 65,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAyAAy⟦SwiftUI.Rectangle⟧⟦SwiftUI._FrameLayout⟧G⟦SwiftUI._ForegroundStyleModifier⟧y⟦SwiftUI.Color⟧GG⟦SwiftUI._OverlayModifier⟧y⟦SwiftUI._ShapeView⟧y⟦SwiftUI._StrokedShape⟧y⟦SwiftUI.Rectangle._Inset⟧GAFGGG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 12,
+            "opcode": 2,
+            "target": "0x1001920d0",
+            "name": "SwiftUI.Rectangle"
+          },
+          {
+            "offset": 17,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 23,
+            "opcode": 2,
+            "target": "0x100191900",
+            "name": "SwiftUI._ForegroundStyleModifier"
+          },
+          {
+            "offset": 29,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          },
+          {
+            "offset": 36,
+            "opcode": 2,
+            "target": "0x100191558",
+            "name": "SwiftUI._OverlayModifier"
+          },
+          {
+            "offset": 42,
+            "opcode": 2,
+            "target": "0x100191158",
+            "name": "SwiftUI._ShapeView"
+          },
+          {
+            "offset": 48,
+            "opcode": 2,
+            "target": "0x1001912f0",
+            "name": "SwiftUI._StrokedShape"
+          },
+          {
+            "offset": 54,
+            "opcode": 2,
+            "target": "0x1001920c0",
+            "name": "SwiftUI.Rectangle._Inset"
+          }
+        ],
+        "rawHex": "029f67040079414179414179021374040002ee6504004702386c040079023a7004004747028368040079027d64040079020f6604007902d9730400474146474747",
+        "instruction": "10008b1ec:\t8b dc fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10008b24c",
+    "size": 136,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10008b2d4",
+      "0x100005dec",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af260",
+        "address": "0x10008b274",
+        "length": 33,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧yAAy⟦SwiftUI.Rectangle⟧⟦SwiftUI._FrameLayout⟧G⟦SwiftUI._ForegroundStyleModifier⟧y⟦SwiftUI.Color⟧GG",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 9,
+            "opcode": 2,
+            "target": "0x1001920d0",
+            "name": "SwiftUI.Rectangle"
+          },
+          {
+            "offset": 14,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          },
+          {
+            "offset": 20,
+            "opcode": 2,
+            "target": "0x100191900",
+            "name": "SwiftUI._ForegroundStyleModifier"
+          },
+          {
+            "offset": 26,
+            "opcode": 2,
+            "target": "0x100191d08",
+            "name": "SwiftUI.Color"
+          }
+        ],
+        "rawHex": "025d6704007941417902d473040002af6504004702f96b04007902fb6f04004747",
+        "instruction": "10008b274:\t69 dc fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10008b2d4",
+    "size": 112,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100002418",
+      "0x10008b344",
+      "0x100147c64"
+    ],
+    "events": [
+      {
+        "kind": "typeReference",
+        "cacheAddress": "0x1001af270",
+        "address": "0x10008b2fc",
+        "length": 17,
+        "resolvedNotation": "⟦SwiftUI.ModifiedContent⟧y⟦SwiftUI.Rectangle⟧⟦SwiftUI._FrameLayout⟧G",
+        "descriptors": [
+          {
+            "offset": 0,
+            "opcode": 2,
+            "target": "0x100191450",
+            "name": "SwiftUI.ModifiedContent"
+          },
+          {
+            "offset": 6,
+            "opcode": 2,
+            "target": "0x1001920d0",
+            "name": "SwiftUI.Rectangle"
+          },
+          {
+            "offset": 11,
+            "opcode": 2,
+            "target": "0x1001912b0",
+            "name": "SwiftUI._FrameLayout"
+          }
+        ],
+        "rawHex": "023b6704007902b5730400029065040047",
+        "instruction": "10008b2fc:\t47 dc fd 97\tbl\t0x100002418"
+      }
+    ]
+  },
+  {
+    "address": "0x10008b344",
+    "size": 64,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getWitnessTable"
+    ],
+    "floatConsts": [],
+    "calls": [
+      "0x100147c64"
+    ],
+    "events": []
+  },
+  {
+    "address": "0x10008b384",
+    "size": 16,
+    "name": "UserInterface.LineGraph.metadataAccessor",
+    "strings": [],
+    "selectors": [],
+    "stubs": [],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  },
+  {
+    "address": "0x10008b394",
+    "size": 16,
+    "name": "",
+    "strings": [],
+    "selectors": [],
+    "stubs": [
+      "_swift_getOpaqueTypeConformance2"
+    ],
+    "floatConsts": [],
+    "calls": [],
+    "events": []
+  }
+]

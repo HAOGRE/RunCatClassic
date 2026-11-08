@@ -1,0 +1,958 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+
+    ]
+  },
+  "identifier" : "C7C2F929",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450118637",
+      "localizations" : [
+        {
+          "description" : "Coureur : Oiseau volant",
+          "displayName" : "Oiseau",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "bird.com.kyome",
+      "referenceName" : "Bird",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141442",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le feu de camp",
+          "displayName" : "Feu de camp",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "bonfire.com.kyome",
+      "referenceName" : "Bonfire",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1571020012",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le papillon volant",
+          "displayName" : "Papillon",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "butterfly.com.kyome",
+      "referenceName" : "Butterfly",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1470868641",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le caméléon tirant la langue",
+          "displayName" : "Caméléon",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "chameleon.com.kyome",
+      "referenceName" : "Chameleon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450117103",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le guépard courant",
+          "displayName" : "Guépard",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cheetah.com.kyome",
+      "referenceName" : "Cheetah",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1471146657",
+      "localizations" : [
+        {
+          "description" : "Coureur : La poule courant",
+          "displayName" : "Poule",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "chicken.com.kyome",
+      "referenceName" : "Chicken",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450182078",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le café chaud",
+          "displayName" : "Café",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "coffee.com.kyome",
+      "referenceName" : "Coffee",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450145901",
+      "localizations" : [
+        {
+          "description" : "Coureur : Les engrenages tournants",
+          "displayName" : "Engrenages",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cogwheel.com.kyome",
+      "referenceName" : "Cogwheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463332909",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le dinosaure courant",
+          "displayName" : "Dinosaure",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "dinosaur.com.kyome",
+      "referenceName" : "Dinosaur",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450117553",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le chien courant",
+          "displayName" : "Chien",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "dog.com.kyome",
+      "referenceName" : "Dog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450140731",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le dauphin nageant",
+          "displayName" : "Dauphin",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "dolphin.com.kyome",
+      "referenceName" : "Dolphin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450140942",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le dragon volant",
+          "displayName" : "Dragon",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "dragon.com.kyome",
+      "referenceName" : "Dragon",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141480",
+      "localizations" : [
+        {
+          "description" : "Coureur : La goutte tombant",
+          "displayName" : "Goutte",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "drop.com.kyome",
+      "referenceName" : "Drop",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1510097392",
+      "localizations" : [
+        {
+          "description" : "Coureur : La Terre tournante",
+          "displayName" : "La Terre",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "earth.com.kyome",
+      "referenceName" : "Earth",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1509142649",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le piston de moteur fonctionnant",
+          "displayName" : "Piston moteur",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "engine.com.kyome",
+      "referenceName" : "Engine",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "6449150063",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Créature de la table ronde",
+          "displayName" : "Entaku",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "entaku.com.kyome",
+      "referenceName" : "Entaku",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1490440694",
+      "localizations" : [
+        {
+          "description" : "Coureur : L’usine d’objets mystérieux",
+          "displayName" : "Usine",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "factory.com.kyome",
+      "referenceName" : "Factory",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "1537844481",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Le chat rouge foudroyant",
+          "displayName" : "Chat Flash",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cat.flash.com.kyome",
+      "referenceName" : "Flash Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1481712907",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le renard courant",
+          "displayName" : "Renard",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "fox.com.kyome",
+      "referenceName" : "Fox",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450118350",
+      "localizations" : [
+        {
+          "description" : "Coureur : La grenouille sautant",
+          "displayName" : "Grenouille",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "frog.com.kyome",
+      "referenceName" : "Frog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1469811179",
+      "localizations" : [
+        {
+          "description" : "Coureur : La poêle grésillante",
+          "displayName" : "Poêle",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "frypan.com.kyome",
+      "referenceName" : "Frypan",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1481713406",
+      "localizations" : [
+        {
+          "description" : "Coureur de la nuit d’Halloween",
+          "displayName" : "Fantôme",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "ghost.com.kyome",
+      "referenceName" : "Ghost",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "1474061079",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Le chat doré étincelant",
+          "displayName" : "Chat doré",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cat.golden.com.kyome",
+      "referenceName" : "Golden Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1604623470",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le lévrier courant",
+          "displayName" : "Lévrier",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "greyhound.com.kyome",
+      "referenceName" : "Greyhound",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463333679",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le hamster courant dans sa roue",
+          "displayName" : "Roue de Hamster",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "wheel.hamster.com.kyome",
+      "referenceName" : "Hamster Wheel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463332935",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le hérisson marchant",
+          "displayName" : "Hérisson",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "hedgehog.com.kyome",
+      "referenceName" : "Hedgehog",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463333494",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le cheval courant",
+          "displayName" : "Cheval",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "horse.com.kyome",
+      "referenceName" : "Horse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1481713258",
+      "localizations" : [
+        {
+          "description" : "Coureur de la nuit d’Halloween",
+          "displayName" : "Jack-o'-Lantern",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "lantern.o.jack.com.kyome",
+      "referenceName" : "Jack-o'-Lantern",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "1604622844",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Le chat porte-bonheur doré",
+          "displayName" : "Maneki Neko",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "neko.maneki.com.kyome",
+      "referenceName" : "Maneki Neko",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "1500929637",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Le groupe de chats en métal",
+          "displayName" : "Chat Métal Cluster",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cat.cluster.metal.com.kyome",
+      "referenceName" : "Metal Cluster Cat",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1493109071",
+      "localizations" : [
+        {
+          "description" : "Coureur de l’automne japonais",
+          "displayName" : "Mochi",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "mochi.com.kyome",
+      "referenceName" : "Mochi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1471135195",
+      "localizations" : [
+        {
+          "description" : "Coureur : La souris courant",
+          "displayName" : "Souris",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "mouse.com.kyome",
+      "referenceName" : "Mouse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141844",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le pendule de Newton qui balance",
+          "displayName" : "Pendule de Newton",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "cradle.com.kyome",
+      "referenceName" : "Newton's Cradle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463333949",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le poulpe nageant",
+          "displayName" : "Poulpe",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "octopus.com.kyome",
+      "referenceName" : "Octopus",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1506237862",
+      "localizations" : [
+        {
+          "description" : "Coureur : La loutre courant",
+          "displayName" : "Loutre",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "otter.com.kyome",
+      "referenceName" : "Otter",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450182183",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le hibou tournant la tête",
+          "displayName" : "Hibou",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "owl.com.kyome",
+      "referenceName" : "Owl",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141752",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le pendule oscillant",
+          "displayName" : "Pendule",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "pendulum.com.kyome",
+      "referenceName" : "Pendulum",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450192713",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le manchot glissant",
+          "displayName" : "Manchot",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "penguin.com.kyome",
+      "referenceName" : "Penguin",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463333722",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le manchot marchant",
+          "displayName" : "Manchot 2",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "penguin2.com.kyome",
+      "referenceName" : "Penguin 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1481712899",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le cochon courant",
+          "displayName" : "Cochon",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "pig.com.kyome",
+      "referenceName" : "Pig",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450142387",
+      "localizations" : [
+        {
+          "description" : "Coureur : L'animation du pouls",
+          "displayName" : "Battement",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "pulse.com.kyome",
+      "referenceName" : "Pulse",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450117857",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le chiot courant",
+          "displayName" : "Chiot",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "puppy.com.kyome",
+      "referenceName" : "Puppy",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450118335",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le lapin sautant",
+          "displayName" : "Lapin",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "rabbit.com.kyome",
+      "referenceName" : "Rabbit",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1446049798",
+      "localizations" : [
+        {
+          "description" : "Coureur de Noël",
+          "displayName" : "Traineau de Rennes",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "sleigh.reindeer.com.kyome",
+      "referenceName" : "Reindeer & Sleigh",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450141713",
+      "localizations" : [
+        {
+          "description" : "Coureur : La fusée volant",
+          "displayName" : "Fusée",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "rocket.com.kyome",
+      "referenceName" : "Rocket",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450148102",
+      "localizations" : [
+        {
+          "description" : "Déverrouiller la fonction d’enregistrement.",
+          "displayName" : "Coureur Personnalisé",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "made.self.com.kyome",
+      "referenceName" : "Self-Made Runner",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1450142263",
+      "localizations" : [
+        {
+          "description" : "Coureur : L’animation de courbe sinusoïdale",
+          "displayName" : "Courbe sinusoïdale",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "curve.sine.com.kyome",
+      "referenceName" : "Sine Curve",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1446049614",
+      "localizations" : [
+        {
+          "description" : "Coureur de Noël",
+          "displayName" : "Bonhomme de neige",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "snowman.com.kyome",
+      "referenceName" : "Snowman",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1474060254",
+      "localizations" : [
+        {
+          "description" : "Coureur de l’été japonais",
+          "displayName" : "Feux d'artifice",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "sparkler.com.kyome",
+      "referenceName" : "Sparkler",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1524923118",
+      "localizations" : [
+        {
+          "description" : "Coureur : L’écureuil courant",
+          "displayName" : "Écureuil",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "squirrel.com.kyome",
+      "referenceName" : "Squirrel",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463334404",
+      "localizations" : [
+        {
+          "description" : "Coureur : La locomotive à vapeur courant",
+          "displayName" : "Locomotive à vapeur",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "locomotive.steam.com.kyome",
+      "referenceName" : "Steam Locomotive",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "1580285046",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : Thon, œufs, omelette",
+          "displayName" : "Sushi",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "sushi.com.kyome",
+      "referenceName" : "Sushi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1469810441",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le verre de tapioca remué",
+          "displayName" : "Verre de tapioca",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "drink.tapioca.com.kyome",
+      "referenceName" : "Tapioca Drink",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1463333220",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le terrier Jack Russell courant",
+          "displayName" : "Terrier",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "terrier.com.kyome",
+      "referenceName" : "Terrier",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "1629169515",
+      "localizations" : [
+        {
+          "description" : "Coureur spécial : La créature verte mignonne",
+          "displayName" : "Uhooi",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "uhooi.com.kyome",
+      "referenceName" : "Uhooi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "1452120687",
+      "localizations" : [
+        {
+          "description" : "Les coureurs spéciaux ne sont pas inclus.",
+          "displayName" : "Débloquer tous les Coureurs",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "runners.all.com.kyome",
+      "referenceName" : "Unlock All Runners",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1604623532",
+      "localizations" : [
+        {
+          "description" : "Coureur : Le Welsh Corgi courant",
+          "displayName" : "Welsh Corgi",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "corgi.welsh.com.kyome",
+      "referenceName" : "Welsh Corgi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1485212275",
+      "localizations" : [
+        {
+          "description" : "Coureur : La baleine soufflant",
+          "displayName" : "Baleine",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "whale.com.kyome",
+      "referenceName" : "Whale",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1474059571",
+      "localizations" : [
+        {
+          "description" : "Coureur de l’été japonais",
+          "displayName" : "Carillon à vent",
+          "locale" : "fr"
+        }
+      ],
+      "productID" : "chime.wind.com.kyome",
+      "referenceName" : "Wind Chime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "fr",
+    "_storefront" : "FRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

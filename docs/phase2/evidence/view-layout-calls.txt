@@ -1,0 +1,3517 @@
+
+FUNCTION 0x100082404  strings=[]
+0x100082420 typeReference 
+
+FUNCTION 0x100082618  strings=['"LocalPackage_UserInterface.bundle"', '"unable to find bundle named LocalPackage_UserInterface"', '"Fatal error"', '"UserInterface/resource_bundle_accessor.swift"']
+0x100082680 typeReference 
+0x10008273c typeReference 
+0x10008295c string "LocalPackage_UserInterface.bundle"
+0x100082ae4 string "unable to find bundle named LocalPackage_UserInterface"
+0x100082b00 string "Fatal error"
+0x100082b08 string "UserInterface/resource_bundle_accessor.swift"
+
+FUNCTION 0x100082d50  strings=[]
+0x100082d78 typeReference 
+
+FUNCTION 0x100082dc0  strings=[]
+0x100082de4 typeReference 
+
+FUNCTION 0x100082e48  strings=[]
+0x100082e64 typeReference 
+
+FUNCTION 0x10008303c  strings=[]
+0x1000830a4 typeReference 
+
+FUNCTION 0x100083140  strings=[]
+0x10008315c typeReference 
+
+FUNCTION 0x100083188  strings=[]
+0x1000831a0 typeReference 
+
+FUNCTION 0x1000831c8  strings=[]
+0x1000831fc doubleBits 2.0
+0x100083234 typeReference 
+0x100083244 typeReference 
+0x1000832ac typeReference 
+
+FUNCTION 0x100083344  strings=[]
+0x100083370 doubleBits 2.0
+0x1000833a8 typeReference 
+
+FUNCTION 0x1000835c8  strings=[]
+0x1000835e8 typeReference 
+0x10008361c doubleBits 100.0
+0x100083634 doubleBits 10.56327963413248
+0x100083644 doubleBits 10.563279663934802
+0x10008364c doubleBits 10.56327963413248
+0x100083680 typeReference 
+
+FUNCTION 0x100083774  strings=[]
+0x10008378c typeReference 
+
+FUNCTION 0x100083894  strings=[]
+0x1000838c0 typeReference 
+0x100083914 typeReference 
+
+FUNCTION 0x100083bf8  strings=['"UserInterface/NSStatusBarButton+Extension.swift"']
+0x100083c4c string "UserInterface/NSStatusBarButton+Extension.swift"
+
+FUNCTION 0x100083cd8  strings=[]
+0x100083cf4 typeReference 
+0x100083d2c doubleBits 1000.0
+0x100083d3c floatImmediate 10.0
+0x100083d44 doubleBits 100.0
+0x100083da8 typeReference 
+
+FUNCTION 0x10008436c  strings=[]
+0x10008439c call type metadata accessor for SwiftUI.WindowMenuBarExtraStyle
+0x1000843dc typeReference 
+0x100084418 typeReference 
+0x1000844a8 call static (extension in SwiftUI):SwiftUI.MenuBarExtraStyle< where A == SwiftUI.WindowMenuBarExtraStyle>.window.getter : SwiftUI.WindowMenuBarExtraStyle
+0x1000844d4 call (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some
+
+FUNCTION 0x10008455c  strings=['"UserInterface/RunnerBarScene.swift"']
+0x1000845b8 string "UserInterface/RunnerBarScene.swift"
+
+FUNCTION 0x100084668  strings=[]
+0x100084690 typeReference 
+
+FUNCTION 0x100084888  strings=['"UserInterface/RunnerBarScene.swift"']
+0x1000848e4 string "UserInterface/RunnerBarScene.swift"
+
+FUNCTION 0x1000849e4  strings=[]
+0x100084a04 typeReference 
+
+FUNCTION 0x100084a9c  strings=[]
+0x100084ac4 call type metadata accessor for SwiftUI.WindowMenuBarExtraStyle
+0x100084b04 typeReference 
+0x100084b40 typeReference 
+0x100084bd8 call static (extension in SwiftUI):SwiftUI.MenuBarExtraStyle< where A == SwiftUI.WindowMenuBarExtraStyle>.window.getter : SwiftUI.WindowMenuBarExtraStyle
+0x100084c08 call (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some
+
+FUNCTION 0x100084dfc  strings=[]
+0x100084e14 typeReference 
+0x100084e20 call type metadata accessor for SwiftUI.WindowMenuBarExtraStyle
+
+FUNCTION 0x100084eac  strings=[]
+0x100084ec8 typeReference 
+
+FUNCTION 0x100084f68  strings=[]
+0x100084fa4 typeReference 
+0x100085008 typeReference 
+0x100085048 typeReference 
+0x1000851e8 call (extension in SwiftUI):SwiftUI.Scene.windowResizability(SwiftUI.WindowResizability) -> some
+
+FUNCTION 0x100085374  strings=['"UserInterface/RunnersStoreWindowScene.swift"']
+0x1000853dc string "UserInterface/RunnersStoreWindowScene.swift"
+
+FUNCTION 0x1000854f0  strings=['"UserInterface/RunnersStoreWindowScene.swift"']
+0x100085540 string "UserInterface/RunnersStoreWindowScene.swift"
+
+FUNCTION 0x100085598  strings=['"Accessing Environment<%s>\'s value outside of being installed on a View. This will always read the default value and will not update."', '"Accessing Environment\'s value outside of being installed on a View. This will always read the default value and will not update."']
+0x100085638 doublePool 6.73486267e-316
+0x100085678 string "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+0x1000856c8 string "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+
+FUNCTION 0x100085780  strings=['"Accessing Environment<%s>\'s value outside of being installed on a View. This will always read the default value and will not update."', '"Accessing Environment\'s value outside of being installed on a View. This will always read the default value and will not update."']
+0x100085814 doublePool 6.73486267e-316
+0x100085850 string "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+0x1000858a0 string "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+
+FUNCTION 0x100085a00  strings=[]
+0x100085a20 typeReference 
+
+FUNCTION 0x100085c60  strings=[]
+0x100085c78 typeReference 
+0x100085c88 typeReference 
+
+FUNCTION 0x100085cd4  strings=['"OpenWindowAction"', '"Accessing Environment<%s>\'s value outside of being installed on a View. This will always read the default value and will not update."', '"Accessing Environment\'s value outside of being installed on a View. This will always read the default value and will not update."']
+0x100085d00 typeReference 
+0x100085dec doublePool 6.73486267e-316
+0x100085df8 string "OpenWindowAction"
+0x100085e24 string "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+0x100085e74 string "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+
+FUNCTION 0x100085f24  strings=['"Accessing Environment<%s>\'s value outside of being installed on a View. This will always read the default value and will not update."', '"Accessing Environment\'s value outside of being installed on a View. This will always read the default value and will not update."']
+0x100085fb8 doublePool 6.73486267e-316
+0x100085fe4 string "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+0x100086034 string "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+
+FUNCTION 0x1000860f0  strings=['"Accessing Environment<%s>\'s value outside of being installed on a View. This will always read the default value and will not update."', '"Accessing Environment\'s value outside of being installed on a View. This will always read the default value and will not update."']
+0x10008611c typeReference 
+0x100086178 call type metadata accessor for SwiftUI.ColorScheme
+0x100086208 doublePool 6.73486267e-316
+0x100086244 string "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+0x100086294 string "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+
+FUNCTION 0x100086644  strings=[]
+0x100086668 typeReference 
+
+FUNCTION 0x1000866ac  strings=[]
+0x1000866d8 doubleBits 2.0
+0x100086710 typeReference 
+
+FUNCTION 0x10008684c  strings=[]
+0x100086888 typeReference 
+0x1000868ec typeReference 
+0x10008692c typeReference 
+0x100086acc call (extension in SwiftUI):SwiftUI.Scene.windowResizability(SwiftUI.WindowResizability) -> some
+
+FUNCTION 0x100086c58  strings=['"UserInterface/SelfMadeRunnersWindowScene.swift"']
+0x100086cc0 string "UserInterface/SelfMadeRunnersWindowScene.swift"
+
+FUNCTION 0x100086ddc  strings=['"UserInterface/SelfMadeRunnersWindowScene.swift"']
+0x100086e2c string "UserInterface/SelfMadeRunnersWindowScene.swift"
+
+FUNCTION 0x100086ee8  strings=[]
+0x100086f08 typeReference 
+
+FUNCTION 0x100086f50  strings=[]
+0x100086f68 typeReference 
+0x100086f78 typeReference 
+
+FUNCTION 0x100086fe8  strings=[]
+0x100087004 typeReference 
+
+FUNCTION 0x100087098  strings=['"UserInterface/SettingsWindowScene.swift"']
+0x1000870ec string "UserInterface/SettingsWindowScene.swift"
+
+FUNCTION 0x1000871bc  strings=[]
+0x1000871dc typeReference 
+
+FUNCTION 0x10008728c  strings=[]
+0x1000872b8 call type metadata accessor for SwiftUI.WindowMenuBarExtraStyle
+0x1000872f8 typeReference 
+0x100087338 typeReference 
+0x100087388 typeReference 
+0x100087404 call static (extension in SwiftUI):SwiftUI.MenuBarExtraStyle< where A == SwiftUI.WindowMenuBarExtraStyle>.window.getter : SwiftUI.WindowMenuBarExtraStyle
+0x100087434 call (extension in SwiftUI):SwiftUI.Scene.menuBarExtraStyle<A where A1: SwiftUI.MenuBarExtraStyle>(A1) -> some
+
+FUNCTION 0x1000874c4  strings=['"UserInterface/SystemInfoBarScene.swift"']
+0x100087520 string "UserInterface/SystemInfoBarScene.swift"
+
+FUNCTION 0x100087644  strings=['"UserInterface/SystemInfoBarScene.swift"']
+0x1000876a0 string "UserInterface/SystemInfoBarScene.swift"
+
+FUNCTION 0x1000877c8  strings=[]
+0x1000877e8 typeReference 
+
+FUNCTION 0x100087be4  strings=[]
+0x100087bfc typeReference 
+0x100087c08 call type metadata accessor for SwiftUI.WindowMenuBarExtraStyle
+
+FUNCTION 0x100087e1c  strings=[]
+0x100087e84 typeReference 
+0x100087ebc typeReference 
+0x10008802c typeReference 
+
+FUNCTION 0x10008808c  strings=['"UserInterface/DashboardView.swift"']
+0x1000880c8 typeReference 
+0x100088110 typeReference 
+0x100088158 typeReference 
+0x100088198 typeReference 
+0x1000881e0 typeReference 
+0x100088228 typeReference 
+0x100088260 typeReference 
+0x10008829c typeReference 
+0x1000882e4 typeReference 
+0x10008837c string "UserInterface/DashboardView.swift"
+0x100088474 doubleBits 8.0
+0x100088488 typeReference 
+0x1000884d8 floatImmediate 8.0
+0x100088574 typeReference 
+0x1000885fc typeReference 
+0x100088880 typeReference 
+0x10008890c typeReference 
+0x100088ae4 typeReference 
+0x100088af8 typeReference 
+0x100088b8c typeReference 
+
+FUNCTION 0x100088ca8  strings=['"UserInterface/DashboardView.swift"']
+0x100088de0 string "UserInterface/DashboardView.swift"
+0x100088ef8 typeReference 
+0x100088f88 typeReference 
+
+FUNCTION 0x100089a80  strings=[]
+0x100089b38 typeReference 
+
+FUNCTION 0x100089d48  strings=['"UserInterface/DashboardView.swift"']
+0x100089d70 typeReference 
+0x100089e00 string "UserInterface/DashboardView.swift"
+
+FUNCTION 0x10008a7d4  strings=[]
+0x10008a7fc typeReference 
+
+FUNCTION 0x10008a844  strings=[]
+0x10008a86c typeReference 
+
+FUNCTION 0x10008a8cc  strings=[]
+0x10008a8f4 typeReference 
+
+FUNCTION 0x10008a93c  strings=[]
+0x10008a964 typeReference 
+
+FUNCTION 0x10008a9c4  strings=[]
+0x10008a9f0 typeReference 
+
+FUNCTION 0x10008aa6c  strings=[]
+0x10008aa88 typeReference 
+
+FUNCTION 0x10008ac68  strings=[]
+0x10008ac90 typeReference 
+
+FUNCTION 0x10008acd8  strings=[]
+0x10008ad00 typeReference 
+
+FUNCTION 0x10008ad60  strings=[]
+0x10008ad88 typeReference 
+
+FUNCTION 0x10008adc8  strings=[]
+0x10008adf0 typeReference 
+
+FUNCTION 0x10008ae68  strings=['"UserInterface/BarGraph.swift"']
+0x10008aea8 doubleBits 120.0
+0x10008aeb0 doubleBits 8.0
+0x10008aeb8 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+10008ae88:	ff c3 0a d1	sub	sp, sp, #0x2b0
+10008ae8c:	08 40 60 1e	fmov	d8, d0
+10008ae90:	f3 03 08 aa	mov	x19, x8
+10008ae94:	ba e3 03 d1	sub	x26, x29, #0xf8
+10008ae98:	eb ed 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+10008ae9c:	e4 03 00 aa	mov	x4, x0
+10008aea0:	e5 03 01 aa	mov	x5, x1
+10008aea4:	e8 03 06 91	add	x8, sp, #0x180
+10008aea8:	c0 0b e8 d2	mov	x0, #0x405e000000000000
+10008aeac:	01 00 80 52	mov	w1, #0x0
+10008aeb0:	02 04 e8 d2	mov	x2, #0x4020000000000000
+10008aeb4:	03 00 80 52	mov	w3, #0x0
+0x10008aed0 call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x10008aef4 call static SwiftUI.Color.accentColor.getter : SwiftUI.Color
+0x10008af00 floatImmediate 0.5
+0x10008af60 string "UserInterface/BarGraph.swift"
+0x10008af7c doubleBits 100.0
+0x10008af88 doubleBits 120.0
+0x10008afb4 doubleBits 8.0
+0x10008afbc call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+10008af8c:	02 01 67 9e	fmov	d2, x8
+10008af90:	21 08 62 1e	fmul	d1, d1, d2
+10008af94:	20 18 60 1e	fdiv	d0, d1, d0
+10008af98:	17 00 66 9e	fmov	x23, d0
+10008af9c:	aa ed 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+10008afa0:	e4 03 00 aa	mov	x4, x0
+10008afa4:	e5 03 01 aa	mov	x5, x1
+10008afa8:	e8 c3 06 91	add	x8, sp, #0x1b0
+10008afac:	e0 03 17 aa	mov	x0, x23
+10008afb0:	01 00 80 52	mov	w1, #0x0
+10008afb4:	02 04 e8 d2	mov	x2, #0x4020000000000000
+10008afb8:	03 00 80 52	mov	w3, #0x0
+0x10008afd4 call static SwiftUI.Color.accentColor.getter : SwiftUI.Color
+
+FUNCTION 0x10008b13c  strings=[]
+0x10008b164 typeReference 
+
+FUNCTION 0x10008b1c4  strings=[]
+0x10008b1ec typeReference 
+
+FUNCTION 0x10008b24c  strings=[]
+0x10008b274 typeReference 
+
+FUNCTION 0x10008b2d4  strings=[]
+0x10008b2fc typeReference 
+
+FUNCTION 0x10008b3a4  strings=[]
+0x10008b3d4 call SwiftUI.Path.init((inout SwiftUI.Path) -> ()) -> SwiftUI.Path
+0x10008b3d8 call static SwiftUI.Color.accentColor.getter : SwiftUI.Color
+0x10008b3f0 doubleBits 120.0
+0x10008b3f8 doubleBits 16.0
+0x10008b400 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+10008b3d0:	e1 03 00 91	mov	x1, sp
+10008b3d4:	6d eb 02 94	bl	0x100146188 ; symbol stub for: _$s7SwiftUI4PathVyACyACzXEcfC
+10008b3d8:	cc eb 02 94	bl	0x100146308 ; symbol stub for: _$s7SwiftUI5ColorV06accentC0ACvgZ
+10008b3dc:	f4 03 00 aa	mov	x20, x0
+10008b3e0:	99 ec 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+10008b3e4:	e4 03 00 aa	mov	x4, x0
+10008b3e8:	e5 03 01 aa	mov	x5, x1
+10008b3ec:	e8 63 01 91	add	x8, sp, #0x58
+10008b3f0:	c0 0b e8 d2	mov	x0, #0x405e000000000000
+10008b3f4:	01 00 80 52	mov	w1, #0x0
+10008b3f8:	02 06 e8 d2	mov	x2, #0x4030000000000000
+10008b3fc:	03 00 80 52	mov	w3, #0x0
+
+FUNCTION 0x10008b468  strings=['"UserInterface/LineGraph.swift"', '"UserInterface/LineGraph.swift"']
+0x10008b4e0 string "UserInterface/LineGraph.swift"
+0x10008b4fc floatImmediate 16.0
+0x10008b504 floatImmediate 16.0
+0x10008b50c call SwiftUI.Path.move(to: __C.CGPoint) -> ()
+0x10008b528 doubleBits 100.0
+0x10008b534 doublePool -0.16
+0x10008b538 floatImmediate 2.0
+0x10008b540 doublePool 15.68
+0x10008b548 string "UserInterface/LineGraph.swift"
+0x10008b574 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x10008b5ec doubleBits 120.0
+0x10008b5f4 floatImmediate 16.0
+0x10008b5fc call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x10008b600 call SwiftUI.Path.closeSubpath() -> ()
+
+FUNCTION 0x10008b648  strings=[]
+0x10008b670 typeReference 
+
+FUNCTION 0x10008b6b8  strings=[]
+0x10008b6d8 typeReference 
+
+FUNCTION 0x10008b8d0  strings=['"UserInterface/HelpMenusView.swift"']
+0x10008b950 typeReference 
+0x10008b988 typeReference 
+0x10008b9c4 typeReference 
+0x10008ba00 typeReference 
+0x10008ba38 doubleBits 8.0
+0x10008baa0 string "UserInterface/HelpMenusView.swift"
+0x10008bac4 typeReference 
+0x10008bb1c typeReference 
+0x10008bb30 typeReference 
+0x10008bbe0 floatImmediate 8.0
+0x10008bc68 floatImmediate 8.0
+0x10008bd10 typeReference 
+
+FUNCTION 0x10008bdb0  strings=['"UserInterface/HelpMenusView.swift"', '"questionmark.bubble"']
+0x10008be28 typeReference 
+0x10008bed8 string "UserInterface/HelpMenusView.swift"
+0x10008bf38 string "questionmark.bubble"
+0x10008bf4c call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008bfa0 call SwiftUI.Image.init(DeveloperToolsSupport.ImageResource) -> SwiftUI.Image
+0x10008c02c call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some
+
+FUNCTION 0x10008c474  strings=[]
+0x10008c4b4 typeReference 
+
+FUNCTION 0x10008c73c  strings=[]
+0x10008c764 typeReference 
+
+FUNCTION 0x10008c7c4  strings=[]
+0x10008c7ec typeReference 
+
+FUNCTION 0x10008c834  strings=[]
+0x10008c85c typeReference 
+
+FUNCTION 0x10008c8a4  strings=[]
+0x10008c8cc typeReference 
+
+FUNCTION 0x10008c974  strings=[]
+0x10008c9c8 typeReference 
+
+FUNCTION 0x10008ca8c  strings=[]
+0x10008cabc typeReference 
+
+FUNCTION 0x10008cb20  strings=[]
+0x10008cb68 typeReference 
+
+FUNCTION 0x10008cc10  strings=[]
+0x10008cc7c typeReference 
+
+FUNCTION 0x10008cd3c  strings=[]
+0x10008cd78 typeReference 
+
+FUNCTION 0x10008ce18  strings=[]
+0x10008ce78 typeReference 
+
+FUNCTION 0x10008cf38  strings=[]
+0x10008cf5c typeReference 
+
+FUNCTION 0x10008cfc8  strings=[]
+0x10008cff0 typeReference 
+
+FUNCTION 0x10008d168  strings=[]
+0x10008d210 typeReference 
+0x10008d24c typeReference 
+0x10008d288 doubleBits 8.0
+0x10008d29c typeReference 
+0x10008d304 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some
+0x10008d36c typeReference 
+
+FUNCTION 0x10008d40c  strings=['"UserInterface/MainMenusView.swift"', '"waveform.path.ecg"', '"open_activity_monitor"']
+0x10008d43c typeReference 
+0x10008d48c typeReference 
+0x10008d4dc typeReference 
+0x10008d5bc typeReference 
+0x10008d77c string "UserInterface/MainMenusView.swift"
+0x10008d7f0 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008d8ec call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008da28 call SwiftUI.Image.init(DeveloperToolsSupport.ImageResource) -> SwiftUI.Image
+0x10008db20 string "waveform.path.ecg"
+0x10008db34 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008db8c string "open_activity_monitor"
+0x10008dc08 typeReference 
+0x10008dce8 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x10008ddd0 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008def8 typeReference 
+
+FUNCTION 0x10008ed08  strings=['"UserInterface/MainMenusView.swift"']
+0x10008ed7c string "UserInterface/MainMenusView.swift"
+0x10008edf0 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x10008ee14  strings=['"UserInterface/MainMenusView.swift"']
+0x10008ee8c string "UserInterface/MainMenusView.swift"
+
+FUNCTION 0x10008ef40  strings=['"UserInterface/MainMenusView.swift"']
+0x10008ef60 call type metadata accessor for SwiftUI.Image.ResizingMode
+0x10008efec string "UserInterface/MainMenusView.swift"
+0x10008f014 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10008f050 call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+
+FUNCTION 0x10008f5f8  strings=[]
+0x10008f63c typeReference 
+
+FUNCTION 0x10008fc38  strings=[]
+0x10008fc54 typeReference 
+
+FUNCTION 0x10008fc80  strings=[]
+0x10008fc9c typeReference 
+
+FUNCTION 0x10008fcd0  strings=[]
+0x10008fd24 typeReference 
+
+FUNCTION 0x10008fe00  strings=[]
+0x10008fe2c typeReference 
+0x10008fe40 typeReference 
+
+FUNCTION 0x100090130  strings=['"UserInterface/ResizableImageButton.swift"']
+0x100090158 typeReference 
+0x1000901cc string "UserInterface/ResizableImageButton.swift"
+
+FUNCTION 0x1000903bc  strings=['"UserInterface/ResizableImageButton.swift"']
+0x100090414 string "UserInterface/ResizableImageButton.swift"
+0x1000904a4 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x1000904c8  strings=['"UserInterface/ResizableImageButton.swift"']
+0x100090524 string "UserInterface/ResizableImageButton.swift"
+
+FUNCTION 0x1000905ac  strings=['"UserInterface/ResizableImageButton.swift"']
+0x1000905d0 call type metadata accessor for SwiftUI.Image.ResizingMode
+0x100090640 string "UserInterface/ResizableImageButton.swift"
+0x100090694 call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+
+FUNCTION 0x1000906d4  strings=[]
+0x10009075c typeReference 
+
+FUNCTION 0x100090b10  strings=['"UserInterface/RunnersListView.swift"']
+0x100090bc4 typeReference 
+0x100090c04 typeReference 
+0x100090c40 typeReference 
+0x100090c7c typeReference 
+0x100090cbc typeReference 
+0x100090cfc typeReference 
+0x100090d38 typeReference 
+0x100090d78 typeReference 
+0x100090dc4 typeReference 
+0x100090e84 doubleBits 400.0
+0x100090e8c call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100090e5c:	e0 03 14 aa	mov	x0, x20
+100090e60:	e1 03 1c aa	mov	x1, x28
+100090e64:	00 01 3f d6	blr	x8
+100090e68:	f7 d5 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+100090e6c:	e4 03 00 aa	mov	x4, x0
+100090e70:	e5 03 01 aa	mov	x5, x1
+100090e74:	35 00 80 52	mov	w21, #0x1
+100090e78:	a8 e3 03 d1	sub	x8, x29, #0xf8
+100090e7c:	00 00 80 d2	mov	x0, #0x0
+100090e80:	21 00 80 52	mov	w1, #0x1
+100090e84:	22 0f e8 d2	mov	x2, #0x4079000000000000
+100090e88:	03 00 80 52	mov	w3, #0x0
+0x100090ef4 typeReference 
+0x100090f6c call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x100091068 string "UserInterface/RunnersListView.swift"
+0x1000910b4 floatImmediate 8.0
+
+FUNCTION 0x100091410  strings=['"UserInterface/RunnersListView.swift"', '"UserInterface/RunnersListView.swift"']
+0x100091448 typeReference 
+0x100091480 typeReference 
+0x100091514 string "UserInterface/RunnersListView.swift"
+0x100091534 doubleBits 8.0
+0x100091570 string "UserInterface/RunnersListView.swift"
+0x100091594 typeReference 
+0x100091610 typeReference 
+0x100091620 typeReference 
+0x100091698 floatImmediate 8.0
+0x100091710 typeReference 
+
+FUNCTION 0x10009175c  strings=['"UserInterface/RunnersListView.swift"']
+0x100091794 typeReference 
+0x1000917cc typeReference 
+0x100091860 string "UserInterface/RunnersListView.swift"
+0x100091880 doubleBits 8.0
+0x100091894 typeReference 
+0x1000918b8 floatImmediate 8.0
+
+FUNCTION 0x100091960  strings=['"UserInterface/RunnersListView.swift"']
+0x100091998 typeReference 
+0x100091a50 string "UserInterface/RunnersListView.swift"
+0x100091ac4 call static SwiftUI.Font.caption.getter : SwiftUI.Font
+0x100091ae0 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x100091b08 call static SwiftUI.HierarchicalShapeStyle.secondary.getter : SwiftUI.HierarchicalShapeStyle
+0x100091b34 call SwiftUI.Text.foregroundStyle<A where A: SwiftUI.ShapeStyle>(A) -> SwiftUI.Text
+0x100091be0 typeReference 
+0x100091bf4 typeReference 
+0x100091cb4 typeReference 
+
+FUNCTION 0x100091d40  strings=['"UserInterface/RunnersListView.swift"']
+0x100091dc0 typeReference 
+0x100091e1c typeReference 
+0x100091e58 typeReference 
+0x100091e9c typeReference 
+0x100091ed8 typeReference 
+0x100091fac string "UserInterface/RunnersListView.swift"
+0x10009208c typeReference 
+0x1000921a4 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some
+0x1000922dc typeReference 
+0x100092314 floatImmediate 16.0
+0x100092350 typeReference 
+0x1000923e0 typeReference 
+
+FUNCTION 0x100092460  strings=['"UserInterface/RunnersListView.swift"']
+0x10009248c typeReference 
+0x10009251c string "UserInterface/RunnersListView.swift"
+
+FUNCTION 0x10009291c  strings=['"UserInterface/RunnersListView.swift"']
+0x100092994 string "UserInterface/RunnersListView.swift"
+0x100092a24 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x100092a48  strings=['"UserInterface/RunnersListView.swift"']
+0x100092acc string "UserInterface/RunnersListView.swift"
+
+FUNCTION 0x100092bec  strings=['"UserInterface/RunnersListView.swift"']
+0x100092c18 call type metadata accessor for SwiftUI.Image.ResizingMode
+0x100092c54 typeReference 
+0x100092cdc string "UserInterface/RunnersListView.swift"
+0x100092d78 call SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image
+0x100092db4 call SwiftUI.Image.init(_: Swift.String, bundle: __C.NSBundle?) -> SwiftUI.Image
+0x100092ddc call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x100092e00 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x100092e3c call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x100092e60 call SwiftUI.Image.renderingMode(SwiftUI.Image.TemplateRenderingMode?) -> SwiftUI.Image
+0x100092eb4 call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+
+FUNCTION 0x100092f18  strings=['"UserInterface/RunnersListView.swift"']
+0x100092f98 string "UserInterface/RunnersListView.swift"
+0x100092fd4 typeReference 
+0x100093004 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009304c call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x10009308c  strings=[]
+0x1000930d4 typeReference 
+0x100093178 typeReference 
+0x100093250 typeReference 
+0x1000932dc typeReference 
+0x100093340 typeReference 
+
+FUNCTION 0x100093394  strings=['"UserInterface/RunnersListView.swift"']
+0x100093410 string "UserInterface/RunnersListView.swift"
+
+FUNCTION 0x10009348c  strings=['"UserInterface/RunnersListView.swift"']
+0x100093508 string "UserInterface/RunnersListView.swift"
+0x100093538 typeReference 
+
+FUNCTION 0x100093604  strings=[]
+0x100093644 typeReference 
+
+FUNCTION 0x100093830  strings=['"UserInterface/RunnersListView.swift"']
+0x100093858 typeReference 
+0x1000938e8 string "UserInterface/RunnersListView.swift"
+
+FUNCTION 0x100093ca4  strings=[]
+0x100093ccc typeReference 
+
+FUNCTION 0x100093eb4  strings=[]
+0x100093ed0 typeReference 
+
+FUNCTION 0x100093fa4  strings=[]
+0x100093fcc typeReference 
+
+FUNCTION 0x10009402c  strings=[]
+0x100094054 typeReference 
+
+FUNCTION 0x1000940b4  strings=[]
+0x1000940e0 typeReference 
+0x1000940f4 typeReference 
+
+FUNCTION 0x100094204  strings=[]
+0x100094220 typeReference 
+
+FUNCTION 0x1000942a8  strings=[]
+0x1000942d0 typeReference 
+
+FUNCTION 0x100094594  strings=[]
+0x1000945b0 typeReference 
+
+FUNCTION 0x1000946cc  strings=[]
+0x1000946f4 typeReference 
+
+FUNCTION 0x10009473c  strings=[]
+0x100094764 typeReference 
+
+FUNCTION 0x1000947c4  strings=[]
+0x1000947ec typeReference 
+
+FUNCTION 0x100094860  strings=[]
+0x100094898 typeReference 
+0x1000948b8 call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x1000948c0 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x1000948cc call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000948d4 doublePool 0.1
+0x1000948d8 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x1000948e4 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000948ec doublePool 0.9
+0x1000948f0 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x1000948fc call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x100094900 floatImmediate 1.0
+0x100094904 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x100094924 typeReference 
+0x100094944 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x10009494c call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x100094958 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x100094960 doublePool 0.9
+0x100094964 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x100094970 call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x100094998 call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x1000949a0 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x1000949ac call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000949b4 doublePool 0.1
+0x1000949b8 call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+0x1000949c4 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000949c8 floatImmediate 1.0
+0x1000949cc call SwiftUI.Gradient.Stop.init(color: SwiftUI.Color, location: CoreGraphics.CGFloat) -> SwiftUI.Gradient.Stop
+
+FUNCTION 0x1000949f0  strings=[]
+0x100094a54 floatImmediate 5.0
+0x100094a80 floatImmediate -5.0
+
+FUNCTION 0x100094acc  strings=[]
+0x100094af8 call type metadata accessor for SwiftUI.Color.RGBColorSpace
+0x100094b34 call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x100094be0 typeReference 
+0x100094c1c typeReference 
+0x100094c88 floatImmediate 8.0
+0x100094ca8 typeReference 
+0x100094cd0 typeReference 
+0x100094cfc typeReference 
+0x100094d58 typeReference 
+0x100094db0 doublePool 0.33
+0x100094dbc call SwiftUI.Color.init(_: SwiftUI.Color.RGBColorSpace, white: Swift.Double, opacity: Swift.Double) -> SwiftUI.Color
+0x100094de8 typeReference 
+0x100094e04 doubleBits 2.0
+
+FUNCTION 0x100094e38  strings=['"UserInterface/MaterialCellStyle.swift"']
+0x100094ecc string "UserInterface/MaterialCellStyle.swift"
+0x100094efc call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x100094f18 floatImmediate 8.0
+0x100094f40 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x100094f54 floatImmediate 1.0
+0x100094f58 floatImmediate 10.0
+0x100094f68 call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x100094f7c floatImmediate 0.5
+0x100094f8c typeReference 
+0x100094fbc typeReference 
+0x100094fe4 typeReference 
+0x100095010 typeReference 
+
+FUNCTION 0x1000951b0  strings=[]
+0x1000951d8 typeReference 
+
+FUNCTION 0x100095238  strings=[]
+0x100095260 typeReference 
+
+FUNCTION 0x1000953d8  strings=['"UserInterface/MediumButtonStyle.swift"']
+0x100095404 call type metadata accessor for SwiftUI.LabelStyleConfiguration.Title
+0x100095444 typeReference 
+0x100095484 typeReference 
+0x1000954c4 typeReference 
+0x100095520 call type metadata accessor for SwiftUI.LabelStyleConfiguration.Icon
+0x10009555c typeReference 
+0x100095598 typeReference 
+0x100095648 string "UserInterface/MediumButtonStyle.swift"
+0x10009566c call SwiftUI.LabelStyleConfiguration.icon.getter : SwiftUI.LabelStyleConfiguration.Icon
+0x1000956b8 doubleBits 24.0
+0x1000956c0 doubleBits 24.0
+0x1000956c8 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100095698:	28 07 40 f9	ldr	x8, [x25, #0x8]
+10009569c:	e0 03 15 aa	mov	x0, x21
+1000956a0:	e1 03 17 aa	mov	x1, x23
+1000956a4:	00 01 3f d6	blr	x8
+1000956a8:	e7 c3 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000956ac:	e4 03 00 aa	mov	x4, x0
+1000956b0:	e5 03 01 aa	mov	x5, x1
+1000956b4:	a8 23 02 d1	sub	x8, x29, #0x88
+1000956b8:	00 07 e8 d2	mov	x0, #0x4038000000000000
+1000956bc:	01 00 80 52	mov	w1, #0x0
+1000956c0:	02 07 e8 d2	mov	x2, #0x4038000000000000
+1000956c4:	03 00 80 52	mov	w3, #0x0
+0x100095714 call SwiftUI.LabelStyleConfiguration.title.getter : SwiftUI.LabelStyleConfiguration.Title
+0x100095718 call static SwiftUI.Font.caption2.getter : SwiftUI.Font
+0x1000957f0 doubleBits 0.5
+0x100095858 typeReference 
+
+FUNCTION 0x1000958c8  strings=[]
+0x1000958f4 typeReference 
+
+FUNCTION 0x100095914  strings=[]
+0x100095950 call type metadata accessor for SwiftUI.ButtonStyleConfiguration.Label
+0x100095994 typeReference 
+0x1000959d4 typeReference 
+0x100095a10 typeReference 
+0x100095a4c typeReference 
+0x100095a88 typeReference 
+0x100095ac4 typeReference 
+0x100095afc typeReference 
+0x100095b38 call SwiftUI.ButtonStyleConfiguration.label.getter : SwiftUI.ButtonStyleConfiguration.Label
+0x100095b7c call (extension in SwiftUI):SwiftUI.View.labelStyle<A where A1: SwiftUI.LabelStyle>(A1) -> some
+0x100095bd4 call static SwiftUI.Color.primary.getter : SwiftUI.Color
+0x100095bdc call static SwiftUI.Color.secondary.getter : SwiftUI.Color
+0x100095c2c doubleBits 64.0
+0x100095c34 doubleBits 56.0
+0x100095c3c call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100095c0c:	88 07 40 f9	ldr	x8, [x28, #0x8]
+100095c10:	e0 03 1b aa	mov	x0, x27
+100095c14:	e1 03 15 aa	mov	x1, x21
+100095c18:	00 01 3f d6	blr	x8
+100095c1c:	8a c2 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+100095c20:	e4 03 00 aa	mov	x4, x0
+100095c24:	e5 03 01 aa	mov	x5, x1
+100095c28:	a8 a3 02 d1	sub	x8, x29, #0xa8
+100095c2c:	00 0a e8 d2	mov	x0, #0x4050000000000000
+100095c30:	01 00 80 52	mov	w1, #0x0
+100095c34:	82 09 e8 d2	mov	x2, #0x404c000000000000
+100095c38:	03 00 80 52	mov	w3, #0x0
+0x100095c8c floatImmediate 4.0
+0x100095d3c call SwiftUI.ButtonStyleConfiguration.isPressed.getter : Swift.Bool
+0x100095d48 doubleBits 0.6
+0x100095d50 floatImmediate 1.0
+
+FUNCTION 0x100095e08  strings=[]
+0x100095e24 typeReference 
+
+FUNCTION 0x100095e94  strings=[]
+0x100095ebc typeReference 
+
+FUNCTION 0x100095f04  strings=[]
+0x100095f2c typeReference 
+
+FUNCTION 0x100095fd0  strings=[]
+0x100095ffc typeReference 
+0x100096008 call type metadata accessor for SwiftUI.ButtonStyleConfiguration.Label
+
+FUNCTION 0x1000961cc  strings=['"UserInterface/PreActionButtonStyle.swift"']
+0x1000961f8 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+0x100096234 typeReference 
+0x1000962c4 string "UserInterface/PreActionButtonStyle.swift"
+
+FUNCTION 0x1000964bc  strings=[]
+0x1000964dc call SwiftUI.PrimitiveButtonStyleConfiguration.trigger() -> ()
+
+FUNCTION 0x1000964f4  strings=['"UserInterface/PreActionButtonStyle.swift"']
+0x10009656c string "UserInterface/PreActionButtonStyle.swift"
+0x100096590 call SwiftUI.PrimitiveButtonStyleConfiguration.label.getter : SwiftUI.PrimitiveButtonStyleConfiguration.Label
+
+FUNCTION 0x1000965ac  strings=[]
+0x1000965d8 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+0x100096614 typeReference 
+0x100096650 call SwiftUI.PrimitiveButtonStyleConfiguration.role.getter : SwiftUI.ButtonRole?
+0x1000966ac call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration.Label
+
+FUNCTION 0x100096728  strings=[]
+0x100096740 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x100096794  strings=[]
+0x1000967a0 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x1000967cc  strings=[]
+0x1000967e4 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x100096840  strings=[]
+0x100096868 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x1000968e0  strings=[]
+0x100096900 typeReference 
+
+FUNCTION 0x100096ae0  strings=['"UserInterface/RunnerButtonStyle.swift"']
+0x100096b0c call type metadata accessor for SwiftUI.LabelStyleConfiguration.Icon
+0x100096b4c typeReference 
+0x100096b88 typeReference 
+0x100096be4 call type metadata accessor for SwiftUI.LabelStyleConfiguration.Title
+0x100096c20 typeReference 
+0x100096c5c typeReference 
+0x100096d0c string "UserInterface/RunnerButtonStyle.swift"
+0x100096d30 call SwiftUI.LabelStyleConfiguration.title.getter : SwiftUI.LabelStyleConfiguration.Title
+0x100096d34 call static SwiftUI.Font.body.getter : SwiftUI.Font
+0x100096db8 call SwiftUI.LabelStyleConfiguration.icon.getter : SwiftUI.LabelStyleConfiguration.Icon
+0x100096e10 doubleBits 18.0
+0x100096e18 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100096de8:	88 06 40 f9	ldr	x8, [x20, #0x8]
+100096dec:	e0 03 16 aa	mov	x0, x22
+100096df0:	e1 03 13 aa	mov	x1, x19
+100096df4:	00 01 3f d6	blr	x8
+100096df8:	13 be 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+100096dfc:	e4 03 00 aa	mov	x4, x0
+100096e00:	e5 03 01 aa	mov	x5, x1
+100096e04:	a8 03 02 d1	sub	x8, x29, #0x80
+100096e08:	00 00 80 d2	mov	x0, #0x0
+100096e0c:	21 00 80 52	mov	w1, #0x1
+100096e10:	42 06 e8 d2	mov	x2, #0x4032000000000000
+100096e14:	03 00 80 52	mov	w3, #0x0
+0x100096eb4 typeReference 
+0x100096ec0 doubleBits 24.0
+
+FUNCTION 0x100096f38  strings=[]
+0x100096f50 doubleBits 8.0
+0x100096f64 typeReference 
+
+FUNCTION 0x100096f84  strings=[]
+0x100096fb8 typeReference 
+0x100096ff0 typeReference 
+0x100097028 doubleBits 8.0
+0x10009703c typeReference 
+0x100097088 call static SwiftUI.Color.primary.getter : SwiftUI.Color
+0x100097090 call static SwiftUI.Color.secondary.getter : SwiftUI.Color
+
+FUNCTION 0x1000970f4  strings=['"UserInterface/RunnerButtonStyle.swift"', '"circlebadge.fill"']
+0x100097124 call type metadata accessor for SwiftUI.ButtonStyleConfiguration.Label
+0x100097164 typeReference 
+0x1000971a4 typeReference 
+0x1000971e0 typeReference 
+0x10009721c typeReference 
+0x1000972ec string "UserInterface/RunnerButtonStyle.swift"
+0x10009730c string "circlebadge.fill"
+0x100097320 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009732c call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x100097334 call static SwiftUI.Color.accentColor.getter : SwiftUI.Color
+0x100097348 call SwiftUI.ButtonStyleConfiguration.label.getter : SwiftUI.ButtonStyleConfiguration.Label
+0x10009738c call (extension in SwiftUI):SwiftUI.View.labelStyle<A where A1: SwiftUI.LabelStyle>(A1) -> some
+0x1000973bc doubleBits 24.0
+0x1000973c4 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100097394:	08 05 40 f9	ldr	x8, [x8, #0x8]
+100097398:	e0 03 13 aa	mov	x0, x19
+10009739c:	e1 03 17 aa	mov	x1, x23
+1000973a0:	00 01 3f d6	blr	x8
+1000973a4:	a8 bc 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000973a8:	e4 03 00 aa	mov	x4, x0
+1000973ac:	e5 03 01 aa	mov	x5, x1
+1000973b0:	a8 63 02 d1	sub	x8, x29, #0x98
+1000973b4:	00 00 80 d2	mov	x0, #0x0
+1000973b8:	21 00 80 52	mov	w1, #0x1
+1000973bc:	02 07 e8 d2	mov	x2, #0x4038000000000000
+1000973c0:	03 00 80 52	mov	w3, #0x0
+0x100097448 call SwiftUI.ButtonStyleConfiguration.isPressed.getter : Swift.Bool
+0x100097454 doubleBits 0.6
+0x10009745c floatImmediate 1.0
+0x1000974d4 typeReference 
+
+FUNCTION 0x100097610  strings=[]
+0x100097638 typeReference 
+
+FUNCTION 0x100097718  strings=['"UserInterface/SmallButtonStyle.swift"']
+0x100097750 call type metadata accessor for SwiftUI.LabelStyleConfiguration.Title
+0x100097790 typeReference 
+0x1000977d0 typeReference 
+0x10009782c call type metadata accessor for SwiftUI.Color.RGBColorSpace
+0x100097878 call type metadata accessor for SwiftUI.ColorScheme
+0x1000978e8 call type metadata accessor for SwiftUI.LabelStyleConfiguration.Icon
+0x100097924 typeReference 
+0x100097964 typeReference 
+0x1000979a4 typeReference 
+0x1000979e4 typeReference 
+0x100097ac4 string "UserInterface/SmallButtonStyle.swift"
+0x100097aec call SwiftUI.LabelStyleConfiguration.icon.getter : SwiftUI.LabelStyleConfiguration.Icon
+0x100097b40 doubleBits 16.0
+0x100097b48 doubleBits 16.0
+0x100097b50 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100097b20:	88 07 40 f9	ldr	x8, [x28, #0x8]
+100097b24:	e0 03 17 aa	mov	x0, x23
+100097b28:	e1 03 1a aa	mov	x1, x26
+100097b2c:	00 01 3f d6	blr	x8
+100097b30:	c5 ba 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+100097b34:	e4 03 00 aa	mov	x4, x0
+100097b38:	e5 03 01 aa	mov	x5, x1
+100097b3c:	a8 a3 02 d1	sub	x8, x29, #0xa8
+100097b40:	00 06 e8 d2	mov	x0, #0x4030000000000000
+100097b44:	01 00 80 52	mov	w1, #0x0
+100097b48:	02 06 e8 d2	mov	x2, #0x4030000000000000
+100097b4c:	03 00 80 52	mov	w3, #0x0
+0x100097ba4 floatImmediate 6.0
+0x100097c50 call static SwiftUI.ColorScheme.== infix(SwiftUI.ColorScheme, SwiftUI.ColorScheme) -> Swift.Bool
+0x100097cac doublePool 0.9
+0x100097cb4 doublePool 0.2
+0x100097cc0 doublePool 0.4
+0x100097cc4 floatImmediate 0.5
+0x100097ccc call SwiftUI.Color.init(_: SwiftUI.Color.RGBColorSpace, white: Swift.Double, opacity: Swift.Double) -> SwiftUI.Color
+0x100097d34 call SwiftUI.LabelStyleConfiguration.title.getter : SwiftUI.LabelStyleConfiguration.Title
+0x100097d38 call static SwiftUI.Font.body.getter : SwiftUI.Font
+0x100097e1c typeReference 
+
+FUNCTION 0x100097eac  strings=[]
+0x100097ec8 doubleBits 8.0
+0x100097edc typeReference 
+
+FUNCTION 0x100097f04  strings=[]
+0x100097f68 call type metadata accessor for SwiftUI.ButtonStyleConfiguration.Label
+0x100097fa8 typeReference 
+0x100097fe4 typeReference 
+0x100098020 typeReference 
+0x10009805c typeReference 
+0x100098098 call SwiftUI.ButtonStyleConfiguration.label.getter : SwiftUI.ButtonStyleConfiguration.Label
+0x1000980b4 typeReference 
+0x100098120 call (extension in SwiftUI):SwiftUI.View.labelStyle<A where A1: SwiftUI.LabelStyle>(A1) -> some
+0x100098158 doubleBits 32.0
+0x100098160 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+100098130:	08 05 40 f9	ldr	x8, [x8, #0x8]
+100098134:	e0 03 1b aa	mov	x0, x27
+100098138:	e1 03 16 aa	mov	x1, x22
+10009813c:	00 01 3f d6	blr	x8
+100098140:	41 b9 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+100098144:	e4 03 00 aa	mov	x4, x0
+100098148:	e5 03 01 aa	mov	x5, x1
+10009814c:	a8 43 02 d1	sub	x8, x29, #0x90
+100098150:	00 00 80 d2	mov	x0, #0x0
+100098154:	21 00 80 52	mov	w1, #0x1
+100098158:	02 08 e8 d2	mov	x2, #0x4040000000000000
+10009815c:	03 00 80 52	mov	w3, #0x0
+0x1000981d8 call SwiftUI.ButtonStyleConfiguration.isPressed.getter : Swift.Bool
+0x1000981e4 doubleBits 0.6
+0x1000981ec floatImmediate 1.0
+
+FUNCTION 0x100098290  strings=[]
+0x1000982a0 call SwiftUI.EnvironmentValues.colorScheme.getter : SwiftUI.ColorScheme
+
+FUNCTION 0x1000982b0  strings=[]
+0x1000982cc call type metadata accessor for SwiftUI.ColorScheme
+0x100098314 call SwiftUI.EnvironmentValues.colorScheme.setter : SwiftUI.ColorScheme
+
+FUNCTION 0x10009836c  strings=[]
+0x100098388 typeReference 
+
+FUNCTION 0x1000983b4  strings=[]
+0x1000983d4 typeReference 
+0x100098400 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x10009847c  strings=[]
+0x100098494 typeReference 
+0x1000984b0 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x1000984e0  strings=[]
+0x100098500 typeReference 
+0x100098520 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x10009857c  strings=[]
+0x1000985b4 typeReference 
+0x1000985d4 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x100098630  strings=[]
+0x100098650 typeReference 
+0x100098670 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x1000986d0  strings=[]
+0x100098708 typeReference 
+0x100098728 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x100098794  strings=[]
+0x1000987b0 typeReference 
+
+FUNCTION 0x1000987e0  strings=[]
+0x1000987fc typeReference 
+
+FUNCTION 0x10009888c  strings=[]
+0x1000988b4 call type metadata accessor for SwiftUI.ColorScheme
+
+FUNCTION 0x1000988e4  strings=[]
+0x10009890c typeReference 
+
+FUNCTION 0x100098954  strings=[]
+0x10009897c typeReference 
+
+FUNCTION 0x1000989dc  strings=[]
+0x100098a0c typeReference 
+0x100098a18 call type metadata accessor for SwiftUI.ButtonStyleConfiguration.Label
+
+FUNCTION 0x100098ae0  strings=[]
+0x100098afc typeReference 
+
+FUNCTION 0x100098fac  strings=[]
+0x100098fdc typeReference 
+0x10009902c call type metadata accessor for SwiftUI.VStack
+0x1000990ac call SwiftUI.VStack.init(alignment: SwiftUI.HorizontalAlignment, spacing: CoreGraphics.CGFloat?, content: () -> A) -> SwiftUI.VStack<A>
+
+FUNCTION 0x100099120  strings=['"UserInterface/SubContextView.swift"']
+0x1000991b0 call type metadata accessor for SwiftUI.BorderlessButtonStyle
+0x100099200 typeReference 
+0x100099248 typeReference 
+0x100099290 typeReference 
+0x1000992d0 typeReference 
+0x100099380 string "UserInterface/SubContextView.swift"
+0x100099444 typeReference 
+0x10009949c call SwiftUI.BorderlessButtonStyle.init() -> SwiftUI.BorderlessButtonStyle
+0x10009950c call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000995ac floatImmediate 8.0
+
+FUNCTION 0x100099704  strings=['"UserInterface/SubContextView.swift"']
+0x100099738 typeReference 
+0x1000997c8 string "UserInterface/SubContextView.swift"
+
+FUNCTION 0x1000999ac  strings=['"UserInterface/SubContextView.swift"']
+0x100099a2c string "UserInterface/SubContextView.swift"
+0x100099aa4 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x100099acc  strings=['"UserInterface/SubContextView.swift"']
+0x100099b44 string "UserInterface/SubContextView.swift"
+
+FUNCTION 0x100099bf8  strings=['"UserInterface/SubContextView.swift"', '"chevron.backward"']
+0x100099c64 string "UserInterface/SubContextView.swift"
+0x100099c84 string "chevron.backward"
+0x100099c98 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x100099d50  strings=[]
+0x100099d78 typeReference 
+
+FUNCTION 0x100099dc0  strings=[]
+0x100099df0 typeReference 
+0x100099e04 typeReference 
+0x100099e10 call type metadata accessor for SwiftUI.BorderlessButtonStyle
+
+FUNCTION 0x100099f94  strings=[]
+0x100099fac typeReference 
+0x100099ff4 call type metadata accessor for SwiftUI.VStack
+
+FUNCTION 0x10009a1c8  strings=[]
+0x10009a244 typeReference 
+0x10009a280 typeReference 
+0x10009a2bc typeReference 
+0x10009a2f8 typeReference 
+0x10009a330 typeReference 
+0x10009a368 doubleBits 8.0
+0x10009a37c typeReference 
+0x10009a3c8 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.ButtonStyle>(A1) -> some
+0x10009a3e0 floatImmediate 8.0
+0x10009a464 floatImmediate 8.0
+0x10009a534 typeReference 
+
+FUNCTION 0x10009a5d4  strings=['"UserInterface/SubMenusView.swift"']
+0x10009a604 typeReference 
+0x10009a6b4 string "UserInterface/SubMenusView.swift"
+0x10009a720 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009a7bc call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009a840 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009a8c4 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009a960 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x10009aac0 typeReference 
+
+FUNCTION 0x10009aec4  strings=[]
+0x10009b080 floatImmediate 2.0
+0x10009b168 typeReference 
+0x10009b2f0 typeReference 
+0x10009b41c typeReference 
+0x10009b87c call (extension in AppKit):__C.NSColor.init(resource: DeveloperToolsSupport.ColorResource) -> __C.NSColor
+0x10009b9a8 typeReference 
+
+FUNCTION 0x10009c208  strings=[]
+0x10009c250 typeReference 
+
+FUNCTION 0x10009c434  strings=[]
+0x10009c458 typeReference 
+
+FUNCTION 0x10009c6c8  strings=[]
+0x10009c6f8 typeReference 
+
+FUNCTION 0x10009c7c4  strings=[]
+0x10009c81c typeReference 
+
+FUNCTION 0x10009cd40  strings=[]
+0x10009cd60 typeReference 
+
+FUNCTION 0x10009cdd4  strings=[]
+0x10009cdfc typeReference 
+
+FUNCTION 0x10009ce5c  strings=[]
+0x10009ce84 typeReference 
+
+FUNCTION 0x10009cecc  strings=[]
+0x10009cef4 typeReference 
+
+FUNCTION 0x10009cf3c  strings=[]
+0x10009cf68 typeReference 
+0x10009cf7c typeReference 
+
+FUNCTION 0x10009d020  strings=[]
+0x10009d088 typeReference 
+0x10009d208 typeReference 
+0x10009d3d0 typeReference 
+0x10009d574 typeReference 
+0x10009d6f0 typeReference 
+
+FUNCTION 0x10009dcf8  strings=[]
+0x10009dd54 typeReference 
+0x10009deb8 typeReference 
+0x10009e078 typeReference 
+0x10009e21c typeReference 
+0x10009e38c typeReference 
+
+FUNCTION 0x10009e534  strings=[]
+0x10009e6e0 typeReference 
+0x10009e930 typeReference 
+0x10009eb4c typeReference 
+0x10009ed04 typeReference 
+0x10009ef0c typeReference 
+
+FUNCTION 0x10009f6b4  strings=[]
+0x10009f710 typeReference 
+0x10009f864 typeReference 
+0x10009f9f4 typeReference 
+0x10009fb50 typeReference 
+0x10009fcb4 typeReference 
+
+FUNCTION 0x10009fdf4  strings=[]
+0x10009ff6c typeReference 
+0x1000a0130 typeReference 
+0x1000a02b8 typeReference 
+0x1000a0448 typeReference 
+0x1000a05b4 typeReference 
+
+FUNCTION 0x1000a0e14  strings=[]
+0x1000a0e50 typeReference 
+0x1000a0e8c typeReference 
+0x1000a0ecc typeReference 
+0x1000a0f04 doubleBits 8.0
+0x1000a0f18 typeReference 
+0x1000a0f70 doubleBits 408.0
+0x1000a0f78 call SwiftUI._FlexFrameLayout.init(minWidth: CoreGraphics.CGFloat?, idealWidth: CoreGraphics.CGFloat?, maxWidth: CoreGraphics.CGFloat?, minHeight: CoreGraphics.CGFloat?, idealHeight: CoreGraphics.CGFloat?, maxHeight: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FlexFrameLayout
+1000a0f48:	a8 83 03 d1	sub	x8, x29, #0xe0
+1000a0f4c:	e9 23 00 39	strb	w9, [sp, #0x8]
+1000a0f50:	ff 03 00 f9	str	xzr, [sp]
+1000a0f54:	00 00 80 d2	mov	x0, #0x0
+1000a0f58:	21 00 80 52	mov	w1, #0x1
+1000a0f5c:	02 00 80 d2	mov	x2, #0x0
+1000a0f60:	23 00 80 52	mov	w3, #0x1
+1000a0f64:	04 00 80 d2	mov	x4, #0x0
+1000a0f68:	25 00 80 52	mov	w5, #0x1
+1000a0f6c:	06 00 d0 d2	mov	x6, #0x800000000000
+1000a0f70:	26 0f e8 f2	movk	x6, #0x4079, lsl #48
+1000a0f74:	07 00 80 52	mov	w7, #0x0
+0x1000a0fcc floatImmediate 8.0
+
+FUNCTION 0x1000a105c  strings=['"UserInterface/SystemInfoStackView.swift"']
+0x1000a1094 typeReference 
+0x1000a116c typeReference 
+0x1000a12d4 typeReference 
+0x1000a1358 typeReference 
+0x1000a1494 typeReference 
+0x1000a1580 typeReference 
+0x1000a1648 string "UserInterface/SystemInfoStackView.swift"
+0x1000a177c typeReference 
+0x1000a18ac typeReference 
+0x1000a197c typeReference 
+0x1000a1a60 typeReference 
+0x1000a1abc typeReference 
+0x1000a1b4c typeReference 
+0x1000a1c08 typeReference 
+0x1000a1cdc typeReference 
+0x1000a1d38 typeReference 
+0x1000a1dac typeReference 
+0x1000a1e5c typeReference 
+0x1000a1f30 typeReference 
+0x1000a1f8c typeReference 
+0x1000a2014 typeReference 
+0x1000a20d8 typeReference 
+0x1000a21ac typeReference 
+0x1000a2208 typeReference 
+0x1000a22e0 typeReference 
+
+FUNCTION 0x1000a2460  strings=[]
+0x1000a2488 typeReference 
+
+FUNCTION 0x1000a2514  strings=[]
+0x1000a2534 typeReference 
+
+FUNCTION 0x1000a274c  strings=[]
+0x1000a2780 typeReference 
+0x1000a27bc typeReference 
+0x1000a27f4 doubleBits 16.0
+0x1000a2808 typeReference 
+0x1000a284c floatImmediate 8.0
+0x1000a287c typeReference 
+
+FUNCTION 0x1000a28c8  strings=['"UserInterface/SystemInfoView.swift"']
+0x1000a28f8 typeReference 
+0x1000a2948 call type metadata accessor for SwiftUI.Image.ResizingMode
+0x1000a29c0 string "UserInterface/SystemInfoView.swift"
+0x1000a2a00 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000a2a3c call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+0x1000a2a6c doubleBits 24.0
+0x1000a2a74 doubleBits 24.0
+0x1000a2a7c call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000a2a4c:	e8 06 40 f9	ldr	x8, [x23, #0x8]
+1000a2a50:	e0 03 1a aa	mov	x0, x26
+1000a2a54:	e1 03 19 aa	mov	x1, x25
+1000a2a58:	00 01 3f d6	blr	x8
+1000a2a5c:	fa 8e 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000a2a60:	e4 03 00 aa	mov	x4, x0
+1000a2a64:	e5 03 01 aa	mov	x5, x1
+1000a2a68:	a8 23 02 d1	sub	x8, x29, #0x88
+1000a2a6c:	00 07 e8 d2	mov	x0, #0x4038000000000000
+1000a2a70:	01 00 80 52	mov	w1, #0x0
+1000a2a74:	02 07 e8 d2	mov	x2, #0x4038000000000000
+1000a2a78:	03 00 80 52	mov	w3, #0x0
+0x1000a2ab4 doubleBits 2.0
+0x1000a2ac8 typeReference 
+0x1000a2b70 typeReference 
+
+FUNCTION 0x1000a2c18  strings=['"UserInterface/SystemInfoView.swift"']
+0x1000a2c90 typeReference 
+0x1000a2d24 string "UserInterface/SystemInfoView.swift"
+0x1000a2d6c call static SwiftUI.Font.body.getter : SwiftUI.Font
+0x1000a2d88 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000a2e44 typeReference 
+0x1000a2e58 typeReference 
+0x1000a2eb8 call (extension in SwiftUI):SwiftUI.ForEach< where C: SwiftUI.View>.init(_: A, id: Swift.KeyPath<A.Element, B>, content: (A.Element) -> C) -> SwiftUI.ForEach<A, B, C>
+0x1000a2ec8 typeReference 
+0x1000a2eec typeReference 
+0x1000a2f80 floatImmediate 12.0
+0x1000a3008 doubleBits 1000.0
+0x1000a3018 floatImmediate 10.0
+0x1000a3030 floatImmediate 12.0
+0x1000a30ec typeReference 
+
+FUNCTION 0x1000a31f8  strings=['"UserInterface/SystemInfoView.swift"']
+0x1000a3260 string "UserInterface/SystemInfoView.swift"
+0x1000a3298 call static SwiftUI.Font.caption.getter : SwiftUI.Font
+0x1000a32b8 floatImmediate 12.0
+
+FUNCTION 0x1000a3320  strings=['"UserInterface/SystemInfoView.swift"']
+0x1000a3388 string "UserInterface/SystemInfoView.swift"
+
+FUNCTION 0x1000a35c4  strings=[]
+0x1000a35ec typeReference 
+
+FUNCTION 0x1000a3674  strings=[]
+0x1000a369c typeReference 
+
+FUNCTION 0x1000a36fc  strings=[]
+0x1000a3724 typeReference 
+
+FUNCTION 0x1000a3764  strings=[]
+0x1000a3788 typeReference 
+
+FUNCTION 0x1000a3864  strings=[]
+0x1000a388c typeReference 
+
+FUNCTION 0x1000a38ec  strings=[]
+0x1000a3974 floatImmediate 2.0
+0x1000a3a04 doubleBits 600.0
+0x1000a3a14 floatImmediate 22.0
+0x1000a3a58 typeReference 
+
+FUNCTION 0x1000a3b0c  strings=['"init(coder:) has not been implemented"', '"Fatal error"', '"UserInterface/BackgroundLayer.swift"']
+0x1000a3b1c string "init(coder:) has not been implemented"
+0x1000a3b34 string "Fatal error"
+0x1000a3b3c string "UserInterface/BackgroundLayer.swift"
+
+FUNCTION 0x1000a3b64  strings=['"UserInterface.BackgroundLayer"', '"init()"']
+0x1000a3b70 string "UserInterface.BackgroundLayer"
+0x1000a3b78 string "init()"
+
+FUNCTION 0x1000a3b90  strings=['"UserInterface.BackgroundLayer"', '"init(layer:)"']
+0x1000a3bc4 string "UserInterface.BackgroundLayer"
+0x1000a3bcc string "init(layer:)"
+
+FUNCTION 0x1000a3c04  strings=[]
+0x1000a3c68 typeReference 
+
+FUNCTION 0x1000a3f64  strings=[]
+0x1000a4094 floatImmediate 2.0
+
+FUNCTION 0x1000a4188  strings=[]
+0x1000a4330 floatImmediate 2.0
+0x1000a43d8 floatImmediate 1.0
+
+FUNCTION 0x1000a45d8  strings=['"UserInterface.RunnerLayer"', '"init()"']
+0x1000a45e4 string "UserInterface.RunnerLayer"
+0x1000a45ec string "init()"
+
+FUNCTION 0x1000a4604  strings=['"UserInterface.RunnerLayer"', '"init(layer:)"']
+0x1000a4638 string "UserInterface.RunnerLayer"
+0x1000a4640 string "init(layer:)"
+
+FUNCTION 0x1000a472c  strings=[]
+0x1000a4760 doubleBits 2.0
+0x1000a4798 typeReference 
+0x1000a47a8 typeReference 
+0x1000a4810 typeReference 
+
+FUNCTION 0x1000a48a8  strings=[]
+0x1000a48d4 doubleBits 2.0
+0x1000a490c typeReference 
+
+FUNCTION 0x1000a49ac  strings=['"init(coder:) has not been implemented"', '"Fatal error"', '"UserInterface/RunnerLayer.swift"']
+0x1000a4a54 string "init(coder:) has not been implemented"
+0x1000a4a6c string "Fatal error"
+0x1000a4a74 string "UserInterface/RunnerLayer.swift"
+
+FUNCTION 0x1000a4a9c  strings=[]
+0x1000a4ac8 call type metadata accessor for SwiftUI.TitleAndIconLabelStyle
+0x1000a4b08 typeReference 
+0x1000a4b48 typeReference 
+0x1000a4b80 call type metadata accessor for SwiftUI.IconOnlyLabelStyle
+0x1000a4bbc typeReference 
+0x1000a4bf8 call SwiftUI.IconOnlyLabelStyle.init() -> SwiftUI.IconOnlyLabelStyle
+0x1000a4c04 typeReference 
+0x1000a4c4c call (extension in SwiftUI):SwiftUI.View.labelStyle<A where A1: SwiftUI.LabelStyle>(A1) -> some
+0x1000a4d0c call SwiftUI.TitleAndIconLabelStyle.init() -> SwiftUI.TitleAndIconLabelStyle
+0x1000a4d18 typeReference 
+0x1000a4d64 call (extension in SwiftUI):SwiftUI.View.labelStyle<A where A1: SwiftUI.LabelStyle>(A1) -> some
+
+FUNCTION 0x1000a4e4c  strings=[]
+0x1000a4ec0 typeReference 
+0x1000a4efc typeReference 
+0x1000a4f74 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+0x1000a502c typeReference 
+
+FUNCTION 0x1000a50b4  strings=['"UserInterface/RunnerMenuBar.swift"']
+0x1000a5120 string "UserInterface/RunnerMenuBar.swift"
+
+FUNCTION 0x1000a5170  strings=['"UserInterface/RunnerMenuBar.swift"']
+0x1000a51f0 string "UserInterface/RunnerMenuBar.swift"
+0x1000a521c call SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image
+
+FUNCTION 0x1000a5248  strings=[]
+0x1000a530c doublePool 5.4707704e-315
+
+FUNCTION 0x1000a5490  strings=['"UserInterface/RunnerMenuBar.swift"']
+0x1000a5724 string "UserInterface/RunnerMenuBar.swift"
+0x1000a5848 floatImmediate 0.5
+0x1000a5988 typeReference 
+
+FUNCTION 0x1000a5d64  strings=['"UserInterface/RunnerMenuBar.swift"']
+0x1000a5de0 string "UserInterface/RunnerMenuBar.swift"
+
+FUNCTION 0x1000a5ffc  strings=[]
+0x1000a60a8 call (extension in AppKit):__C.NSImage.init(resource: DeveloperToolsSupport.ImageResource) -> __C.NSImage
+
+FUNCTION 0x1000a60dc  strings=[]
+0x1000a613c floatImmediate 2.0
+
+FUNCTION 0x1000a61ec  strings=['"UserInterface/RunnerMenuBar.swift"']
+0x1000a6284 string "UserInterface/RunnerMenuBar.swift"
+
+FUNCTION 0x1000a6554  strings=[]
+0x1000a6570 typeReference 
+
+FUNCTION 0x1000a659c  strings=[]
+0x1000a65b4 typeReference 
+
+FUNCTION 0x1000a6730  strings=[]
+0x1000a6750 typeReference 
+
+FUNCTION 0x1000a67c8  strings=[]
+0x1000a67f0 typeReference 
+
+FUNCTION 0x1000a6850  strings=[]
+0x1000a6880 typeReference 
+0x1000a6890 typeReference 
+0x1000a689c call type metadata accessor for SwiftUI.IconOnlyLabelStyle
+0x1000a68f4 call type metadata accessor for SwiftUI.TitleAndIconLabelStyle
+
+FUNCTION 0x1000a6a60  strings=[]
+0x1000a6a60 call (extension in SwiftUI):SwiftUI.NSViewRepresentable._overrideLayoutTraits(_: inout SwiftUI._LayoutTraits, for: A.NSViewType) -> ()
+
+FUNCTION 0x1000a6a6c  strings=[]
+0x1000a6a6c call static (extension in SwiftUI):SwiftUI.NSViewRepresentable._layoutOptions(A.NSViewType) -> SwiftUI._PlatformViewRepresentableLayoutOptions
+
+FUNCTION 0x1000a6b34  strings=[]
+0x1000a6c80 doubleBits 100.0
+
+FUNCTION 0x1000a710c  strings=['"UserInterface/RestoreView.swift"']
+0x1000a7144 typeReference 
+0x1000a71d4 string "UserInterface/RestoreView.swift"
+0x1000a7220 doubleBits 100.0
+0x1000a7228 doubleBits 36.0
+0x1000a7230 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000a7200:	01 e0 fc d2	mov	x1, #-0x1900000000000000
+1000a7204:	22 00 80 52	mov	w2, #0x1
+1000a7208:	4b fe ff 97	bl	0x1000a6b34
+1000a720c:	f3 03 00 aa	mov	x19, x0
+1000a7210:	0d 7d 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000a7214:	e4 03 00 aa	mov	x4, x0
+1000a7218:	e5 03 01 aa	mov	x5, x1
+1000a721c:	a8 03 02 d1	sub	x8, x29, #0x80
+1000a7220:	20 0b e8 d2	mov	x0, #0x4059000000000000
+1000a7224:	01 00 80 52	mov	w1, #0x0
+1000a7228:	42 08 e8 d2	mov	x2, #0x4042000000000000
+1000a722c:	03 00 80 52	mov	w3, #0x0
+0x1000a7250 doubleBits 8.0
+0x1000a7264 typeReference 
+0x1000a72c0 typeReference 
+
+FUNCTION 0x1000a732c  strings=['"UserInterface/RestoreView.swift"']
+0x1000a7364 typeReference 
+0x1000a7400 string "UserInterface/RestoreView.swift"
+0x1000a7480 call static SwiftUI.Font.title3.getter : SwiftUI.Font
+0x1000a7498 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000a75b0 typeReference 
+
+FUNCTION 0x1000a763c  strings=['"UserInterface/RestoreView.swift"']
+0x1000a7670 typeReference 
+0x1000a76e4 string "UserInterface/RestoreView.swift"
+
+FUNCTION 0x1000a7830  strings=['"UserInterface/RestoreView.swift"']
+0x1000a7890 string "UserInterface/RestoreView.swift"
+
+FUNCTION 0x1000a793c  strings=[]
+0x1000a7968 typeReference 
+0x1000a79a8 doubleBits 16.0
+0x1000a79bc typeReference 
+
+FUNCTION 0x1000a7b40  strings=[]
+0x1000a7b68 typeReference 
+
+FUNCTION 0x1000a7bb0  strings=[]
+0x1000a7bd0 typeReference 
+
+FUNCTION 0x1000a7c38  strings=['"Contradictory frame constraints specified."']
+0x1000a7d14 string "Contradictory frame constraints specified."
+0x1000a7d84 call SwiftUI._FlexFrameLayout.init(minWidth: CoreGraphics.CGFloat?, idealWidth: CoreGraphics.CGFloat?, maxWidth: CoreGraphics.CGFloat?, minHeight: CoreGraphics.CGFloat?, idealHeight: CoreGraphics.CGFloat?, maxHeight: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FlexFrameLayout
+1000a7d54:	49 03 00 12	and	w9, w26, #0x1
+1000a7d58:	2a 03 00 12	and	w10, w25, #0x1
+1000a7d5c:	f7 73 02 a9	stp	x23, x28, [sp, #0x20]
+1000a7d60:	e8 a3 01 91	add	x8, sp, #0x68
+1000a7d64:	21 00 00 12	and	w1, w1, #0x1
+1000a7d68:	ea 63 00 39	strb	w10, [sp, #0x18]
+1000a7d6c:	fb 0b 00 f9	str	x27, [sp, #0x10]
+1000a7d70:	e9 23 00 39	strb	w9, [sp, #0x8]
+1000a7d74:	f3 03 00 f9	str	x19, [sp]
+1000a7d78:	63 00 00 12	and	w3, w3, #0x1
+1000a7d7c:	a5 00 00 12	and	w5, w5, #0x1
+1000a7d80:	e7 00 00 12	and	w7, w7, #0x1
+0x1000a7da4 typeReference 
+
+FUNCTION 0x1000a7dfc  strings=['"Contradictory frame constraints specified."']
+0x1000a7ed8 string "Contradictory frame constraints specified."
+0x1000a7f48 call SwiftUI._FlexFrameLayout.init(minWidth: CoreGraphics.CGFloat?, idealWidth: CoreGraphics.CGFloat?, maxWidth: CoreGraphics.CGFloat?, minHeight: CoreGraphics.CGFloat?, idealHeight: CoreGraphics.CGFloat?, maxHeight: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FlexFrameLayout
+1000a7f18:	49 03 00 12	and	w9, w26, #0x1
+1000a7f1c:	2a 03 00 12	and	w10, w25, #0x1
+1000a7f20:	f7 73 02 a9	stp	x23, x28, [sp, #0x20]
+1000a7f24:	e8 a3 01 91	add	x8, sp, #0x68
+1000a7f28:	21 00 00 12	and	w1, w1, #0x1
+1000a7f2c:	ea 63 00 39	strb	w10, [sp, #0x18]
+1000a7f30:	fb 0b 00 f9	str	x27, [sp, #0x10]
+1000a7f34:	e9 23 00 39	strb	w9, [sp, #0x8]
+1000a7f38:	f3 03 00 f9	str	x19, [sp]
+1000a7f3c:	63 00 00 12	and	w3, w3, #0x1
+1000a7f40:	a5 00 00 12	and	w5, w5, #0x1
+1000a7f44:	e7 00 00 12	and	w7, w7, #0x1
+0x1000a7f54 typeReference 
+0x1000a7f78 typeReference 
+
+FUNCTION 0x1000a7fd0  strings=['"Contradictory frame constraints specified."']
+0x1000a80c4 string "Contradictory frame constraints specified."
+0x1000a8144 call SwiftUI._FlexFrameLayout.init(minWidth: CoreGraphics.CGFloat?, idealWidth: CoreGraphics.CGFloat?, maxWidth: CoreGraphics.CGFloat?, minHeight: CoreGraphics.CGFloat?, idealHeight: CoreGraphics.CGFloat?, maxHeight: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FlexFrameLayout
+1000a8114:	29 01 00 12	and	w9, w9, #0x1
+1000a8118:	ea 02 00 12	and	w10, w23, #0x1
+1000a811c:	f6 6b 02 a9	stp	x22, x26, [sp, #0x20]
+1000a8120:	e8 23 02 91	add	x8, sp, #0x88
+1000a8124:	21 00 00 12	and	w1, w1, #0x1
+1000a8128:	ea 63 00 39	strb	w10, [sp, #0x18]
+1000a812c:	eb 0b 00 f9	str	x11, [sp, #0x10]
+1000a8130:	e9 23 00 39	strb	w9, [sp, #0x8]
+1000a8134:	ec 03 00 f9	str	x12, [sp]
+1000a8138:	63 00 00 12	and	w3, w3, #0x1
+1000a813c:	a5 00 00 12	and	w5, w5, #0x1
+1000a8140:	e7 00 00 12	and	w7, w7, #0x1
+
+FUNCTION 0x1000a81b4  strings=[]
+0x1000a8220 typeReference 
+0x1000a825c typeReference 
+0x1000a8298 typeReference 
+0x1000a82e0 typeReference 
+0x1000a832c typeReference 
+0x1000a8380 typeReference 
+0x1000a83c4 doubleBits 450.0
+0x1000a83d4 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000a83a4:	21 00 80 52	mov	w1, #0x1
+1000a83a8:	e4 03 17 aa	mov	x4, x23
+1000a83ac:	88 75 02 94	bl	0x1001459cc ; symbol stub for: _$s7SwiftUI10ScrollViewV_15showsIndicators7contentACyxGAA4AxisO3SetV_SbxyXEtcfC
+1000a83b0:	a5 78 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000a83b4:	e4 03 00 aa	mov	x4, x0
+1000a83b8:	e5 03 01 aa	mov	x5, x1
+1000a83bc:	a8 23 02 d1	sub	x8, x29, #0x88
+1000a83c0:	00 00 c4 d2	mov	x0, #0x200000000000
+1000a83c4:	80 0f e8 f2	movk	x0, #0x407c, lsl #48
+1000a83c8:	01 00 80 52	mov	w1, #0x0
+1000a83cc:	02 00 80 d2	mov	x2, #0x0
+1000a83d0:	23 00 80 52	mov	w3, #0x1
+0x1000a842c doubleBits 1000.0
+0x1000a8438 doubleBits 350.0
+0x1000a844c doubleBits 350.0
+0x1000a846c doubleBits 300.0
+0x1000a84b4 typeReference 
+0x1000a853c call SwiftUI.ObservedObject.Wrapper.subscript.getter : <A>(dynamicMember: Swift.ReferenceWritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000a85a0 typeReference 
+0x1000a8790 typeReference 
+
+FUNCTION 0x1000a87f0  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000a8858 typeReference 
+0x1000a8894 typeReference 
+0x1000a8924 string "UserInterface/RunnersStoreView.swift"
+0x1000a89ac typeReference 
+0x1000a89cc doubleBits 16.0
+0x1000a89e0 call SwiftUI.LazyVStack.init(alignment: SwiftUI.HorizontalAlignment, spacing: CoreGraphics.CGFloat?, pinnedViews: SwiftUI.PinnedScrollableViews, content: () -> A) -> SwiftUI.LazyVStack<A>
+0x1000a8aec typeReference 
+
+FUNCTION 0x1000a8b3c  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000a8b6c typeReference 
+0x1000a8ba8 typeReference 
+0x1000a8c0c typeReference 
+0x1000a8c4c typeReference 
+0x1000a8cdc string "UserInterface/RunnersStoreView.swift"
+0x1000a8e48 typeReference 
+0x1000a8e5c typeReference 
+0x1000a8f14 typeReference 
+
+FUNCTION 0x1000a96a4  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000a976c string "UserInterface/RunnersStoreView.swift"
+0x1000a97fc typeReference 
+0x1000a9830 doubleBits 8.0
+0x1000a9844 call SwiftUI.LazyVStack.init(alignment: SwiftUI.HorizontalAlignment, spacing: CoreGraphics.CGFloat?, pinnedViews: SwiftUI.PinnedScrollableViews, content: () -> A) -> SwiftUI.LazyVStack<A>
+
+FUNCTION 0x1000a9874  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000a98ac typeReference 
+0x1000a9964 string "UserInterface/RunnersStoreView.swift"
+0x1000a99fc call static SwiftUI.Font.headline.getter : SwiftUI.Font
+0x1000a9a14 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000a9ab0 typeReference 
+0x1000a9b9c typeReference 
+
+FUNCTION 0x1000a9c28  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000a9ca4 string "UserInterface/RunnersStoreView.swift"
+
+FUNCTION 0x1000aa0a8  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000aa0d4 call type metadata accessor for SwiftUI.Color.RGBColorSpace
+0x1000aa110 typeReference 
+0x1000aa14c typeReference 
+0x1000aa184 typeReference 
+0x1000aa210 string "UserInterface/RunnersStoreView.swift"
+0x1000aa318 doublePool 0.1
+0x1000aa320 doublePool 0.4
+0x1000aa328 call SwiftUI.Color.init(_: SwiftUI.Color.RGBColorSpace, white: Swift.Double, opacity: Swift.Double) -> SwiftUI.Color
+0x1000aa358 typeReference 
+0x1000aa3a0 typeReference 
+
+FUNCTION 0x1000aa3fc  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000aa464 string "UserInterface/RunnersStoreView.swift"
+
+FUNCTION 0x1000aa494  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000aa510 string "UserInterface/RunnersStoreView.swift"
+
+FUNCTION 0x1000aa648  strings=[]
+0x1000aa6d0 typeReference 
+
+FUNCTION 0x1000aa8d0  strings=['"UserInterface/RunnersStoreView.swift"']
+0x1000aa8f8 typeReference 
+0x1000aa988 string "UserInterface/RunnersStoreView.swift"
+
+FUNCTION 0x1000aaf18  strings=[]
+0x1000aaf40 typeReference 
+
+FUNCTION 0x1000aafa0  strings=[]
+0x1000aafc8 typeReference 
+
+FUNCTION 0x1000ab078  strings=[]
+0x1000ab0a0 typeReference 
+
+FUNCTION 0x1000ab120  strings=[]
+0x1000ab148 typeReference 
+
+FUNCTION 0x1000ab1e8  strings=[]
+0x1000ab20c typeReference 
+
+FUNCTION 0x1000ab2a0  strings=[]
+0x1000ab2bc typeReference 
+
+FUNCTION 0x1000ab2e8  strings=[]
+0x1000ab300 typeReference 
+
+FUNCTION 0x1000ab3d4  strings=[]
+0x1000ab3fc typeReference 
+
+FUNCTION 0x1000ab6ec  strings=[]
+0x1000ab71c typeReference 
+0x1000ab72c typeReference 
+0x1000ab73c typeReference 
+
+FUNCTION 0x1000abed8  strings=['"UserInterface/StockView.swift"']
+0x1000abf08 typeReference 
+0x1000abf9c string "UserInterface/StockView.swift"
+0x1000ac024 typeReference 
+0x1000ac098 doubleBits 100.0
+0x1000ac0a0 doubleBits 36.0
+0x1000ac0a8 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000ac078:	e0 03 14 aa	mov	x0, x20
+1000ac07c:	e1 03 1a aa	mov	x1, x26
+1000ac080:	ad ea ff 97	bl	0x1000a6b34
+1000ac084:	f4 03 00 aa	mov	x20, x0
+1000ac088:	6f 69 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000ac08c:	e4 03 00 aa	mov	x4, x0
+1000ac090:	e5 03 01 aa	mov	x5, x1
+1000ac094:	a8 03 02 d1	sub	x8, x29, #0x80
+1000ac098:	20 0b e8 d2	mov	x0, #0x4059000000000000
+1000ac09c:	01 00 80 52	mov	w1, #0x0
+1000ac0a0:	42 08 e8 d2	mov	x2, #0x4042000000000000
+1000ac0a4:	03 00 80 52	mov	w3, #0x0
+0x1000ac0dc typeReference 
+0x1000ac128 typeReference 
+
+FUNCTION 0x1000ac194  strings=['"UserInterface/StockView.swift"']
+0x1000ac1c4 typeReference 
+0x1000ac254 string "UserInterface/StockView.swift"
+0x1000ac274 doubleBits 8.0
+0x1000ac288 typeReference 
+0x1000ac2ec call static SwiftUI.Font.caption.getter : SwiftUI.Font
+0x1000ac304 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000ac338 call static SwiftUI.HierarchicalShapeStyle.secondary.getter : SwiftUI.HierarchicalShapeStyle
+0x1000ac364 call SwiftUI.Text.foregroundStyle<A where A: SwiftUI.ShapeStyle>(A) -> SwiftUI.Text
+0x1000ac3c8 typeReference 
+
+FUNCTION 0x1000ac454  strings=['"UserInterface/StockView.swift"']
+0x1000ac4c4 typeReference 
+0x1000ac504 typeReference 
+0x1000ac59c string "UserInterface/StockView.swift"
+0x1000ac608 call static SwiftUI.Font.title3.getter : SwiftUI.Font
+0x1000ac620 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000ac680 call static SwiftUI.Font.body.getter : SwiftUI.Font
+0x1000ac698 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000ac858 typeReference 
+
+FUNCTION 0x1000ac920  strings=['"UserInterface/StockView.swift"']
+0x1000ac97c typeReference 
+0x1000ac9f0 string "UserInterface/StockView.swift"
+
+FUNCTION 0x1000acbfc  strings=['"UserInterface/StockView.swift"']
+0x1000acc58 string "UserInterface/StockView.swift"
+
+FUNCTION 0x1000acd0c  strings=[]
+0x1000acd2c typeReference 
+0x1000acd60 doubleBits 16.0
+0x1000acd74 typeReference 
+
+FUNCTION 0x1000ad088  strings=[]
+0x1000ad0b0 typeReference 
+
+FUNCTION 0x1000ad130  strings=[]
+0x1000ad164 call type metadata accessor for SwiftUI.Color.RGBColorSpace
+0x1000ad1a0 call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x1000ad214 typeReference 
+0x1000ad250 typeReference 
+0x1000ad28c typeReference 
+0x1000ad2c4 floatImmediate 8.0
+0x1000ad2e4 typeReference 
+0x1000ad338 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000ad374 floatImmediate 8.0
+0x1000ad394 typeReference 
+0x1000ad3a8 typeReference 
+0x1000ad414 typeReference 
+0x1000ad46c doublePool 0.33
+0x1000ad478 call SwiftUI.Color.init(_: SwiftUI.Color.RGBColorSpace, white: Swift.Double, opacity: Swift.Double) -> SwiftUI.Color
+0x1000ad4a4 typeReference 
+0x1000ad4c0 doubleBits 2.0
+
+FUNCTION 0x1000ad4fc  strings=['"UserInterface/StoreItemViewModifier.swift"']
+0x1000ad590 string "UserInterface/StoreItemViewModifier.swift"
+0x1000ad5c0 call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x1000ad5dc floatImmediate 8.0
+0x1000ad604 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000ad618 floatImmediate 1.0
+0x1000ad61c floatImmediate 10.0
+0x1000ad62c call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000ad640 floatImmediate 0.5
+0x1000ad650 typeReference 
+0x1000ad680 typeReference 
+0x1000ad6a8 typeReference 
+0x1000ad6d4 typeReference 
+
+FUNCTION 0x1000ad714  strings=[]
+0x1000ad730 typeReference 
+
+FUNCTION 0x1000ad75c  strings=[]
+0x1000ad774 typeReference 
+
+FUNCTION 0x1000ad7f4  strings=[]
+0x1000ad81c typeReference 
+
+FUNCTION 0x1000ad87c  strings=[]
+0x1000ad8a4 typeReference 
+
+FUNCTION 0x1000ad904  strings=[]
+0x1000ad92c typeReference 
+
+FUNCTION 0x1000ad9cc  strings=['"UserInterface/StoreUnavailableView.swift"']
+0x1000ada40 typeReference 
+0x1000adab4 string "UserInterface/StoreUnavailableView.swift"
+0x1000adb44 typeReference 
+0x1000adbc4 typeReference 
+0x1000adbdc typeReference 
+
+FUNCTION 0x1000adc5c  strings=['"UserInterface/StoreUnavailableView.swift"']
+0x1000adc90 typeReference 
+0x1000add04 string "UserInterface/StoreUnavailableView.swift"
+
+FUNCTION 0x1000addd4  strings=['"UserInterface/StoreUnavailableView.swift"']
+0x1000ade50 string "UserInterface/StoreUnavailableView.swift"
+0x1000adec8 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x1000adef4  strings=['"UserInterface/StoreUnavailableView.swift"']
+0x1000adf60 string "UserInterface/StoreUnavailableView.swift"
+
+FUNCTION 0x1000ae038  strings=['"UserInterface/StoreUnavailableView.swift"']
+0x1000ae09c string "UserInterface/StoreUnavailableView.swift"
+0x1000ae0c0 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x1000ae0ec  strings=[]
+0x1000ae140 typeReference 
+0x1000ae150 typeReference 
+
+FUNCTION 0x1000ae214  strings=[]
+0x1000ae23c typeReference 
+
+FUNCTION 0x1000ae864  strings=['"UserInterface/BottomControlsView.swift"']
+0x1000ae8e8 string "UserInterface/BottomControlsView.swift"
+0x1000ae90c typeReference 
+0x1000ae94c typeReference 
+0x1000ae9e0 typeReference 
+0x1000aea28 typeReference 
+0x1000aeab0 typeReference 
+0x1000aeae8 call type metadata accessor for SwiftUI.BorderlessButtonStyle
+0x1000aeb2c call SwiftUI.BorderlessButtonStyle.init() -> SwiftUI.BorderlessButtonStyle
+0x1000aeb90 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000aebe4 typeReference 
+0x1000aecd0 typeReference 
+0x1000aeea8 typeReference 
+0x1000aeef0 typeReference 
+0x1000af0b8 typeReference 
+
+FUNCTION 0x1000af22c  strings=['"UserInterface/BottomControlsView.swift"']
+0x1000af298 string "UserInterface/BottomControlsView.swift"
+0x1000af2cc call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000af2d4 call static SwiftUI.Color.yellow.getter : SwiftUI.Color
+
+FUNCTION 0x1000af2f8  strings=['"UserInterface/BottomControlsView.swift"']
+0x1000af37c string "UserInterface/BottomControlsView.swift"
+0x1000af414 doubleBits 250.0
+0x1000af424 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000af3f4:	f6 03 01 aa	mov	x22, x1
+1000af3f8:	f7 03 02 aa	mov	x23, x2
+1000af3fc:	f8 03 03 aa	mov	x24, x3
+1000af400:	91 5c 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000af404:	e4 03 00 aa	mov	x4, x0
+1000af408:	e5 03 01 aa	mov	x5, x1
+1000af40c:	e8 43 00 91	add	x8, sp, #0x10
+1000af410:	00 00 c8 d2	mov	x0, #0x400000000000
+1000af414:	e0 0d e8 f2	movk	x0, #0x406f, lsl #48
+1000af418:	01 00 80 52	mov	w1, #0x0
+1000af41c:	02 00 80 d2	mov	x2, #0x0
+1000af420:	23 00 80 52	mov	w3, #0x1
+0x1000af438 floatImmediate 8.0
+
+FUNCTION 0x1000af4a8  strings=['"UserInterface/BottomControlsView.swift"']
+0x1000af4dc typeReference 
+0x1000af56c string "UserInterface/BottomControlsView.swift"
+
+FUNCTION 0x1000af6a4  strings=['"UserInterface/BottomControlsView.swift"']
+0x1000af71c string "UserInterface/BottomControlsView.swift"
+
+FUNCTION 0x1000af7d0  strings=[]
+0x1000af800 doubleBits 8.0
+0x1000af814 typeReference 
+
+FUNCTION 0x1000af8d0  strings=[]
+0x1000af8f8 typeReference 
+
+FUNCTION 0x1000af9f4  strings=[]
+0x1000afa10 typeReference 
+
+FUNCTION 0x1000afa3c  strings=[]
+0x1000afa58 typeReference 
+
+FUNCTION 0x1000afa84  strings=[]
+0x1000afa9c typeReference 
+
+FUNCTION 0x1000afac4  strings=[]
+0x1000afadc typeReference 
+
+FUNCTION 0x1000afdf0  strings=[]
+0x1000afe28 floatImmediate 10.0
+0x1000afe38 call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000afe40 floatImmediate 0.5
+
+FUNCTION 0x1000aff60  strings=[]
+0x1000aff98 floatImmediate 10.0
+0x1000affa8 call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000affb0 floatImmediate 0.5
+
+FUNCTION 0x1000b00e4  strings=[]
+0x1000b012c floatImmediate 10.0
+0x1000b013c call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000b0144 floatImmediate 0.5
+
+FUNCTION 0x1000b026c  strings=[]
+0x1000b02a4 floatImmediate 10.0
+0x1000b02b4 call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000b02bc floatImmediate 0.5
+
+FUNCTION 0x1000b03ec  strings=[]
+0x1000b042c floatImmediate 10.0
+0x1000b043c call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000b0444 floatImmediate 0.5
+0x1000b04cc typeReference 
+
+FUNCTION 0x1000b0568  strings=[]
+0x1000b05dc typeReference 
+0x1000b0610 doubleBits 8.0
+0x1000b0624 typeReference 
+0x1000b0698 typeReference 
+
+FUNCTION 0x1000b0724  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b075c typeReference 
+0x1000b0794 typeReference 
+0x1000b07d0 typeReference 
+0x1000b087c string "UserInterface/RegisteredRunnersListView.swift"
+0x1000b090c typeReference 
+0x1000b093c doubleBits 130.0
+0x1000b094c call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000b091c:	e0 03 1a aa	mov	x0, x26
+1000b0920:	a2 8f 75 a9	ldp	x2, x3, [x29, #-0xa8]
+1000b0924:	62 00 00 94	bl	0x1000b0aac
+1000b0928:	47 57 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000b092c:	e4 03 00 aa	mov	x4, x0
+1000b0930:	e5 03 01 aa	mov	x5, x1
+1000b0934:	a8 03 02 d1	sub	x8, x29, #0x80
+1000b0938:	00 00 c8 d2	mov	x0, #0x400000000000
+1000b093c:	00 0c e8 f2	movk	x0, #0x4060, lsl #48
+1000b0940:	01 00 80 52	mov	w1, #0x0
+1000b0944:	02 00 80 d2	mov	x2, #0x0
+1000b0948:	23 00 80 52	mov	w3, #0x1
+0x1000b09b0 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000b09c8 floatImmediate 1.0
+0x1000b0a24 typeReference 
+
+FUNCTION 0x1000b0aac  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b0af0 typeReference 
+0x1000b0bc0 call type metadata accessor for SwiftUI.PlainListStyle
+0x1000b0c08 typeReference 
+0x1000b0c50 typeReference 
+0x1000b0d1c string "UserInterface/RegisteredRunnersListView.swift"
+0x1000b0d50 typeReference 
+0x1000b0d98 typeReference 
+0x1000b0da8 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b0e3c typeReference 
+0x1000b0e84 call SwiftUI.PlainListStyle.init() -> SwiftUI.PlainListStyle
+0x1000b0edc call (extension in SwiftUI):SwiftUI.View.listStyle<A where A1: SwiftUI.ListStyle>(A1) -> some
+0x1000b0f40 typeReference 
+0x1000b0ff4 typeReference 
+
+FUNCTION 0x1000b10bc  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b114c string "UserInterface/RegisteredRunnersListView.swift"
+0x1000b1174 typeReference 
+0x1000b11e8 typeReference 
+0x1000b11f8 typeReference 
+
+FUNCTION 0x1000b1284  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b1338 string "UserInterface/RegisteredRunnersListView.swift"
+
+FUNCTION 0x1000b1508  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b1540 typeReference 
+0x1000b1580 typeReference 
+0x1000b15bc typeReference 
+0x1000b168c string "UserInterface/RegisteredRunnersListView.swift"
+0x1000b1768 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000b178c typeReference 
+0x1000b1884 typeReference 
+
+FUNCTION 0x1000b18dc  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b1910 typeReference 
+0x1000b19a0 string "UserInterface/RegisteredRunnersListView.swift"
+
+FUNCTION 0x1000b1b10  strings=[]
+0x1000b1b48 typeReference 
+
+FUNCTION 0x1000b1d54  strings=['"UserInterface/RegisteredRunnersListView.swift"']
+0x1000b1dc0 string "UserInterface/RegisteredRunnersListView.swift"
+0x1000b1dec call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x1000b1ea8  strings=[]
+0x1000b1ee0 typeReference 
+0x1000b1f0c typeReference 
+
+FUNCTION 0x1000b22f8  strings=[]
+0x1000b2320 typeReference 
+
+FUNCTION 0x1000b2360  strings=[]
+0x1000b2388 typeReference 
+
+FUNCTION 0x1000b23e8  strings=[]
+0x1000b2410 typeReference 
+
+FUNCTION 0x1000b24e0  strings=[]
+0x1000b24fc typeReference 
+
+FUNCTION 0x1000b27d4  strings=[]
+0x1000b27fc typeReference 
+
+FUNCTION 0x1000b2904  strings=[]
+0x1000b2920 typeReference 
+
+FUNCTION 0x1000b2bcc  strings=[]
+0x1000b2c38 typeReference 
+0x1000b2c74 typeReference 
+0x1000b2cc0 typeReference 
+0x1000b2ce8 typeReference 
+0x1000b2d20 typeReference 
+0x1000b2d34 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b2d68 typeReference 
+0x1000b2ef0 typeReference 
+
+FUNCTION 0x1000b2f8c  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b2fbc call type metadata accessor for SwiftUI.ColumnsFormStyle
+0x1000b3000 typeReference 
+0x1000b303c typeReference 
+0x1000b3108 string "UserInterface/RegistrationFormView.swift"
+0x1000b3154 typeReference 
+0x1000b3198 call static (extension in SwiftUI):SwiftUI.FormStyle< where A == SwiftUI.ColumnsFormStyle>.columns.getter : SwiftUI.ColumnsFormStyle
+0x1000b31f8 call (extension in SwiftUI):SwiftUI.View.formStyle<A where A1: SwiftUI.FormStyle>(A1) -> some
+0x1000b324c typeReference 
+0x1000b3288 typeReference 
+0x1000b329c call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b3440 typeReference 
+
+FUNCTION 0x1000b3614  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b3648 typeReference 
+0x1000b36b0 typeReference 
+0x1000b3714 typeReference 
+0x1000b3774 typeReference 
+0x1000b37e0 typeReference 
+0x1000b38a0 string "UserInterface/RegistrationFormView.swift"
+0x1000b38cc typeReference 
+0x1000b3904 typeReference 
+0x1000b3914 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b3a00 typeReference 
+0x1000b3a54 call (extension in SwiftUI):SwiftUI.LabeledContent< where A: SwiftUI.View, B: SwiftUI.View>.init(content: () -> B, label: () -> A) -> SwiftUI.LabeledContent<A, B>
+0x1000b3aac typeReference 
+0x1000b3af8 call (extension in SwiftUI):SwiftUI.LabeledContent< where A: SwiftUI.View, B: SwiftUI.View>.init(content: () -> B, label: () -> A) -> SwiftUI.LabeledContent<A, B>
+0x1000b3b9c call (extension in SwiftUI):SwiftUI.LabeledContent< where A: SwiftUI.View, B: SwiftUI.View>.init(content: () -> B, label: () -> A) -> SwiftUI.LabeledContent<A, B>
+0x1000b3c40 call (extension in SwiftUI):SwiftUI.LabeledContent< where A: SwiftUI.View, B: SwiftUI.View>.init(content: () -> B, label: () -> A) -> SwiftUI.LabeledContent<A, B>
+0x1000b3d10 typeReference 
+
+FUNCTION 0x1000b3e6c  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b3eec string "UserInterface/RegistrationFormView.swift"
+0x1000b3f18 typeReference 
+0x1000b3f50 typeReference 
+0x1000b3f64 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+
+FUNCTION 0x1000b3ffc  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b4080 string "UserInterface/RegistrationFormView.swift"
+
+FUNCTION 0x1000b4138  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b41b8 string "UserInterface/RegistrationFormView.swift"
+
+FUNCTION 0x1000b42a4  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b4328 string "UserInterface/RegistrationFormView.swift"
+
+FUNCTION 0x1000b4574  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b45a0 call type metadata accessor for SwiftUI.GridItem.Size
+1000b4574:	fc 6f ba a9	stp	x28, x27, [sp, #-0x60]!
+1000b4578:	fa 67 01 a9	stp	x26, x25, [sp, #0x10]
+1000b457c:	f8 5f 02 a9	stp	x24, x23, [sp, #0x20]
+1000b4580:	f6 57 03 a9	stp	x22, x21, [sp, #0x30]
+1000b4584:	f4 4f 04 a9	stp	x20, x19, [sp, #0x40]
+1000b4588:	fd 7b 05 a9	stp	x29, x30, [sp, #0x50]
+1000b458c:	fd 43 01 91	add	x29, sp, #0x50
+1000b4590:	ff c3 03 d1	sub	sp, sp, #0xf0
+1000b4594:	fc 03 00 aa	mov	x28, x0
+1000b4598:	a8 83 14 f8	stur	x8, [x29, #-0xb8]
+1000b459c:	00 00 80 d2	mov	x0, #0x0
+0x1000b45dc call type metadata accessor for SwiftUI.GridItem
+1000b45ac:	08 21 40 f9	ldr	x8, [x8, #0x40]
+1000b45b0:	e9 03 08 aa	mov	x9, x8
+1000b45b4:	f0 06 00 90	adrp	x16, 220 ; 0x100190000
+1000b45b8:	10 0e 46 f9	ldr	x16, [x16, #0xc18] ; literal pool symbol address: ___chkstk_darwin
+1000b45bc:	00 02 3f d6	blr	x16
+1000b45c0:	e9 03 00 91	mov	x9, sp
+1000b45c4:	08 3d 00 91	add	x8, x8, #0xf
+1000b45c8:	08 ed 7c 92	and	x8, x8, #0xfffffffffffffff0
+1000b45cc:	28 01 08 cb	sub	x8, x9, x8
+1000b45d0:	a8 83 12 f8	stur	x8, [x29, #-0xd8]
+1000b45d4:	1f 01 00 91	mov	sp, x8
+1000b45d8:	00 00 80 d2	mov	x0, #0x0
+0x1000b4618 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000b4664 typeReference 
+0x1000b4754 string "UserInterface/RegistrationFormView.swift"
+0x1000b4780 typeReference 
+0x1000b47bc typeReference 
+0x1000b47d0 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b4854 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000b4bbc doubleBits 4.0
+0x1000b4bd0 call SwiftUI.GridItem.init(_: SwiftUI.GridItem.Size, spacing: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment?) -> SwiftUI.GridItem
+1000b4ba0:	e0 03 14 aa	mov	x0, x20
+1000b4ba4:	57 4c 02 94	bl	0x100147d00 ; symbol stub for: _swift_retain
+1000b4ba8:	a0 83 01 d1	sub	x0, x29, #0x60
+1000b4bac:	2a 4c ff 97	bl	0x100087c54
+1000b4bb0:	bb 03 53 f8	ldur	x27, [x29, #-0xd0]
+1000b4bb4:	e8 03 1b aa	mov	x8, x27
+1000b4bb8:	e0 03 13 aa	mov	x0, x19
+1000b4bbc:	01 02 e8 d2	mov	x1, #0x4010000000000000
+1000b4bc0:	02 00 80 52	mov	w2, #0x0
+1000b4bc4:	03 00 80 d2	mov	x3, #0x0
+1000b4bc8:	04 00 80 d2	mov	x4, #0x0
+1000b4bcc:	25 00 80 52	mov	w5, #0x1
+
+FUNCTION 0x1000b4cc0  strings=[]
+0x1000b4ce0 typeReference 
+
+FUNCTION 0x1000b4df8  strings=[]
+0x1000b4e34 typeReference 
+
+FUNCTION 0x1000b50fc  strings=[]
+0x1000b5138 typeReference 
+
+FUNCTION 0x1000b543c  strings=[]
+0x1000b5478 typeReference 
+
+FUNCTION 0x1000b55b4  strings=[]
+0x1000b55ec typeReference 
+
+FUNCTION 0x1000b58e4  strings=[]
+0x1000b591c typeReference 
+
+FUNCTION 0x1000b5bd8  strings=[]
+0x1000b5c10 typeReference 
+
+FUNCTION 0x1000b5c84  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b5cb4 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000b5da0 string "UserInterface/RegistrationFormView.swift"
+0x1000b5dcc typeReference 
+0x1000b5e08 typeReference 
+0x1000b5e18 call SwiftUI.Binding.subscript.getter : <A>(dynamicMember: Swift.WritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+
+FUNCTION 0x1000b6088  strings=[]
+0x1000b60c0 typeReference 
+
+FUNCTION 0x1000b61f0  strings=[]
+0x1000b6228 typeReference 
+
+FUNCTION 0x1000b6358  strings=[]
+0x1000b6390 typeReference 
+
+FUNCTION 0x1000b6404  strings=['"UserInterface/RegistrationFormView.swift"']
+0x1000b6438 typeReference 
+0x1000b64c8 string "UserInterface/RegistrationFormView.swift"
+
+FUNCTION 0x1000b66a0  strings=[]
+0x1000b66e4 typeReference 
+
+FUNCTION 0x1000b6830  strings=[]
+0x1000b6868 typeReference 
+0x1000b6898 typeReference 
+
+FUNCTION 0x1000b69a0  strings=[]
+0x1000b69b8 typeReference 
+
+FUNCTION 0x1000b70e0  strings=[]
+0x1000b70fc typeReference 
+
+FUNCTION 0x1000b716c  strings=[]
+0x1000b7188 typeReference 
+
+FUNCTION 0x1000b7370  strings=[]
+0x1000b739c typeReference 
+0x1000b73b0 typeReference 
+
+FUNCTION 0x1000b7470  strings=[]
+0x1000b74f0 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7560  strings=[]
+0x1000b75b8 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b75dc  strings=[]
+0x1000b7650 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b76a0  strings=[]
+0x1000b7720 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7760  strings=[]
+0x1000b77d0 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7810  strings=[]
+0x1000b7888 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b78d4  strings=[]
+0x1000b7918 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7994  strings=[]
+0x1000b79dc call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7a6c  strings=[]
+0x1000b7ab0 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b7b18  strings=[]
+0x1000b7be4 doubleBits 4.0
+0x1000b7c10 call static SwiftUI.Color.accentColor.getter : SwiftUI.Color
+0x1000b7c18 call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x1000b7c24 floatImmediate 1.0
+0x1000b7c48 floatImmediate 4.0
+
+FUNCTION 0x1000b7cb4  strings=['"UserInterface/RunnerFrameCellView.swift"']
+0x1000b7ce8 call type metadata accessor for SwiftUI.Image.ResizingMode
+0x1000b7d24 typeReference 
+0x1000b7d94 string "UserInterface/RunnerFrameCellView.swift"
+0x1000b7e28 call SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image
+0x1000b7e38 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000b7e7c call SwiftUI.Image.renderingMode(SwiftUI.Image.TemplateRenderingMode?) -> SwiftUI.Image
+0x1000b7ecc call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+0x1000b7efc doubleBits 40.0
+0x1000b7f04 doubleBits 40.0
+0x1000b7f0c call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000b7edc:	c8 06 40 f9	ldr	x8, [x22, #0x8]
+1000b7ee0:	e0 03 19 aa	mov	x0, x25
+1000b7ee4:	e1 03 17 aa	mov	x1, x23
+1000b7ee8:	00 01 3f d6	blr	x8
+1000b7eec:	d6 39 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000b7ef0:	e4 03 00 aa	mov	x4, x0
+1000b7ef4:	e5 03 01 aa	mov	x5, x1
+1000b7ef8:	a8 63 02 d1	sub	x8, x29, #0x98
+1000b7efc:	80 08 e8 d2	mov	x0, #0x4044000000000000
+1000b7f00:	01 00 80 52	mov	w1, #0x0
+1000b7f04:	82 08 e8 d2	mov	x2, #0x4044000000000000
+1000b7f08:	03 00 80 52	mov	w3, #0x0
+0x1000b7f54 call static SwiftUI.Font.caption.getter : SwiftUI.Font
+0x1000b7f70 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+
+FUNCTION 0x1000b81a0  strings=[]
+0x1000b81b8 typeReference 
+
+FUNCTION 0x1000b8224  strings=[]
+0x1000b824c typeReference 
+
+FUNCTION 0x1000b82ac  strings=[]
+0x1000b82d4 typeReference 
+
+FUNCTION 0x1000b831c  strings=[]
+0x1000b8344 typeReference 
+
+FUNCTION 0x1000b83bc  strings=[]
+0x1000b8440 typeReference 
+0x1000b8480 typeReference 
+0x1000b8504 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b85ec  strings=[]
+0x1000b863c typeReference 
+0x1000b86a0 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b8730  strings=[]
+0x1000b87a8 typeReference 
+0x1000b87e8 typeReference 
+0x1000b8854 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b893c  strings=[]
+0x1000b89f0 typeReference 
+0x1000b8aa8 typeReference 
+0x1000b8ac8 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b8c38  strings=[]
+0x1000b8c88 typeReference 
+0x1000b8cc8 typeReference 
+0x1000b8d30 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b8db0  strings=[]
+0x1000b8e3c typeReference 
+0x1000b8ef0 typeReference 
+0x1000b8f10 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b9034  strings=[]
+0x1000b9088 typeReference 
+0x1000b90ac call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b90e4  strings=[]
+0x1000b9130 typeReference 
+0x1000b9154 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b9198  strings=[]
+0x1000b91d8 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000b924c  strings=[]
+0x1000b9278 typeReference 
+
+FUNCTION 0x1000b92b4  strings=[]
+0x1000b92e8 typeReference 
+0x1000b9324 typeReference 
+0x1000b9364 typeReference 
+0x1000b93a8 typeReference 
+0x1000b93cc doubleBits 256.0
+0x1000b93d8 doubleBits 180.0
+0x1000b93e0 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000b93b0:	28 03 08 8b	add	x8, x25, x8
+1000b93b4:	e0 03 1a aa	mov	x0, x26
+1000b93b8:	39 00 00 94	bl	0x1000b949c
+1000b93bc:	a2 34 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000b93c0:	e4 03 00 aa	mov	x4, x0
+1000b93c4:	e5 03 01 aa	mov	x5, x1
+1000b93c8:	a8 03 02 d1	sub	x8, x29, #0x80
+1000b93cc:	00 0e e8 d2	mov	x0, #0x4070000000000000
+1000b93d0:	01 00 80 52	mov	w1, #0x0
+1000b93d4:	02 00 d0 d2	mov	x2, #0x800000000000
+1000b93d8:	c2 0c e8 f2	movk	x2, #0x4066, lsl #48
+1000b93dc:	03 00 80 52	mov	w3, #0x0
+0x1000b9438 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000b9440 floatImmediate 1.0
+
+FUNCTION 0x1000b949c  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000b94cc typeReference 
+0x1000b95c8 typeReference 
+0x1000b9604 typeReference 
+0x1000b9640 typeReference 
+0x1000b9680 typeReference 
+0x1000b9738 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000b978c typeReference 
+0x1000b97f4 call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000b99e4 typeReference 
+0x1000b9a68 typeReference 
+
+FUNCTION 0x1000b9b18  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000b9bd4 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000b9c74 typeReference 
+0x1000b9c98 doubleBits 4.0
+0x1000b9cac call SwiftUI.LazyVGrid.init(columns: [SwiftUI.GridItem], alignment: SwiftUI.HorizontalAlignment, spacing: CoreGraphics.CGFloat?, pinnedViews: SwiftUI.PinnedScrollableViews, content: () -> A) -> SwiftUI.LazyVGrid<A>
+1000b9c7c:	64 0d 00 94	bl	0x1000bd20c
+1000b9c80:	e0 0f 1f f8	str	x0, [sp, #-0x10]!
+1000b9c84:	25 00 00 90	adrp	x5, 4 ; 0x1000bd000
+1000b9c88:	a5 10 08 91	add	x5, x5, #0x204
+1000b9c8c:	e8 03 13 aa	mov	x8, x19
+1000b9c90:	e0 03 19 aa	mov	x0, x25
+1000b9c94:	e1 03 18 aa	mov	x1, x24
+1000b9c98:	02 02 e8 d2	mov	x2, #0x4010000000000000
+1000b9c9c:	03 00 80 52	mov	w3, #0x0
+1000b9ca0:	e4 03 15 aa	mov	x4, x21
+1000b9ca4:	e6 03 1a aa	mov	x6, x26
+1000b9ca8:	e7 03 14 aa	mov	x7, x20
+
+FUNCTION 0x1000b9ce0  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000b9d98 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000b9dcc typeReference 
+0x1000b9e84 typeReference 
+0x1000b9e94 typeReference 
+0x1000b9ee0 typeReference 
+0x1000b9ef0 typeReference 
+0x1000b9f14 typeReference 
+0x1000b9fb4 call (extension in SwiftUI):SwiftUI.ForEach< where C: SwiftUI.View>.init(_: A, id: Swift.KeyPath<A.Element, B>, content: (A.Element) -> C) -> SwiftUI.ForEach<A, B, C>
+
+FUNCTION 0x1000b9fe4  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000ba06c typeReference 
+0x1000ba0ac typeReference 
+0x1000ba120 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000ba224 typeReference 
+0x1000ba274 typeReference 
+0x1000ba2c4 typeReference 
+0x1000ba390 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000ba3f0 typeReference 
+0x1000ba700 typeReference 
+0x1000ba78c typeReference 
+0x1000ba7f0 typeReference 
+
+FUNCTION 0x1000baa3c  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000baae0 typeReference 
+0x1000bab70 string "UserInterface/RunnerFramesCollectionView.swift"
+
+FUNCTION 0x1000bae64  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000baee0 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000baefc call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x1000baf14 doubleBits 40.0
+0x1000baf1c doubleBits 40.0
+0x1000baf24 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000baef4:	e5 03 16 aa	mov	x5, x22
+1000baef8:	ac 33 02 94	bl	0x100147da8 ; symbol stub for: _swift_task_reportUnexpectedExecutor
+1000baefc:	12 2d 02 94	bl	0x100146344 ; symbol stub for: _$s7SwiftUI5ColorV5clearACvgZ
+1000baf00:	f5 03 00 aa	mov	x21, x0
+1000baf04:	d0 2d 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000baf08:	e4 03 00 aa	mov	x4, x0
+1000baf0c:	e5 03 01 aa	mov	x5, x1
+1000baf10:	e8 03 00 91	mov	x8, sp
+1000baf14:	80 08 e8 d2	mov	x0, #0x4044000000000000
+1000baf18:	01 00 80 52	mov	w1, #0x0
+1000baf1c:	82 08 e8 d2	mov	x2, #0x4044000000000000
+1000baf20:	03 00 80 52	mov	w3, #0x0
+
+FUNCTION 0x1000baf78  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bb018 typeReference 
+0x1000bb0a8 string "UserInterface/RunnerFramesCollectionView.swift"
+
+FUNCTION 0x1000bb458  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bb4bc typeReference 
+0x1000bb54c string "UserInterface/RunnerFramesCollectionView.swift"
+
+FUNCTION 0x1000bb74c  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bb77c typeReference 
+0x1000bb7b8 typeReference 
+0x1000bb870 typeReference 
+0x1000bb8b0 typeReference 
+0x1000bb984 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000bba68 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000bbb08 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000bbb28 typeReference 
+0x1000bbc4c typeReference 
+
+FUNCTION 0x1000bbde0  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bbe48 typeReference 
+0x1000bbed8 string "UserInterface/RunnerFramesCollectionView.swift"
+
+FUNCTION 0x1000bc0c4  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bc144 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000bc168 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x1000bc1bc  strings=[]
+0x1000bc1e4 typeReference 
+
+FUNCTION 0x1000bc25c  strings=[]
+0x1000bc2d0 typeReference 
+0x1000bc334 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bc430  strings=[]
+0x1000bc460 typeReference 
+0x1000bc4f8 typeReference 
+0x1000bc558 typeReference 
+0x1000bc5d8 typeReference 
+0x1000bc6d4 doubleBits 0.7
+0x1000bc6dc floatImmediate 0.5
+
+FUNCTION 0x1000bc774  strings=['"UserInterface/RunnerFramesCollectionView.swift"']
+0x1000bc838 string "UserInterface/RunnerFramesCollectionView.swift"
+0x1000bc8a4 typeReference 
+0x1000bc8c4 typeReference 
+
+FUNCTION 0x1000bc97c  strings=[]
+0x1000bc9dc typeReference 
+
+FUNCTION 0x1000bcab8  strings=[]
+0x1000bcae0 typeReference 
+0x1000bcb1c typeReference 
+0x1000bcb6c typeReference 
+
+FUNCTION 0x1000bcd30  strings=[]
+0x1000bcdac typeReference 
+0x1000bce10 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bcf40  strings=[]
+0x1000bcfbc typeReference 
+0x1000bd02c call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bd20c  strings=[]
+0x1000bd23c typeReference 
+0x1000bd24c typeReference 
+0x1000bd25c typeReference 
+0x1000bd280 typeReference 
+
+FUNCTION 0x1000bd330  strings=[]
+0x1000bd354 typeReference 
+
+FUNCTION 0x1000bd398  strings=[]
+0x1000bd3c4 typeReference 
+0x1000bd4bc doubleBits 2.0
+0x1000bd4e0 typeReference 
+
+FUNCTION 0x1000bd6ac  strings=[]
+0x1000bd6d8 typeReference 
+
+FUNCTION 0x1000bd77c  strings=[]
+0x1000bd814 typeReference 
+0x1000bd878 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bda68  strings=[]
+0x1000bdb08 typeReference 
+0x1000bdb6c call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bdcf8  strings=[]
+0x1000bdd14 typeReference 
+
+FUNCTION 0x1000bdd40  strings=[]
+0x1000bddb8 typeReference 
+0x1000bddf8 typeReference 
+
+FUNCTION 0x1000bde98  strings=[]
+0x1000bdee4 typeReference 
+
+FUNCTION 0x1000bdf54  strings=[]
+0x1000bdfc0 typeReference 
+0x1000be000 typeReference 
+
+FUNCTION 0x1000be080  strings=[]
+0x1000be138 typeReference 
+0x1000be1f0 typeReference 
+
+FUNCTION 0x1000be264  strings=[]
+0x1000be2b0 typeReference 
+0x1000be2f0 typeReference 
+
+FUNCTION 0x1000be368  strings=[]
+0x1000be3f0 typeReference 
+0x1000be4a4 typeReference 
+
+FUNCTION 0x1000be51c  strings=[]
+0x1000be570 typeReference 
+
+FUNCTION 0x1000be5a8  strings=[]
+0x1000be5f0 typeReference 
+
+FUNCTION 0x1000be6a4  strings=[]
+0x1000be6cc typeReference 
+
+FUNCTION 0x1000be714  strings=[]
+0x1000be73c typeReference 
+
+FUNCTION 0x1000be79c  strings=[]
+0x1000be7c4 typeReference 
+
+FUNCTION 0x1000be89c  strings=[]
+0x1000be8f4 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000be978  strings=[]
+0x1000be9b0 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000be9e4  strings=[]
+0x1000bea24 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bea94  strings=[]
+0x1000beb08 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000beb5c  strings=[]
+0x1000beb90 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bebcc  strings=[]
+0x1000bec28 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bec7c  strings=[]
+0x1000beccc call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bed04  strings=[]
+0x1000bed48 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bedb0  strings=[]
+0x1000beddc call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bee48  strings=[]
+0x1000beeb4 typeReference 
+0x1000beef0 typeReference 
+0x1000bef28 typeReference 
+0x1000bef5c doubleBits 8.0
+0x1000bef70 typeReference 
+0x1000befc4 typeReference 
+0x1000befdc doublePool -0.05
+0x1000befe8 doublePool 0.2
+0x1000bf13c typeReference 
+
+FUNCTION 0x1000bf18c  strings=['"UserInterface/RunnerPreviewView.swift"', '"UserInterface/RunnerPreviewView.swift"', '"UserInterface/RunnerPreviewView.swift"']
+0x1000bf1c4 typeReference 
+0x1000bf204 typeReference 
+0x1000bf2bc string "UserInterface/RunnerPreviewView.swift"
+0x1000bf300 doubleBits 100.0
+0x1000bf308 doubleBits 36.0
+0x1000bf310 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000bf2e0:	0f 01 00 94	bl	0x1000bf71c
+1000bf2e4:	78 66 52 a9	ldp	x24, x25, [x19, #0x120]
+1000bf2e8:	7b 62 42 79	ldrh	w27, [x19, #0x130]
+1000bf2ec:	75 ca 44 39	ldrb	w21, [x19, #0x132]
+1000bf2f0:	d5 1c 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000bf2f4:	e4 03 00 aa	mov	x4, x0
+1000bf2f8:	e5 03 01 aa	mov	x5, x1
+1000bf2fc:	68 a2 0c 91	add	x8, x19, #0x328
+1000bf300:	20 0b e8 d2	mov	x0, #0x4059000000000000
+1000bf304:	01 00 80 52	mov	w1, #0x0
+1000bf308:	42 08 e8 d2	mov	x2, #0x4042000000000000
+1000bf30c:	03 00 80 52	mov	w3, #0x0
+0x1000bf334 floatImmediate 4.0
+0x1000bf39c call SwiftUI.Color.init(__C.NSColor) -> SwiftUI.Color
+0x1000bf3a8 floatImmediate 1.0
+0x1000bf3dc typeReference 
+0x1000bf40c doubleBits 1.0
+0x1000bf454 string "UserInterface/RunnerPreviewView.swift"
+0x1000bf490 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000bf4d0 string "UserInterface/RunnerPreviewView.swift"
+0x1000bf504 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000bf588 call SwiftUI.Slider.init<A where A1: Swift.BinaryFloatingPoint, A1.Stride: Swift.BinaryFloatingPoint>(value: SwiftUI.Binding<A1>, in: Swift.ClosedRange<A1>, step: A1.Stride, onEditingChanged: (Swift.Bool) -> (), minimumValueLabel: B, maximumValueLabel: B, label: () -> A) -> SwiftUI.Slider<A, B>
+0x1000bf678 typeReference 
+
+FUNCTION 0x1000bf71c  strings=['"UserInterface/RunnerPreviewView.swift"']
+0x1000bf74c call type metadata accessor for SwiftUI.Image.ResizingMode
+0x1000bf788 typeReference 
+0x1000bf814 string "UserInterface/RunnerPreviewView.swift"
+0x1000bf87c call SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image
+0x1000bf894 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000bf8dc call SwiftUI.Image.renderingMode(SwiftUI.Image.TemplateRenderingMode?) -> SwiftUI.Image
+0x1000bf930 call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+0x1000bf970 typeReference 
+0x1000bf9bc call static SwiftUI.Color.clear.getter : SwiftUI.Color
+0x1000bf9d8 typeReference 
+
+FUNCTION 0x1000bfa4c  strings=['"UserInterface/RunnerPreviewView.swift"']
+0x1000bfab4 string "UserInterface/RunnerPreviewView.swift"
+
+FUNCTION 0x1000bfae4  strings=['"UserInterface/RunnerPreviewView.swift"']
+0x1000bfb40 typeReference 
+0x1000bfbd0 string "UserInterface/RunnerPreviewView.swift"
+
+FUNCTION 0x1000bfe28  strings=[]
+0x1000bfe84 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000bff50  strings=[]
+0x1000bffb4 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+
+FUNCTION 0x1000c01a8  strings=[]
+0x1000c01cc typeReference 
+
+FUNCTION 0x1000c025c  strings=[]
+0x1000c0290 call type metadata accessor for SwiftUI.PlainButtonStyle
+0x1000c02c8 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+0x1000c0304 typeReference 
+0x1000c0344 typeReference 
+0x1000c03d4 typeReference 
+0x1000c040c call SwiftUI.PlainButtonStyle.init() -> SwiftUI.PlainButtonStyle
+0x1000c046c call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000c04a0 floatImmediate 4.0
+0x1000c04e0 typeReference 
+
+FUNCTION 0x1000c0534  strings=['"UserInterface/SegmentedButtonStyle.swift"']
+0x1000c05a8 string "UserInterface/SegmentedButtonStyle.swift"
+0x1000c05c8 call SwiftUI.PrimitiveButtonStyleConfiguration.trigger() -> ()
+
+FUNCTION 0x1000c05e4  strings=['"UserInterface/SegmentedButtonStyle.swift"']
+0x1000c060c call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration.Label
+0x1000c0648 typeReference 
+0x1000c0684 typeReference 
+0x1000c0718 string "UserInterface/SegmentedButtonStyle.swift"
+0x1000c073c call SwiftUI.PrimitiveButtonStyleConfiguration.label.getter : SwiftUI.PrimitiveButtonStyleConfiguration.Label
+0x1000c0740 call static SwiftUI.Font.body.getter : SwiftUI.Font
+0x1000c0798 doubleBits 16.0
+0x1000c07a0 doubleBits 16.0
+0x1000c07a8 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000c0778:	08 07 40 f9	ldr	x8, [x24, #0x8]
+1000c077c:	e0 03 19 aa	mov	x0, x25
+1000c0780:	e1 03 17 aa	mov	x1, x23
+1000c0784:	00 01 3f d6	blr	x8
+1000c0788:	af 17 02 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000c078c:	e4 03 00 aa	mov	x4, x0
+1000c0790:	e5 03 01 aa	mov	x5, x1
+1000c0794:	a8 03 02 d1	sub	x8, x29, #0x80
+1000c0798:	00 06 e8 d2	mov	x0, #0x4030000000000000
+1000c079c:	01 00 80 52	mov	w1, #0x0
+1000c07a0:	02 06 e8 d2	mov	x2, #0x4030000000000000
+1000c07a4:	03 00 80 52	mov	w3, #0x0
+0x1000c080c typeReference 
+
+FUNCTION 0x1000c0850  strings=[]
+0x1000c0864 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x1000c08a8  strings=[]
+0x1000c08b4 call type metadata accessor for SwiftUI.PrimitiveButtonStyleConfiguration
+
+FUNCTION 0x1000c08dc  strings=[]
+0x1000c0904 typeReference 
+
+FUNCTION 0x1000c0964  strings=[]
+0x1000c098c typeReference 
+
+FUNCTION 0x1000c09d4  strings=[]
+0x1000c09fc typeReference 
+
+FUNCTION 0x1000c0a74  strings=[]
+0x1000c0a88 call SwiftUI.EnvironmentValues.font.getter : SwiftUI.Font?
+
+FUNCTION 0x1000c0a9c  strings=[]
+0x1000c0ab0 call SwiftUI.EnvironmentValues.font.getter : SwiftUI.Font?
+
+FUNCTION 0x1000c0ac4  strings=[]
+0x1000c0adc call SwiftUI.EnvironmentValues.font.setter : SwiftUI.Font?
+
+FUNCTION 0x1000c0aec  strings=[]
+0x1000c0b04 call SwiftUI.EnvironmentValues.font.setter : SwiftUI.Font?
+
+FUNCTION 0x1000c0b18  strings=[]
+0x1000c0b48 typeReference 
+0x1000c0b5c typeReference 
+0x1000c0b68 call type metadata accessor for SwiftUI.PlainButtonStyle
+
+FUNCTION 0x1000c0c0c  strings=[]
+0x1000c0c80 typeReference 
+0x1000c0cbc typeReference 
+0x1000c0cf8 typeReference 
+0x1000c0d38 typeReference 
+0x1000c0d74 doubleBits 16.0
+0x1000c0d88 typeReference 
+0x1000c0e7c call SwiftUI.ObservedObject.Wrapper.subscript.getter : <A>(dynamicMember: Swift.ReferenceWritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000c0ffc typeReference 
+
+FUNCTION 0x1000c1098  strings=['"UserInterface/SelfMadeRunnersView.swift"']
+0x1000c1178 string "UserInterface/SelfMadeRunnersView.swift"
+0x1000c12fc typeReference 
+
+FUNCTION 0x1000c141c  strings=['"UserInterface/SelfMadeRunnersView.swift"']
+0x1000c1488 string "UserInterface/SelfMadeRunnersView.swift"
+
+FUNCTION 0x1000c1574  strings=[]
+0x1000c1604 typeReference 
+
+FUNCTION 0x1000c1a18  strings=[]
+0x1000c1a38 typeReference 
+
+FUNCTION 0x1000c1b2c  strings=[]
+0x1000c1b58 typeReference 
+0x1000c1b6c typeReference 
+
+FUNCTION 0x1000c1c50  strings=['"UserInterface/TopLeadingContentViewModifier.swift"']
+0x1000c1c78 typeReference 
+0x1000c1ce8 string "UserInterface/TopLeadingContentViewModifier.swift"
+0x1000c1d3c typeReference 
+
+FUNCTION 0x1000c1dc4  strings=[]
+0x1000c1de8 typeReference 
+
+FUNCTION 0x1000c1e0c  strings=[]
+0x1000c1e2c typeReference 
+
+FUNCTION 0x1000c1e54  strings=[]
+0x1000c1ec0 call type metadata accessor for SwiftUI.GroupedFormStyle
+0x1000c1f08 typeReference 
+0x1000c1f4c typeReference 
+0x1000c1f88 typeReference 
+0x1000c1fc4 typeReference 
+0x1000c2018 typeReference 
+0x1000c2058 call static (extension in SwiftUI):SwiftUI.FormStyle< where A == SwiftUI.GroupedFormStyle>.grouped.getter : SwiftUI.GroupedFormStyle
+0x1000c20bc call (extension in SwiftUI):SwiftUI.View.formStyle<A where A1: SwiftUI.FormStyle>(A1) -> some
+0x1000c222c call SwiftUI.ObservedObject.Wrapper.subscript.getter : <A>(dynamicMember: Swift.ReferenceWritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000c225c typeReference 
+0x1000c23c0 typeReference 
+
+FUNCTION 0x1000c2464  strings=['"UserInterface/GeneralSettingsView.swift"', '"UserInterface/GeneralSettingsView.swift"', '"UserInterface/GeneralSettingsView.swift"']
+0x1000c2494 typeReference 
+0x1000c24f8 typeReference 
+0x1000c25b4 string "UserInterface/GeneralSettingsView.swift"
+0x1000c2628 string "UserInterface/GeneralSettingsView.swift"
+0x1000c26d8 typeReference 
+0x1000c2780 string "UserInterface/GeneralSettingsView.swift"
+0x1000c281c typeReference 
+0x1000c28cc typeReference 
+
+FUNCTION 0x1000c2948  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c2978 typeReference 
+0x1000c29d0 typeReference 
+0x1000c2b48 string "UserInterface/GeneralSettingsView.swift"
+0x1000c2f10 doubleBits 8.0
+0x1000c2f24 typeReference 
+0x1000c30fc typeReference 
+
+FUNCTION 0x1000c3784  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c3808 string "UserInterface/GeneralSettingsView.swift"
+
+FUNCTION 0x1000c3b34  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c3b60 call type metadata accessor for SwiftUI.ColumnsFormStyle
+0x1000c3ba0 typeReference 
+0x1000c3bec typeReference 
+0x1000c3c30 typeReference 
+0x1000c3c90 typeReference 
+0x1000c3d48 string "UserInterface/GeneralSettingsView.swift"
+0x1000c3eec typeReference 
+0x1000c3efc typeReference 
+0x1000c3f10 typeReference 
+0x1000c3f1c call type metadata accessor for SwiftUI.RadioGroupPickerStyle
+0x1000c3fb4 call static (extension in SwiftUI):SwiftUI.FormStyle< where A == SwiftUI.ColumnsFormStyle>.columns.getter : SwiftUI.ColumnsFormStyle
+0x1000c4018 call (extension in SwiftUI):SwiftUI.View.formStyle<A where A1: SwiftUI.FormStyle>(A1) -> some
+0x1000c4174 typeReference 
+
+FUNCTION 0x1000c445c  strings=['"UserInterface/GeneralSettingsView.swift"', '"UserInterface/GeneralSettingsView.swift"']
+0x1000c4488 call type metadata accessor for SwiftUI.RadioGroupPickerStyle
+0x1000c44cc typeReference 
+0x1000c450c typeReference 
+0x1000c45a4 string "UserInterface/GeneralSettingsView.swift"
+0x1000c472c string "UserInterface/GeneralSettingsView.swift"
+0x1000c4758 typeReference 
+0x1000c47c4 call SwiftUI.RadioGroupPickerStyle.init() -> SwiftUI.RadioGroupPickerStyle
+0x1000c4814 call (extension in SwiftUI):SwiftUI.View.pickerStyle<A where A1: SwiftUI.PickerStyle>(A1) -> some
+
+FUNCTION 0x1000c4bb4  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c4c30 string "UserInterface/GeneralSettingsView.swift"
+0x1000c4cb8 typeReference 
+0x1000c4cc8 typeReference 
+
+FUNCTION 0x1000c4d50  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c4dcc string "UserInterface/GeneralSettingsView.swift"
+
+FUNCTION 0x1000c50f0  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c5174 string "UserInterface/GeneralSettingsView.swift"
+
+FUNCTION 0x1000c5574  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c55a4 typeReference 
+0x1000c55dc typeReference 
+0x1000c56c4 string "UserInterface/GeneralSettingsView.swift"
+0x1000c5858 typeReference 
+
+FUNCTION 0x1000c58cc  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c5934 string "UserInterface/GeneralSettingsView.swift"
+
+FUNCTION 0x1000c5964  strings=['"UserInterface/GeneralSettingsView.swift"']
+0x1000c598c typeReference 
+0x1000c5a1c string "UserInterface/GeneralSettingsView.swift"
+
+FUNCTION 0x1000c5df0  strings=[]
+0x1000c5e78 typeReference 
+
+FUNCTION 0x1000c60cc  strings=[]
+0x1000c60fc typeReference 
+0x1000c6110 typeReference 
+0x1000c611c call type metadata accessor for SwiftUI.GroupedFormStyle
+
+FUNCTION 0x1000c67a4  strings=[]
+0x1000c67cc typeReference 
+
+FUNCTION 0x1000c68d4  strings=[]
+0x1000c68fc typeReference 
+
+FUNCTION 0x1000c693c  strings=[]
+0x1000c6964 typeReference 
+
+FUNCTION 0x1000c69c4  strings=[]
+0x1000c69ec typeReference 
+
+FUNCTION 0x1000c6a4c  strings=[]
+0x1000c6a70 typeReference 
+
+FUNCTION 0x1000c6c84  strings=[]
+0x1000c6cb4 typeReference 
+0x1000c6cc4 typeReference 
+0x1000c6cd8 typeReference 
+
+FUNCTION 0x1000c6e08  strings=[]
+0x1000c6e34 call type metadata accessor for SwiftUI.ColorRenderingMode
+0x1000c6e70 typeReference 
+0x1000c6eac typeReference 
+0x1000c6ee8 typeReference 
+0x1000c6f70 call (extension in SwiftUI):SwiftUI.Canvas< where A == SwiftUI.EmptyView>.init(opaque: Swift.Bool, colorMode: SwiftUI.ColorRenderingMode, rendersAsynchronously: Swift.Bool, renderer: (inout SwiftUI.GraphicsContext, __C.CGSize) -> ()) -> SwiftUI.Canvas<SwiftUI.EmptyView>
+0x1000c6f84 doubleBits 320.0
+0x1000c6f8c doubleBits 80.0
+0x1000c6f94 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000c6f64:	e1 03 1b aa	mov	x1, x27
+1000c6f68:	02 00 80 52	mov	w2, #0x0
+1000c6f6c:	e4 03 1c aa	mov	x4, x28
+1000c6f70:	52 fd 01 94	bl	0x1001464b8 ; symbol stub for: _$s7SwiftUI6CanvasVA2A9EmptyViewVRszrlE6opaque9colorMode21rendersAsynchronously8rendererACyAEGSb_AA014ColorRenderingH0OSbyAA15GraphicsContextVz_So6CGSizeVtctcfC
+1000c6f74:	b4 fd 01 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000c6f78:	e4 03 00 aa	mov	x4, x0
+1000c6f7c:	e5 03 01 aa	mov	x5, x1
+1000c6f80:	a8 03 02 d1	sub	x8, x29, #0x80
+1000c6f84:	80 0e e8 d2	mov	x0, #0x4074000000000000
+1000c6f88:	01 00 80 52	mov	w1, #0x0
+1000c6f8c:	82 0a e8 d2	mov	x2, #0x4054000000000000
+1000c6f90:	03 00 80 52	mov	w3, #0x0
+0x1000c6fdc call static SwiftUI.Color.green.getter : SwiftUI.Color
+0x1000c6fe4 call static SwiftUI.Color.red.getter : SwiftUI.Color
+0x1000c6fec floatImmediate 1.0
+
+FUNCTION 0x1000c7038  strings=['"UserInterface/MenuBarSample.swift"', '"checkmark.circle.fill"', '"xmark.circle.fill"', '"speaker.wave.3.fill"']
+0x1000c7074 call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x1000c7160 string "UserInterface/MenuBarSample.swift"
+0x1000c7194 call SwiftUI.Path.init(__C.CGRect) -> SwiftUI.Path
+0x1000c71d4 call SwiftUI.Color.init(DeveloperToolsSupport.ColorResource) -> SwiftUI.Color
+0x1000c71e0 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c71fc call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c721c doubleBits 42.0
+0x1000c7234 call SwiftUI.Path.init(__C.CGRect) -> SwiftUI.Path
+0x1000c7270 call SwiftUI.Color.init(DeveloperToolsSupport.ColorResource) -> SwiftUI.Color
+0x1000c727c call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c7298 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c72c8 floatImmediate 20.0
+0x1000c72d0 call SwiftUI.Path.init(__C.CGRect) -> SwiftUI.Path
+0x1000c72d4 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000c72e0 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c72fc call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c7338 call SwiftUI.Path.init((inout SwiftUI.Path) -> ()) -> SwiftUI.Path
+0x1000c7340 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000c734c call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c7368 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c7378 doubleBits 76.0
+0x1000c7384 floatImmediate 24.0
+0x1000c7388 floatImmediate 8.0
+0x1000c738c floatImmediate 8.0
+0x1000c7390 call SwiftUI.Path.init(ellipseIn: __C.CGRect) -> SwiftUI.Path
+0x1000c7394 call static SwiftUI.Color.gray.getter : SwiftUI.Color
+0x1000c73a0 doublePool 0.2
+0x1000c73a4 call SwiftUI.Color.opacity(Swift.Double) -> SwiftUI.Color
+0x1000c73bc call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c73d8 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c7400 floatImmediate 0.5
+0x1000c7408 floatImmediate -10.0
+0x1000c7410 doubleBits 52.0
+0x1000c741c floatImmediate 20.0
+0x1000c7420 floatImmediate 20.0
+0x1000c7424 call SwiftUI.Path.init(ellipseIn: __C.CGRect) -> SwiftUI.Path
+0x1000c7428 call static SwiftUI.Color.white.getter : SwiftUI.Color
+0x1000c7434 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c7450 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c7478 string "checkmark.circle.fill"
+0x1000c7488 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000c748c call SwiftUI.Text.init(SwiftUI.Image) -> SwiftUI.Text
+0x1000c74a0 call static SwiftUI.Font.title.getter : SwiftUI.Font
+0x1000c74b8 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000c74ec call static SwiftUI.Color.green.getter : SwiftUI.Color
+0x1000c7524 call SwiftUI.Text.foregroundStyle<A where A: SwiftUI.ShapeStyle>(A) -> SwiftUI.Text
+0x1000c7558 floatImmediate -13.0
+0x1000c7560 doubleBits 48.0
+0x1000c756c floatImmediate 26.0
+0x1000c7570 floatImmediate 26.0
+0x1000c75ac string "xmark.circle.fill"
+0x1000c75c0 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000c75c4 call SwiftUI.Text.init(SwiftUI.Image) -> SwiftUI.Text
+0x1000c75d8 call static SwiftUI.Font.title.getter : SwiftUI.Font
+0x1000c75f0 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000c7624 call static SwiftUI.Color.red.getter : SwiftUI.Color
+0x1000c765c call SwiftUI.Text.foregroundStyle<A where A: SwiftUI.ShapeStyle>(A) -> SwiftUI.Text
+0x1000c7690 floatImmediate -13.0
+0x1000c7698 doubleBits 48.0
+0x1000c76a4 floatImmediate 26.0
+0x1000c76a8 floatImmediate 26.0
+0x1000c76e4 doubleBits -220.0
+0x1000c7710 doubleBits 120.0
+0x1000c771c floatImmediate 22.0
+0x1000c7720 floatImmediate 18.0
+0x1000c7724 floatImmediate 4.0
+0x1000c7730 call SwiftUI.Path.init(roundedRect: __C.CGRect, cornerRadius: CoreGraphics.CGFloat, style: SwiftUI.RoundedCornerStyle) -> SwiftUI.Path
+1000c7700:	08 35 40 f9	ldr	x8, [x8, #0x68]
+1000c7704:	74 1e 40 f9	ldr	x20, [x19, #0x38]
+1000c7708:	e0 03 14 aa	mov	x0, x20
+1000c770c:	00 01 3f d6	blr	x8
+1000c7710:	c8 0b e8 d2	mov	x8, #0x405e000000000000
+1000c7714:	02 01 67 9e	fmov	d2, x8
+1000c7718:	a8 e3 02 d1	sub	x8, x29, #0xb8
+1000c771c:	01 d0 66 1e	fmov	d1, #22.00000000
+1000c7720:	03 50 66 1e	fmov	d3, #18.00000000
+1000c7724:	04 10 62 1e	fmov	d4, #4.00000000
+1000c7728:	20 41 60 1e	fmov	d0, d9
+1000c772c:	e0 03 14 aa	mov	x0, x20
+0x1000c7778 call SwiftUI.Color.init(DeveloperToolsSupport.ColorResource) -> SwiftUI.Color
+0x1000c7780 floatImmediate 0.5
+0x1000c7784 call SwiftUI.Color.opacity(Swift.Double) -> SwiftUI.Color
+0x1000c779c call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c77b8 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000c77e4 call SwiftUI.Color.init(DeveloperToolsSupport.ColorResource) -> SwiftUI.Color
+0x1000c77f0 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000c7804 typeReference 
+0x1000c7820 floatImmediate 2.0
+0x1000c782c floatImmediate 1.0
+0x1000c7830 floatImmediate 10.0
+0x1000c7840 call SwiftUI.StrokeStyle.init(lineWidth: CoreGraphics.CGFloat, lineCap: __C.CGLineCap, lineJoin: __C.CGLineJoin, miterLimit: CoreGraphics.CGFloat, dash: [CoreGraphics.CGFloat], dashPhase: CoreGraphics.CGFloat) -> SwiftUI.StrokeStyle
+0x1000c7854 call SwiftUI.GraphicsContext.stroke(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.StrokeStyle) -> ()
+0x1000c7870 string "speaker.wave.3.fill"
+0x1000c7888 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000c7890 doubleBits -80.0
+0x1000c78a8 floatImmediate 31.0
+0x1000c78b8 call SwiftUI.GraphicsContext.draw(_: SwiftUI.Image, at: __C.CGPoint, anchor: SwiftUI.UnitPoint) -> ()
+0x1000c78e4 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000c78ec doubleBits -50.0
+0x1000c7904 floatImmediate 31.0
+0x1000c7914 call SwiftUI.GraphicsContext.draw(_: SwiftUI.Image, at: __C.CGPoint, anchor: SwiftUI.UnitPoint) -> ()
+0x1000c7934 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000c793c floatImmediate -20.0
+0x1000c7950 floatImmediate 31.0
+0x1000c7960 call SwiftUI.GraphicsContext.draw(_: SwiftUI.Image, at: __C.CGPoint, anchor: SwiftUI.UnitPoint) -> ()
+
+FUNCTION 0x1000c79e8  strings=['"UserInterface/MenuBarSample.swift"']
+0x1000c7a50 string "UserInterface/MenuBarSample.swift"
+0x1000c7a78 call SwiftUI.Path.move(to: __C.CGPoint) -> ()
+0x1000c7a80 floatImmediate 20.0
+0x1000c7a84 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7a88 floatImmediate 20.0
+0x1000c7a8c floatImmediate 20.0
+0x1000c7a90 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7a94 doubleBits 1.0
+0x1000c7aa8 doublePool -1.5707963267948966
+0x1000c7ab0 doublePool 1.5707963267948966
+0x1000c7ab4 floatImmediate 20.0
+0x1000c7ab8 floatImmediate 24.0
+0x1000c7abc floatImmediate 4.0
+0x1000c7acc call SwiftUI.Path.addRelativeArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, delta: SwiftUI.Angle, transform: __C.CGAffineTransform) -> ()
+0x1000c7ad0 doubleBits 36.0
+0x1000c7ad8 floatImmediate 24.0
+0x1000c7ae0 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7ae8 doublePool 3.141592653589793
+0x1000c7aec floatImmediate 28.0
+0x1000c7af0 floatImmediate 4.0
+0x1000c7b04 call SwiftUI.Path.addRelativeArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, delta: SwiftUI.Angle, transform: __C.CGAffineTransform) -> ()
+0x1000c7b0c doubleBits 132.0
+0x1000c7b14 doubleBits 40.0
+0x1000c7b20 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7b24 floatImmediate 4.0
+0x1000c7b3c call SwiftUI.Path.addRelativeArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, delta: SwiftUI.Angle, transform: __C.CGAffineTransform) -> ()
+0x1000c7b40 doubleBits 136.0
+0x1000c7b48 floatImmediate 24.0
+0x1000c7b4c call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7b54 doubleBits 140.0
+0x1000c7b5c floatImmediate 24.0
+0x1000c7b60 floatImmediate 4.0
+0x1000c7b70 call SwiftUI.Path.addRelativeArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, delta: SwiftUI.Angle, transform: __C.CGAffineTransform) -> ()
+0x1000c7b74 floatImmediate 20.0
+0x1000c7b7c call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7b88 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000c7b8c call SwiftUI.Path.closeSubpath() -> ()
+
+FUNCTION 0x1000c7bd4  strings=[]
+0x1000c7bec typeReference 
+
+FUNCTION 0x1000c7c14  strings=[]
+0x1000c7c30 typeReference 
+
+FUNCTION 0x1000c7d2c  strings=[]
+0x1000c7d54 typeReference 
+
+FUNCTION 0x1000c7db4  strings=[]
+0x1000c7ddc typeReference 
+
+FUNCTION 0x1000c8108  strings=[]
+0x1000c8138 typeReference 
+0x1000c817c typeReference 
+0x1000c81ac typeReference 
+
+FUNCTION 0x1000c826c  strings=['"UserInterface/SettingsView.swift"']
+0x1000c829c typeReference 
+0x1000c82dc typeReference 
+0x1000c8324 typeReference 
+0x1000c8388 typeReference 
+0x1000c83c8 typeReference 
+0x1000c8410 typeReference 
+0x1000c84d4 string "UserInterface/SettingsView.swift"
+0x1000c85b0 typeReference 
+0x1000c8870 typeReference 
+
+FUNCTION 0x1000c89e0  strings=['"UserInterface/SettingsView.swift"']
+0x1000c8a64 string "UserInterface/SettingsView.swift"
+0x1000c8ad0 call SwiftUI.Label.init(title: () -> A, icon: () -> B) -> SwiftUI.Label<A, B>
+
+FUNCTION 0x1000c8af8  strings=['"UserInterface/SettingsView.swift"']
+0x1000c8b7c string "UserInterface/SettingsView.swift"
+
+FUNCTION 0x1000c8c50  strings=['"UserInterface/SettingsView.swift"']
+0x1000c8cd0 string "UserInterface/SettingsView.swift"
+0x1000c8cf4 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+
+FUNCTION 0x1000c8f18  strings=[]
+0x1000c8f40 typeReference 
+
+FUNCTION 0x1000c8fe0  strings=[]
+0x1000c9060 typeReference 
+0x1000c9098 typeReference 
+0x1000c90d4 typeReference 
+0x1000c910c doubleBits 16.0
+0x1000c9120 typeReference 
+0x1000c9150 doubleBits 320.0
+0x1000c9160 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000c9130:	e0 03 17 aa	mov	x0, x23
+1000c9134:	e1 03 14 aa	mov	x1, x20
+1000c9138:	e2 03 16 aa	mov	x2, x22
+1000c913c:	68 00 00 94	bl	0x1000c92dc
+1000c9140:	41 f5 01 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000c9144:	e4 03 00 aa	mov	x4, x0
+1000c9148:	e5 03 01 aa	mov	x5, x1
+1000c914c:	a8 83 02 d1	sub	x8, x29, #0xa0
+1000c9150:	80 0e e8 d2	mov	x0, #0x4074000000000000
+1000c9154:	01 00 80 52	mov	w1, #0x0
+1000c9158:	02 00 80 d2	mov	x2, #0x0
+1000c915c:	23 00 80 52	mov	w3, #0x1
+0x1000c91a0 floatImmediate 16.0
+0x1000c923c typeReference 
+
+FUNCTION 0x1000c92dc  strings=['"UserInterface/SystemInfoBarConfirmationDialog.swift"', '"UserInterface/SystemInfoBarConfirmationDialog.swift"']
+0x1000c9314 typeReference 
+0x1000c936c call type metadata accessor for SwiftUI.Image.ResizingMode
+0x1000c9400 string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+0x1000c9480 call SwiftUI.Image.init(nsImage: __C.NSImage) -> SwiftUI.Image
+0x1000c94bc call SwiftUI.Image.resizable(capInsets: SwiftUI.EdgeInsets, resizingMode: SwiftUI.Image.ResizingMode) -> SwiftUI.Image
+0x1000c94ec doubleBits 64.0
+0x1000c94f4 doubleBits 64.0
+0x1000c94fc call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000c94cc:	08 07 40 f9	ldr	x8, [x24, #0x8]
+1000c94d0:	e0 03 1b aa	mov	x0, x27
+1000c94d4:	e1 03 17 aa	mov	x1, x23
+1000c94d8:	00 01 3f d6	blr	x8
+1000c94dc:	5a f4 01 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000c94e0:	e4 03 00 aa	mov	x4, x0
+1000c94e4:	e5 03 01 aa	mov	x5, x1
+1000c94e8:	a8 43 02 d1	sub	x8, x29, #0x90
+1000c94ec:	00 0a e8 d2	mov	x0, #0x4050000000000000
+1000c94f0:	01 00 80 52	mov	w1, #0x0
+1000c94f4:	02 0a e8 d2	mov	x2, #0x4050000000000000
+1000c94f8:	03 00 80 52	mov	w3, #0x0
+0x1000c95e8 string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+0x1000c9610 doubleBits 8.0
+0x1000c961c doubleBits 8.0
+0x1000c962c typeReference 
+0x1000c9708 doubleBits 4.0
+0x1000c9728 typeReference 
+
+FUNCTION 0x1000c97f0  strings=['"UserInterface/SystemInfoBarConfirmationDialog.swift"']
+0x1000c9878 string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+0x1000c98fc call static SwiftUI.Font.headline.getter : SwiftUI.Font
+0x1000c9914 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000c999c call static SwiftUI.Font.caption.getter : SwiftUI.Font
+0x1000c99b4 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+
+FUNCTION 0x1000c9aec  strings=['"UserInterface/SystemInfoBarConfirmationDialog.swift"']
+0x1000c9b20 call type metadata accessor for SwiftUI.BorderedButtonStyle
+0x1000c9b64 typeReference 
+0x1000c9ba0 typeReference 
+0x1000c9be4 typeReference 
+0x1000c9cc0 typeReference 
+0x1000c9d08 typeReference 
+0x1000c9d44 typeReference 
+0x1000c9dfc string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+0x1000c9e98 typeReference 
+0x1000c9fc8 typeReference 
+0x1000ca10c call SwiftUI.BorderedButtonStyle.init() -> SwiftUI.BorderedButtonStyle
+0x1000ca158 call (extension in SwiftUI):SwiftUI.View.buttonStyle<A where A1: SwiftUI.PrimitiveButtonStyle>(A1) -> some
+0x1000ca278 typeReference 
+
+FUNCTION 0x1000ca528  strings=['"UserInterface/SystemInfoBarConfirmationDialog.swift"']
+0x1000ca564 typeReference 
+0x1000ca5f4 string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+
+FUNCTION 0x1000ca8fc  strings=['"UserInterface/SystemInfoBarConfirmationDialog.swift"']
+0x1000ca98c string "UserInterface/SystemInfoBarConfirmationDialog.swift"
+
+FUNCTION 0x1000cab5c  strings=[]
+0x1000cab94 typeReference 
+
+FUNCTION 0x1000cb034  strings=[]
+0x1000cb058 typeReference 
+
+FUNCTION 0x1000cb398  strings=[]
+0x1000cb3c0 typeReference 
+
+FUNCTION 0x1000cb420  strings=[]
+0x1000cb448 typeReference 
+
+FUNCTION 0x1000cb490  strings=[]
+0x1000cb4b8 typeReference 
+
+FUNCTION 0x1000cb524  strings=[]
+0x1000cb590 call type metadata accessor for SwiftUI.GroupedFormStyle
+0x1000cb5cc typeReference 
+0x1000cb60c typeReference 
+0x1000cb648 typeReference 
+0x1000cb684 typeReference 
+0x1000cb6cc typeReference 
+0x1000cb70c call static (extension in SwiftUI):SwiftUI.FormStyle< where A == SwiftUI.GroupedFormStyle>.grouped.getter : SwiftUI.GroupedFormStyle
+0x1000cb768 call (extension in SwiftUI):SwiftUI.View.formStyle<A where A1: SwiftUI.FormStyle>(A1) -> some
+0x1000cb83c call SwiftUI.ObservedObject.Wrapper.subscript.getter : <A>(dynamicMember: Swift.ReferenceWritableKeyPath<A, A1>) -> SwiftUI.Binding<A1>
+0x1000cb988 typeReference 
+
+FUNCTION 0x1000cba24  strings=['"UserInterface/SystemInfoSettingsView.swift"', '"UserInterface/SystemInfoSettingsView.swift"', '"UserInterface/SystemInfoSettingsView.swift"']
+0x1000cba54 typeReference 
+0x1000cbab8 typeReference 
+0x1000cbb74 string "UserInterface/SystemInfoSettingsView.swift"
+0x1000cbbe8 string "UserInterface/SystemInfoSettingsView.swift"
+0x1000cbc98 typeReference 
+0x1000cbd40 string "UserInterface/SystemInfoSettingsView.swift"
+0x1000cbddc typeReference 
+0x1000cbe8c typeReference 
+
+FUNCTION 0x1000cbf08  strings=['"UserInterface/SystemInfoSettingsView.swift"']
+0x1000cbf38 typeReference 
+0x1000cc0b8 string "UserInterface/SystemInfoSettingsView.swift"
+0x1000cc6c0 typeReference 
+
+FUNCTION 0x1000ccda8  strings=['"UserInterface/SystemInfoSettingsView.swift"']
+0x1000cce2c string "UserInterface/SystemInfoSettingsView.swift"
+
+FUNCTION 0x1000cd504  strings=['"UserInterface/SystemInfoSettingsView.swift"']
+0x1000cd588 string "UserInterface/SystemInfoSettingsView.swift"
+
+FUNCTION 0x1000cdb00  strings=['"UserInterface/SystemInfoSettingsView.swift"']
+0x1000cdb74 string "UserInterface/SystemInfoSettingsView.swift"
+
+FUNCTION 0x1000cdc68  strings=[]
+0x1000cdcf0 typeReference 
+
+FUNCTION 0x1000cdf14  strings=[]
+0x1000cdf44 typeReference 
+0x1000cdf58 typeReference 
+0x1000cdf64 call type metadata accessor for SwiftUI.GroupedFormStyle
+
+FUNCTION 0x1000ce048  strings=[]
+0x1000ce060 typeReference 
+
+FUNCTION 0x1000ce474  strings=[]
+0x1000ce4a4 typeReference 
+0x1000ce4b4 typeReference 
+
+FUNCTION 0x1000cf28c  strings=[]
+0x1000cf2c4 call type metadata accessor for SwiftUI.SegmentedPickerStyle
+0x1000cf384 typeReference 
+0x1000cf7bc call SwiftUI.SegmentedPickerStyle.init() -> SwiftUI.SegmentedPickerStyle
+0x1000cf7ec call (extension in SwiftUI):SwiftUI.View.pickerStyle<A where A1: SwiftUI.PickerStyle>(A1) -> some
+
+FUNCTION 0x1000cf8e0  strings=['"UserInterface/IndicatorTypePicker.swift"']
+0x1000cf9b0 typeReference 
+0x1000cfb84 string "UserInterface/IndicatorTypePicker.swift"
+
+FUNCTION 0x1000cfd74  strings=['"UserInterface/IndicatorTypePicker.swift"']
+0x1000cfdb0 typeReference 
+0x1000cff0c string "UserInterface/IndicatorTypePicker.swift"
+
+FUNCTION 0x1000d0090  strings=['"UserInterface/IndicatorTypePicker.swift"']
+0x1000d00dc string "UserInterface/IndicatorTypePicker.swift"
+
+FUNCTION 0x1000d0280  strings=[]
+0x1000d02e4 typeReference 
+0x1000d04a0 call type metadata accessor for SwiftUI.SegmentedPickerStyle
+
+FUNCTION 0x1000d053c  strings=[]
+0x1000d05a8 call type metadata accessor for SwiftUI.GroupedFormStyle
+0x1000d05e8 typeReference 
+0x1000d062c typeReference 
+0x1000d0670 typeReference 
+0x1000d06b0 typeReference 
+0x1000d06f8 typeReference 
+0x1000d0738 call static (extension in SwiftUI):SwiftUI.FormStyle< where A == SwiftUI.GroupedFormStyle>.grouped.getter : SwiftUI.GroupedFormStyle
+0x1000d0790 call (extension in SwiftUI):SwiftUI.View.formStyle<A where A1: SwiftUI.FormStyle>(A1) -> some
+0x1000d07d4 doubleBits 360.0
+0x1000d07e4 call SwiftUI._FrameLayout.init(width: CoreGraphics.CGFloat?, height: CoreGraphics.CGFloat?, alignment: SwiftUI.Alignment) -> SwiftUI._FrameLayout
+1000d07b4:	e0 03 14 aa	mov	x0, x20
+1000d07b8:	e1 03 13 aa	mov	x1, x19
+1000d07bc:	00 01 3f d6	blr	x8
+1000d07c0:	a1 d7 01 94	bl	0x100146644 ; symbol stub for: _$s7SwiftUI9AlignmentV6centerACvgZ
+1000d07c4:	e4 03 00 aa	mov	x4, x0
+1000d07c8:	e5 03 01 aa	mov	x5, x1
+1000d07cc:	a8 c3 02 d1	sub	x8, x29, #0xb0
+1000d07d0:	00 00 d0 d2	mov	x0, #0x800000000000
+1000d07d4:	c0 0e e8 f2	movk	x0, #0x4076, lsl #48
+1000d07d8:	01 00 80 52	mov	w1, #0x0
+1000d07dc:	02 00 80 d2	mov	x2, #0x0
+1000d07e0:	23 00 80 52	mov	w3, #0x1
+0x1000d08dc typeReference 
+
+FUNCTION 0x1000d0974  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d09a4 typeReference 
+0x1000d0a00 typeReference 
+0x1000d0a5c typeReference 
+0x1000d0ab8 typeReference 
+0x1000d0b14 typeReference 
+0x1000d0bc8 string "UserInterface/SystemInfoBarSettingsView.swift"
+0x1000d0c14 typeReference 
+0x1000d0d90 typeReference 
+0x1000d0ddc typeReference 
+0x1000d0e60 typeReference 
+0x1000d0eac typeReference 
+0x1000d0f34 typeReference 
+0x1000d0f80 typeReference 
+0x1000d1040 typeReference 
+
+FUNCTION 0x1000d1174  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d11a4 typeReference 
+0x1000d1254 string "UserInterface/SystemInfoBarSettingsView.swift"
+0x1000d14e0 typeReference 
+
+FUNCTION 0x1000d1b74  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d1ba4 typeReference 
+0x1000d1c54 string "UserInterface/SystemInfoBarSettingsView.swift"
+0x1000d1ee0 typeReference 
+
+FUNCTION 0x1000d2280  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d2304 string "UserInterface/SystemInfoBarSettingsView.swift"
+
+FUNCTION 0x1000d26b0  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d26e0 typeReference 
+0x1000d2790 string "UserInterface/SystemInfoBarSettingsView.swift"
+0x1000d2a1c typeReference 
+
+FUNCTION 0x1000d30b8  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d30e8 typeReference 
+0x1000d3198 string "UserInterface/SystemInfoBarSettingsView.swift"
+0x1000d3424 typeReference 
+
+FUNCTION 0x1000d3ac0  strings=['"UserInterface/SystemInfoBarSettingsView.swift"']
+0x1000d3b44 string "UserInterface/SystemInfoBarSettingsView.swift"
+
+FUNCTION 0x1000d4078  strings=[]
+0x1000d4100 typeReference 
+
+FUNCTION 0x1000d43e4  strings=[]
+0x1000d440c typeReference 
+
+FUNCTION 0x1000d4860  strings=[]
+0x1000d4890 typeReference 
+
+FUNCTION 0x1000d4af8  strings=[]
+0x1000d4b20 typeReference 
+
+FUNCTION 0x1000d4e10  strings=[]
+0x1000d4e38 typeReference 
+
+FUNCTION 0x1000d4e98  strings=[]
+0x1000d4ec0 typeReference 
+
+FUNCTION 0x1000d4f08  strings=[]
+0x1000d4f38 typeReference 
+0x1000d4f4c typeReference 
+0x1000d4f58 call type metadata accessor for SwiftUI.GroupedFormStyle
+
+FUNCTION 0x1000d5070  strings=[]
+0x1000d511c typeReference 
+0x1000d5150 call type metadata accessor for SwiftUI.ColorRenderingMode
+0x1000d5218 call SwiftUI.Image.init(size: __C.CGSize, label: SwiftUI.Text?, opaque: Swift.Bool, colorMode: SwiftUI.ColorRenderingMode, renderer: (inout SwiftUI.GraphicsContext) -> ()) -> SwiftUI.Image
+0x1000d5230 call type metadata accessor for SwiftUI.Image.TemplateRenderingMode
+0x1000d5270 call SwiftUI.Image.renderingMode(SwiftUI.Image.TemplateRenderingMode?) -> SwiftUI.Image
+0x1000d52fc typeReference 
+
+FUNCTION 0x1000d5374  strings=[]
+0x1000d53ac typeReference 
+0x1000d53e8 typeReference 
+0x1000d5460 typeReference 
+0x1000d549c typeReference 
+0x1000d54dc typeReference 
+0x1000d56c0 floatImmediate 30.0
+0x1000d56cc doubleBits 62.5
+0x1000d56d4 doubleBits 38.0
+0x1000d57fc floatImmediate 30.0
+0x1000d5828 doubleBits 62.5
+0x1000d5830 doubleBits 38.0
+0x1000d5930 doubleBits 94.5
+0x1000d593c doubleBits 62.5
+0x1000d5a5c doubleBits 62.5
+0x1000d5a64 floatImmediate 22.0
+0x1000d5a90 floatImmediate 22.0
+0x1000d5b58 floatImmediate 28.0
+0x1000d5b88 doubleBits 70.5
+0x1000d5b90 floatImmediate 8.0
+0x1000d5ba8 floatImmediate 18.0
+
+FUNCTION 0x1000d5cf4  strings=['"UserInterface/SystemInfoMenuBar.swift"']
+0x1000d5d2c typeReference 
+0x1000d5da8 typeReference 
+0x1000d5e24 typeReference 
+0x1000d5ea0 typeReference 
+0x1000d5f2c typeReference 
+0x1000d607c typeReference 
+0x1000d60f8 call type metadata accessor for SwiftUI.GraphicsContext.ResolvedImage
+0x1000d6194 string "UserInterface/SystemInfoMenuBar.swift"
+0x1000d6258 call SwiftUI.Image.init(DeveloperToolsSupport.ImageResource) -> SwiftUI.Image
+0x1000d6268 call SwiftUI.GraphicsContext.resolve(SwiftUI.Image) -> SwiftUI.GraphicsContext.ResolvedImage
+0x1000d6274 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d6288 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d62c0 call SwiftUI.GraphicsContext.ResolvedImage.shading.setter : SwiftUI.GraphicsContext.Shading?
+0x1000d62cc floatImmediate 28.0
+0x1000d62d0 floatImmediate 18.0
+0x1000d62e0 call SwiftUI.GraphicsContext.draw(_: SwiftUI.GraphicsContext.ResolvedImage, in: __C.CGRect, style: SwiftUI.FillStyle) -> ()
+0x1000d67e8 floatImmediate 22.0
+0x1000d67ec floatImmediate 22.0
+0x1000d67f0 floatImmediate 16.0
+
+FUNCTION 0x1000d6900  strings=[]
+0x1000d6988 typeReference 
+
+FUNCTION 0x1000d6b74  strings=['"UserInterface/SystemInfoMenuBar.swift"']
+0x1000d6c08 string "UserInterface/SystemInfoMenuBar.swift"
+0x1000d6c30 call SwiftUI.Path.move(to: __C.CGPoint) -> ()
+0x1000d6c34 doubleBits 1.0
+0x1000d6c48 doublePool 6.283185307179586
+0x1000d6c68 call SwiftUI.Path.addArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, endAngle: SwiftUI.Angle, clockwise: Swift.Bool, transform: __C.CGAffineTransform) -> ()
+0x1000d6c6c call SwiftUI.Path.closeSubpath() -> ()
+0x1000d6c78 call SwiftUI.Path.move(to: __C.CGPoint) -> ()
+0x1000d6c98 call SwiftUI.Path.addArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, endAngle: SwiftUI.Angle, clockwise: Swift.Bool, transform: __C.CGAffineTransform) -> ()
+0x1000d6c9c call SwiftUI.Path.closeSubpath() -> ()
+
+FUNCTION 0x1000d6cc8  strings=['"UserInterface/SystemInfoMenuBar.swift"']
+0x1000d6d60 string "UserInterface/SystemInfoMenuBar.swift"
+0x1000d6d88 call SwiftUI.Path.move(to: __C.CGPoint) -> ()
+0x1000d6d8c doubleBits 1.0
+0x1000d6da0 doublePool -1.5707963267948966
+0x1000d6dc0 call SwiftUI.Path.addArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, endAngle: SwiftUI.Angle, clockwise: Swift.Bool, transform: __C.CGAffineTransform) -> ()
+0x1000d6de0 call SwiftUI.Path.addLine(to: __C.CGPoint) -> ()
+0x1000d6e00 call SwiftUI.Path.addArc(center: __C.CGPoint, radius: CoreGraphics.CGFloat, startAngle: SwiftUI.Angle, endAngle: SwiftUI.Angle, clockwise: Swift.Bool, transform: __C.CGAffineTransform) -> ()
+0x1000d6e04 call SwiftUI.Path.closeSubpath() -> ()
+
+FUNCTION 0x1000d6e30  strings=[]
+0x1000d6e5c typeReference 
+0x1000d6e94 typeReference 
+0x1000d6f00 doubleBits 10.563279693737579
+0x1000d6f28 call type metadata accessor for SwiftUI.Font.Design
+0x1000d6f78 call SwiftUI.Text.fontDesign(SwiftUI.Font.Design?) -> SwiftUI.Text
+
+FUNCTION 0x1000d6fcc  strings=[]
+0x1000d6ffc typeReference 
+0x1000d7030 call type metadata accessor for SwiftUI.Font.TextStyle
+0x1000d709c floatImmediate 7.0
+0x1000d70ac call static SwiftUI.Font.custom(_: Swift.String, size: CoreGraphics.CGFloat, relativeTo: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+0x1000d70dc call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000d7110 call type metadata accessor for SwiftUI.Font.Design
+0x1000d715c call SwiftUI.Text.fontDesign(SwiftUI.Font.Design?) -> SwiftUI.Text
+
+FUNCTION 0x1000d71c4  strings=[]
+0x1000d71f4 typeReference 
+0x1000d7228 call type metadata accessor for SwiftUI.Font.TextStyle
+0x1000d7294 floatImmediate 7.0
+0x1000d72a4 call static SwiftUI.Font.custom(_: Swift.String, size: CoreGraphics.CGFloat, relativeTo: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+0x1000d72d4 call SwiftUI.Text.font(SwiftUI.Font?) -> SwiftUI.Text
+0x1000d7308 call type metadata accessor for SwiftUI.Font.Design
+0x1000d7354 call SwiftUI.Text.fontDesign(SwiftUI.Font.Design?) -> SwiftUI.Text
+
+FUNCTION 0x1000d7458  strings=[]
+0x1000d749c typeReference 
+0x1000d74d0 call type metadata accessor for SwiftUI.GraphicsContext.ResolvedImage
+0x1000d7518 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000d7528 call SwiftUI.GraphicsContext.resolve(SwiftUI.Image) -> SwiftUI.GraphicsContext.ResolvedImage
+0x1000d7534 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d7540 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d7574 call SwiftUI.GraphicsContext.ResolvedImage.shading.setter : SwiftUI.GraphicsContext.Shading?
+0x1000d7578 floatImmediate 0.5
+0x1000d75a8 call SwiftUI.GraphicsContext.draw(_: SwiftUI.GraphicsContext.ResolvedImage, at: __C.CGPoint, anchor: SwiftUI.UnitPoint) -> ()
+
+FUNCTION 0x1000d75e0  strings=[]
+0x1000d7660 call type metadata accessor for SwiftUI.RoundedCornerStyle
+0x1000d76b8 floatImmediate 2.0
+0x1000d76d0 call SwiftUI.Path.init(roundedRect: __C.CGRect, cornerRadius: CoreGraphics.CGFloat, style: SwiftUI.RoundedCornerStyle) -> SwiftUI.Path
+1000d76a0:	9c 35 40 f9	ldr	x28, [x12, #0x68]
+1000d76a4:	e0 03 15 aa	mov	x0, x21
+1000d76a8:	e1 03 18 aa	mov	x1, x24
+1000d76ac:	e2 03 16 aa	mov	x2, x22
+1000d76b0:	80 03 3f d6	blr	x28
+1000d76b4:	a8 43 03 d1	sub	x8, x29, #0xd0
+1000d76b8:	04 10 60 1e	fmov	d4, #2.00000000
+1000d76bc:	20 41 60 1e	fmov	d0, d9
+1000d76c0:	61 41 60 1e	fmov	d1, d11
+1000d76c4:	02 41 60 1e	fmov	d2, d8
+1000d76c8:	e0 03 15 aa	mov	x0, x21
+1000d76cc:	43 41 60 1e	fmov	d3, d10
+0x1000d76d8 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d76e4 doubleBits 0.3
+0x1000d76ec call SwiftUI.Color.opacity(Swift.Double) -> SwiftUI.Color
+0x1000d7704 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d7720 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000d7738 doubleBits 100.0
+0x1000d7760 floatImmediate 2.0
+0x1000d7778 call SwiftUI.Path.init(roundedRect: __C.CGRect, cornerRadius: CoreGraphics.CGFloat, style: SwiftUI.RoundedCornerStyle) -> SwiftUI.Path
+1000d7748:	0a 38 6c 1e	fsub	d10, d0, d12
+1000d774c:	e0 03 15 aa	mov	x0, x21
+1000d7750:	e1 03 18 aa	mov	x1, x24
+1000d7754:	e2 03 16 aa	mov	x2, x22
+1000d7758:	80 03 3f d6	blr	x28
+1000d775c:	a8 a3 02 d1	sub	x8, x29, #0xa8
+1000d7760:	04 10 60 1e	fmov	d4, #2.00000000
+1000d7764:	20 41 60 1e	fmov	d0, d9
+1000d7768:	41 41 60 1e	fmov	d1, d10
+1000d776c:	02 41 60 1e	fmov	d2, d8
+1000d7770:	e0 03 15 aa	mov	x0, x21
+1000d7774:	83 41 60 1e	fmov	d3, d12
+0x1000d777c call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d7788 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d77a4 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+
+FUNCTION 0x1000d77f0  strings=[]
+0x1000d7864 floatImmediate 0.5
+0x1000d7870 doubleBits 0.3
+0x1000d789c call SwiftUI.Path.init((inout SwiftUI.Path) -> ()) -> SwiftUI.Path
+0x1000d78a4 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d78b0 call SwiftUI.Color.opacity(Swift.Double) -> SwiftUI.Color
+0x1000d78c8 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d78e4 call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+0x1000d78fc doubleBits 100.0
+0x1000d7908 floatImmediate -0.5
+0x1000d7914 doublePool 3.141592653589793
+0x1000d7950 call SwiftUI.Path.init((inout SwiftUI.Path) -> ()) -> SwiftUI.Path
+0x1000d7954 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d7960 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d797c call SwiftUI.GraphicsContext.fill(_: SwiftUI.Path, with: SwiftUI.GraphicsContext.Shading, style: SwiftUI.FillStyle) -> ()
+
+FUNCTION 0x1000d79c4  strings=[]
+0x1000d7a40 typeReference 
+0x1000d7b3c floatImmediate 22.0
+0x1000d7b40 floatImmediate 22.0
+0x1000d7b44 floatImmediate 16.0
+0x1000d7b88 doubleBits 1000.0
+0x1000d7b98 floatImmediate 10.0
+0x1000d7ba0 floatImmediate 16.0
+0x1000d7ba4 floatImmediate 8.0
+0x1000d7ba8 floatImmediate 16.0
+0x1000d7be4 doubleBits 1000.0
+0x1000d7bf4 floatImmediate 10.0
+0x1000d7bfc doubleBits 100.0
+0x1000d7c60 typeReference 
+0x1000d7cf0 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d7d00 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d7d1c doubleBits 40.5
+0x1000d7d24 floatImmediate 16.0
+0x1000d7d5c doubleBits 48.5
+0x1000d7d70 doubleBits 1000.0
+0x1000d7d80 floatImmediate 10.0
+0x1000d7d88 floatImmediate 16.0
+0x1000d7d9c floatImmediate 24.0
+
+FUNCTION 0x1000d7ddc  strings=[]
+0x1000d7e9c floatImmediate 22.0
+0x1000d7ea0 floatImmediate 16.0
+0x1000d7efc doubleBits 48.5
+0x1000d7f08 doubleBits 40.5
+0x1000d7f50 doubleBits 80.5
+0x1000d7f5c doubleBits 72.5
+0x1000d7f64 floatImmediate 22.0
+0x1000d7f74 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d7f80 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d7f98 floatImmediate 16.0
+
+FUNCTION 0x1000d7ff4  strings=[]
+0x1000d80a8 floatImmediate 22.0
+0x1000d80ac floatImmediate 22.0
+0x1000d80b0 floatImmediate 16.0
+0x1000d812c call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d8138 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d8154 doubleBits 40.5
+0x1000d815c floatImmediate 16.0
+0x1000d818c floatImmediate 8.0
+
+FUNCTION 0x1000d81c0  strings=[]
+0x1000d8200 typeReference 
+0x1000d8238 call type metadata accessor for SwiftUI.GraphicsContext.ResolvedImage
+0x1000d832c call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d8338 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d8354 doubleBits 43.5
+0x1000d835c floatImmediate 1.0
+0x1000d8360 floatImmediate 8.0
+0x1000d83a4 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000d83b4 call SwiftUI.GraphicsContext.resolve(SwiftUI.Image) -> SwiftUI.GraphicsContext.ResolvedImage
+0x1000d83c0 call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d83d0 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d8404 call SwiftUI.GraphicsContext.ResolvedImage.shading.setter : SwiftUI.GraphicsContext.Shading?
+0x1000d8408 floatImmediate 1.0
+0x1000d840c floatImmediate 5.0
+0x1000d8410 floatImmediate 7.0
+0x1000d8424 call SwiftUI.GraphicsContext.draw(_: SwiftUI.GraphicsContext.ResolvedImage, in: __C.CGRect, style: SwiftUI.FillStyle) -> ()
+0x1000d847c call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d8488 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d84a0 floatImmediate 8.0
+0x1000d84a4 floatImmediate 8.0
+0x1000d84e0 call SwiftUI.Image.init(systemName: Swift.String) -> SwiftUI.Image
+0x1000d84f0 call SwiftUI.GraphicsContext.resolve(SwiftUI.Image) -> SwiftUI.GraphicsContext.ResolvedImage
+0x1000d84fc call static SwiftUI.Color.black.getter : SwiftUI.Color
+0x1000d8508 call static SwiftUI.GraphicsContext.Shading.color(SwiftUI.Color) -> SwiftUI.GraphicsContext.Shading
+0x1000d8534 call SwiftUI.GraphicsContext.ResolvedImage.shading.setter : SwiftUI.GraphicsContext.Shading?
+0x1000d8538 floatImmediate 9.0
+0x1000d853c floatImmediate 5.0
+0x1000d8540 floatImmediate 7.0
+0x1000d8554 call SwiftUI.GraphicsContext.draw(_: SwiftUI.GraphicsContext.ResolvedImage, in: __C.CGRect, style: SwiftUI.FillStyle) -> ()
+
+FUNCTION 0x1000d85ac  strings=[]
+0x1000d85d4 typeReference 
+
+FUNCTION 0x1000d89a4  strings=['"RunCatLocalization_RunCatLocalization.bundle"', '"unable to find bundle named RunCatLocalization_RunCatLocalization"', '"Fatal error"', '"RunCatLocalization/resource_bundle_accessor.swift"']
+0x1000d8a0c typeReference 
+0x1000d8ac8 typeReference 
+0x1000d8ce8 string "RunCatLocalization_RunCatLocalization.bundle"
+0x1000d8e70 string "unable to find bundle named RunCatLocalization_RunCatLocalization"
+0x1000d8e8c string "Fatal error"
+0x1000d8e94 string "RunCatLocalization/resource_bundle_accessor.swift"
+
+FUNCTION 0x1000d8ec4  strings=[]
+0x1000d8f28 typeReference 
