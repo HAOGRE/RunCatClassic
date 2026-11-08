@@ -71,16 +71,21 @@ public struct RunnerSection: Identifiable, Sendable {
 }
 
 extension NSImage {
-    /// Mirror the whole canvas, including transparent margins.
+    /// Mirror the whole canvas without changing its pixel density or transparent margins.
     @MainActor public func flipHorizontally() -> NSImage {
-        let result = NSImage(size: size)
-        result.lockFocus()
-        let mirror = NSAffineTransform()
-        mirror.translateX(by: size.width, yBy: 0)
-        mirror.scaleX(by: -1, yBy: 1)
-        mirror.concat()
-        draw(in: NSRect(origin: .zero, size: size), from: .zero, operation: .copy, fraction: 1)
-        result.unlockFocus()
+        // lockFocus() uses the screen's backing scale, which doubles these assets
+        // on Retina displays. The menu layer displays pixels at a fixed 2x scale.
+        guard let source = cgImage(forProposedRect: nil, context: nil, hints: nil),
+              let context = CGContext(data: nil, width: source.width, height: source.height,
+                                      bitsPerComponent: 8, bytesPerRow: 0,
+                                      space: CGColorSpaceCreateDeviceRGB(),
+                                      bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue) else { return self }
+        context.interpolationQuality = .none
+        context.translateBy(x: CGFloat(source.width), y: 0)
+        context.scaleBy(x: -1, y: 1)
+        context.draw(source, in: CGRect(x: 0, y: 0, width: source.width, height: source.height))
+        guard let mirrored = context.makeImage() else { return self }
+        let result = NSImage(cgImage: mirrored, size: size)
         result.isTemplate = isTemplate
         return result
     }
