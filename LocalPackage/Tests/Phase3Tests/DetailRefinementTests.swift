@@ -7,6 +7,30 @@ import Testing
 import UserInterface
 
 @Suite(.serialized) @MainActor struct DetailRefinementTests {
+    @Test func freeShowcaseOmitsUnlockBundlesAndEmptySections() {
+        let sections = StockSection.sections(Stock.all)
+        #expect(sections.map(\.category) == [.special, .animal, .inanimate, .seasonal])
+        #expect(sections.allSatisfy { !$0.stocks.isEmpty })
+        #expect(sections.flatMap(\.stocks).allSatisfy { $0.runnerType.category != .functional })
+        #expect(StockSection.sections([]).isEmpty)
+        #expect(StockSection.sections(Stock.all.filter { $0.product.runnerType.category == .functional }).isEmpty)
+        for section in sections {
+            let indices = section.stocks.map { $0.runnerType.index }
+            #expect(indices == indices.sorted())
+        }
+    }
+
+    @Test func showcaseSelectionButtonTitlesAreLocalized() {
+        for (language, select, selected) in [
+            ("zh-Hans", "选用", "使用中"), ("en", "Select", "Selected"),
+            ("ja", "選択", "選択中"), ("ko", "선택", "선택됨"),
+            ("fr", "Choisir", "Sélectionné"), ("de", "Select", "Selected")
+        ] {
+            #expect(StockView.buttonTitle(language: language, isSelected: false) == select)
+            #expect(StockView.buttonTitle(language: language, isSelected: true) == selected)
+        }
+    }
+
     @Test func openSourceReleaseHelpLinksAndVersion() {
         #expect(HelpType.faq.url.absoluteString == "https://github.com/HAOGRE/RunCatClassic#faq")
         #expect(HelpType.howToRegister.url.absoluteString == "https://github.com/HAOGRE/RunCatClassic#self-made-runners")

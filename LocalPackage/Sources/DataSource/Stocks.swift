@@ -53,10 +53,14 @@ public struct StockSection: Identifiable, Sendable {
     public var id: StockCategory { category }
     public init(category: StockCategory, stocks: [StockWithRunnerType]) { self.category = category; self.stocks = stocks }
     public static func sections(_ stocks: [Stock]) -> [StockSection] {
-        StockCategory.allCases.map { category in
-            .init(category: category, stocks: stocks.filter { $0.product.runnerType.category.rawValue == category.rawValue }
-                .sorted { $0.product.runnerType.index < $1.product.runnerType.index }
-                .map { .init(stock: $0, runnerType: $0.product.runnerType) })
-        }
+        StockCategory.allCases
+            .filter { $0 != .functional }
+            .compactMap { category in
+                let items = stocks
+                    .filter { $0.product.runnerType.category.rawValue == category.rawValue }
+                    .sorted { $0.product.runnerType.index < $1.product.runnerType.index }
+                    .map { StockWithRunnerType(stock: $0, runnerType: $0.product.runnerType) }
+                return items.isEmpty ? nil : StockSection(category: category, stocks: items)
+            }
     }
 }

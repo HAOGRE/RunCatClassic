@@ -35,7 +35,7 @@ RunCat Classic 是 [HAOGRE](https://github.com/HAOGRE) 维护的社区复活工�
 - **完整经典内容**：78 个内置跑者（含 7 个彩色角色）、经典 Dashboard、随机选择、强调色与独立系统信息栏。
 - **自制跑者**：独立编辑窗口，最多 50 帧 PNG，支持模板或原色、拖放重排和动画预览。
 - **系统指标**：CPU、内存、存储、电池和网络；兼容 macOS 27 的嵌套 `BatteryData` / `AppleSmartBatteryPack` 数据结构，保留传统 Apple Silicon / Intel 采集路径。
-- **经典浏览方式**：59 项商品与原始 APNG 预览；社区模式免费解锁目录，保留选用与恢复入口，不执行真实付费交易。
+- **免费跑者展示**：四个分类、57 款跑者与原始 APNG 预览；一键选用并标记当前跑者。
 - **五种语言**：English、简体中文、日本語、한국어、Français。
 
 结构、布局常量、资源与主要交互以经典版为依据；系统原生控件外观会随 macOS 变化，尚未完成跨系统逐像素验收。
@@ -47,7 +47,7 @@ RunCat Classic is a community revival maintained by [HAOGRE](https://github.com/
 - **Classic catalog:** 78 built-in runners, including 7 color runners, the classic dashboard, random selection, accent tint and a separate system information bar.
 - **Custom runners:** a separate editor for up to 50 PNG frames, template/original color, drag-to-reorder and animation preview.
 - **System metrics:** CPU, memory, storage, battery and network, including the nested macOS 27 battery schema and traditional Apple Silicon / Intel collector paths.
-- **Product browser:** 59 classic products with original APNG previews; community mode unlocks selection and retains restoration UI without real purchases.
+- **Free runner showcase:** 57 runners across four categories with original APNG previews, one-click selection and an indicator for the current runner.
 - **Five languages:** English, Simplified Chinese, Japanese, Korean and French.
 
 The restoration follows classic structure, layout constants, assets and interaction semantics. Native controls vary by OS; cross-version pixel-for-pixel equivalence has not been established.
@@ -65,7 +65,7 @@ The Neo column refers to that pinned source snapshot; later versions may differ.
 | 默认猫 / Default cat | 5 帧 / frames，28×18 pt | 相同可见像素 / same visible pixels |
 | 动画 / Animation | 离散 Core Animation；变速保相位 / discrete, phase-preserving | 相同基础数学 / same core mathematics |
 | 导航 / Navigation | 经典 Dashboard、两 Tab 设置 / classic dashboard, two settings tabs | 现代菜单和设置 / modern menus and settings |
-| 商品浏览 / Product browser | 59 项，社区免费选用 / free community selection | 无经典商店 / no classic store |
+| 跑者展示 / Runner showcase | 57 款，社区免费选用 / free community selection | 无经典商店 / no classic store |
 | 自制跑者 / Custom runners | 独立窗口，最多 50 帧 / separate window, up to 50 frames | 设置内编辑，最多 30 帧 / settings editor, up to 30 frames |
 | 颜色 / Color | 模板、原色、强调色 / template, original, accent | 内置模板、自制可原色 / built-in templates, custom original color |
 | 随机与停止 / Random & stop | 经典范围与确认流程 / classic scope and confirmation | 流程不同 / different workflow |
@@ -87,7 +87,7 @@ Native SwiftUI / AppKit screenshots in light appearance. The desktop example omi
 | System Info Bar / 信息栏 | Self-Made / 自制跑者 |
 | ![System information bar settings](docs/phase4/screenshots/bar-settings.png) | ![Self-made runner editor](docs/phase4/screenshots/self-made.png) |
 
-![Product browser with original APNG preview](docs/phase4/screenshots/store-row.png)
+![Free runner showcase with original APNG preview and one-click selection](docs/phase4/screenshots/store-row.png)
 
 <a id="self-made-runners"></a>
 ## Self-Made Runners / 自制跑者注册指南
@@ -139,9 +139,9 @@ Desktop Macs without a battery hide battery detail rows. The collector supports 
 
 **商店是否收费？Does the store charge money?**
 
-社区模式免费解锁内置目录和自制功能，保留经典浏览界面，不执行真实付费交易。
+社区版的全部跑者和自制功能均免费。展示窗口提供一键选用，不显示价格、购买或恢复购买入口。
 
-Community mode unlocks the catalog and custom-runner editor, preserving the classic browser without real purchases.
+All runners and the custom-runner editor are free. The showcase offers one-click selection with no prices, purchase buttons or restore-purchases row.
 
 **如何报告问题或参与？How do I report issues or contribute?**
 

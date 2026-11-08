@@ -179,7 +179,7 @@ import Testing
         d.systemInfoService.accept(b)
         let list = RunnersList(d); list.send(.task)
         let form = RegistrationForm(d); try form.importPNGData([makePNG(), makePNG(width: 30)]); form.runnerName = "Sample"
-        let item = StockSection.sections(Stock.all)[1].stocks[0]
+        let item = try #require(StockSection.sections(Stock.all).flatMap(\.stocks).first { $0.runnerType == .goldenCat })
         let screens: [(String, AnyView)] = [
             ("dashboard", AnyView(HStack(alignment: .top, spacing: 8) { SystemInfoStackView(bundle: b, cpuValues: (0..<60).map { Double($0 % 20) * 5 }, needsDummyIP: true); MainMenusView { _ in } }.fixedSize().padding(8))),
             ("runners", AnyView(RunnersListView(store: list))),
@@ -189,7 +189,7 @@ import Testing
             ("system-settings", AnyView(SystemInfoSettingsView(dependencies: d))),
             ("bar-settings", AnyView(SystemInfoBarSettingsView(dependencies: d))),
             ("bar-confirmation", AnyView(SystemInfoBarConfirmationDialog(store: .init(completion: { _ in })))),
-            ("store-row", AnyView(StockView(item: item, action: {}).frame(width: 418))),
+            ("store-row", AnyView(StockView(item: item, language: "en", action: {}).frame(width: 418))),
             ("self-made", AnyView(RegistrationFormView(store: form))),
             ("notch", AnyView(MenuBarSample(withNotch: true)))
         ]

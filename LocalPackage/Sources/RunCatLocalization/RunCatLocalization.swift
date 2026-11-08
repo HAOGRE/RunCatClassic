@@ -3,6 +3,9 @@ import Foundation
 public enum RunCatLocalization {
     public static let resourceBundle: Bundle = .module
     public static let languages = ["en", "zh-Hans", "ja", "ko", "fr"]
+    public static func currentLanguage() -> String {
+        Locale.preferredLanguages.first.map { $0.hasPrefix("zh") ? "zh-Hans" : String($0.prefix(2)) } ?? "en"
+    }
     public enum Table: String, CaseIterable, Sendable {
         case dashboard = "Dashboard", generalSettings = "GeneralSettings"
         case systemInfoSettings = "SystemInfoSettings", systemInfoBar = "SystemInfoBar"

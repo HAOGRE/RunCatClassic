@@ -7,6 +7,7 @@ import Observation
 @MainActor @Observable public final class RunnersStore {
     public enum Action { case task, purchaseButtonTapped(String), restoreButtonTapped, reloadButtonTapped, onDisappear, dismissAlert }
     public private(set) var stockSections: [StockSection] = []
+    public private(set) var currentRunner = Runner(.catA)
     public private(set) var isProcessing = false
     public private(set) var isPresentedAlert = false
     public private(set) var error: RunCatError?
@@ -17,7 +18,10 @@ import Observation
     public func send(_ action: Action) {
         switch action {
         case .task:
-            subscription = dependencies.appStateClient.receive { [weak self] state in self?.stockSections = StockSection.sections(state.stocksSubject.value) }
+            subscription = dependencies.appStateClient.receive { [weak self] state in
+                self?.stockSections = StockSection.sections(state.stocksSubject.value)
+                self?.currentRunner = state.runnerBundleSubject.value.runner
+            }
         case .reloadButtonTapped: stockSections = StockSection.sections(dependencies.productsRepository.stocks)
         case .purchaseButtonTapped(let id):
             isProcessing = true
@@ -25,6 +29,7 @@ import Observation
             do {
                 let type = try dependencies.inAppPurchaseService.purchase(id)
                 if type.category != .functional { dependencies.runnerService.setAutomatically(false); dependencies.runnerService.select(Runner(type)) }
+                currentRunner = dependencies.appStateClient.getAppState().runnerBundleSubject.value.runner
                 stockSections = StockSection.sections(dependencies.productsRepository.stocks)
             } catch let error as RunCatError { self.error = error; isPresentedAlert = true }
             catch { self.error = .purchase(.unknownError); isPresentedAlert = true }

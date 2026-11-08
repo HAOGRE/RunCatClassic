@@ -61,7 +61,7 @@ import UserInterface
         let files = ["en": "StoreKitConfig.storekit", "zh-Hans": "StoreKitConfigCS.storekit", "ja": "StoreKitConfigJP.storekit", "ko": "StoreKitConfigKO.storekit", "fr": "StoreKitConfigFR.storekit"]
         #expect(stocks.count == 59)
         #expect(Set(stocks.map(\.id)).count == 59)
-        #expect(StockSection.sections(stocks).flatMap(\.stocks).count == 59)
+        #expect(StockSection.sections(stocks).flatMap(\.stocks).count == 57)
         for stock in stocks {
             #expect(stock.purchased && stock.isUnlocked)
             #expect(stock.id == stock.product.runnerType.id + ".com.kyome")

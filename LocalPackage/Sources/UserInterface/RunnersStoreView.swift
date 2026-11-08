@@ -1,6 +1,7 @@
 import AppKit
 import DataSource
 import Model
+import RunCatLocalization
 import SwiftUI
 
 public struct RunnersStoreView: View {
@@ -8,16 +9,19 @@ public struct RunnersStoreView: View {
     private let language: String
     public init(dependencies: AppDependencies, language: String? = nil) {
         _store = State(initialValue: RunnersStore(dependencies))
-        self.language = language ?? Locale.preferredLanguages.first.map { $0.hasPrefix("zh") ? "zh-Hans" : String($0.prefix(2)) } ?? "en"
+        self.language = language ?? RunCatLocalization.currentLanguage()
     }
     public var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 16) {
-                RestoreView { store.send(.restoreButtonTapped) }
                 ForEach(store.stockSections) { section in
                     LazyVStack(alignment: .leading, spacing: 8) {
                         Text(localized(categoryKey(section.category), .runnersStore)).font(.headline)
-                        ForEach(section.stocks) { item in StockView(item: item, language: language) { store.send(.purchaseButtonTapped(item.id)) } }
+                        ForEach(section.stocks) { item in
+                            StockView(item: item, language: language, isSelected: store.currentRunner.id == item.runnerType.id) {
+                                store.send(.purchaseButtonTapped(item.id))
+                            }
+                        }
                     }
                 }
                 if store.stockSections.isEmpty { StoreUnavailableView { store.send(.reloadButtonTapped) } }
@@ -45,8 +49,11 @@ public struct StoreItemViewModifier: ViewModifier {
 public struct StockView: View {
     let item: StockWithRunnerType
     let language: String
+    let isSelected: Bool
     let action: () -> Void
-    public init(item: StockWithRunnerType, language: String = "en", action: @escaping () -> Void) { self.item = item; self.language = language; self.action = action }
+    public init(item: StockWithRunnerType, language: String = RunCatLocalization.currentLanguage(), isSelected: Bool = false, action: @escaping () -> Void) {
+        self.item = item; self.language = language; self.isSelected = isSelected; self.action = action
+    }
     public var body: some View {
         HStack(spacing: 16) {
             APNGView(name: item.stock.previewAssetName, isTemplate: item.runnerType.isTemplate)
@@ -56,10 +63,8 @@ public struct StockView: View {
                     Text(item.stock.title(language: language))
                         .font(.title3)
                     Spacer()
-                    Text(item.stock.displayPrice(language: language))
-                        .font(.body)
-                    Button(localized("purchase", .runnersStore), action: action)
-                        .disabled(item.stock.purchased)
+                    Button(Self.buttonTitle(language: language, isSelected: isSelected), action: action)
+                        .disabled(isSelected)
                 }
                 Text(item.stock.description(language: language))
                     .font(.caption)
@@ -67,6 +72,15 @@ public struct StockView: View {
             }
         }
         .modifier(StoreItemViewModifier())
+    }
+    public static func buttonTitle(language: String, isSelected: Bool) -> String {
+        switch language {
+        case "zh-Hans": isSelected ? "使用中" : "选用"
+        case "ja": isSelected ? "選択中" : "選択"
+        case "ko": isSelected ? "선택됨" : "선택"
+        case "fr": isSelected ? "Sélectionné" : "Choisir"
+        default: isSelected ? "Selected" : "Select"
+        }
     }
 }
 public struct RestoreView: View {
