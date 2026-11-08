@@ -66,7 +66,26 @@ import StoreKit
     public var openSettings: () -> Void
     public init(activate: @escaping () -> Void = { NSApp.activate(ignoringOtherApps: true) },
                 terminate: @escaping () -> Void = { NSApp.terminate(nil) },
-                about: @escaping () -> Void = { NSApp.orderFrontStandardAboutPanel(nil) },
+                about: @escaping () -> Void = {
+                    let credits = NSMutableAttributedString(string: "RunCat Classic · Community revival by HAOGRE\n")
+                    let references = [
+                        ("RunCatClassic on GitHub", "https://github.com/HAOGRE/RunCatClassic"),
+                        ("RunCatNeo · Official modern RunCat by Takuto Nakamura / runcat-dev", "https://github.com/runcat-dev/RunCatNeo"),
+                        ("SystemInfoKit · System metrics by Takuto Nakamura (Apache-2.0)", "https://github.com/Kyome22/SystemInfoKit"),
+                        ("RunCat365 · RunCat for Windows by Takuto Nakamura", "https://github.com/Kyome22/RunCat365"),
+                    ]
+                    for (title, address) in references {
+                        credits.append(NSAttributedString(string: title, attributes: [.link: URL(string: address)!]))
+                        credits.append(NSAttributedString(string: "\n"))
+                    }
+                    NSApp.orderFrontStandardAboutPanel(options: [
+                        .applicationName: "RunCat",
+                        .applicationVersion: "1.0.0",
+                        .version: "1",
+                        NSApplication.AboutPanelOptionKey(rawValue: "Copyright"): "© 2026 HAOGRE · Classic RunCat 12.2.1 © Takuto Nakamura (Kyome)",
+                        .credits: credits,
+                    ])
+                },
                 openSettings: @escaping () -> Void = { NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil) }) {
         self.activate = activate; self.terminate = terminate; orderFrontStandardAboutPanel = about; self.openSettings = openSettings
     }
@@ -84,6 +103,14 @@ import StoreKit
 @MainActor public struct SharingServiceClient {
     public var perform: (String, String) -> Void
     public init(perform: @escaping (String, String) -> Void = { subject, body in
+        var components = URLComponents(string: "https://github.com/HAOGRE/RunCatClassic/issues/new")
+        components?.queryItems = [
+            URLQueryItem(name: "title", value: subject),
+            URLQueryItem(name: "body", value: body),
+        ]
+        if let url = components?.url, NSWorkspace.shared.open(url) {
+            return
+        }
         guard let service = NSSharingService(named: .composeEmail) else { return }
         service.subject = subject; service.perform(withItems: [body])
     }) { self.perform = perform }

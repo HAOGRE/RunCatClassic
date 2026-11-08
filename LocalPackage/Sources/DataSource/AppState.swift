@@ -20,7 +20,7 @@ import SystemInfoKit
     public let runnerSpeedSubject = CurrentValueSubject<Float, Never>(1)
     public let runnerSectionsSubject = CurrentValueSubject<[RunnerSection], Never>(RunnerSection.builtIn())
     public let runnerBundleSubject = CurrentValueSubject<RunnerBundle, Never>(.init(runner: Runner(.catA), frames: []))
-    public init(name: String = "RunCat", version: String = "12.2.1-community", monitorInterval: Double = 5) {
+    public init(name: String = "RunCat", version: String = "1.0.0", monitorInterval: Double = 5) {
         self.name = name; self.version = version; self.monitorInterval = monitorInterval
         systemInfoObserver = .init(monitorInterval: monitorInterval)
     }

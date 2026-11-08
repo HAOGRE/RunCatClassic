@@ -12,7 +12,7 @@ public enum SettingsTabType: String, CaseIterable, Codable, Sendable { case gene
 public enum HelpType: String, CaseIterable, Sendable {
     case howToRegister, faq
     public var url: URL {
-        URL(string: "https://kyome.io/runcat/index.html" + (self == .howToRegister ? "#self_made" : "#faq"))!
+        URL(string: "https://github.com/HAOGRE/RunCatClassic" + (self == .howToRegister ? "#self-made-runners" : "#faq"))!
     }
 }
 public enum IndicatorType {
@@ -102,7 +102,7 @@ public enum ErrorEvent: String, Sendable { case none }
 public enum NoticeEvent: String, Sendable { case screenView, launchApp }
 public struct EnvironmentInfo: Sendable {
     public let appName: String, appVersion: String, deviceName: String, systemVersion: String
-    public init(appName: String = "RunCat", appVersion: String = "12.2.1-community") {
+    public init(appName: String = "RunCat", appVersion: String = "1.0.0") {
         self.appName = appName; self.appVersion = appVersion
         deviceName = ProcessInfo.processInfo.hostName; systemVersion = ProcessInfo.processInfo.operatingSystemVersionString
     }

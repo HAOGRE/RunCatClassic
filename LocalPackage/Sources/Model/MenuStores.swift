@@ -72,7 +72,7 @@ import SystemInfoKit
         case .task: dependencies.logService.notice(.screenView, detail: "SubMenus")
         case .aboutButtonTapped: dependencies.nsAppClient.activate(); dependencies.nsAppClient.orderFrontStandardAboutPanel()
         case .sendIssueReportButtonTapped(let content): dependencies.sharingServiceClient.perform(content.subject, content.body)
-        case .contributeToAppButtonTapped: _ = dependencies.nsWorkspaceClient.open(URL(string: "https://kyome.io/runcat.html")!)
+        case .contributeToAppButtonTapped: _ = dependencies.nsWorkspaceClient.open(URL(string: "https://github.com/HAOGRE/RunCatClassic")!)
         case .quitButtonTapped: dependencies.nsAppClient.terminate()
         case .debugSleepButtonTapped: dependencies.systemInfoService.setSleeping(true)
         case .debugWakeUpButtonTapped: dependencies.systemInfoService.setSleeping(false)

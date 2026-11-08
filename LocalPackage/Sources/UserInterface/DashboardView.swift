@@ -117,7 +117,7 @@ public struct SubMenusView: View {
         }.buttonStyle(SmallButtonStyle()).padding(8).modifier(MaterialCellViewModifier()).padding(8).task { action(.task) }
     }
     static func issueReportContent() -> SubMenus.IssueReportContent {
-        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "12.2.1"
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
         let environment = String(format: localized("mailEnvironment%@%@%@%@", .others),
                                  "RunCat", version, SystemInfoKit.Processor.name() ?? "Mac",
                                  ProcessInfo.processInfo.operatingSystemVersionString)

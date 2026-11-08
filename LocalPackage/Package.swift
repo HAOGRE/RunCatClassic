@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "SystemInfoKit", exclude: ["LICENSE"], resources: [.process("Resources")]),
+        .target(name: "SystemInfoKit", resources: [.process("Resources"), .copy("LICENSE")]),
         .target(name: "DataSource", dependencies: ["SystemInfoKit", "RunCatLocalization"], resources: [.process("Resources")]),
         .target(name: "Model", dependencies: ["DataSource", "SystemInfoKit"]),
         .target(name: "RunCatLocalization", resources: [.process("Resources")]),
