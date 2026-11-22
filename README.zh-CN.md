@@ -2,7 +2,7 @@
 
 # RunCat Classic
 
-[![版本 v1.0.0](https://img.shields.io/badge/version-v1.0.0-green)](https://github.com/HAOGRE/RunCatClassic/releases/tag/v1.0.0)
+[![版本 v1.0.1](https://img.shields.io/badge/version-v1.0.1-green)](https://github.com/HAOGRE/RunCatClassic/releases/tag/v1.0.1)
 ![基于经典 RunCat 12.2.1](https://img.shields.io/badge/based_on-RunCat_12.2.1-blue)
 ![macOS 14 及以上](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![已在 macOS 27.2 验证](https://img.shields.io/badge/verified-macOS_27.2-blue)
@@ -12,9 +12,9 @@
 
 ## 下载安装
 
-**[下载 RunCat.dmg（v1.0.0）](https://github.com/HAOGRE/RunCatClassic/releases/latest/download/RunCat.dmg)**
+**[下载 RunCat.dmg（v1.0.1）](https://github.com/HAOGRE/RunCatClassic/releases/latest/download/RunCat.dmg)**
 
-打开 DMG，将 `RunCat.app` 拖入「应用程序」，再从「应用程序」启动。v1.0.0 的 DMG 为 Apple Silicon（arm64）构建，最低要求 macOS 14，已在 macOS 27.2 验证。Intel 用户可从源码构建，尚未实机验证。
+打开 DMG，将 `RunCat.app` 拖入「应用程序」，再从「应用程序」启动。v1.0.1 的 DMG 为 Apple Silicon（arm64）构建，最低要求 macOS 14，已在 macOS 27.2 验证。Intel 用户可从源码构建，尚未实机验证。
 
 发行包使用临时签名，未经过 Apple 公证。如果首次打开被 Gatekeeper 阻止，请在确认下载来自本仓库后运行：
 
@@ -25,7 +25,7 @@ open /Applications/RunCat.app
 
 ## 为什么选择 RunCat Classic
 
-RunCat Classic 是由 [HAOGRE](https://github.com/HAOGRE) 维护的社区复活工程，让完整的经典 **RunCat 12.2.1** 体验延续到 **macOS 14–27+**。**本项目版本为 1.0.0。** 工程依据经典版资源、Swift 类型元数据、原始本地化表与资源清单重建菜单和交互，保留原作者 Takuto Nakamura（Kyome）的署名。官方现代 macOS 开源版本请见 [RunCatNeo](https://github.com/runcat-dev/RunCatNeo)。
+RunCat Classic 是由 [HAOGRE](https://github.com/HAOGRE) 维护的社区复活工程，让完整的经典 **RunCat 12.2.1** 体验延续到 **macOS 14–27+**。**本项目版本为 1.0.1。** 工程依据经典版资源、Swift 类型元数据、原始本地化表与资源清单重建菜单和交互，保留原作者 Takuto Nakamura（Kyome）的署名。官方现代 macOS 开源版本请见 [RunCatNeo](https://github.com/runcat-dev/RunCatNeo)。
 
 - **完整经典内容**：78 个内置跑者（含 7 个彩色角色）、经典主面板、随机选择、强调色与独立系统信息栏。
 - **自制跑者**：独立编辑窗口，最多 50 帧 PNG，支持模板或原色、拖放重排和动画预览。
@@ -65,7 +65,7 @@ RunCat Classic 是由 [HAOGRE](https://github.com/HAOGRE) 维护的社区复活�
 
 Neo 列依据固定源码快照 [`592cd606`](https://github.com/runcat-dev/RunCatNeo/tree/592cd606e735ce20da98d9ae62ecf1a2608635d7)，不代表后续版本。经典版列描述本工程。
 
-| 特性 | RunCat Classic v1.0.0 | RunCatNeo 固定快照 |
+| 特性 | RunCat Classic v1.0.1 | RunCatNeo 固定快照 |
 |---|---|---|
 | 系统要求 | macOS 14 及以上；已在 27.2 验证 | 部署目标为 macOS 26 及以上 |
 | 内置跑者 | 78 个，含 7 个彩色角色 | 8 个，均为模板渲染 |
@@ -163,7 +163,7 @@ open /Applications/RunCat.app
 
 **这是官方 RunCat 或 RunCatNeo 吗？**
 
-这是基于经典 12.2.1 体验的独立社区复活项目，使用自己的 v1.0.0 版本号。官方现代 macOS 开源项目为 [RunCatNeo](https://github.com/runcat-dev/RunCatNeo)，由 Takuto Nakamura / runcat-dev 开发。
+这是基于经典 12.2.1 体验的独立社区复活项目，使用自己的 v1.0.1 版本号。官方现代 macOS 开源项目为 [RunCatNeo](https://github.com/runcat-dev/RunCatNeo)，由 Takuto Nakamura / runcat-dev 开发。
 
 **首次打开被阻止怎么办？**
 
@@ -171,7 +171,7 @@ open /Applications/RunCat.app
 
 **支持哪些 Mac？**
 
-最低部署版本为 macOS 14，已在 Apple Silicon、macOS 27.2 验证。v1.0.0 DMG 为 arm64；Intel 可从源码构建，其他系统版本、Intel 和多显示器硬件组合仍需更多验证。
+最低部署版本为 macOS 14，已在 Apple Silicon、macOS 27.2 验证。v1.0.1 DMG 为 arm64；Intel 可从源码构建，其他系统版本、Intel 和多显示器硬件组合仍需更多验证。
 
 **为什么跑者速度会变化？**
 

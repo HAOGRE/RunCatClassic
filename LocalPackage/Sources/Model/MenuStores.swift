@@ -9,12 +9,14 @@ import SystemInfoKit
     public enum Action { case task, mainMenus(MainMenus.Action), runnersList(RunnersList.Action), subMenus(SubMenus.Action), helpMenus(HelpMenus.Action), onDisappear }
     public private(set) var context = Context.systemInfo
     public private(set) var systemInfoBundle = SystemInfoBundle()
-    public private(set) var cpuValues = Array(repeating: 0.0, count: 60)
+    public private(set) var cpuValues = Array(repeating: 0.0, count: AppState.historyCapacity)
+    public private(set) var networkUploadValues = Array(repeating: 0.0, count: AppState.historyCapacity)
+    public private(set) var networkDownloadValues = Array(repeating: 0.0, count: AppState.historyCapacity)
     public let isPreview: Bool
     public let mainMenus: MainMenus, subMenus: SubMenus, helpMenus: HelpMenus, runnersList: RunnersList
     private let dependencies: AppDependencies
     @ObservationIgnored private var subscription: AnyCancellable?
-    @ObservationIgnored private var cpuSubscription: AnyCancellable?
+    @ObservationIgnored private var historySubscription: AnyCancellable?
     public init(_ dependencies: AppDependencies, isPreview: Bool = false) {
         self.dependencies = dependencies; self.isPreview = isPreview
         mainMenus = .init(dependencies); subMenus = .init(dependencies); helpMenus = .init(dependencies); runnersList = .init(dependencies)
@@ -23,14 +25,36 @@ import SystemInfoKit
     public func send(_ action: Action) {
         switch action {
         case .task:
+            let state = dependencies.appStateClient.getAppState()
+            cpuValues = state.cpuHistory
+            networkUploadValues = state.networkUploadHistory
+            networkDownloadValues = state.networkDownloadHistory
             subscription = dependencies.appStateClient.receive { [weak self] state in self?.systemInfoBundle = activatedBundle(state) }
-            cpuSubscription = dependencies.appStateClient.getAppState().systemInfoBundleSubject.sink { [weak self] bundle in
-                MainActor.assumeIsolated {
-                    guard let cpu = bundle.cpuInfo, let self else { return }
-                    self.cpuValues.append(cpu.percentage.value)
-                    if self.cpuValues.count > 60 { self.cpuValues.removeFirst(self.cpuValues.count - 60) }
+            historySubscription = state.systemInfoBundleSubject
+                .dropFirst()
+                .sink { [weak self] bundle in
+                    MainActor.assumeIsolated {
+                        guard let self else { return }
+                        if let cpu = bundle.cpuInfo {
+                            self.cpuValues.append(cpu.percentage.value)
+                            if self.cpuValues.count > AppState.historyCapacity {
+                                self.cpuValues.removeFirst(self.cpuValues.count - AppState.historyCapacity)
+                            }
+                        }
+                        if let network = bundle.networkInfo {
+                            let upload = network.name != nil ? Double(max(0, network.upload.byteData.byteCount)) : 0.0
+                            let download = network.name != nil ? Double(max(0, network.download.byteData.byteCount)) : 0.0
+                            self.networkUploadValues.append(upload)
+                            if self.networkUploadValues.count > AppState.historyCapacity {
+                                self.networkUploadValues.removeFirst(self.networkUploadValues.count - AppState.historyCapacity)
+                            }
+                            self.networkDownloadValues.append(download)
+                            if self.networkDownloadValues.count > AppState.historyCapacity {
+                                self.networkDownloadValues.removeFirst(self.networkDownloadValues.count - AppState.historyCapacity)
+                            }
+                        }
+                    }
                 }
-            }
         case .mainMenus(let child):
             mainMenus.send(child)
             switch child { case .runnersListButtonTapped: context = .runnersList; case .moreButtonTapped: context = .subMenus; default: break }
@@ -39,7 +63,7 @@ import SystemInfoKit
             subMenus.send(child)
             switch child { case .helpButtonTapped: context = .helpMenus; case .backButtonTapped: context = .systemInfo; default: break }
         case .helpMenus(let child): helpMenus.send(child); if case .backButtonTapped = child { context = .subMenus }
-        case .onDisappear: subscription = nil; cpuSubscription = nil; runnersList.send(.onDisappear)
+        case .onDisappear: subscription = nil; historySubscription = nil; runnersList.send(.onDisappear)
         }
     }
 }

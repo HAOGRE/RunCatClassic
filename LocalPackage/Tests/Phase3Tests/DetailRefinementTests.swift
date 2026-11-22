@@ -34,8 +34,8 @@ import UserInterface
     @Test func openSourceReleaseHelpLinksAndVersion() {
         #expect(HelpType.faq.url.absoluteString == "https://github.com/HAOGRE/RunCatClassic#faq")
         #expect(HelpType.howToRegister.url.absoluteString == "https://github.com/HAOGRE/RunCatClassic#self-made-runners")
-        #expect(EnvironmentInfo().appVersion == "1.0.0")
-        #expect(AppState().version == "1.0.0")
+        #expect(EnvironmentInfo().appVersion == "1.0.1")
+        #expect(AppState().version == "1.0.1")
     }
 
     @Test func aboutPanelOverridesLegacyMetadata() throws {
@@ -50,7 +50,7 @@ import UserInterface
             return own + view.subviews.flatMap { texts(in: $0) }
         }
         let contents = texts(in: try #require(panel.contentView)).joined(separator: "\n")
-        #expect(contents.contains("1.0.0 (1)"))
+        #expect(contents.contains("1.0.1 (2)"))
         #expect(contents.contains("© 2026 HAOGRE · Classic RunCat 12.2.1 © Takuto Nakamura (Kyome)"))
         #expect(contents.contains("RunCatNeo"))
         #expect(contents.contains("SystemInfoKit"))

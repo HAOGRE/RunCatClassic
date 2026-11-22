@@ -102,7 +102,7 @@ public enum ErrorEvent: String, Sendable { case none }
 public enum NoticeEvent: String, Sendable { case screenView, launchApp }
 public struct EnvironmentInfo: Sendable {
     public let appName: String, appVersion: String, deviceName: String, systemVersion: String
-    public init(appName: String = "RunCat", appVersion: String = "1.0.0") {
+    public init(appName: String = "RunCat", appVersion: String = "1.0.1") {
         self.appName = appName; self.appVersion = appVersion
         deviceName = ProcessInfo.processInfo.hostName; systemVersion = ProcessInfo.processInfo.operatingSystemVersionString
     }

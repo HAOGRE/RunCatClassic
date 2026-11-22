@@ -12,7 +12,13 @@ public struct DashboardView: View {
             switch store.context {
             case .systemInfo:
                 HStack(alignment: .top, spacing: 8) {
-                    SystemInfoStackView(bundle: store.systemInfoBundle, cpuValues: store.cpuValues, needsDummyIP: store.isPreview)
+                    SystemInfoStackView(
+                        bundle: store.systemInfoBundle,
+                        cpuValues: store.cpuValues,
+                        networkUploadValues: store.networkUploadValues,
+                        networkDownloadValues: store.networkDownloadValues,
+                        needsDummyIP: store.isPreview
+                    )
                     MainMenusView { store.send(.mainMenus($0)) }
                 }.fixedSize().padding(8)
             case .runnersList:
@@ -28,8 +34,22 @@ public struct DashboardView: View {
 public struct SystemInfoStackView: View {
     let bundle: SystemInfoBundle
     let cpuValues: [Double]
+    let networkUploadValues: [Double]
+    let networkDownloadValues: [Double]
     let needsDummyIP: Bool
-    public init(bundle: SystemInfoBundle, cpuValues: [Double], needsDummyIP: Bool = false) { self.bundle = bundle; self.cpuValues = cpuValues; self.needsDummyIP = needsDummyIP }
+    public init(
+        bundle: SystemInfoBundle,
+        cpuValues: [Double],
+        networkUploadValues: [Double] = Array(repeating: 0.0, count: 60),
+        networkDownloadValues: [Double] = Array(repeating: 0.0, count: 60),
+        needsDummyIP: Bool = false
+    ) {
+        self.bundle = bundle
+        self.cpuValues = cpuValues
+        self.networkUploadValues = networkUploadValues
+        self.networkDownloadValues = networkDownloadValues
+        self.needsDummyIP = needsDummyIP
+    }
     public var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             SystemInfoView(info: bundle.cpuInfo ?? .zero, cpuValues: cpuValues)
@@ -55,18 +75,37 @@ public struct SystemInfoStackView: View {
                 Spacer(minLength: 4)
                 Divider()
                 Spacer(minLength: 4)
-                SystemInfoView(info: info, needsDummyIP: needsDummyIP)
+                SystemInfoView(
+                    info: info,
+                    networkUploadValues: networkUploadValues,
+                    networkDownloadValues: networkDownloadValues,
+                    needsDummyIP: needsDummyIP
+                )
             }
-        }.frame(height: 408).padding(8)
+        }.frame(minHeight: 408).padding(8)
     }
 }
 public struct SystemInfoView: View {
     let info: any SystemInfo
     let cpuValues: [Double]
+    let networkUploadValues: [Double]
+    let networkDownloadValues: [Double]
     let isInstalled: Bool
     let needsDummyIP: Bool
-    public init(info: any SystemInfo, cpuValues: [Double] = [], isInstalled: Bool = true, needsDummyIP: Bool = false) {
-        self.info = info; self.cpuValues = cpuValues; self.isInstalled = isInstalled; self.needsDummyIP = needsDummyIP
+    public init(
+        info: any SystemInfo,
+        cpuValues: [Double] = [],
+        networkUploadValues: [Double] = [],
+        networkDownloadValues: [Double] = [],
+        isInstalled: Bool = true,
+        needsDummyIP: Bool = false
+    ) {
+        self.info = info
+        self.cpuValues = cpuValues
+        self.networkUploadValues = networkUploadValues
+        self.networkDownloadValues = networkDownloadValues
+        self.isInstalled = isInstalled
+        self.needsDummyIP = needsDummyIP
     }
     public var body: some View {
         HStack(alignment: .center, spacing: 16) {
@@ -74,13 +113,33 @@ public struct SystemInfoView: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text(info.summary).font(.body)
                 if isInstalled {
-                    ForEach(Array(details.enumerated()), id: \.offset) { _, detail in Text(detail).font(.caption).padding(.leading, 12) }
+                    ForEach(Array(details.enumerated()), id: \.offset) { index, detail in
+                        if let indicatorColor = Self.detailIndicatorColor(for: info.type, index: index) {
+                            HStack(spacing: 4) {
+                                Circle().fill(indicatorColor).frame(width: 5, height: 5)
+                                Text(detail).font(.caption)
+                            }.padding(.leading, 3)
+                        } else {
+                            Text(detail).font(.caption).padding(.leading, 12)
+                        }
+                    }
                 }
                 if info.type == .cpu { LineGraph(values: cpuValues).padding(.leading, 12) }
                 if info.type == .memory { BarGraph(value: info.percentage.value).padding(.leading, 12) }
                 if info.type == .storage { BarGraph(value: info.percentage.value).padding(.leading, 12) }
+                if info.type == .network {
+                    NetworkGraph(uploadValues: networkUploadValues, downloadValues: networkDownloadValues).padding(.leading, 12)
+                }
             }
         }.padding(.leading, 8)
+    }
+    private static func detailIndicatorColor(for type: SystemInfoType, index: Int) -> Color? {
+        guard type == .network else { return nil }
+        switch index {
+        case 1: return .orange
+        case 2: return .accentColor
+        default: return nil
+        }
     }
     private var details: [String] { Self.details(info: info, needsDummyIP: needsDummyIP) }
     public static func details(info: any SystemInfo, needsDummyIP: Bool) -> [String] {
@@ -138,7 +197,7 @@ public struct SubMenusView: View {
         }.buttonStyle(SmallButtonStyle()).padding(8).modifier(MaterialCellViewModifier()).padding(8).task { action(.task) }
     }
     static func issueReportContent() -> SubMenus.IssueReportContent {
-        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.1"
         let environment = String(format: localized("mailEnvironment%@%@%@%@", .others),
                                  "RunCat", version, SystemInfoKit.Processor.name() ?? "Mac",
                                  ProcessInfo.processInfo.operatingSystemVersionString)

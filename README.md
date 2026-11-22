@@ -2,7 +2,7 @@
 
 # RunCat Classic
 
-[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-green)](https://github.com/HAOGRE/RunCatClassic/releases/tag/v1.0.0)
+[![v1.0.1](https://img.shields.io/badge/version-v1.0.1-green)](https://github.com/HAOGRE/RunCatClassic/releases/tag/v1.0.1)
 ![Classic RunCat 12.2.1](https://img.shields.io/badge/based_on-RunCat_12.2.1-blue)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Verified on macOS 27.2](https://img.shields.io/badge/verified-macOS_27.2-blue)
@@ -12,9 +12,9 @@
 
 ## Download
 
-**[Download RunCat.dmg (v1.0.0)](https://github.com/HAOGRE/RunCatClassic/releases/latest/download/RunCat.dmg)**
+**[Download RunCat.dmg (v1.0.1)](https://github.com/HAOGRE/RunCatClassic/releases/latest/download/RunCat.dmg)**
 
-Open the DMG, drag `RunCat.app` into `Applications`, then launch it from Applications. The v1.0.0 DMG is built for Apple Silicon (arm64), targets macOS 14+, and was verified on macOS 27.2. Intel users can build from source; Intel hardware has not been verified.
+Open the DMG, drag `RunCat.app` into `Applications`, then launch it from Applications. The v1.0.1 DMG is built for Apple Silicon (arm64), targets macOS 14+, and was verified on macOS 27.2. Intel users can build from source; Intel hardware has not been verified.
 
 The release is ad-hoc signed and is not Apple notarized. If Gatekeeper blocks the first launch, run this after confirming you downloaded it from this repository:
 
@@ -25,7 +25,7 @@ open /Applications/RunCat.app
 
 ## Why RunCat Classic
 
-RunCat Classic is a community revival maintained by [HAOGRE](https://github.com/HAOGRE), bringing the complete classic **RunCat 12.2.1** experience to **macOS 14–27+**. **This project's version is 1.0.0.** It reconstructs the classic menus and interactions from original resources, Swift metadata, localization tables and a resource manifest, retaining attribution to Takuto Nakamura (Kyome). For the official modern open-source RunCat for macOS, see [RunCatNeo](https://github.com/runcat-dev/RunCatNeo).
+RunCat Classic is a community revival maintained by [HAOGRE](https://github.com/HAOGRE), bringing the complete classic **RunCat 12.2.1** experience to **macOS 14–27+**. **This project's version is 1.0.1.** It reconstructs the classic menus and interactions from original resources, Swift metadata, localization tables and a resource manifest, retaining attribution to Takuto Nakamura (Kyome). For the official modern open-source RunCat for macOS, see [RunCatNeo](https://github.com/runcat-dev/RunCatNeo).
 
 - **Classic catalog:** 78 built-in runners, including 7 color runners, the classic dashboard, random selection, accent tint and a separate system information bar.
 - **Custom runners:** a separate editor for up to 50 PNG frames, template or original color rendering, drag-to-reorder and animation preview.
@@ -65,7 +65,7 @@ Native SwiftUI and AppKit screenshots in light appearance. The desktop example o
 
 The Neo column refers to the pinned source snapshot [`592cd606`](https://github.com/runcat-dev/RunCatNeo/tree/592cd606e735ce20da98d9ae62ecf1a2608635d7); later versions may differ. Classic describes this project.
 
-| Feature | RunCat Classic v1.0.0 | RunCatNeo at the pinned snapshot |
+| Feature | RunCat Classic v1.0.1 | RunCatNeo at the pinned snapshot |
 |---|---|---|
 | Deployment | macOS 14+; verified on 27.2 | macOS 26+ target |
 | Built-in runners | 78, including 7 color runners | 8, all template |
@@ -163,7 +163,7 @@ The build defaults to the host architecture; the release DMG is arm64. Resource 
 
 **Is this the official RunCat or RunCatNeo?**
 
-This is an independent community revival of the classic 12.2.1 experience with its own v1.0.0 version. [RunCatNeo](https://github.com/runcat-dev/RunCatNeo) is the official modern open-source macOS project by Takuto Nakamura / runcat-dev.
+This is an independent community revival of the classic 12.2.1 experience with its own v1.0.1 version. [RunCatNeo](https://github.com/runcat-dev/RunCatNeo) is the official modern open-source macOS project by Takuto Nakamura / runcat-dev.
 
 **What if the first launch is blocked?**
 
@@ -171,7 +171,7 @@ The release is not notarized. Follow the [download instructions](#download) to r
 
 **Which Macs are supported?**
 
-The deployment target is macOS 14+, verified on Apple Silicon with macOS 27.2. The v1.0.0 DMG is arm64; Intel can be built from source. Wider OS, Intel and multiple-display coverage still needs testing.
+The deployment target is macOS 14+, verified on Apple Silicon with macOS 27.2. The v1.0.1 DMG is arm64; Intel can be built from source. Wider OS, Intel and multiple-display coverage still needs testing.
 
 **Why does the runner change speed?**
 

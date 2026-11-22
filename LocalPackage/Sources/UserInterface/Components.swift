@@ -114,3 +114,74 @@ public struct LineGraph: View {
     }
     public var body: some View { Self.path(values: values).fill(Color.accentColor).frame(width: 120, height: 16) }
 }
+public struct NetworkGraph: View {
+    public static let width: CGFloat = 120
+    public static let height: CGFloat = 16
+    public static let minScaleBytesPerSecond: Double = 10_240
+    let uploadValues: [Double]
+    let downloadValues: [Double]
+    public init(uploadValues: [Double], downloadValues: [Double]) {
+        self.uploadValues = uploadValues
+        self.downloadValues = downloadValues
+    }
+    public static func effectiveScale(uploadValues: [Double], downloadValues: [Double]) -> Double {
+        let maxUpload = uploadValues.lazy.filter(\.isFinite).max() ?? 0
+        let maxDownload = downloadValues.lazy.filter(\.isFinite).max() ?? 0
+        return max(max(maxUpload, maxDownload), minScaleBytesPerSecond)
+    }
+    public static func normalizedRatio(bytesPerSecond: Double, scale: Double) -> Double {
+        guard bytesPerSecond.isFinite, scale.isFinite, bytesPerSecond > 0, scale > 0 else { return 0 }
+        return sqrt(min(1, bytesPerSecond / scale))
+    }
+    private static func yCoordinate(for bytesPerSecond: Double, scale: Double) -> CGFloat {
+        let ratio = normalizedRatio(bytesPerSecond: bytesPerSecond, scale: scale)
+        return ratio >= 0.02 ? height * (1 - CGFloat(ratio)) : height * 0.98
+    }
+    private static func points(values: [Double], scale: Double) -> [CGPoint] {
+        guard !values.isEmpty else { return [] }
+        if values.count == 1 {
+            let y = yCoordinate(for: values[0], scale: scale)
+            return [CGPoint(x: 0, y: y), CGPoint(x: width, y: y)]
+        }
+        let step = width / CGFloat(values.count - 1)
+        return values.enumerated().map { index, value in
+            let x = index == values.count - 1 ? width : CGFloat(index) * step
+            return CGPoint(x: x, y: yCoordinate(for: value, scale: scale))
+        }
+    }
+    public static func areaPath(values: [Double], scale: Double) -> Path {
+        let pts = points(values: values, scale: scale)
+        guard !pts.isEmpty else { return Path() }
+        return Path { p in
+            p.move(to: CGPoint(x: 0, y: height))
+            for point in pts {
+                p.addLine(to: point)
+            }
+            p.addLine(to: CGPoint(x: width, y: height))
+            p.closeSubpath()
+        }
+    }
+    public static func strokePath(values: [Double], scale: Double) -> Path {
+        let pts = points(values: values, scale: scale)
+        guard let first = pts.first else { return Path() }
+        return Path { p in
+            p.move(to: first)
+            for point in pts.dropFirst() {
+                p.addLine(to: point)
+            }
+        }
+    }
+    public var body: some View {
+        let scale = Self.effectiveScale(uploadValues: uploadValues, downloadValues: downloadValues)
+        ZStack {
+            Self.areaPath(values: downloadValues, scale: scale)
+                .fill(Color.accentColor.opacity(0.85))
+            Self.areaPath(values: uploadValues, scale: scale)
+                .fill(Color.orange.opacity(0.28))
+            Self.strokePath(values: uploadValues, scale: scale)
+                .stroke(Color.orange, style: StrokeStyle(lineWidth: 1, lineCap: .round, lineJoin: .round))
+        }
+        .frame(width: Self.width, height: Self.height)
+        .clipped()
+    }
+}

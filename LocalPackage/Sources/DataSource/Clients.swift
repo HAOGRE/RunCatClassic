@@ -80,8 +80,8 @@ import StoreKit
                     }
                     NSApp.orderFrontStandardAboutPanel(options: [
                         .applicationName: "RunCat",
-                        .applicationVersion: "1.0.0",
-                        .version: "1",
+                        .applicationVersion: "1.0.1",
+                        .version: "2",
                         NSApplication.AboutPanelOptionKey(rawValue: "Copyright"): "© 2026 HAOGRE · Classic RunCat 12.2.1 © Takuto Nakamura (Kyome)",
                         .credits: credits,
                     ])

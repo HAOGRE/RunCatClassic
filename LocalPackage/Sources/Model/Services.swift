@@ -121,7 +121,10 @@ import SystemInfoKit
         state.systemInfoObserver.startMonitoring()
     }
     public func accept(_ bundle: SystemInfoBundle) {
-        appStateClient.update { $0.systemInfoBundleSubject.send(bundle) }
+        appStateClient.update {
+            $0.recordHistory(from: bundle)
+            $0.systemInfoBundleSubject.send(bundle)
+        }
         if let cpu = bundle.cpuInfo { runnerService.consumeCPU(cpu.percentage.rawValue) }
     }
     public func stop() {
